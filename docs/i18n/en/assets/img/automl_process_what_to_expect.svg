@@ -34,7 +34,7 @@
   <line class="axis" x1="120" y1="440" x2="980" y2="440"/>
   <line class="axis" x1="120" y1="440" x2="120" y2="130"/>
   <text class="axis-label" x="550" y="478" text-anchor="middle">Trials &#8594;</text>
-  <text class="axis-label" x="58" y="285" transform="rotate(-90 58 285)" text-anchor="middle">Primary metric &#8594;</text>
+  <text class="axis-label" x="58" y="285" transform="rotate(-90 58 285)" text-anchor="middle">Primary metric &#8593;</text>
 
   <!-- bars -->
   <rect class="bar" x="142" y="350" width="36" height="90"/>

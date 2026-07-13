@@ -1,5 +1,5 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="520" viewBox="0 0 1040 520" role="img" aria-labelledby="title desc">
-  <title id="title">AutoML: que esperar a lo largo de los intentos</title>
+  <title id="title">AutoML: qué esperar a lo largo de los intentos</title>
   <desc id="desc">Un gráfico de barras de calidad de modelo a través de intentos. Los primeros intentos puntúan bajo, la calidad sube mientras la búsqueda explora y la línea del mejor hasta ahora asciende. El ganador final suele ser un ensamble de voting o stacking en la parte superior.</desc>
   <defs>
     <style>
@@ -22,7 +22,7 @@
     </marker>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="520"/>
-  <text class="title" x="60" y="52">AutoML: que esperar a lo largo de los intentos</text>
+  <text class="title" x="60" y="52">AutoML: qué esperar a lo largo de los intentos</text>
   <text class="subtitle" x="60" y="80">Los intentos tempranos son débiles; la calidad sube mientras la búsqueda explora y normalmente gana un ensamble.</text>
 
   <!-- gridlines -->
@@ -33,8 +33,8 @@
   <!-- axes -->
   <line class="axis" x1="120" y1="440" x2="980" y2="440"/>
   <line class="axis" x1="120" y1="440" x2="120" y2="130"/>
-  <text class="axis-label" x="550" y="478" text-anchor="middle">Trials &#8594;</text>
-  <text class="axis-label" x="58" y="285" transform="rotate(-90 58 285)" text-anchor="middle">Primary metric &#8594;</text>
+  <text class="axis-label" x="550" y="478" text-anchor="middle">Intentos →</text>
+  <text class="axis-label" x="58" y="285" transform="rotate(-90 58 285)" text-anchor="middle">Métrica principal ↑</text>
 
   <!-- bars -->
   <rect class="bar" x="142" y="350" width="36" height="90"/>
@@ -60,7 +60,8 @@
   <text class="note" x="150" y="411" text-anchor="middle" fill="#475569">son débiles</text>
 
   <!-- winner annotation -->
-  <text class="winnote" x="690" y="120" text-anchor="middle">Ganador final — frecuentemente un ensamble de votacion o apilamiento</text>
+  <text class="winnote" x="690" y="112" text-anchor="middle">Ganador final — frecuentemente un ensamble</text>
+  <text class="winnote" x="690" y="128" text-anchor="middle">de votación o apilamiento</text>
   <path class="arrow" d="M820,128 Q900,140 938,160" marker-end="url(#ah)"/>
 
   <!-- legend -->
