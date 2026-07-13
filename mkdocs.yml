@@ -56,6 +56,9 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - tables
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: false
   - toc:
       permalink: true
   - pymdownx.arithmatex:
