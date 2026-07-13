@@ -1,5 +1,5 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="500" viewBox="0 0 1040 500" role="img" aria-labelledby="title desc">
-  <title id="title">Azure ML entorno Taxonomy</title>
+  <title id="title">Taxonomía de entornos de Azure ML</title>
   <desc id="desc">Un entorno versionado que combina una imagen base y dependencias fijas es reutilizado tanto por un job de entrenamiento como por un despliegue de inferencia para evitar diferencias entre entrenamiento y servicio.</desc>
   <defs>
     <style>
@@ -20,19 +20,19 @@
     </marker>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="500"/>
-  <text class="title" x="60" y="52">Azure ML entorno Taxonomy</text>
-  <text class="subtitle" x="60" y="80">Define el entorno de ejecucion una vez, reutilizalo en todas partes — elimina diferencias entre entrenamiento y servicio</text>
+  <text class="title" x="60" y="52">Taxonomía de entornos de Azure ML</text>
+  <text class="subtitle" x="60" y="80">Define el entorno de ejecución una vez, reutilízalo en todas partes — elimina diferencias entre entrenamiento y servicio</text>
 
   <!-- Environment -->
   <rect class="card" x="60" y="150" width="360" height="240" rx="12"/>
   <rect x="60" y="150" width="360" height="48" rx="12" fill="#004a99"/>
-  <text class="node" x="240" y="181" text-anchor="middle">entorno (versioned: v3)</text>
+  <text class="node" x="240" y="181" text-anchor="middle">entorno (versionado: v3)</text>
   <rect class="sub" x="84" y="222" width="312" height="64" rx="8"/>
-  <text class="subt" x="100" y="248">Base Image</text>
-  <text class="desc2" x="100" y="270">Curated CUDA / Ubuntu + Python runtime</text>
+  <text class="subt" x="100" y="248">Imagen base</text>
+  <text class="desc2" x="100" y="270">CUDA / Ubuntu curado + entorno Python</text>
   <rect class="sub" x="84" y="300" width="312" height="64" rx="8"/>
-  <text class="subt" x="100" y="326">Pinned Dependencies</text>
-  <text class="desc2" x="100" y="348">Exact conda / pip versions — fully reproducible</text>
+  <text class="subt" x="100" y="326">Dependencias fijadas</text>
+  <text class="desc2" x="100" y="348">Versiones exactas de conda / pip — totalmente reproducible</text>
 
   <!-- Entrenaring Job -->
   <rect class="card" x="700" y="150" width="280" height="100" rx="12"/>
@@ -44,16 +44,16 @@
   <!-- Inference -->
   <rect class="card" x="700" y="290" width="280" height="100" rx="12"/>
   <rect x="700" y="290" width="280" height="44" rx="12" fill="#15803d"/>
-  <text class="node" x="840" y="319" text-anchor="middle">Inference / Servicio</text>
-  <text class="desc2" x="724" y="362">en línea despliegue scores con</text>
-  <text class="desc2" x="724" y="380">el identical runtime.</text>
+  <text class="node" x="840" y="319" text-anchor="middle">Inferencia / Servicio</text>
+  <text class="desc2" x="724" y="362">Despliegue en línea: sirve predicciones</text>
+  <text class="desc2" x="724" y="380">con el mismo entorno de ejecución.</text>
 
   <!-- arrows -->
   <path class="arrow" d="M420,255 C560,255 560,200 695,200" marker-end="url(#ah)"/>
   <path class="arrow" d="M420,285 C560,285 560,340 695,340" marker-end="url(#ah)"/>
-  <text class="label" x="500" y="205">reuse</text>
-  <text class="label" x="500" y="360">reuse</text>
+  <text class="label" x="500" y="205">reutilizar</text>
+  <text class="label" x="500" y="360">reutilizar</text>
 
   <!-- footnote -->
-  <text class="desc2" x="60" y="430">Misma imagen + mismas dependencias en entrenamiento y servicio = preprocesamiento y comportamiento identicos en produccion.</text>
+  <text class="desc2" x="60" y="430">Misma imagen + mismas dependencias en entrenamiento y servicio = preprocesamiento y comportamiento idénticos en producción.</text>
 </svg>
