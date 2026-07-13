@@ -50,12 +50,12 @@
   <!-- Entrenared model box -->
   <rect class="box-model" x="540" y="92" width="160" height="100" rx="10"/>
   <text class="h2" x="620" y="117" text-anchor="middle" fill="#92400e">Modelo Entrenado</text>
-  <text class="small" x="558" y="145">Patrón aprendido almacenado</text>
-  <text class="small" x="558" y="163">como una función</text>
-  <text class="small" x="558" y="180">matemática</text>
+  <text class="small" x="558" y="145">Patrón aprendido</text>
+  <text class="small" x="558" y="163">almacenado como una</text>
+  <text class="small" x="558" y="180">función matemática</text>
 
   <!-- Prediction phase -->
-  <text class="phase-label" x="30" y="240" text-transform="uppercase">FASE DE PREDICCION</text>
+  <text class="phase-label" x="30" y="240" text-transform="uppercase">FASE DE PREDICCIÓN</text>
 
   <!-- New input box -->
   <rect class="box-in" x="30" y="252" width="200" height="72" rx="10"/>
