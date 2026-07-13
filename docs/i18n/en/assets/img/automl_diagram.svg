@@ -87,7 +87,7 @@
   <rect x="840" y="178" width="140" height="118" rx="10" fill="#1e3a8a"/>
   <text class="nodehead" x="910" y="222" text-anchor="middle" fill="#ffffff" font-size="15">Best Model</text>
   <text class="nodehead" x="910" y="242" text-anchor="middle" fill="#ffffff" font-size="15">/ Ensemble</text>
-  <text class="desc2" x="910" y="268" text-anchor="middle" fill="#cbd5e1">Top of the leaderboard</text>
+  <text class="desc2" x="910" y="268" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="700">Top of the leaderboard</text>
 
   <!-- loop back -->
   <path class="loop" d="M733,296 L733,360 L148,360 L148,300" marker-end="url(#aho)"/>
