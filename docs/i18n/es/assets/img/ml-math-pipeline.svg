@@ -1,5 +1,5 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="520" viewBox="0 0 1040 520" role="img" aria-labelledby="title desc">
-  <title id="title">el five mathematical components de a modelo</title>
+  <title id="title">Los cinco componentes matemáticos de un modelo</title>
   <desc id="desc">Un modelo es una funcion cuyos parametros elige un optimizador para minimizar una perdida, controlada con regularizacion, y convertida en decisiones mediante probabilidades y umbrales.</desc>
 
   <defs>
@@ -25,48 +25,49 @@
   </defs>
 
   <rect class="bg" x="0" y="0" width="1040" height="520"/>
-  <text class="title" x="60" y="52">Como encajan las cinco piezas</text>
-  <text class="subtitle" x="60" y="80">Todo modelo en esta pagina es una eleccion concreta de estos cinco bloques.</text>
+  <text class="title" x="60" y="52">Cómo encajan las cinco piezas</text>
+  <text class="subtitle" x="60" y="80">Todo modelo en esta página es una elección concreta de estos cinco bloques.</text>
 
   <!-- Box 1: function -->
   <rect class="box" x="40" y="150" width="170" height="150" rx="12"/>
-  <text class="htxt" x="125" y="180" text-anchor="middle">1. Function</text>
-  <text class="btxt" x="125" y="206" text-anchor="middle">f(x) con weights</text>
-  <text class="btxt" x="125" y="224" text-anchor="middle">maps entrada a salida</text>
+  <text class="htxt" x="125" y="180" text-anchor="middle">1. Función</text>
+  <text class="btxt" x="125" y="206" text-anchor="middle">f(x) con pesos</text>
+  <text class="btxt" x="125" y="224" text-anchor="middle">transforma entrada a salida</text>
   <text class="vtxt" x="125" y="276" text-anchor="middle">Valor: almacena</text>
   <text class="vtxt" x="125" y="292" text-anchor="middle">lo que se aprendió</text>
 
   <!-- Box 2: loss -->
   <rect class="box" x="240" y="150" width="170" height="150" rx="12"/>
   <text class="htxt" x="325" y="180" text-anchor="middle">2. Pérdida</text>
-  <text class="btxt" x="325" y="206" text-anchor="middle">defines "wrong"</text>
-  <text class="btxt" x="325" y="224" text-anchor="middle">un solo numero de error</text>
+  <text class="btxt" x="325" y="206" text-anchor="middle">cuantifica el error</text>
+  <text class="btxt" x="325" y="224" text-anchor="middle">un solo número de error</text>
   <text class="vtxt" x="325" y="276" text-anchor="middle">Valor: define</text>
-  <text class="vtxt" x="325" y="292" text-anchor="middle">lo que mas importa</text>
+  <text class="vtxt" x="325" y="292" text-anchor="middle">lo que más importa</text>
 
   <!-- Box 3: optimizer -->
   <rect class="box" x="440" y="150" width="170" height="150" rx="12"/>
-  <text class="htxt" x="525" y="180" text-anchor="middle">3. Optimizer</text>
-  <text class="btxt" x="525" y="206" text-anchor="middle">steps downhill</text>
-  <text class="btxt" x="525" y="224" text-anchor="middle">tunes el weights</text>
+  <text class="htxt" x="525" y="180" text-anchor="middle">3. Optimizador</text>
+  <text class="btxt" x="525" y="206" text-anchor="middle">desciende por gradiente</text>
+  <text class="btxt" x="525" y="224" text-anchor="middle">ajusta los pesos</text>
   <text class="vtxt" x="525" y="276" text-anchor="middle">Valor: genera</text>
-  <text class="vtxt" x="525" y="292" text-anchor="middle">learning possible</text>
+  <text class="vtxt" x="525" y="292" text-anchor="middle">el aprendizaje posible</text>
 
   <!-- Box 4: regularization -->
   <rect class="box" x="640" y="150" width="170" height="150" rx="12"/>
-  <text class="htxt" x="725" y="180" text-anchor="middle">4. Regularize</text>
-  <text class="btxt" x="725" y="206" text-anchor="middle">keep it simple</text>
-  <text class="btxt" x="725" y="224" text-anchor="middle">stop it memorizing</text>
+  <text class="htxt" x="725" y="180" text-anchor="middle">4. Regularización</text>
+  <text class="btxt" x="725" y="206" text-anchor="middle">mantiene la simplicidad</text>
+  <text class="btxt" x="725" y="224" text-anchor="middle">evita memorizar datos</text>
   <text class="vtxt" x="725" y="276" text-anchor="middle">Valor: aplica en</text>
-  <text class="vtxt" x="725" y="292" text-anchor="middle">datos nuevos tambien</text>
+  <text class="vtxt" x="725" y="292" text-anchor="middle">datos nuevos también</text>
 
   <!-- Box 5: decision -->
   <rect class="boxalt" x="840" y="150" width="170" height="150" rx="12"/>
   <text class="htxt" x="925" y="180" text-anchor="middle">5. Decide</text>
-  <text class="btxt" x="925" y="206" text-anchor="middle">probabilidad + umbral de corte</text>
-  <text class="btxt" x="925" y="224" text-anchor="middle">puntaje a accion</text>
-  <text class="vtxt" x="925" y="276" text-anchor="middle">Valor: más inteligente</text>
-  <text class="vtxt" x="925" y="292" text-anchor="middle">llamadas sí/no</text>
+  <text class="btxt" x="925" y="202" text-anchor="middle">probabilidad +</text>
+  <text class="btxt" x="925" y="218" text-anchor="middle">umbral de corte</text>
+  <text class="btxt" x="925" y="234" text-anchor="middle">puntaje a acción</text>
+  <text class="vtxt" x="925" y="268" text-anchor="middle">Valor: más inteligente</text>
+  <text class="vtxt" x="925" y="284" text-anchor="middle">llamadas sí/no</text>
 
   <!-- flow arrows -->
   <line class="flow" x1="210" y1="225" x2="238" y2="225" marker-end="url(#fa)"/>
@@ -78,5 +79,6 @@
   <path class="feedback" d="M525,300 L525,360 L125,360 L125,302" marker-end="url(#fb)"/>
   <text class="fbtxt" x="325" y="382" text-anchor="middle">repetir: actualizar pesos para reducir la pérdida (bucle de entrenamiento)</text>
 
-  <text class="btxt" x="60" y="450" fill="#475569">Las cajas 1 a 4 ocurren en tiempo de entrenamiento. La caja 5 ocurre en tiempo de predicción, donde las matemáticas se convierten en una decisión real.</text>
+  <text class="btxt" x="60" y="450" fill="#475569">Las cajas 1 a 4 ocurren en tiempo de entrenamiento.</text>
+  <text class="btxt" x="60" y="468" fill="#475569">La caja 5 ocurre en tiempo de predicción, donde las matemáticas se convierten en una decisión real.</text>
 </svg>
