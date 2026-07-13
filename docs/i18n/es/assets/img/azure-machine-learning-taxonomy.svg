@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
   <title id="title">Taxonomía del workspace de Azure ML</title>
-  <desc id="desc">el Azure ML workspace is a gobernanza boundary that contains child assets: cómputo, datos assets, modelos, endpoints y entornos.</desc>
+  <desc id="desc">El workspace de Azure ML es una frontera de gobernanza que contiene activos secundarios: cómputo, activos de datos, modelos, puntos de conexión y entornos.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -17,7 +17,7 @@
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="540"/>
   <text class="title" x="60" y="52">Taxonomía del workspace de Azure ML</text>
-  <text class="subtitle" x="60" y="80">el workspace is el gobernanza boundary — every asset below is scoped a it</text>
+  <text class="subtitle" x="60" y="80">El workspace es la frontera de gobernanza — todos los activos inferiores están dentro de él</text>
 
   <rect class="card" x="60" y="120" width="920" height="330" rx="12"/>
   <text class="cardhead" x="84" y="156" fill="#004a99">workspace de Azure ML</text>
@@ -50,7 +50,7 @@
   <rect x="440" y="210" width="160" height="46" rx="10" fill="#b45309"/>
   <text class="node" x="520" y="240" text-anchor="middle">Modelos</text>
   <text class="label" x="456" y="290">• registro</text>
-  <text class="label" x="456" y="318">• Versioned</text>
+  <text class="label" x="456" y="318">• Versionados</text>
   <text class="label" x="456" y="346">• linaje</text>
   <text class="desc2" x="456" y="378">Registrados</text>
   <text class="desc2" x="456" y="396">artefactos</text>
@@ -59,19 +59,19 @@
   <rect class="card" x="618" y="210" width="160" height="210" rx="10"/>
   <rect x="618" y="210" width="160" height="46" rx="10" fill="#15803d"/>
   <text class="node" x="698" y="240" text-anchor="middle">Endpoints</text>
-  <text class="label" x="634" y="290">• en línea (real-time)</text>
+  <text class="label" x="634" y="290">• en línea (tiempo real)</text>
   <text class="label" x="634" y="318">• lote</text>
-  <text class="label" x="634" y="346">• Deployments</text>
+  <text class="label" x="634" y="346">• Despliegues</text>
   <text class="desc2" x="634" y="378">Servicio</text>
-  <text class="desc2" x="634" y="396">superficie</text>
+  <text class="desc2" x="634" y="396">de servicio</text>
 
   <!-- Entornos -->
   <rect class="card" x="796" y="210" width="160" height="210" rx="10"/>
   <rect x="796" y="210" width="160" height="46" rx="10" fill="#64748b"/>
   <text class="node" x="876" y="240" text-anchor="middle">Entornos</text>
-  <text class="label" x="812" y="290">• Base image</text>
-  <text class="label" x="812" y="318">• Dependencies</text>
-  <text class="label" x="812" y="346">• Versioned</text>
+  <text class="label" x="812" y="290">• Imagen base</text>
+  <text class="label" x="812" y="318">• Dependencias</text>
+  <text class="label" x="812" y="346">• Versionados</text>
   <text class="desc2" x="812" y="378">Reutilizable</text>
-  <text class="desc2" x="812" y="396">runtime</text>
+  <text class="desc2" x="812" y="396">en tiempo de ejecución</text>
 </svg>

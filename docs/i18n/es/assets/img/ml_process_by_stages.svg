@@ -38,15 +38,15 @@
   <text class="num" x="120" y="195" text-anchor="middle">1</text>
   <text class="cardhead" x="120" y="226" text-anchor="middle" fill="#004a99">Negocio</text>
   <text class="cardhead" x="120" y="244" text-anchor="middle" fill="#004a99">Definición</text>
-  <text class="desc2" x="120" y="270" text-anchor="middle">Define el problem</text>
-  <text class="desc2" x="120" y="286" text-anchor="middle">&amp; success metric</text>
+  <text class="desc2" x="120" y="270" text-anchor="middle">Define el problema</text>
+  <text class="desc2" x="120" y="286" text-anchor="middle">y métrica de éxito</text>
 
   <!-- Stage 2 -->
   <rect class="card" x="210" y="160" width="140" height="150" rx="10" stroke="#0e7490"/>
   <circle cx="280" cy="190" r="15" fill="#0e7490"/>
   <text class="num" x="280" y="195" text-anchor="middle">2</text>
   <text class="cardhead" x="280" y="226" text-anchor="middle" fill="#0e7490">datos</text>
-  <text class="cardhead" x="280" y="244" text-anchor="middle" fill="#0e7490">Collection</text>
+  <text class="cardhead" x="280" y="244" text-anchor="middle" fill="#0e7490">Recopilación</text>
   <text class="desc2" x="280" y="270" text-anchor="middle">Recopilar datos crudos</text>
   <text class="desc2" x="280" y="286" text-anchor="middle">desde fuentes</text>
 
@@ -55,8 +55,8 @@
   <circle cx="440" cy="190" r="15" fill="#b45309"/>
   <text class="num" x="440" y="195" text-anchor="middle">3</text>
   <text class="cardhead" x="440" y="226" text-anchor="middle" fill="#b45309">datos</text>
-  <text class="cardhead" x="440" y="244" text-anchor="middle" fill="#b45309">Cleaning</text>
-  <text class="desc2" x="440" y="270" text-anchor="middle">Fix errors, missing</text>
+  <text class="cardhead" x="440" y="244" text-anchor="middle" fill="#b45309">Limpieza</text>
+  <text class="desc2" x="440" y="270" text-anchor="middle">Corrige errores y faltantes,</text>
   <text class="desc2" x="440" y="286" text-anchor="middle">valores y duplicados</text>
 
   <!-- Stage 4 -->
@@ -65,17 +65,17 @@
   <text class="num" x="600" y="195" text-anchor="middle">4</text>
   <text class="cardhead" x="600" y="226" text-anchor="middle" fill="#15803d">característica</text>
   <text class="cardhead" x="600" y="244" text-anchor="middle" fill="#15803d">ingeniería</text>
-  <text class="desc2" x="600" y="270" text-anchor="middle">Create &amp; transform</text>
-  <text class="desc2" x="600" y="286" text-anchor="middle">entrada características</text>
+  <text class="desc2" x="600" y="270" text-anchor="middle">Crear y transformar</text>
+  <text class="desc2" x="600" y="286" text-anchor="middle">características de entrada</text>
 
   <!-- Stage 5 -->
   <rect class="card" x="690" y="160" width="140" height="150" rx="10" stroke="#64748b"/>
   <circle cx="760" cy="190" r="15" fill="#64748b"/>
   <text class="num" x="760" y="195" text-anchor="middle">5</text>
-  <text class="cardhead" x="760" y="226" text-anchor="middle" fill="#64748b">Dataset</text>
-  <text class="cardhead" x="760" y="244" text-anchor="middle" fill="#64748b">Sizing</text>
-  <text class="desc2" x="760" y="270" text-anchor="middle">Ensure enough</text>
-  <text class="desc2" x="760" y="286" text-anchor="middle">representative datos</text>
+  <text class="cardhead" x="760" y="226" text-anchor="middle" fill="#64748b">Tamaño del</text>
+  <text class="cardhead" x="760" y="244" text-anchor="middle" fill="#64748b">dataset</text>
+  <text class="desc2" x="760" y="270" text-anchor="middle">Asegura suficientes</text>
+  <text class="desc2" x="760" y="286" text-anchor="middle">datos representativos</text>
 
   <!-- Stage 6 -->
   <rect class="card" x="850" y="160" width="140" height="150" rx="10" stroke="#004a99"/>
@@ -83,12 +83,12 @@
   <text class="num" x="920" y="195" text-anchor="middle">6</text>
   <text class="cardhead" x="920" y="226" text-anchor="middle" fill="#004a99">Listo para modelo</text>
   <text class="cardhead" x="920" y="244" text-anchor="middle" fill="#004a99">datos</text>
-  <text class="desc2" x="920" y="270" text-anchor="middle">limpiar, labeled</text>
+  <text class="desc2" x="920" y="270" text-anchor="middle">limpio, etiquetado</text>
   <text class="desc2" x="920" y="286" text-anchor="middle">conjunto de entrenamiento listo</text>
 
   <!-- Effort wedge -->
   <polygon points="50,360 990,386 990,402 50,402" fill="url(#eff)" stroke="#f59e0b" stroke-width="1"/>
-  <text class="efftxt" x="50" y="350">More time &amp; effort</text>
-  <text class="efftxt" x="990" y="350" text-anchor="end">Less effort</text>
+  <text class="efftxt" x="50" y="350">Más tiempo y esfuerzo</text>
+  <text class="efftxt" x="990" y="350" text-anchor="end">Menos esfuerzo</text>
   <text class="desc2" x="520" y="430" text-anchor="middle">Tiempo y esfuerzo invertido por etapa</text>
 </svg>

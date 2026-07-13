@@ -22,7 +22,7 @@
   </defs>
 
   <rect class="bg" x="0" y="0" width="1040" height="1120"/>
-  <text class="title" x="44" y="48">Flujo fin-a-fin de Machine Learning</text>
+  <text class="title" x="44" y="48">Flujo de extremo a extremo de aprendizaje automático</text>
   <text class="subtitle" x="44" y="76">Desde datos crudos a modelo desplegado: preparar datos, entrenar y servir en punto de conexión</text>
 
   <!-- ============ STAGE 1: SOURCE DATA AND PREPARATION ============ -->

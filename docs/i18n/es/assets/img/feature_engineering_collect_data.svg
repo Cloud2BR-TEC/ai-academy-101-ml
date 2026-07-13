@@ -61,7 +61,7 @@
   <text class="desc2" x="572" y="260">StandardScaler / MinMax</text>
   <rect class="card" x="560" y="278" width="210" height="46" rx="8" fill="#eaf2fb"/>
   <text class="head" x="572" y="299" fill="#004a99" font-size="14px">Codificación</text>
-  <text class="desc2" x="572" y="316">One-hot / target encoding</text>
+  <text class="desc2" x="572" y="316">codificación one-hot / por target</text>
   <rect class="card" x="560" y="334" width="210" height="46" rx="8" fill="#eaf2fb"/>
   <text class="head" x="572" y="355" fill="#004a99" font-size="14px">Agregados</text>
   <text class="desc2" x="572" y="372">agrupación y estadísticas móviles</text>

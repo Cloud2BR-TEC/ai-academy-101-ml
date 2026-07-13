@@ -18,8 +18,8 @@
     </marker>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="480"/>
-  <text class="title" x="60" y="52">Production ML Infrastructure</text>
-  <text class="subtitle" x="60" y="80">A modelo is just one component en a larger production system</text>
+  <text class="title" x="60" y="52">Infraestructura de ML en producción</text>
+  <text class="subtitle" x="60" y="80">Un modelo es solo un componente de un sistema de producción más amplio</text>
 
   <!-- Box 1 Data Ingestion -->
   <rect class="card" x="40" y="200" width="140" height="150" rx="10" stroke="#004a99" stroke-width="2"/>
@@ -35,7 +35,7 @@
   <circle cx="224" cy="220" r="13" fill="#0e7490"/>
   <text class="badge" x="224" y="224">2</text>
   <text class="head" x="274" y="258" fill="#0e7490">característica</text>
-  <text class="head" x="274" y="276" fill="#0e7490">Store</text>
+  <text class="head" x="274" y="276" fill="#0e7490">almacén</text>
   <text class="sub" x="274" y="306">Reutilizable</text>
   <text class="sub" x="274" y="322">conjuntos de características</text>
 
@@ -44,8 +44,8 @@
   <circle cx="388" cy="220" r="13" fill="#b45309"/>
   <text class="badge" x="388" y="224">3</text>
   <text class="head" x="438" y="258" fill="#b45309">entrenamiento</text>
-  <text class="head" x="438" y="276" fill="#b45309">Orchestration</text>
-  <text class="sub" x="438" y="306">Pipelines &amp;</text>
+  <text class="head" x="438" y="276" fill="#b45309">orquestación</text>
+  <text class="sub" x="438" y="306">Pipelines y</text>
   <text class="sub" x="438" y="322">cómputo</text>
 
   <!-- Box 4 Model Registry (highlighted) -->
@@ -54,7 +54,7 @@
   <text class="badge" x="552" y="216">4</text>
   <text class="head" x="602" y="252" fill="#15803d">modelo</text>
   <text class="head" x="602" y="270" fill="#15803d">registro</text>
-  <text class="sub" x="602" y="300">Versioned</text>
+  <text class="sub" x="602" y="300">Versionados</text>
   <text class="sub" x="602" y="316">modelos</text>
   <text class="sub" x="602" y="340" font-weight="700" fill="#15803d">el modelo</text>
 
@@ -63,15 +63,15 @@
   <circle cx="716" cy="220" r="13" fill="#64748b"/>
   <text class="badge" x="716" y="224">5</text>
   <text class="head" x="766" y="258" fill="#64748b">Servicio</text>
-  <text class="sub" x="766" y="306">Endpoints</text>
+  <text class="sub" x="766" y="306">Puntos de conexión</text>
   <text class="sub" x="766" y="322">&amp; APIs</text>
 
   <!-- Box 6 Monitorearing -->
   <rect class="card" x="860" y="200" width="140" height="150" rx="10" stroke="#004a99" stroke-width="2"/>
   <circle cx="880" cy="220" r="13" fill="#004a99"/>
   <text class="badge" x="880" y="224">6</text>
-  <text class="head" x="930" y="258" fill="#004a99">Monitorearing</text>
-  <text class="sub" x="930" y="306">Drift &amp;</text>
+  <text class="head" x="930" y="258" fill="#004a99">Monitoreo</text>
+  <text class="sub" x="930" y="306">Deriva y</text>
   <text class="sub" x="930" y="322">métricas</text>
 
   <!-- arrows -->

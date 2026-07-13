@@ -36,7 +36,7 @@
   <text class="small" x="125" y="211">entrenamiento</text>
   <text class="small" x="125" y="231">prueba</text>
   <text class="body" x="55" y="265">el modelo no aprendió</text>
-  <text class="body" x="55" y="284">enough. características may be</text>
+  <text class="body" x="55" y="284">suficiente. Las características pueden ser</text>
   <text class="body" x="55" y="302">muy poco o un modelo demasiado simple.</text>
 
   <!-- Good Fit -->

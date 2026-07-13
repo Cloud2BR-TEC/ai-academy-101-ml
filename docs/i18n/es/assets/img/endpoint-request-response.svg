@@ -29,7 +29,7 @@
 
   <rect class="bg" x="0" y="0" width="1040" height="720"/>
   <text class="title" x="60" y="52">Llamada a un endpoint de modelo desplegado</text>
-  <text class="subtitle" x="60" y="80">HTTP POST con JSON características en, JSON predicción out</text>
+  <text class="subtitle" x="60" y="80">HTTP POST con JSON de características como entrada, predicción JSON como salida</text>
 
   <!-- Client -->
   <rect class="card" x="60" y="120" width="250" height="120" rx="12"/>
@@ -37,12 +37,12 @@
   <text class="headw" x="80" y="144">Aplicación cliente</text>
   <text class="label" x="80" y="178">Web / mobile / service</text>
   <text class="monosm" x="80" y="202">POST /score</text>
-  <text class="monosm" x="80" y="222">Authorization: Bearer key</text>
+  <text class="monosm" x="80" y="222">Autorización: Bearer clave</text>
 
   <!-- Endpoint -->
   <rect class="endpoint" x="395" y="110" width="250" height="240" rx="12"/>
   <rect class="pill" x="395" y="110" width="250" height="34" rx="12"/>
-  <text class="headw" x="415" y="134">Endpoint en línea</text>
+  <text class="headw" x="415" y="134">Punto de conexión en línea</text>
   <text class="label" x="415" y="170">fraud-endpoint (HTTPS)</text>
   <text class="monosm" x="415" y="196">Autenticación + validación de esquema</text>
   <text class="monosm" x="415" y="218">Balancea carga a una réplica</text>

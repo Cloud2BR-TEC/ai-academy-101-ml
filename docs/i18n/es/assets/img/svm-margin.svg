@@ -30,7 +30,7 @@
   <line class="boundary" x1="245" y1="470" x2="515" y2="130"/>
   <line class="margin" x1="200" y1="470" x2="470" y2="130"/>
   <line class="margin" x1="290" y1="470" x2="560" y2="130"/>
-  <text class="note" x="520" y="150" font-weight="700" fill="#004a99">boundary</text>
+  <text class="note" x="520" y="150" font-weight="700" fill="#004a99">frontera</text>
   <!-- class 0 (left) -->
   <circle class="c0" cx="170" cy="280" r="8"/>
   <circle class="c0" cx="200" cy="380" r="8"/>
@@ -53,6 +53,6 @@
   <circle class="c1" cx="640" cy="450" r="8"/>
   <text class="note" x="656" y="455">clase B</text>
   <circle class="sv" cx="760" cy="420" r="11"/>
-  <text class="note" x="780" y="425">support vector</text>
+  <text class="note" x="780" y="425">vector soporte</text>
   <text class="note" x="955" y="478" text-anchor="end" font-weight="700" fill="#15803d">C controla cuantas violaciones del margen se toleran</text>
 </svg>

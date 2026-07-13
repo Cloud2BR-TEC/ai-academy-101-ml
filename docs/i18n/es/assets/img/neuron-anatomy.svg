@@ -25,7 +25,7 @@
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="560"/>
   <text class="title" x="60" y="52">Anatomía de una neurona artificial</text>
-  <text class="subtitle" x="60" y="80">Scale each entrada by a weight, sum them, shift by a sesgo, then squash through a non-linear activación.</text>
+  <text class="subtitle" x="60" y="80">Escala cada entrada por un peso, súmalas, desplázalas por un sesgo y aplica una activación no lineal.</text>
 
   <!-- input -> summation arrows -->
   <line class="arrow" x1="158" y1="175" x2="402" y2="252" marker-end="url(#ah)"/>
@@ -85,7 +85,7 @@
 
   <rect class="card" x="390" y="468" width="250" height="64" rx="10"/>
   <text class="stageNo" x="406" y="496">2 Â· Desplazamiento de sesgo</text>
-  <text class="desc2" x="406" y="518">Add sesgo b a shift el activación threshold.</text>
+  <text class="desc2" x="406" y="518">Añade el sesgo b para desplazar el umbral de activación.</text>
 
   <rect class="card" x="660" y="468" width="300" height="64" rx="10"/>
   <text class="stageNo" x="676" y="496">3 Â· Activación no lineal</text>

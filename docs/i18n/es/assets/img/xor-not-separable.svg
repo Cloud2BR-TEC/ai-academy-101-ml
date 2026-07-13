@@ -61,7 +61,7 @@
 
   <!-- linearly separable inset -->
   <rect class="card" x="640" y="150" width="340" height="300" rx="10"/>
-  <text class="label" x="810" y="180" text-anchor="middle" font-weight="700">Lineally separable (para contrast)</text>
+  <text class="label" x="810" y="180" text-anchor="middle" font-weight="700">Linealmente separable (contraste)</text>
   <line class="axis" x1="700" y1="410" x2="940" y2="410"/>
   <line class="axis" x1="700" y1="410" x2="700" y2="210"/>
   <text class="axis-label" x="938" y="402" text-anchor="end">x1</text>
@@ -71,7 +71,7 @@
   <circle class="c0" cx="900" cy="380" r="11"/>
   <rect class="c1" x="889" y="239" width="22" height="22" rx="3"/>
   <line class="sep" x1="820" y1="210" x2="940" y2="330"/>
-  <text class="desc2" x="810" y="430" text-anchor="middle">One straight line separates el classes.</text>
+  <text class="desc2" x="810" y="430" text-anchor="middle">Una línea recta separa las clases.</text>
 
   <!-- caption -->
   <text class="desc2" x="60" y="548" font-size="14" fill="#b91c1c" font-weight="700">Ninguna linea recta puede separar las dos clases — precisamente por eso un perceptron simple no puede aprender XOR.</text>

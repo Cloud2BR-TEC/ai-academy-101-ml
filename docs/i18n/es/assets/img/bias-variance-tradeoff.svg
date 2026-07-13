@@ -28,7 +28,7 @@
   <!-- Axes -->
   <line class="axis" x1="120" y1="120" x2="120" y2="470"/>
   <line class="axis" x1="120" y1="470" x2="940" y2="470"/>
-  <text class="axis-label" x="60" y="300" transform="rotate(-90 60 300)">Error</text>
+  <text class="axis-label" x="60" y="300" transform="rotate(-90 60 300)">Magnitud del error</text>
   <text class="axis-label" x="430" y="505">Complejidad del modelo</text>
 
   <!-- Sesgo al cuadrado: high at left, decreasing -->

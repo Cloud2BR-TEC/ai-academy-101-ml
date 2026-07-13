@@ -43,7 +43,7 @@
 
   <!-- descent steps (points along parabola) -->
   <circle class="startdot" cx="210" cy="287" r="9"/>
-  <text class="label" x="150" y="270" font-weight="700" fill="#0e7490">Start</text>
+  <text class="label" x="150" y="270" font-weight="700" fill="#0e7490">Inicio</text>
   <line class="step" x1="218" y1="294" x2="295" y2="372" marker-end="url(#arrow)"/>
   <circle class="dot" cx="305" cy="380" r="7"/>
   <line class="step" x1="313" y1="386" x2="385" y2="437" marker-end="url(#arrow)"/>
@@ -55,13 +55,13 @@
 
   <!-- step size note -->
   <text class="note" x="250" y="330">Pasos grandes donde la pendiente es grande,</text>
-  <text class="note" x="250" y="348">is steep...</text>
-  <text class="note" x="470" y="520">...baby steps near el bottom</text>
+  <text class="note" x="250" y="348">cuando la pendiente es pronunciada...</text>
+  <text class="note" x="470" y="520">...pasos pequeños cerca del fondo</text>
 
   <!-- learning rate callout -->
   <text class="note" x="640" y="300">Tamano del paso = la tasa de aprendizaje.</text>
   <text class="note" x="640" y="320">Muy grande: se pasa y nunca converge.</text>
   <text class="note" x="640" y="340">Muy pequeno: tarda mucho en llegar.</text>
-  <text class="note" x="640" y="372" font-weight="700" fill="#004a99">One valley = one bottom,</text>
+  <text class="note" x="640" y="372" font-weight="700" fill="#004a99">Un solo valle = un solo fondo,</text>
   <text class="note" x="640" y="390" font-weight="700" fill="#004a99">para que siempre alcance la mejor respuesta.</text>
 </svg>

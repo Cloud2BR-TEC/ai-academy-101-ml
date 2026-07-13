@@ -28,8 +28,8 @@
 
   <rect class="bg" x="0" y="0" width="1500" height="800"/>
 
-  <text class="title" x="60" y="60">Evolution de Machine Learning</text>
-  <text class="subtitle" x="62" y="92">desde foundational theory (1950s) a foundation modelos y GenAI (2020s)</text>
+  <text class="title" x="60" y="60">Evolución del aprendizaje automático</text>
+  <text class="subtitle" x="62" y="92">desde teoría fundacional (década de 1950) hasta modelos fundacionales e IA generativa (década de 2020)</text>
 
   <!-- Era bands -->
   <rect class="era-a" x="60" y="120" width="325" height="92" rx="12"/>

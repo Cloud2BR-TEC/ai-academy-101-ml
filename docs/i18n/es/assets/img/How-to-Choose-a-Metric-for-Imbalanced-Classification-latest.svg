@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="620" viewBox="0 0 1040 620" role="img" aria-labelledby="title desc">
   <title id="title">Como elegir una metrica para clasificacion desbalanceada</title>
-  <desc id="desc">A decisión flowchart: if datos is imbalanced, prefer F1, PR-AUC or MCC over accuracy, then weight recall para costly false negatives, precision para costly false positives, or log loss y calibration when probability quality matters.</desc>
+  <desc id="desc">Diagrama de decisión flowchart: if datos is imbalanced, prefer F1, PR-AUC or MCC over accuracy, then weight recall para costly false negatives, precision para costly false positives, or log loss y calibration when probability quality matters.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -28,30 +28,30 @@
 
   <!-- start -->
   <rect class="start" x="360" y="104" width="320" height="48" rx="10"/>
-  <text class="starttxt" x="520" y="134" text-anchor="middle">Choosing a clasificación metric</text>
+  <text class="starttxt" x="520" y="134" text-anchor="middle">Elegir una métrica de clasificación</text>
   <line class="arrow" x1="520" y1="152" x2="520" y2="184" marker-end="url(#ah)"/>
 
   <!-- diamond -->
   <polygon class="diamond" points="520,184 660,239 520,294 380,239"/>
-  <text class="qtxt" x="520" y="244" text-anchor="middle">Is el datos imbalanced?</text>
+  <text class="qtxt" x="520" y="244" text-anchor="middle">¿Los datos están desbalanceados?</text>
 
   <!-- No branch -->
   <line class="arrow" x1="660" y1="239" x2="724" y2="239" marker-end="url(#ah)"/>
   <text class="branch" x="688" y="229" text-anchor="middle">No</text>
   <rect class="card" x="726" y="208" width="244" height="62" rx="10" stroke="#64748b"/>
-  <text class="head" x="848" y="234" text-anchor="middle" fill="#64748b">Accuracy is a fair línea base</text>
+  <text class="head" x="848" y="234" text-anchor="middle" fill="#64748b">La exactitud es una línea base justa</text>
   <text class="desc2" x="848" y="254" text-anchor="middle">cuando las clases estan aproximadamente equilibradas.</text>
 
   <!-- Yes branch -->
   <line class="arrow" x1="520" y1="294" x2="520" y2="326" marker-end="url(#ah)"/>
-  <text class="branch" x="534" y="314">Yes</text>
+  <text class="branch" x="534" y="314">Sí</text>
   <rect x="320" y="326" width="400" height="70" rx="10" fill="#ffffff" stroke="#15803d" stroke-width="2"/>
   <text class="head" x="520" y="354" text-anchor="middle" fill="#15803d" font-size="15">Evita usar solo exactitud</text>
   <text class="label" x="520" y="378" text-anchor="middle">Prefer F1 &#183; PR-AUC &#183; MCC</text>
 
   <!-- distributor -->
   <line class="arrow" x1="520" y1="396" x2="520" y2="424" marker-end="url(#ah)"/>
-  <text class="branch" x="640" y="418" text-anchor="middle">Que error tiene mayor costo?</text>
+  <text class="branch" x="640" y="418" text-anchor="middle">¿Qué error tiene mayor costo?</text>
   <path class="arrow" d="M200,430 L840,430"/>
   <line x1="520" y1="424" x2="520" y2="430" class="arrow"/>
   <line class="arrow" x1="200" y1="430" x2="200" y2="466" marker-end="url(#ah)"/>
@@ -62,20 +62,20 @@
   <rect class="card" x="70" y="468" width="260" height="120" rx="10" stroke="#0e7490"/>
   <text class="head" x="200" y="496" text-anchor="middle" fill="#0e7490">Alto costo de falsos negativos</text>
   <text class="metric" x="200" y="528" text-anchor="middle" fill="#0e7490">Priorizar Recall</text>
-  <text class="desc2" x="200" y="554" text-anchor="middle">Catch el positives &#8212; missing</text>
+  <text class="desc2" x="200" y="554" text-anchor="middle">Captura los positivos — perder</text>
   <text class="desc2" x="200" y="570" text-anchor="middle">un caso positivo real es costoso.</text>
 
   <!-- outcome 2 -->
   <rect class="card" x="390" y="468" width="260" height="120" rx="10" stroke="#b45309"/>
   <text class="head" x="520" y="496" text-anchor="middle" fill="#b45309">Alto costo de falsos positivos</text>
-  <text class="metric" x="520" y="528" text-anchor="middle" fill="#b45309">Weight Precision</text>
+  <text class="metric" x="520" y="528" text-anchor="middle" fill="#b45309">Priorizar Precisión</text>
   <text class="desc2" x="520" y="554" text-anchor="middle">Evita falsas alarmas — actuar</text>
-  <text class="desc2" x="520" y="570" text-anchor="middle">en a wrong flag is costly.</text>
+  <text class="desc2" x="520" y="570" text-anchor="middle">sobre una falsa alarma tiene un costo alto.</text>
 
   <!-- outcome 3 -->
   <rect class="card" x="710" y="468" width="260" height="120" rx="10" stroke="#004a99"/>
   <text class="head" x="840" y="496" text-anchor="middle" fill="#004a99">Se necesita calidad probabilística</text>
   <text class="metric" x="840" y="528" text-anchor="middle" fill="#004a99">Pérdida logarítmica / calibración</text>
   <text class="desc2" x="840" y="554" text-anchor="middle">Los puntajes deben ser fiables, no</text>
-  <text class="desc2" x="840" y="570" text-anchor="middle">just correctly ranked.</text>
+  <text class="desc2" x="840" y="570" text-anchor="middle">solo correctamente ordenados.</text>
 </svg>

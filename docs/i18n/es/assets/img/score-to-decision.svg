@@ -50,9 +50,9 @@
   <text class="note" x="930" y="300" text-anchor="end" fill="#b45309" font-weight="700">línea de corte (50% por defecto)</text>
 
   <!-- zone labels -->
-  <text class="ztxt" x="330" y="160" text-anchor="middle" fill="#9a4a12">Debajo del umbral</text>
+  <text class="ztxt" x="330" y="160" text-anchor="middle" fill="#9a4a12">Por debajo del umbral</text>
   <text class="ztxt" x="330" y="184" text-anchor="middle" fill="#9a4a12">predice clase 0 (No)</text>
-  <text class="ztxt" x="750" y="460" text-anchor="middle" fill="#256029">Encima del umbral</text>
+  <text class="ztxt" x="750" y="460" text-anchor="middle" fill="#256029">Por encima del umbral</text>
   <text class="ztxt" x="750" y="484" text-anchor="middle" fill="#256029">predice clase 1 (Sí)</text>
 
   <!-- callouts -->

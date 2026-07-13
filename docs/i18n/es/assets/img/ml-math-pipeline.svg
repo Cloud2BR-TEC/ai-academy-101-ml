@@ -38,7 +38,7 @@
 
   <!-- Box 2: loss -->
   <rect class="box" x="240" y="150" width="170" height="150" rx="12"/>
-  <text class="htxt" x="325" y="180" text-anchor="middle">2. Loss</text>
+  <text class="htxt" x="325" y="180" text-anchor="middle">2. Pérdida</text>
   <text class="btxt" x="325" y="206" text-anchor="middle">defines "wrong"</text>
   <text class="btxt" x="325" y="224" text-anchor="middle">un solo numero de error</text>
   <text class="vtxt" x="325" y="276" text-anchor="middle">Valor: define</text>
@@ -66,7 +66,7 @@
   <text class="btxt" x="925" y="206" text-anchor="middle">probabilidad + umbral de corte</text>
   <text class="btxt" x="925" y="224" text-anchor="middle">puntaje a accion</text>
   <text class="vtxt" x="925" y="276" text-anchor="middle">Valor: más inteligente</text>
-  <text class="vtxt" x="925" y="292" text-anchor="middle">yes/no calls</text>
+  <text class="vtxt" x="925" y="292" text-anchor="middle">llamadas sí/no</text>
 
   <!-- flow arrows -->
   <line class="flow" x1="210" y1="225" x2="238" y2="225" marker-end="url(#fa)"/>
@@ -76,7 +76,7 @@
 
   <!-- feedback loop optimizer -> function -->
   <path class="feedback" d="M525,300 L525,360 L125,360 L125,302" marker-end="url(#fb)"/>
-  <text class="fbtxt" x="325" y="382" text-anchor="middle">repetir: actualizar weights a lower el loss (entrenamiento loop)</text>
+  <text class="fbtxt" x="325" y="382" text-anchor="middle">repetir: actualizar pesos para reducir la pérdida (bucle de entrenamiento)</text>
 
-  <text class="btxt" x="60" y="450" fill="#475569">Boxes 1 a 4 happen at entrenamiento time. Box 5 happens at predicción time, where el math becomes a real decisión.</text>
+  <text class="btxt" x="60" y="450" fill="#475569">Las cajas 1 a 4 ocurren en tiempo de entrenamiento. La caja 5 ocurre en tiempo de predicción, donde las matemáticas se convierten en una decisión real.</text>
 </svg>

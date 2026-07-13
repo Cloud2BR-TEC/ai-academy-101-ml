@@ -57,7 +57,7 @@
   <text class="body" x="640" y="125">Aplica el patrón</text>
   <text class="body" x="640" y="148">aprendido a la entrada.</text>
   <text class="body" x="640" y="175">Produce un puntaje</text>
-  <text class="body" x="640" y="195">or predicción.</text>
+  <text class="body" x="640" y="195">o predicción.</text>
 
   <!-- Arrow to response -->
   <line class="arrow" x1="820" y1="155" x2="868" y2="155"/>

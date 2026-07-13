@@ -37,7 +37,7 @@
   <text class="head" x="520" y="149">No supervisado</text>
   <text class="item" x="395" y="200">Finds structure en datos</text>
   <text class="item" x="395" y="224">con no labels — groups</text>
-  <text class="item" x="395" y="248">y solo patrones.</text>
+  <text class="item" x="395" y="248">y solo patrones de estructura.</text>
   <text class="item" x="395" y="290">Examples:</text>
   <text class="item" x="395" y="314">• Customer segments</text>
   <text class="item" x="395" y="338">• Anomaly detection</text>

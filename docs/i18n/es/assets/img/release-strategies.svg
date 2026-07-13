@@ -45,8 +45,8 @@
 
   <path class="arrow" d="M204,224 L555,210" marker-end="url(#ah)"/>
   <path class="arrowfaint" d="M204,228 L555,262" marker-end="url(#ahf)"/>
-  <text class="label" x="380" y="200">100% now</text>
-  <text class="desc" x="760" y="230">Cutover is instant.</text>
+  <text class="label" x="380" y="200">100% ahora</text>
+  <text class="desc" x="760" y="230">El cambio es instantáneo.</text>
   <text class="desc" x="760" y="252">Rollback = revertir el cambio.</text>
 
   <!-- ===== Canary ===== -->
@@ -66,8 +66,8 @@
   <path class="arrow" d="M204,418 L555,452" marker-end="url(#ah)"/>
   <text class="label" x="380" y="392">95%</text>
   <text class="label" x="380" y="468">5% canary</text>
-  <text class="desc" x="760" y="420">Ramp 5 a 100%</text>
-  <text class="desc" x="760" y="442">if métricas stay green.</text>
+  <text class="desc" x="760" y="420">Aumentar de 5 a 100%</text>
+  <text class="desc" x="760" y="442">si las métricas se mantienen en verde.</text>
 
   <!-- ===== Shadow ===== -->
   <rect class="card" x="60" y="500" width="920" height="180" rx="12"/>
@@ -84,8 +84,8 @@
 
   <path class="arrow" d="M204,600 L555,592" marker-end="url(#ah)"/>
   <path class="arrowfaint" d="M204,608 L555,644" marker-end="url(#ahf)"/>
-  <text class="label" x="360" y="584">100% served</text>
-  <text class="label" x="360" y="660">mirrored copy</text>
-  <text class="desc" x="760" y="612">v2 responses are</text>
+  <text class="label" x="360" y="584">100% atendido</text>
+  <text class="label" x="360" y="660">copia espejo</text>
+  <text class="desc" x="760" y="612">Las respuestas de v2 son</text>
   <text class="desc" x="760" y="634">registrado, no devuelto.</text>
 </svg>

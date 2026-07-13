@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="520" viewBox="0 0 1040 520" role="img" aria-labelledby="title desc">
   <title id="title">Etapas del flujo de trabajo de ML con bucle de retroalimentacion</title>
-  <desc id="desc">el machine learning flujo de trabajo flows desde problem framing a monitoring, con monitoring feeding back into datos y entrenamiento.</desc>
+  <desc id="desc">El flujo de trabajo de aprendizaje automático avanza desde la definición del problema hasta el monitoreo, con el monitoreo retroalimentando datos y entrenamiento.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -21,15 +21,15 @@
     </marker>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="520"/>
-  <text class="title" x="60" y="52">el ML flujo de trabajo Stages</text>
-  <text class="subtitle" x="60" y="80">An iterative lifecycle — monitoring feeds learnings back into datos y entrenamiento</text>
+  <text class="title" x="60" y="52">Etapas del flujo de trabajo de ML</text>
+  <text class="subtitle" x="60" y="80">Un ciclo de vida iterativo — el monitoreo retroalimenta datos y entrenamiento</text>
 
   <!-- 6 stage cards -->
   <!-- 1 Problem Definición -->
   <rect class="card" x="40" y="180" width="140" height="100" rx="10"/>
   <rect x="40" y="180" width="140" height="34" rx="10" fill="#004a99"/>
-  <text class="head" x="110" y="202">Problem</text>
-  <text class="sub" x="110" y="244">Define goal</text>
+  <text class="head" x="110" y="202">Problema</text>
+  <text class="sub" x="110" y="244">Definir meta</text>
   <text class="sub" x="110" y="262">&amp; métricas</text>
 
   <!-- 2 Data -->
@@ -37,21 +37,21 @@
   <rect x="204" y="180" width="140" height="34" rx="10" fill="#0e7490"/>
   <text class="head" x="274" y="202">datos</text>
   <text class="sub" x="274" y="244">recopilar &amp;</text>
-  <text class="sub" x="274" y="262">prepare</text>
+  <text class="sub" x="274" y="262">preparar</text>
 
   <!-- 3 Entrenaring -->
   <rect class="card" x="368" y="180" width="140" height="100" rx="10"/>
   <rect x="368" y="180" width="140" height="34" rx="10" fill="#b45309"/>
   <text class="head" x="438" y="202">entrenamiento</text>
   <text class="sub" x="438" y="244">Ajustar y</text>
-  <text class="sub" x="438" y="262">evaluate</text>
+  <text class="sub" x="438" y="262">evaluar</text>
 
   <!-- 4 Registration -->
   <rect class="card" x="532" y="180" width="140" height="100" rx="10"/>
   <rect x="532" y="180" width="140" height="34" rx="10" fill="#15803d"/>
-  <text class="head" x="602" y="202">Registration</text>
-  <text class="sub" x="602" y="244">Version &amp;</text>
-  <text class="sub" x="602" y="262">store modelo</text>
+  <text class="head" x="602" y="202">Registro</text>
+  <text class="sub" x="602" y="244">Versionar y</text>
+  <text class="sub" x="602" y="262">almacenar modelo</text>
 
   <!-- 5 Deployment -->
   <rect class="card" x="696" y="180" width="140" height="100" rx="10"/>
@@ -63,9 +63,9 @@
   <!-- 6 Monitorearing -->
   <rect class="card" x="860" y="180" width="140" height="100" rx="10"/>
   <rect x="860" y="180" width="140" height="34" rx="10" fill="#004a99"/>
-  <text class="head" x="930" y="202">Monitorearing</text>
-  <text class="sub" x="930" y="244">Drift &amp;</text>
-  <text class="sub" x="930" y="262">quality</text>
+  <text class="head" x="930" y="202">Monitoreo</text>
+  <text class="sub" x="930" y="244">Deriva y</text>
+  <text class="sub" x="930" y="262">calidad</text>
 
   <!-- forward arrows -->
   <line class="arrow" x1="180" y1="230" x2="200" y2="230" marker-end="url(#ah)"/>

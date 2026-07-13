@@ -22,8 +22,8 @@
   <rect x="60" y="120" width="440" height="44" rx="10" fill="#004a99"/>
   <text class="head" x="80" y="149">Predecir una clase</text>
   <text class="task" x="80" y="196">Clasificación</text>
-  <text class="item" x="80" y="224">Asigna cada registro a una de las categorias</text>
-  <text class="item" x="80" y="248">de discrete categories.</text>
+  <text class="item" x="80" y="224">Asigna cada registro a una de las categorías</text>
+  <text class="item" x="80" y="248">de categorías discretas.</text>
   <text class="ex" x="80" y="282">Ejemplo: este correo es spam o no spam?</text>
 
   <!-- Predict a Number -->
@@ -31,7 +31,7 @@
   <rect x="540" y="120" width="440" height="44" rx="10" fill="#0e7490"/>
   <text class="head" x="560" y="149">Predecir un número</text>
   <text class="task" x="560" y="196">Regresión</text>
-  <text class="item" x="560" y="224">Estimate a continuous numeric</text>
+  <text class="item" x="560" y="224">Estima un valor numérico continuo</text>
   <text class="item" x="560" y="248">valor a partir de las entradas.</text>
   <text class="ex" x="560" y="282">Ejemplo: predecir el precio de una casa para mañana.</text>
 
@@ -40,7 +40,7 @@
   <rect x="60" y="320" width="440" height="44" rx="10" fill="#b45309"/>
   <text class="head" x="80" y="349">Agrupar registros</text>
   <text class="task" x="80" y="396">Clústering</text>
-  <text class="item" x="80" y="424">Group similar records together</text>
+  <text class="item" x="80" y="424">Agrupa registros similares</text>
   <text class="item" x="80" y="448">sin etiquetas predefinidas.</text>
   <text class="ex" x="80" y="482">Ejemplo: segmentar clientes por comportamiento.</text>
 
@@ -48,8 +48,8 @@
   <rect class="card" x="540" y="320" width="440" height="180" rx="10" stroke="#15803d" stroke-width="2"/>
   <rect x="540" y="320" width="440" height="44" rx="10" fill="#15803d"/>
   <text class="head" x="560" y="349">Reducir dimensiones</text>
-  <text class="task" x="560" y="396">Dimensionality Reduction</text>
+  <text class="task" x="560" y="396">Reducción de dimensionalidad</text>
   <text class="item" x="560" y="424">Compress many características into a few</text>
-  <text class="item" x="560" y="448">while keeping el signal.</text>
+  <text class="item" x="560" y="448">conservando la señal.</text>
   <text class="ex" x="560" y="482">Ejemplo: PCA para visualizar datos de alta dimensionalidad.</text>
 </svg>

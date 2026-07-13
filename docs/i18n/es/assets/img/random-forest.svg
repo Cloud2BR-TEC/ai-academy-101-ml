@@ -31,7 +31,7 @@
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="540"/>
   <text class="title" x="60" y="52">Bosque aleatorio: muchos arboles votan</text>
-  <text class="subtitle" x="60" y="80">Each tree sees a aleatorio sample de rows y características; combining them cancels their individual errors.</text>
+  <text class="subtitle" x="60" y="80">Cada árbol ve una muestra aleatoria de filas y características; combinarlos cancela los errores individuales.</text>
   <!-- entrenamiento data -->
   <rect class="data" x="60" y="230" width="130" height="80" rx="10"/>
   <text class="lbl" x="125" y="266" text-anchor="middle">entrenamiento</text>
@@ -55,7 +55,7 @@
   <line class="edge" x1="460" y1="275" x2="620" y2="275" marker-end="url(#ar2)"/>
   <line class="edge" x1="460" y1="385" x2="620" y2="295" marker-end="url(#ar2)"/>
   <rect class="vote" x="630" y="230" width="160" height="90" rx="10"/>
-  <text class="lbl" x="710" y="270" text-anchor="middle">majority vote</text>
+  <text class="lbl" x="710" y="270" text-anchor="middle">votación mayoritaria</text>
   <text class="lbl" x="710" y="292" text-anchor="middle">(o promedio)</text>
   <!-- final -->
   <line class="edge" x1="790" y1="275" x2="860" y2="275" marker-end="url(#ar2)"/>

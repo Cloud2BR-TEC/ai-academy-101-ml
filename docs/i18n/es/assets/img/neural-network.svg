@@ -52,5 +52,5 @@
   <text class="lbl" x="200" y="510" text-anchor="middle">entradas</text>
   <text class="lbl" x="560" y="510" text-anchor="middle">hidden layers (width Ã— depth)</text>
   <text class="lbl" x="900" y="510" text-anchor="middle">salida</text>
-  <text class="note" x="60" y="120" font-weight="700" fill="#004a99">More layers/width = more capacity = more datos needed y harder a interpret.</text>
+  <text class="note" x="60" y="430" font-weight="700" fill="#0e7490">Más capas/amplitud = más capacidad = más datos necesarios y más difícil de interpretar.</text>
 </svg>

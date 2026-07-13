@@ -44,7 +44,7 @@
 
   <!-- Axis titles -->
   <text class="axislbl" x="400" y="522" text-anchor="middle">Fraccion de la poblacion (ordenada por puntaje)</text>
-  <text class="axislbl" x="124" y="300" text-anchor="middle" transform="rotate(-90 124 300)">Cumulative positives captured</text>
+  <text class="axislbl" x="124" y="300" text-anchor="middle" transform="rotate(-90 124 300)">Positivos capturados (acumulado)</text>
 
   <!-- Random reference -->
   <line class="ref" x1="160" y1="470" x2="640" y2="130"/>
@@ -68,11 +68,11 @@
   <line x1="722" y1="316" x2="762" y2="316" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
   <text class="label" x="772" y="321" fill="#b45309">Modelo débil</text>
   <text class="desc2" x="722" y="344">Sigue la línea diagonal.</text>
-  <text class="desc2" x="722" y="364">No targeting advantage.</text>
+  <text class="desc2" x="722" y="364">Sin ventaja de segmentación.</text>
 
   <line x1="722" y1="406" x2="762" y2="406" stroke="#94a3b8" stroke-width="2.5" stroke-dasharray="6 6"/>
   <text class="label" x="772" y="411" fill="#64748b">Línea base aleatoria</text>
-  <text class="desc2" x="722" y="434">Lift = 1 everywhere.</text>
+  <text class="desc2" x="722" y="434">Lift = 1 en todas partes.</text>
 
   <rect x="716" y="452" width="248" height="32" rx="8" fill="#eef2f7"/>
   <text class="desc2" x="728" y="473">Mayor separación sobre la diagonal = más lift.</text>

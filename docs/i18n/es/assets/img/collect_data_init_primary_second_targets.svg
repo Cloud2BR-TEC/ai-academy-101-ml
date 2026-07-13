@@ -85,6 +85,6 @@
   <!-- Leakage callout -->
   <rect x="60" y="370" width="920" height="78" rx="10" fill="#fff7ed" stroke="#b45309" stroke-width="1.8"/>
   <text class="calloutb" x="80" y="397">Verificacion de fuga: cuando se conoce el valor del target?</text>
-  <text class="calloutt" x="80" y="420">A característica must be available at predicción time. If a target's value is only conocido later, never let it</text>
+  <text class="calloutt" x="80" y="416">Una característica debe estar disponible al momento de predecir. Si el valor del target solo se conoce después, nunca permitas que</text>
   <text class="calloutt" x="80" y="438">(o cualquier derivado de él) se filtre en las columnas de características usadas para entrenar el modelo.</text>
 </svg>

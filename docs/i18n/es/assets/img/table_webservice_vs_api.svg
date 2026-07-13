@@ -43,7 +43,7 @@
   <text class="rowlabel" x="60" y="328">Qué</text>
   <text class="rowlabel" x="60" y="350">describe</text>
   <text class="cell" x="300" y="316">Esquema de solicitud/respuesta,</text>
-  <text class="cell" x="300" y="340">authentication, datos types</text>
+  <text class="cell" x="300" y="340">autenticación, tipos de datos</text>
   <text class="cell" x="300" y="364">y reglas de versionado.</text>
   <text class="cell" x="660" y="316">Un despliegue en ejecucion con</text>
   <text class="cell" x="660" y="340">cómputo, replicas y el</text>
