@@ -51,21 +51,6 @@ Este módulo resume lo aprendido en Machine Learning 101 y define un plan práct
 
 ## Próximos Pasos
 
-### Práctica Inmediata
-
-1. Construir un proyecto completo de punta a punta.
-2. Usar dataset nuevo.
-3. Documentar decisiones técnicas.
-
-### Plan Semanal para Principiantes
-
-1. Día 1: definir problema y variable objetivo.
-2. Día 2: preparar datos y dividir.
-3. Dia 3: entrenar baseline y medir.
-4. Día 4: mejorar características o modelo.
-5. Dia 5: desplegar endpoint y probar.
-6. Dia 6-7: revisar resultados y mejoras.
-
 ### Recursos
 
 - [Azure ML Documentation](https://learn.microsoft.com/azure/machine-learning/)

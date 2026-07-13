@@ -72,10 +72,6 @@ Al final de Machine Learning 101, la idea principal es esta:
 	</a>
 </div>
 
-## Biblioteca Visual
-
-Ver todas las imágenes en [Reference > Visual Library (ES)](reference/visual-library.md).
-
 ## Enlaces Rápidos
 
 - Comandos CLI (ES): [CLI Commands (ES)](reference/cli-commands.md)

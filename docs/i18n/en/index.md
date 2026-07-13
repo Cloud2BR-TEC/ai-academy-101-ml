@@ -2,8 +2,6 @@
 
 Welcome to **Machine Learning 101**.
 
-This content can be taught with age-appropriate examples and shorter activities.
-
 ## Why Machine Learning 101
 
 - Build shared vocabulary and platform confidence.
@@ -71,7 +69,3 @@ By the end of Machine Learning 101, the key perspective is simple:
 		<p>Review what you learned and define practical next actions.</p>
 	</a>
 </div>
-
-## Visual Library
-
-See all images in one place in [Reference > Visual Library](reference/visual-library.md).

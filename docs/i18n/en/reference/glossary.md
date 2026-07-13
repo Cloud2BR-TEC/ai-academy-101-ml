@@ -3,8 +3,6 @@
 
 Clear definitions for key terms used in Machine Learning 101.
 
-Each term is written for grades 10-12 with practical meaning.
-
 ## Machine learning basics
 
 - **Machine learning (ML)**: A way for computers to learn patterns from data so they can make predictions.

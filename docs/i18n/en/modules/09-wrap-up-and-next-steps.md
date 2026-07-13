@@ -53,21 +53,6 @@ Try explaining each of the following without looking at your notes:
 
 ## Next Steps
 
-### Immediate Practice (This Week)
-
-1. Complete one full project from scratch: load data, train, evaluate, register, and deploy.
-2. Use a dataset you have not seen before.
-3. Document every decision you made and why.
-
-### Beginner Weekly Plan (Optional)
-
-1. Day 1: Choose a simple prediction problem and define the target clearly.
-2. Day 2: Clean and prepare data, then split into train/test.
-3. Day 3: Train one baseline model and record metrics.
-4. Day 4: Improve one step (features, algorithm, or data quality).
-5. Day 5: Deploy endpoint and test with sample requests.
-6. Day 6-7: Review what worked, what failed, and what to improve next.
-
 ### Deeper Exploration
 
 - Try AutoML on the same dataset and compare with your manual model.
