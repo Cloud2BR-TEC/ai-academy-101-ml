@@ -1,5 +1,5 @@
-site_name: "AI Academy - Machine Learning 101"
-site_description: Foundational Azure Machine Learning training for AI Academy Level 101.
+site_name: "Machine Learning 101 Course"
+site_description: Foundational Azure Machine Learning training for Course 101.
 site_url: https://cloud2br-tec.github.io/ai-academy-101-ml/
 copyright: Copyright &copy; 2026 <a href="https://github.com/Cloud2BR-TEC" target="_blank" rel="noopener">Cloud2BR TEC</a>
 
@@ -53,16 +53,17 @@ extra:
 
 nav:
   - Home: index.md
-  - 01. Program Levels: modules/01-math-prerequisites.md
-  - 02. Azure ML Overview: modules/02-e2e-overview.md
-  - 03. Workspace and Authoring: modules/03-introduction.md
-  - 04. Assets and Lifecycle: modules/04-ml-foundations.md
-  - 05. Build Your First Model: modules/05-neural-networks.md
-  - 06. Deploy and Score: modules/06-azure-ml-environment.md
-  - 07. Terraform Foundations: modules/07-environment-setup.md
-  - 08. Fabric and AI Integration: modules/08-data-preparation.md
-  - 09. Path to Levels 102 and 103: modules/09-model-types.md
+  - 01. Machine Learning Basics: modules/01-machine-learning-basics.md
+  - 02. Azure ML Overview: modules/02-azure-ml-overview.md
+  - 03. Workspace and Authoring: modules/03-workspace-and-authoring.md
+  - 04. Assets and Lifecycle: modules/04-assets-and-lifecycle.md
+  - 05. Build Your First Model: modules/05-build-your-first-model.md
+  - 06. Deploy and Score: modules/06-deploy-and-score.md
+  - 07. Terraform Foundations: modules/07-terraform-foundations.md
+  - 08. Fabric and AI Integration: modules/08-fabric-and-ai-integration.md
+  - 09. Course Wrap-Up and Next Steps: modules/09-course-next-steps.md
   - Reference:
       - Overview: reference/index.md
+      - Visual Library: reference/visual-library.md
       - CLI Commands: reference/cli-commands.md
       - Glossary: reference/glossary.md

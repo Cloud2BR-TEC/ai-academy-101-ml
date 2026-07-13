@@ -1,4 +1,4 @@
-# AI Academy - Machine Learning 101
+# Machine Learning 101 Course
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [Cloud2BR TEC](https://github.com/Cloud2BR-TEC)
@@ -7,27 +7,26 @@ Last updated: 2026-07-13
 
 ----------
 
-Level 101 is the foundational entry point of the Machine Learning academy path.
+Course 101 is a foundational machine learning course focused on practical Azure ML basics.
 
 This repository uses the GitHub Pages layout from the advanced Azure ML training site and reorganizes the content for a beginner-first learning flow. It consolidates the source material from:
 
 - Azure-ML-Overview
 - Azure-ML-Advanced
 
-## Learning Path Strategy
+## Course Scope
 
-The full academy is structured as three levels:
+This repository publishes only Course 101 content:
 
-- Level 101: Fundamentals, Azure ML workspace basics, first model build, first deployment, and IaC introduction.
-- Level 102: Intermediate engineering practices, reusable pipelines, monitoring strategy, and stronger MLOps controls.
-- Level 103: Advanced production operations, governance, reliability, and enterprise-scale deployment patterns.
-
-This repository currently publishes Level 101.
+- Machine learning basics for beginners.
+- Azure ML workspace and lifecycle fundamentals.
+- First model training, evaluation, and deployment.
+- Introductory infrastructure as code with Terraform.
 
 ## Local Preview
 
 ```bash
-pip install mkdocs mkdocs-material mkdocs-mermaid2-plugin pymdown-extensions
+pip install mkdocs mkdocs-material pymdown-extensions
 mkdocs serve
 ```
 

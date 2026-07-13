@@ -1,72 +1,78 @@
-# AI Academy - Machine Learning 101
+# Machine Learning 101 Course
 
-Welcome to **Level 101** of the Machine Learning academy.
+Welcome to the **Machine Learning 101** course.
 
-This site uses the same GitHub Pages layout as the advanced Azure ML training site, reorganized for a beginner-first path under **Cloud2BR TEC**.
+This site is now fully **MkDocs-based** and organized to be highly visual for workshop delivery.
 
-## Program Map
+## Course Map
+
+![ML evolution timeline](assets/img/ml-evolution-timeline.svg)
 
 ```mermaid
 graph LR
-    A[Level 101<br/>Foundations + First Build] --> B[Level 102<br/>Engineering + MLOps Core]
-    B --> C[Level 103<br/>Enterprise Operations + Governance]
+	A[ML basics] --> B[Azure ML workflow]
+	B --> C[Model build and evaluation]
+	C --> D[Deployment and operations basics]
 ```
 
-## What You Learn in 101
+## Why This Course
 
-- Understand Azure Machine Learning core concepts and lifecycle.
-- Navigate workspace, authoring tools, and key assets.
-- Build and evaluate a first model using guided steps.
-- Deploy a basic endpoint and test scoring.
-- Understand Terraform basics for repeatable infrastructure.
-- See how Fabric connects with AI workflows.
+- Build shared vocabulary and platform confidence.
+- Learn the minimum end-to-end workflow before optimization.
+- Apply a complete workflow from data to deployment.
 
-## Level 101 Modules
+![Machine learning process by stages](assets/img/ml_process_by_stages.svg)
+
+## Course Modules
 
 <div class="home-grid">
-	<a class="home-card" href="modules/01-math-prerequisites/">
+	<a class="home-card" href="modules/01-machine-learning-basics/">
 		<span class="card-badge">01</span>
-		<h3>Program Levels</h3>
-		<p>How 101, 102, and 103 are organized and what belongs in each level.</p>
+		<h3>Machine Learning Basics</h3>
+		<p>Core concepts, common terms, and practical examples.</p>
 	</a>
-	<a class="home-card" href="modules/02-e2e-overview/">
+	<a class="home-card" href="modules/02-azure-ml-overview/">
 		<span class="card-badge">02</span>
 		<h3>Azure ML Overview</h3>
-		<p>Platform purpose, lifecycle, and role in the broader AI ecosystem.</p>
+		<p>Core lifecycle, ecosystem fit, and platform value.</p>
 	</a>
-	<a class="home-card" href="modules/03-introduction/">
+	<a class="home-card" href="modules/03-workspace-and-authoring/">
 		<span class="card-badge">03</span>
 		<h3>Workspace and Authoring</h3>
-		<p>Workspace taxonomy and hands-on authoring options in Azure ML.</p>
+		<p>Workspace components and authoring options.</p>
 	</a>
-	<a class="home-card" href="modules/04-ml-foundations/">
+	<a class="home-card" href="modules/04-assets-and-lifecycle/">
 		<span class="card-badge">04</span>
 		<h3>Assets and Lifecycle</h3>
-		<p>Data, jobs, components, models, and endpoints in one workflow.</p>
+		<p>Data-to-endpoint lineage with reproducibility focus.</p>
 	</a>
-	<a class="home-card" href="modules/05-neural-networks/">
+	<a class="home-card" href="modules/05-build-your-first-model/">
 		<span class="card-badge">05</span>
 		<h3>Build Your First Model</h3>
-		<p>Guided model creation flow based on your existing workshop.</p>
+		<p>Hands-on model build and metrics interpretation.</p>
 	</a>
-	<a class="home-card" href="modules/06-azure-ml-environment/">
+	<a class="home-card" href="modules/06-deploy-and-score/">
 		<span class="card-badge">06</span>
 		<h3>Deploy and Score</h3>
-		<p>Register models, deploy endpoints, and validate predictions.</p>
+		<p>Model registration, endpoint deployment, and testing.</p>
 	</a>
-	<a class="home-card" href="modules/07-environment-setup/">
+	<a class="home-card" href="modules/07-terraform-foundations/">
 		<span class="card-badge">07</span>
 		<h3>Terraform Foundations</h3>
-		<p>Infrastructure as code baseline for Azure ML environments.</p>
+		<p>Repeatable infrastructure setup with IaC basics.</p>
 	</a>
-	<a class="home-card" href="modules/08-data-preparation/">
+	<a class="home-card" href="modules/08-fabric-and-ai-integration/">
 		<span class="card-badge">08</span>
 		<h3>Fabric and AI Integration</h3>
-		<p>How Fabric, SynapseML, and Azure OpenAI fit into ML workflows.</p>
+		<p>How Fabric complements Azure ML workflows.</p>
 	</a>
-	<a class="home-card" href="modules/09-model-types/">
+	<a class="home-card" href="modules/09-course-next-steps/">
 		<span class="card-badge">09</span>
-		<h3>Path to 102 and 103</h3>
-		<p>Next-level capabilities and transition criteria.</p>
+		<h3>Course Wrap-Up and Next Steps</h3>
+		<p>Review what you learned and define practical next actions.</p>
 	</a>
 </div>
+
+## Visual Library
+
+See all images in one place in [Reference > Visual Library](reference/visual-library.md).

@@ -142,10 +142,10 @@ a.home-card:focus-visible {
 }
 
 /* ----------------------------------------------------------------------
-   Center article content: reduce typography by 15%
+   Center article content with readable teaching text size
    ---------------------------------------------------------------------- */
 .md-content__inner.md-typeset {
-  font-size: 0.68rem;
+  font-size: 0.9rem;
 }
 
 /* ----------------------------------------------------------------------
@@ -153,16 +153,27 @@ a.home-card:focus-visible {
    ---------------------------------------------------------------------- */
 .md-typeset p > img {
   display: block;
-  width: 100%;
-  max-width: 780px;
+  width: auto;
+  max-width: min(100%, 1100px);
   height: auto;
   margin: 0.9rem auto 1.1rem;
 }
 
+.md-typeset p > img[src$=".svg"] {
+  max-width: min(100%, 1200px);
+}
+
 @media (max-width: 48rem) {
   .md-typeset p > img {
-    max-width: 100%;
+    max-width: none;
+    min-width: 760px;
     margin: 0.75rem 0 0.95rem;
+  }
+
+  .md-typeset p:has(> img) {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 0.15rem;
   }
 }
 
