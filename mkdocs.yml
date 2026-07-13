@@ -33,8 +33,23 @@ plugins:
           name: English
           build: true
         - locale: es
-          name: Espanol
+          name: "Español"
           build: true
+          nav_translations:
+            Home: Inicio
+            01. Machine Learning Basics: "01. Fundamentos de aprendizaje automático"
+            02. Azure ML Overview: "02. Descripción general de Azure ML"
+            03. Workspace and Authoring: "03. Workspace y autoría"
+            04. Assets and Lifecycle: "04. Activos y ciclo de vida"
+            05. Build Your First Model: "05. Construye tu primer modelo"
+            06. Deploy and Score: "06. Desplegar y puntuar"
+            07. Terraform Foundations: "07. Fundamentos de Terraform"
+            08. Fabric and AI Integration: "08. Integración de Fabric e IA"
+            09. Wrap-Up and Next Steps: "09. Cierre y próximos pasos"
+            Reference: Referencia
+            Visual Library: Biblioteca visual
+            CLI Commands: Comandos de CLI
+            Glossary: Glosario
 
 markdown_extensions:
   - admonition
