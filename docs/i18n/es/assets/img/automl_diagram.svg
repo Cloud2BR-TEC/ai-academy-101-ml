@@ -27,7 +27,7 @@
   <text class="subtitle" x="60" y="80">Usa un presupuesto fijo de búsqueda en algoritmos conocidos y conserva el mejor modelo o ensamble.</text>
 
   <!-- budget bar -->
-  <text class="budtxt" x="60" y="129">Presupuesto de búsqueda</text>
+  <text class="budtxt" x="60" y="106">Presupuesto de búsqueda</text>
   <rect x="195" y="112" width="480" height="22" rx="6" fill="#ffffff" stroke="#cbd5e1"/>
   <rect x="197" y="114" width="40" height="18" rx="3" fill="#b45309"/>
   <rect x="239" y="114" width="40" height="18" rx="3" fill="#b45309"/>
