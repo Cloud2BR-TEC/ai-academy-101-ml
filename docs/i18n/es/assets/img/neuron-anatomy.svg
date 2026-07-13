@@ -79,15 +79,17 @@
   <text class="label" x="906" y="338" text-anchor="middle" font-weight="700">Salida</text>
 
   <!-- stage cards -->
-  <rect class="card" x="70" y="468" width="300" height="64" rx="10"/>
-  <text class="stageNo" x="86" y="496">1 · Suma ponderada</text>
-  <text class="desc2" x="86" y="518">Cada entrada x&#8336; escalada por su peso w&#8336;, luego sumadas.</text>
+  <rect class="card" x="70" y="468" width="300" height="84" rx="10"/>
+  <text class="stageNo" x="86" y="490">1 · Suma ponderada</text>
+  <text class="desc2" x="86" y="508">Cada entrada x&#8336; escalada por su peso w&#8336;,</text>
+  <text class="desc2" x="86" y="525">luego sumadas.</text>
 
-  <rect class="card" x="390" y="468" width="250" height="64" rx="10"/>
-  <text class="stageNo" x="406" y="496">2 · Desplazamiento de sesgo</text>
-  <text class="desc2" x="406" y="518">Añade el sesgo b para desplazar el umbral de activación.</text>
+  <rect class="card" x="390" y="468" width="250" height="84" rx="10"/>
+  <text class="stageNo" x="406" y="490">2 · Desplazamiento de sesgo</text>
+  <text class="desc2" x="406" y="508">Añade el sesgo b para desplazar</text>
+  <text class="desc2" x="406" y="525">el umbral de activación.</text>
 
-  <rect class="card" x="660" y="468" width="300" height="64" rx="10"/>
-  <text class="stageNo" x="676" y="496">3 · Activación no lineal</text>
-  <text class="desc2" x="676" y="518">φ(z) curva la recta y produce la salida ŷ.</text>
+  <rect class="card" x="660" y="468" width="300" height="84" rx="10"/>
+  <text class="stageNo" x="676" y="490">3 · Activación no lineal</text>
+  <text class="desc2" x="676" y="516">φ(z) curva la recta y produce la salida ŷ.</text>
 </svg>

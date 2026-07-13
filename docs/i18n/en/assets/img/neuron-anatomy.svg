@@ -79,15 +79,17 @@
   <text class="label" x="906" y="338" text-anchor="middle" font-weight="700">Output</text>
 
   <!-- stage cards -->
-  <rect class="card" x="70" y="468" width="300" height="64" rx="10"/>
-  <text class="stageNo" x="86" y="496">1 · Weighted summation</text>
-  <text class="desc2" x="86" y="518">Each input xⱼ scaled by its weight wⱼ, then summed.</text>
+  <rect class="card" x="70" y="468" width="300" height="84" rx="10"/>
+  <text class="stageNo" x="86" y="490">1 · Weighted summation</text>
+  <text class="desc2" x="86" y="508">Each input x&#11403; scaled by its weight w&#11403;,</text>
+  <text class="desc2" x="86" y="525">then summed.</text>
 
-  <rect class="card" x="390" y="468" width="250" height="64" rx="10"/>
-  <text class="stageNo" x="406" y="496">2 · Bias shift</text>
-  <text class="desc2" x="406" y="518">Add bias b to shift the activation threshold.</text>
+  <rect class="card" x="390" y="468" width="250" height="84" rx="10"/>
+  <text class="stageNo" x="406" y="490">2 · Bias shift</text>
+  <text class="desc2" x="406" y="508">Add bias b to shift</text>
+  <text class="desc2" x="406" y="525">the activation threshold.</text>
 
-  <rect class="card" x="660" y="468" width="300" height="64" rx="10"/>
-  <text class="stageNo" x="676" y="496">3 · Non-linear activation</text>
-  <text class="desc2" x="676" y="518">φ(z) bends the line and produces output ŷ.</text>
+  <rect class="card" x="660" y="468" width="300" height="84" rx="10"/>
+  <text class="stageNo" x="676" y="490">3 · Non-linear activation</text>
+  <text class="desc2" x="676" y="516">φ(z) bends the line and produces output ŷ.</text>
 </svg>
