@@ -32,8 +32,8 @@
   <path class="arrow" d="M480,436 C515,436 520,480 546,480" marker-end="url(#ah)"/>
 
   <!-- edge labels -->
-  <text class="desc2" x="252" y="232">prior 1%</text>
-  <text class="desc2" x="252" y="392">prior 99%</text>
+  <text class="desc2" x="252" y="232">previo 1%</text>
+  <text class="desc2" x="252" y="392">previo 99%</text>
   <text class="label" x="512" y="118">99%</text>
   <text class="label" x="512" y="262">1%</text>
   <text class="label" x="512" y="368">1%</text>
@@ -41,17 +41,17 @@
 
   <!-- root -->
   <rect class="card" x="70" y="270" width="150" height="70" rx="10" fill="#334155"/>
-  <text class="node" x="145" y="300" text-anchor="middle">Population</text>
-  <text class="count" x="145" y="322" text-anchor="middle">1000 people</text>
+  <text class="node" x="145" y="300" text-anchor="middle">Población</text>
+  <text class="count" x="145" y="322" text-anchor="middle">1000 personas</text>
 
   <!-- level 2 -->
   <rect class="card" x="290" y="150" width="190" height="72" rx="10" fill="#004a99"/>
   <text class="node" x="385" y="180" text-anchor="middle">Enfermos — 1%</text>
-  <text class="count" x="385" y="202" text-anchor="middle">10 people</text>
+  <text class="count" x="385" y="202" text-anchor="middle">10 personas</text>
 
   <rect class="card" x="290" y="400" width="190" height="72" rx="10" fill="#0e7490"/>
   <text class="node" x="385" y="430" text-anchor="middle">Sanos — 99%</text>
-  <text class="count" x="385" y="452" text-anchor="middle">990 people</text>
+  <text class="count" x="385" y="452" text-anchor="middle">990 personas</text>
 
   <!-- level 3 -->
   <rect class="card" x="550" y="110" width="230" height="60" rx="10" fill="#b91c1c"/>
@@ -75,8 +75,8 @@
   <text class="label" x="910" y="182" text-anchor="middle" font-weight="700">Entre ~20 positivos</text>
   <rect x="835" y="205" width="75" height="44" fill="#b91c1c"/>
   <rect x="910" y="205" width="75" height="44" fill="#b45309"/>
-  <text class="count" x="872" y="232" text-anchor="middle">10 sick</text>
-  <text class="count" x="947" y="232" text-anchor="middle">10 well</text>
+  <text class="count" x="872" y="232" text-anchor="middle">10 enfermas</text>
+  <text class="count" x="947" y="232" text-anchor="middle">10 sanas</text>
   <text class="desc2" x="910" y="278" text-anchor="middle">La mitad de los positivos</text>
   <text class="desc2" x="910" y="298" text-anchor="middle">corresponde a personas sanas.</text>
   <text class="title" x="910" y="360" text-anchor="middle" font-size="22">P(D | +)</text>
