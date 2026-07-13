@@ -1,0 +1,82 @@
+# 09. Cierre y Proximos Pasos
+
+Este modulo resume lo aprendido en Machine Learning 101 y define un plan practico para continuar.
+
+## Enlaces Rapidos
+
+- Fundamentos de modelos: [Modulo 01](01-machine-learning-basics.md)
+- Construccion y evaluacion: [Modulo 05](05-build-your-first-model.md)
+- Deploy y scoring: [Modulo 06](06-deploy-and-score.md)
+
+![Tipos de objetivos ML](../assets/img/types_of_ml_based_in_objective.svg)
+
+## Lo Que Ya Comprendes
+
+### Fundamentos ML
+
+- ML aprende patrones en datos.
+- Hay aprendizaje supervisado, no supervisado y por refuerzo.
+- Todo proyecto usa features y target.
+- La calidad del dato define la calidad del modelo.
+
+### Plataforma Azure ML
+
+- Workspace como contenedor central.
+- Assets: datos, environment, jobs, modelos, endpoints.
+- Versionado y historial completo del proyecto.
+- Training y deployment son etapas diferentes.
+
+### Construccion de Modelo
+
+- Limpiar, codificar y dividir datos antes de entrenar.
+- Modelos iniciales: Linear Regression, Decision Trees, Random Forest.
+- Metricas: MAE, RMSE, R2, Accuracy, Precision, Recall.
+- Overfitting y underfitting como señales de ajuste.
+
+### Deploy y Operacion
+
+- Endpoint recibe requests HTTP y devuelve predicciones.
+- Online para tiempo real, batch para grandes volumenes.
+- Monitoreo para detectar caidas de calidad y drift.
+- Terraform para infraestructura repetible.
+
+## Autoevaluacion
+
+1. Diferencia entre feature y target con ejemplo.
+2. Por que usar train/test split.
+3. Como reconocer overfitting.
+4. Que ocurre dentro de un endpoint.
+5. Por que environment mejora reproducibilidad.
+6. Cuando usar `terraform destroy`.
+
+## Proximos Pasos
+
+### Practica Inmediata
+
+1. Construir un proyecto completo de punta a punta.
+2. Usar dataset nuevo.
+3. Documentar decisiones tecnicas.
+
+### Plan Semanal para Principiantes
+
+1. Dia 1: definir problema y target.
+2. Dia 2: preparar datos y split.
+3. Dia 3: entrenar baseline y medir.
+4. Dia 4: mejorar features o modelo.
+5. Dia 5: desplegar endpoint y probar.
+6. Dia 6-7: revisar resultados y mejoras.
+
+### Recursos
+
+- [Azure ML Documentation](https://learn.microsoft.com/azure/machine-learning/)
+- [Terraform Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest)
+- [Microsoft Fabric Documentation](https://learn.microsoft.com/fabric/)
+
+![Estrategias de release](../assets/img/release-strategies.svg)
+
+## Perspectiva Final
+
+ML busca decisiones utiles y confiables en produccion.
+No gana el modelo mas complejo; gana el que generaliza mejor y se mantiene estable en el tiempo.
+
+![Timeline de evolucion ML](../assets/img/ml-evolution-timeline.svg)

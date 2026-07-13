@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="440" viewBox="0 0 1100 440" role="img" aria-labelledby="title">
+  <title id="title">Tres Tipos de Machine Learning</title>
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .card-s { fill: #eff6ff; stroke: #93c5fd; stroke-width: 2; }
+      .card-u { fill: #f0fdf4; stroke: #6ee7b7; stroke-width: 2; }
+      .card-r { fill: #fdf4ff; stroke: #d8b4fe; stroke-width: 2; }
+      .bar-s { fill: #3b82f6; }
+      .bar-u { fill: #22c55e; }
+      .bar-r { fill: #a855f7; }
+      .h1 { font-family: Segoe UI, Arial, sans-serif; font-size: 26px; font-weight: 700; fill: #0f172a; }
+      .h2 { font-family: Segoe UI, Arial, sans-serif; font-size: 18px; font-weight: 700; }
+      .body { font-family: Segoe UI, Arial, sans-serif; font-size: 14px; fill: #334155; }
+      .small { font-family: Segoe UI, Arial, sans-serif; font-size: 13px; fill: #475569; }
+      .example-box { fill: #ffffff; stroke: #e2e8f0; stroke-width: 1.2; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1100" height="440"/>
+  <text class="h1" x="550" y="44" text-anchor="middle">Tres Tipos de Machine Learning</text>
+
+  <!-- Supervised -->
+  <rect class="card-s" x="30" y="70" width="330" height="350" rx="14"/>
+  <rect class="bar-s" x="30" y="70" width="330" height="44" rx="14"/>
+  <text class="h2" x="195" y="100" text-anchor="middle" fill="white">Aprendizaje Supervisado</text>
+  <text class="body" x="55" y="140">Training data has correct answers.</text>
+  <text class="body" x="55" y="162">The model learns from labeled examples.</text>
+  <rect class="example-box" x="50" y="180" width="290" height="120" rx="8"/>
+  <text class="small" x="70" y="206">Example: Email spam detection.</text>
+  <text class="small" x="70" y="228">Each training email is labeled:</text>
+  <text class="small" x="70" y="250">  "spam" or "not spam"</text>
+  <text class="small" x="70" y="272">The model learns what patterns</text>
+  <text class="small" x="70" y="290">are associated with spam.</text>
+  <text class="body" x="55" y="330">Common tasks:</text>
+  <text class="small" x="70" y="352">• Classification (spam / not spam)</text>
+  <text class="small" x="70" y="374">• Regression (predict a number)</text>
+
+  <!-- Unsupervised -->
+  <rect class="card-u" x="385" y="70" width="330" height="350" rx="14"/>
+  <rect class="bar-u" x="385" y="70" width="330" height="44" rx="14"/>
+  <text class="h2" x="550" y="100" text-anchor="middle" fill="white">Aprendizaje No Supervisado</text>
+  <text class="body" x="410" y="140">Training data has no correct answers.</text>
+  <text class="body" x="410" y="162">The model discovers structure on its own.</text>
+  <rect class="example-box" x="405" y="180" width="290" height="120" rx="8"/>
+  <text class="small" x="425" y="206">Example: Customer grouping.</text>
+  <text class="small" x="425" y="228">Given purchase histories with no labels,</text>
+  <text class="small" x="425" y="250">the model finds natural groups like:</text>
+  <text class="small" x="425" y="272">  "frequent buyers" or "casual shoppers".</text>
+  <text class="small" x="425" y="290">No-one told it what the groups should be.</text>
+  <text class="body" x="410" y="330">Common tasks:</text>
+  <text class="small" x="425" y="352">• Clustering (find groups)</text>
+  <text class="small" x="425" y="374">• Dimensionality reduction</text>
+
+  <!-- Reinforcement -->
+  <rect class="card-r" x="740" y="70" width="330" height="350" rx="14"/>
+  <rect class="bar-r" x="740" y="70" width="330" height="44" rx="14"/>
+  <text class="h2" x="905" y="100" text-anchor="middle" fill="white">Aprendizaje por Refuerzo</text>
+  <text class="body" x="765" y="140">An agent learns by taking actions</text>
+  <text class="body" x="765" y="162">and receiving rewards or penalties.</text>
+  <rect class="example-box" x="760" y="180" width="290" height="120" rx="8"/>
+  <text class="small" x="780" y="206">Example: Game-playing AI.</text>
+  <text class="small" x="780" y="228">The agent tries moves in a game.</text>
+  <text class="small" x="780" y="250">Each good move earns a reward.</text>
+  <text class="small" x="780" y="272">Each bad move earns a penalty.</text>
+  <text class="small" x="780" y="290">Over time, it learns the best strategy.</text>
+  <text class="body" x="765" y="330">Common tasks:</text>
+  <text class="small" x="780" y="352">• Game strategy</text>
+  <text class="small" x="780" y="374">• Robotics and control systems</text>
+</svg>

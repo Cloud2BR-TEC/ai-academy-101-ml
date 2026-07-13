@@ -1,0 +1,46 @@
+version: 1
+name: machine-learning-101-repo-agenda
+scope: backend-only
+published_in_docs: false
+owner: Cloud2BR TEC
+updated: 2026-07-13
+
+goals:
+  - Keep Machine Learning 101 content focused, simple, and accurate.
+  - Maintain module-to-module continuity across theory, platform, and deployment.
+  - Keep visual assets aligned with module numbering and titles.
+
+delivery_sequence:
+  - module: 01
+    title: Machine Learning Basics
+    objective: Build foundational ML intuition and vocabulary.
+  - module: 02
+    title: Azure ML Overview
+    objective: Understand the lifecycle and platform structure.
+  - module: 03
+    title: Workspace and Authoring
+    objective: Navigate workspace components and authoring options.
+  - module: 04
+    title: Assets and Lifecycle
+    objective: Connect data, jobs, models, and endpoints.
+  - module: 05
+    title: Build Your First Model
+    objective: Train, evaluate, and interpret first results.
+  - module: 06
+    title: Deploy and Score
+    objective: Register, deploy, and invoke model endpoints.
+  - module: 07
+    title: Terraform Foundations
+    objective: Use IaC patterns for repeatable setup.
+  - module: 08
+    title: Fabric and AI Integration
+    objective: Explain Fabric and Azure ML integration points.
+  - module: 09
+    title: Wrap-Up and Next Steps
+    objective: Consolidate perspective and define practical next actions.
+
+maintenance_checks:
+  - Validate mkdocs build with strict mode.
+  - Verify all internal links resolve.
+  - Ensure no deprecated naming appears in module titles.
+  - Keep diagrams synchronized with module flow.

@@ -1,6 +1,7 @@
-site_name: "Machine Learning 101 Course"
-site_description: Foundational Azure Machine Learning training for Course 101.
+site_name: "Machine Learning 101"
+site_description: Foundational Azure Machine Learning training.
 site_url: https://cloud2br-tec.github.io/ai-academy-101-ml/
+docs_dir: docs/i18n
 copyright: Copyright &copy; 2026 <a href="https://github.com/Cloud2BR-TEC" target="_blank" rel="noopener">Cloud2BR TEC</a>
 
 theme:
@@ -21,6 +22,19 @@ theme:
 
 plugins:
   - search
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: es
+          name: Espanol
+          build: true
 
 markdown_extensions:
   - admonition
@@ -61,10 +75,8 @@ nav:
   - 06. Deploy and Score: modules/06-deploy-and-score.md
   - 07. Terraform Foundations: modules/07-terraform-foundations.md
   - 08. Fabric and AI Integration: modules/08-fabric-and-ai-integration.md
-  - 09. Course Wrap-Up and Next Steps: modules/09-course-next-steps.md
+  - 09. Wrap-Up and Next Steps: modules/09-wrap-up-and-next-steps.md
   - Reference:
-      - Overview: reference/index.md
-      - School Classroom Guide: reference/school-classroom-guide.md
       - Visual Library: reference/visual-library.md
       - CLI Commands: reference/cli-commands.md
       - Glossary: reference/glossary.md
