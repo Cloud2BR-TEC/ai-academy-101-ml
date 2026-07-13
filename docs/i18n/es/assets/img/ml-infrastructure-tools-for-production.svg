@@ -1,5 +1,5 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="480" viewBox="0 0 1040 480" role="img" aria-labelledby="title desc">
-  <title id="title">Production ML infrastructure stack</title>
+  <title id="title">Pila de infraestructura de ML en producción</title>
   <desc id="desc">La pila de ML de produccion como componentes conectados, donde el registro de modelos es solo una caja entre muchas.</desc>
   <defs>
     <style>
@@ -25,17 +25,17 @@
   <rect class="card" x="40" y="200" width="140" height="150" rx="10" stroke="#004a99" stroke-width="2"/>
   <circle cx="60" cy="220" r="13" fill="#004a99"/>
   <text class="badge" x="60" y="224">1</text>
-  <text class="head" x="110" y="258" fill="#004a99">datos</text>
-  <text class="head" x="110" y="276" fill="#004a99">Ingestion</text>
-  <text class="sub" x="110" y="306">recopilar &amp; land</text>
+  <text class="head" x="110" y="258" fill="#004a99">Ingesta de</text>
+  <text class="head" x="110" y="276" fill="#004a99">datos</text>
+  <text class="sub" x="110" y="306">Recopilar y cargar</text>
   <text class="sub" x="110" y="322">datos crudos</text>
 
   <!-- Box 2 Feature Store -->
   <rect class="card" x="204" y="200" width="140" height="150" rx="10" stroke="#0e7490" stroke-width="2"/>
   <circle cx="224" cy="220" r="13" fill="#0e7490"/>
   <text class="badge" x="224" y="224">2</text>
-  <text class="head" x="274" y="258" fill="#0e7490">característica</text>
-  <text class="head" x="274" y="276" fill="#0e7490">almacén</text>
+  <text class="head" x="274" y="258" fill="#0e7490">Almacén de</text>
+  <text class="head" x="274" y="276" fill="#0e7490">características</text>
   <text class="sub" x="274" y="306">Reutilizable</text>
   <text class="sub" x="274" y="322">conjuntos de características</text>
 
@@ -43,8 +43,8 @@
   <rect class="card" x="368" y="200" width="140" height="150" rx="10" stroke="#b45309" stroke-width="2"/>
   <circle cx="388" cy="220" r="13" fill="#b45309"/>
   <text class="badge" x="388" y="224">3</text>
-  <text class="head" x="438" y="258" fill="#b45309">entrenamiento</text>
-  <text class="head" x="438" y="276" fill="#b45309">orquestación</text>
+  <text class="head" x="438" y="258" fill="#b45309">Orquestación del</text>
+  <text class="head" x="438" y="276" fill="#b45309">entrenamiento</text>
   <text class="sub" x="438" y="306">Pipelines y</text>
   <text class="sub" x="438" y="322">cómputo</text>
 
@@ -52,10 +52,10 @@
   <rect class="card" x="532" y="190" width="140" height="170" rx="10" fill="#f0fdf4" stroke="#15803d" stroke-width="3"/>
   <circle cx="552" cy="212" r="13" fill="#15803d"/>
   <text class="badge" x="552" y="216">4</text>
-  <text class="head" x="602" y="252" fill="#15803d">modelo</text>
-  <text class="head" x="602" y="270" fill="#15803d">registro</text>
-  <text class="sub" x="602" y="300">Versionados</text>
-  <text class="sub" x="602" y="316">modelos</text>
+  <text class="head" x="602" y="252" fill="#15803d">Registro de</text>
+  <text class="head" x="602" y="270" fill="#15803d">modelos</text>
+  <text class="sub" x="602" y="300">Modelos</text>
+  <text class="sub" x="602" y="316">versionados</text>
   <text class="sub" x="602" y="340" font-weight="700" fill="#15803d">el modelo</text>
 
   <!-- Box 5 Servicio -->
@@ -81,5 +81,5 @@
   <line class="arrow" x1="672" y1="275" x2="692" y2="275" marker-end="url(#ah)"/>
   <line class="arrow" x1="836" y1="275" x2="856" y2="275" marker-end="url(#ah)"/>
 
-  <text class="note" x="60" y="420">El modelo es solo una caja entre muchas — el ML de produccion es principalmente la infraestructura circundante.</text>
+  <text class="note" x="60" y="420">El modelo es solo una caja entre muchas — el ML de producción es principalmente la infraestructura circundante.</text>
 </svg>
