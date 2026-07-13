@@ -1,20 +1,20 @@
-# 04. Assets y Ciclo de Vida
+﻿# 04. Assets y Ciclo de Vida
 
 En Azure ML, un **asset** es una pieza versionada y reutilizable del proyecto.
 
-## Enlaces Rapidos
+## Enlaces Rápidos
 
-- Fundamentos de modelos: [Modulo 01](01-machine-learning-basics.md)
-- Workspace y authoring: [Modulo 03](03-workspace-and-authoring.md)
-- Construir modelo: [Modulo 05](05-build-your-first-model.md)
-- Desplegar endpoint: [Modulo 06](06-deploy-and-score.md)
+- Fundamentos de modelos: [Módulo 01](01-machine-learning-basics.md)
+- Workspace y authoring: [Módulo 03](03-workspace-and-authoring.md)
+- Construir modelo: [Módulo 05](05-build-your-first-model.md)
+- Desplegar endpoint: [Módulo 06](06-deploy-and-score.md)
 
-## Por Que Importa
+## Por Qué Importa
 
 Sin gestion de assets no puedes responder:
 
 - Que datos entrenaron el modelo en produccion.
-- Que codigo exacto se ejecuto.
+- Que código exacto se ejecuto.
 - Por que el rendimiento cambio.
 
 ## Cinco Assets Clave
@@ -27,15 +27,15 @@ Referencia versionada al dataset usado en jobs.
 
 ### 2) Environments
 
-Definen paquetes/versiones para ejecucion consistente.
+Definen paquetes/versiones para ejecución consistente.
 
 ### 3) Jobs
 
-Una ejecucion de codigo que registra:
+Una ejecución de código que registra:
 
-- Codigo.
-- Parametros.
-- Metricas.
+- Código.
+- Parámetros.
+- Métricas.
 - Archivos de salida.
 
 ![Pipeline ML](../assets/img/ml-math-pipeline.svg)
@@ -46,7 +46,7 @@ Modelo entrenado y versionado en el registry.
 
 ### 5) Endpoints
 
-API activa asociada a una version concreta del modelo.
+API activa asociada a una versión concreta del modelo.
 
 ## Ciclo de Vida
 
@@ -64,7 +64,7 @@ graph LR
 
 ## Historial del Proyecto (Lineage)
 
-Es el rastro completo desde endpoint hasta datos y codigo de origen.
+Es el rastro completo desde endpoint hasta datos y código de origen.
 Sirve para debug y auditoria.
 
 ![Esquema logico](../assets/img/logic_schema_model_implementation.svg)

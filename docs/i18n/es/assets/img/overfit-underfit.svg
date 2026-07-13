@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="340" viewBox="0 0 1100 340" role="img" aria-labelledby="title">
-  <title id="title">Explicacion de Overfitting y Underfitting</title>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="340" viewBox="0 0 1100 340" role="img" aria-labelledby="title">
+  <title id="title">Explicación de sobreajuste y subajuste</title>
   <defs>
     <style>
       .bg { fill: #f8fafc; }
@@ -21,51 +21,51 @@
   </defs>
 
   <rect class="bg" x="0" y="0" width="1100" height="340"/>
-  <text class="h1" x="550" y="44" text-anchor="middle">Overfitting y Underfitting</text>
-  <text class="body" x="550" y="68" text-anchor="middle" font-size="14" fill="#475569">Los scores de train y test muestran si el modelo aprendio bien.</text>
+  <text class="h1" x="550" y="44" text-anchor="middle">Sobreajuste y Subajuste</text>
+  <text class="body" x="550" y="68" text-anchor="middle" font-size="14" fill="#475569">Los puntajes de entrenamiento y prueba muestran si el modelo aprendió bien.</text>
 
-  <!-- Underfitting -->
+  <!-- Subajuste -->
   <rect class="card-under" x="30" y="85" width="320" height="230" rx="12"/>
   <rect class="bar-under" x="30" y="85" width="320" height="40" rx="12"/>
-  <text class="h2" x="190" y="112" text-anchor="middle" fill="white">Underfitting</text>
-  <text class="body" x="55" y="155">Training score: Low</text>
-  <text class="body" x="55" y="177">Test score: Low</text>
+  <text class="h2" x="190" y="112" text-anchor="middle" fill="white">Subajuste</text>
+  <text class="body" x="55" y="155">puntaje de entrenamiento: Bajo</text>
+  <text class="body" x="55" y="177">puntaje de prueba: Bajo</text>
   <!-- mini bar chart -->
   <rect fill="#fcd34d" x="55" y="200" width="60" height="12" rx="3"/>
   <rect fill="#fcd34d" x="55" y="220" width="50" height="12" rx="3"/>
-  <text class="small" x="125" y="211">Training</text>
-  <text class="small" x="125" y="231">Test</text>
-  <text class="body" x="55" y="265">The model did not learn</text>
-  <text class="body" x="55" y="284">enough. Features may be</text>
-  <text class="body" x="55" y="302">too few or model too simple.</text>
+  <text class="small" x="125" y="211">entrenamiento</text>
+  <text class="small" x="125" y="231">prueba</text>
+  <text class="body" x="55" y="265">el modelo no aprendió</text>
+  <text class="body" x="55" y="284">enough. características may be</text>
+  <text class="body" x="55" y="302">muy poco o un modelo demasiado simple.</text>
 
   <!-- Good Fit -->
   <rect class="card-good" x="390" y="85" width="320" height="230" rx="12"/>
   <rect class="bar-good" x="390" y="85" width="320" height="40" rx="12"/>
   <text class="h2" x="550" y="112" text-anchor="middle" fill="white">Buen Ajuste</text>
-  <text class="body" x="415" y="155">Training score: High</text>
-  <text class="body" x="415" y="177">Test score: High (similar to training)</text>
+  <text class="body" x="415" y="155">puntaje de entrenamiento: Alto</text>
+  <text class="body" x="415" y="177">puntaje de prueba: Alto (similar a entrenamiento)</text>
   <!-- mini bar chart -->
   <rect fill="#22c55e" x="415" y="200" width="120" height="12" rx="3"/>
   <rect fill="#22c55e" x="415" y="220" width="110" height="12" rx="3"/>
-  <text class="small" x="545" y="211">Training</text>
-  <text class="small" x="545" y="231">Test</text>
-  <text class="body" x="415" y="265">The model learned real patterns</text>
-  <text class="body" x="415" y="284">and generalizes well to</text>
-  <text class="body" x="415" y="302">data it has never seen before.</text>
+  <text class="small" x="545" y="211">entrenamiento</text>
+  <text class="small" x="545" y="231">prueba</text>
+  <text class="body" x="415" y="265">el modelo aprendió patrones reales</text>
+  <text class="body" x="415" y="284">y generaliza bien a</text>
+  <text class="body" x="415" y="302">datos que nunca había visto antes.</text>
 
-  <!-- Overfitting -->
+  <!-- Sobreajuste -->
   <rect class="card-over" x="750" y="85" width="320" height="230" rx="12"/>
   <rect class="bar-over" x="750" y="85" width="320" height="40" rx="12"/>
-  <text class="h2" x="910" y="112" text-anchor="middle" fill="white">Overfitting</text>
-  <text class="body" x="775" y="155">Training score: Very high</text>
-  <text class="body" x="775" y="177">Test score: Much lower</text>
+  <text class="h2" x="910" y="112" text-anchor="middle" fill="white">Sobreajuste</text>
+  <text class="body" x="775" y="155">puntaje de entrenamiento: Muy alto</text>
+  <text class="body" x="775" y="177">puntaje de prueba: Mucho menor</text>
   <!-- mini bar chart -->
   <rect fill="#ef4444" x="775" y="200" width="150" height="12" rx="3"/>
   <rect fill="#f87171" x="775" y="220" width="70" height="12" rx="3"/>
-  <text class="small" x="935" y="211">Training</text>
-  <text class="small" x="935" y="231">Test</text>
-  <text class="body" x="775" y="265">The model memorized the training</text>
-  <text class="body" x="775" y="284">data, including its noise.</text>
-  <text class="body" x="775" y="302">It fails on new unseen data.</text>
+  <text class="small" x="935" y="211">entrenamiento</text>
+  <text class="small" x="935" y="231">prueba</text>
+  <text class="body" x="775" y="265">el modelo memorizó el entrenamiento</text>
+  <text class="body" x="775" y="284">datos, including its noise.</text>
+  <text class="body" x="775" y="302">Falla en datos nuevos no vistos.</text>
 </svg>

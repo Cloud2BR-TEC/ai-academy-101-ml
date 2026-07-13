@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="520" viewBox="0 0 1040 520" role="img" aria-labelledby="title desc">
-  <title id="title">API versus Web Service comparison table</title>
-  <desc id="desc">A two-column table comparing an API and a web service across definition, what each describes, and an example.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="520" viewBox="0 0 1040 520" role="img" aria-labelledby="title desc">
+  <title id="title">Tabla comparativa API versus servicio web</title>
+  <desc id="desc">Una tabla de dos columnas que compara una API y un servicio web en definición, alcance y ejemplo.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -13,8 +13,8 @@
     </style>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="520"/>
-  <text class="title" x="60" y="52">API vs Web Service</text>
-  <text class="subtitle" x="60" y="80">A side-by-side comparison</text>
+  <text class="title" x="60" y="52">API vs servicio web</text>
+  <text class="subtitle" x="60" y="80">Comparación lado a lado</text>
 
   <!-- table area: x 40..1000, three columns: label 40-280, API 280-640, WebSvc 640-1000 -->
   <!-- header row -->
@@ -22,42 +22,42 @@
   <rect x="280" y="120" width="360" height="60" rx="0" fill="#004a99"/>
   <rect x="640" y="120" width="360" height="60" rx="0" fill="#15803d"/>
   <text class="colhead" x="460" y="157">API</text>
-  <text class="colhead" x="820" y="157">Web Service</text>
+  <text class="colhead" x="820" y="157">Servicio web</text>
 
   <!-- Row 1: Definition -->
   <rect x="40" y="180" width="240" height="100" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
   <rect x="280" y="180" width="360" height="100" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
   <rect x="640" y="180" width="360" height="100" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
-  <text class="rowlabel" x="60" y="234">Definition</text>
-  <text class="cell" x="300" y="220">The contract that defines</text>
-  <text class="cell" x="300" y="242">how to interact — what to</text>
-  <text class="cell" x="300" y="264">send and what to expect.</text>
-  <text class="cell" x="660" y="220">The hosted, running</text>
-  <text class="cell" x="660" y="242">implementation that</text>
-  <text class="cell" x="660" y="264">fulfils the contract.</text>
+  <text class="rowlabel" x="60" y="234">Definición</text>
+  <text class="cell" x="300" y="220">el contrato que define</text>
+  <text class="cell" x="300" y="242">cómo interactuar: qué</text>
+  <text class="cell" x="300" y="264">enviar y qué esperar.</text>
+  <text class="cell" x="660" y="220">la implementación</text>
+  <text class="cell" x="660" y="242">alojada y en ejecución</text>
+  <text class="cell" x="660" y="264">que cumple el contrato.</text>
 
   <!-- Row 2: What it describes -->
   <rect x="40" y="280" width="240" height="110" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
   <rect x="280" y="280" width="360" height="110" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
   <rect x="640" y="280" width="360" height="110" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
-  <text class="rowlabel" x="60" y="328">What it</text>
-  <text class="rowlabel" x="60" y="350">describes</text>
-  <text class="cell" x="300" y="316">Request / response schema,</text>
-  <text class="cell" x="300" y="340">authentication, data types</text>
-  <text class="cell" x="300" y="364">and versioning rules.</text>
-  <text class="cell" x="660" y="316">A running deployment with</text>
-  <text class="cell" x="660" y="340">compute, replicas and the</text>
-  <text class="cell" x="660" y="364">code that executes logic.</text>
+  <text class="rowlabel" x="60" y="328">Qué</text>
+  <text class="rowlabel" x="60" y="350">describe</text>
+  <text class="cell" x="300" y="316">Esquema de solicitud/respuesta,</text>
+  <text class="cell" x="300" y="340">authentication, datos types</text>
+  <text class="cell" x="300" y="364">y reglas de versionado.</text>
+  <text class="cell" x="660" y="316">A running despliegue con</text>
+  <text class="cell" x="660" y="340">cómputo, replicas y el</text>
+  <text class="cell" x="660" y="364">código que ejecuta la lógica.</text>
 
   <!-- Row 3: Example -->
   <rect x="40" y="390" width="240" height="100" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
   <rect x="280" y="390" width="360" height="100" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
   <rect x="640" y="390" width="360" height="100" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
-  <text class="rowlabel" x="60" y="444">Example</text>
-  <text class="cell" x="300" y="430">"POST /score expects JSON</text>
-  <text class="cell" x="300" y="454">features, returns a label</text>
-  <text class="cell" x="300" y="478">and probability."</text>
-  <text class="cell" x="660" y="430">The Azure ML online</text>
-  <text class="cell" x="660" y="454">endpoint actually hosting</text>
-  <text class="cell" x="660" y="478">and serving that model.</text>
+  <text class="rowlabel" x="60" y="444">Ejemplo</text>
+  <text class="cell" x="300" y="430">"POST /score espera JSON con</text>
+  <text class="cell" x="300" y="454">características y devuelve una etiqueta</text>
+  <text class="cell" x="300" y="478">y probabilidad."</text>
+  <text class="cell" x="660" y="430">el endpoint en línea de Azure ML</text>
+  <text class="cell" x="660" y="454">que realmente aloja</text>
+  <text class="cell" x="660" y="478">y sirve ese modelo.</text>
 </svg>

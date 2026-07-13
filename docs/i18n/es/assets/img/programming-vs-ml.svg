@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="380" viewBox="0 0 1100 380" role="img" aria-labelledby="title">
-  <title id="title">Programacion Tradicional vs Machine Learning</title>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="380" viewBox="0 0 1100 380" role="img" aria-labelledby="title">
+  <title id="title">Programación tradicional vs machine learning</title>
   <defs>
     <style>
       .bg { fill: #f8fafc; }
@@ -31,7 +31,7 @@
 
   <!-- Left panel: Traditional Programming -->
   <rect class="box-l" x="30" y="30" width="460" height="320" rx="14"/>
-  <text class="heading head-l" x="260" y="66" text-anchor="middle">Programacion Tradicional</text>
+  <text class="heading head-l" x="260" y="66" text-anchor="middle">Programación tradicional</text>
   <text class="small" x="260" y="88" text-anchor="middle">Tu escribes las reglas</text>
 
   <!-- Input chip -->
@@ -40,10 +40,10 @@
 
   <!-- Rules chip -->
   <rect class="chip chip-mid" x="195" y="105" width="110" height="38"/>
-  <text class="chip-text" x="250" y="125" text-anchor="middle">Rules you</text>
-  <text class="chip-text" x="250" y="141" text-anchor="middle">wrote</text>
+  <text class="chip-text" x="250" y="125" text-anchor="middle">Reglas que</text>
+  <text class="chip-text" x="250" y="141" text-anchor="middle">escribiste</text>
 
-  <!-- Output chip -->
+  <!-- Salida chip -->
   <rect class="chip chip-out" x="330" y="105" width="110" height="38"/>
   <text class="chip-text" x="385" y="129" text-anchor="middle">Salida</text>
 
@@ -55,13 +55,13 @@
   <text class="label" x="60" y="180">Ejemplo:</text>
   <rect class="box" x="60" y="190" width="370" height="100" rx="8"/>
   <text class="small" x="80" y="215">SI correo contiene "dinero gratis"</text>
-  <text class="small" x="80" y="237">   Y remitente desconocido</text>
-  <text class="small" x="80" y="259">   ENTONCES marcar como spam</text>
+  <text class="small" x="80" y="237"> Y remitente desconocido</text>
+  <text class="small" x="80" y="259"> ENTONCES marcar como spam</text>
   <text class="small" x="80" y="278">Debes escribir cada condicion manualmente.</text>
 
   <!-- Right panel: Machine Learning -->
   <rect class="box-r" x="610" y="30" width="460" height="320" rx="14"/>
-  <text class="heading head-r" x="840" y="66" text-anchor="middle">Machine Learning</text>
+  <text class="heading head-r" x="840" y="66" text-anchor="middle">Machine learning</text>
   <text class="small" x="840" y="88" text-anchor="middle">Muestras ejemplos, la computadora encuentra reglas</text>
 
   <!-- Input chip -->
@@ -76,7 +76,7 @@
 
   <!-- Model chip -->
   <rect class="chip chip-out" x="910" y="105" width="110" height="38"/>
-  <text class="chip-text" x="965" y="129" text-anchor="middle">Model</text>
+  <text class="chip-text" x="965" y="129" text-anchor="middle">modelo</text>
 
   <!-- arrows -->
   <line class="arrow" x1="750" y1="124" x2="772" y2="124"/>
@@ -88,7 +88,7 @@
   <text class="small" x="660" y="215">Muestra 10,000 correos: "spam" o "no spam".</text>
   <text class="small" x="660" y="237">El algoritmo estudia patrones en todos ellos.</text>
   <text class="small" x="660" y="259">Construye reglas automaticamente desde ejemplos.</text>
-  <text class="small" x="660" y="278">Evalua correos nuevos sin reglas manuales.</text>
+  <text class="small" x="660" y="278">Evalúa correos nuevos sin reglas manuales.</text>
 
   <!-- VS divider -->
   <line class="divider" x1="550" y1="30" x2="550" y2="350"/>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="520" viewBox="0 0 1040 520" role="img" aria-labelledby="title desc">
-  <title id="title">ML workflow stages with feedback loop</title>
-  <desc id="desc">The machine learning workflow flows from problem framing to monitoring, with monitoring feeding back into data and training.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="520" viewBox="0 0 1040 520" role="img" aria-labelledby="title desc">
+  <title id="title">ML flujo de trabajo stages con feedback loop</title>
+  <desc id="desc">el machine learning flujo de trabajo flows desde problem framing a monitoring, con monitoring feeding back into datos y entrenamiento.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -21,28 +21,28 @@
     </marker>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="520"/>
-  <text class="title" x="60" y="52">The ML Workflow Stages</text>
-  <text class="subtitle" x="60" y="80">An iterative lifecycle — monitoring feeds learnings back into data and training</text>
+  <text class="title" x="60" y="52">el ML flujo de trabajo Stages</text>
+  <text class="subtitle" x="60" y="80">An iterative lifecycle — monitoring feeds learnings back into datos y entrenamiento</text>
 
   <!-- 6 stage cards -->
-  <!-- 1 Problem Framing -->
+  <!-- 1 Problem Definición -->
   <rect class="card" x="40" y="180" width="140" height="100" rx="10"/>
   <rect x="40" y="180" width="140" height="34" rx="10" fill="#004a99"/>
   <text class="head" x="110" y="202">Problem</text>
   <text class="sub" x="110" y="244">Define goal</text>
-  <text class="sub" x="110" y="262">&amp; metrics</text>
+  <text class="sub" x="110" y="262">&amp; métricas</text>
 
   <!-- 2 Data -->
   <rect class="card" x="204" y="180" width="140" height="100" rx="10"/>
   <rect x="204" y="180" width="140" height="34" rx="10" fill="#0e7490"/>
-  <text class="head" x="274" y="202">Data</text>
-  <text class="sub" x="274" y="244">Collect &amp;</text>
+  <text class="head" x="274" y="202">datos</text>
+  <text class="sub" x="274" y="244">recopilar &amp;</text>
   <text class="sub" x="274" y="262">prepare</text>
 
-  <!-- 3 Training -->
+  <!-- 3 Entrenaring -->
   <rect class="card" x="368" y="180" width="140" height="100" rx="10"/>
   <rect x="368" y="180" width="140" height="34" rx="10" fill="#b45309"/>
-  <text class="head" x="438" y="202">Training</text>
+  <text class="head" x="438" y="202">entrenamiento</text>
   <text class="sub" x="438" y="244">Fit &amp;</text>
   <text class="sub" x="438" y="262">evaluate</text>
 
@@ -51,19 +51,19 @@
   <rect x="532" y="180" width="140" height="34" rx="10" fill="#15803d"/>
   <text class="head" x="602" y="202">Registration</text>
   <text class="sub" x="602" y="244">Version &amp;</text>
-  <text class="sub" x="602" y="262">store model</text>
+  <text class="sub" x="602" y="262">store modelo</text>
 
   <!-- 5 Deployment -->
   <rect class="card" x="696" y="180" width="140" height="100" rx="10"/>
   <rect x="696" y="180" width="140" height="34" rx="10" fill="#64748b"/>
-  <text class="head" x="766" y="202">Deployment</text>
+  <text class="head" x="766" y="202">despliegue</text>
   <text class="sub" x="766" y="244">Serve as</text>
   <text class="sub" x="766" y="262">endpoint</text>
 
-  <!-- 6 Monitoring -->
+  <!-- 6 Monitorearing -->
   <rect class="card" x="860" y="180" width="140" height="100" rx="10"/>
   <rect x="860" y="180" width="140" height="34" rx="10" fill="#004a99"/>
-  <text class="head" x="930" y="202">Monitoring</text>
+  <text class="head" x="930" y="202">Monitorearing</text>
   <text class="sub" x="930" y="244">Drift &amp;</text>
   <text class="sub" x="930" y="262">quality</text>
 
@@ -74,8 +74,8 @@
   <line class="arrow" x1="672" y1="230" x2="692" y2="230" marker-end="url(#ah)"/>
   <line class="arrow" x1="836" y1="230" x2="856" y2="230" marker-end="url(#ah)"/>
 
-  <!-- feedback loop from Monitoring back to Data/Training -->
+  <!-- feedback loop from Monitorearing back to Data/Entrenaring -->
   <path class="loop" d="M930 280 L930 400 L274 400 L274 284" marker-end="url(#ao)"/>
   <path class="loop" d="M620 400 L438 400 L438 284" marker-end="url(#ao)"/>
-  <text class="looplbl" x="600" y="430">Feedback loop: insights from monitoring drive new data &amp; retraining</text>
+  <text class="looplbl" x="600" y="430">Feedback loop: insights desde monitoring drive new datos &amp; reentrenamiento</text>
 </svg>

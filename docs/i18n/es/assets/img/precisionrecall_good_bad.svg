@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
-  <title id="title">Precision-recall curves — good vs bad</title>
-  <desc id="desc">Two precision-recall curves on one set of axes: a good model that keeps precision high as recall increases, and a weak model whose precision drops quickly.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
+  <title id="title">Curvas precisión-recall — bueno vs malo</title>
+  <desc id="desc">Dos curvas de precisión-recall en un mismo eje: un modelo bueno que mantiene alta la precisión mientras sube el recall y un modelo débil cuya precisión cae rápidamente.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -20,8 +20,8 @@
     </style>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="560"/>
-  <text class="title" x="60" y="52">Precision-recall curves — good vs bad</text>
-  <text class="subtitle" x="60" y="80">A good model holds precision high as recall grows; a weak one falls away fast.</text>
+  <text class="title" x="60" y="52">Curvas precisión-recall — bueno vs malo</text>
+  <text class="subtitle" x="60" y="80">Un modelo bueno mantiene alta la precisión mientras crece el recall; uno débil cae rápidamente.</text>
 
   <!-- Chart card -->
   <rect class="card" x="100" y="108" width="560" height="432" rx="12"/>
@@ -46,7 +46,7 @@
   <text class="axislbl" x="400" y="522" text-anchor="middle">Recall</text>
   <text class="axislbl" x="124" y="300" text-anchor="middle" transform="rotate(-90 124 300)">Precision</text>
 
-  <!-- Prevalence baseline -->
+  <!-- Línea base de prevalencia -->
   <line class="ref" x1="160" y1="385" x2="640" y2="385"/>
 
   <!-- Bad curve (drops fast) -->
@@ -58,22 +58,22 @@
   <rect class="card" x="700" y="150" width="280" height="346" rx="10"/>
   <rect x="700" y="150" width="280" height="40" rx="10" fill="#004a99"/>
   <rect x="700" y="170" width="280" height="20" fill="#004a99"/>
-  <text class="cardhead" x="722" y="177" fill="#ffffff">How to read it</text>
+  <text class="cardhead" x="722" y="177" fill="#ffffff">Cómo leerlo</text>
 
   <line x1="722" y1="226" x2="762" y2="226" stroke="#15803d" stroke-width="4" stroke-linecap="round"/>
-  <text class="label" x="772" y="231" fill="#15803d">Good model</text>
+  <text class="label" x="772" y="231" fill="#15803d">Modelo bueno</text>
   <text class="desc2" x="722" y="254">Precision stays high while recall grows.</text>
   <text class="desc2" x="722" y="274">High average precision (AP).</text>
 
   <line x1="722" y1="316" x2="762" y2="316" stroke="#b91c1c" stroke-width="4" stroke-linecap="round"/>
-  <text class="label" x="772" y="321" fill="#b91c1c">Weak model</text>
+  <text class="label" x="772" y="321" fill="#b91c1c">Modelo débil</text>
   <text class="desc2" x="722" y="344">Precision collapses as recall rises.</text>
-  <text class="desc2" x="722" y="364">Many false positives slip in.</text>
+  <text class="desc2" x="722" y="364">Many false positives slip en.</text>
 
   <line x1="722" y1="406" x2="762" y2="406" stroke="#94a3b8" stroke-width="2.5" stroke-dasharray="6 6"/>
-  <text class="label" x="772" y="411" fill="#64748b">Prevalence baseline</text>
-  <text class="desc2" x="722" y="434">Precision of a random classifier.</text>
+  <text class="label" x="772" y="411" fill="#64748b">Línea base de prevalencia</text>
+  <text class="desc2" x="722" y="434">Precision de a aleatorio classifier.</text>
 
   <rect x="716" y="452" width="248" height="32" rx="8" fill="#eef2f7"/>
-  <text class="desc2" x="728" y="473">Best for imbalanced positive classes.</text>
+  <text class="desc2" x="728" y="473">Ideal para clases positivas desbalanceadas.</text>
 </svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="440" viewBox="0 0 1100 440" role="img" aria-labelledby="title">
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="440" viewBox="0 0 1100 440" role="img" aria-labelledby="title">
   <title id="title">Tres Tipos de Machine Learning</title>
   <defs>
     <style>
@@ -24,47 +24,47 @@
   <rect class="card-s" x="30" y="70" width="330" height="350" rx="14"/>
   <rect class="bar-s" x="30" y="70" width="330" height="44" rx="14"/>
   <text class="h2" x="195" y="100" text-anchor="middle" fill="white">Aprendizaje Supervisado</text>
-  <text class="body" x="55" y="140">Training data has correct answers.</text>
-  <text class="body" x="55" y="162">The model learns from labeled examples.</text>
+  <text class="body" x="55" y="140">Los datos de entrenamiento tienen respuestas correctas.</text>
+  <text class="body" x="55" y="162">El modelo aprende a partir de ejemplos etiquetados.</text>
   <rect class="example-box" x="50" y="180" width="290" height="120" rx="8"/>
-  <text class="small" x="70" y="206">Example: Email spam detection.</text>
-  <text class="small" x="70" y="228">Each training email is labeled:</text>
-  <text class="small" x="70" y="250">  "spam" or "not spam"</text>
-  <text class="small" x="70" y="272">The model learns what patterns</text>
-  <text class="small" x="70" y="290">are associated with spam.</text>
-  <text class="body" x="55" y="330">Common tasks:</text>
-  <text class="small" x="70" y="352">• Classification (spam / not spam)</text>
-  <text class="small" x="70" y="374">• Regression (predict a number)</text>
+  <text class="small" x="70" y="206">Ejemplo: detección de correo spam.</text>
+  <text class="small" x="70" y="228">Cada correo de entrenamiento está etiquetado:</text>
+  <text class="small" x="70" y="250"> "spam" o "no spam"</text>
+  <text class="small" x="70" y="272">El modelo aprende qué patrones</text>
+  <text class="small" x="70" y="290">están asociados con spam.</text>
+  <text class="body" x="55" y="330">Tareas comunes:</text>
+  <text class="small" x="70" y="352">• Clasificación (spam / no spam)</text>
+  <text class="small" x="70" y="374">• Regresión (predecir un número)</text>
 
   <!-- Unsupervised -->
   <rect class="card-u" x="385" y="70" width="330" height="350" rx="14"/>
   <rect class="bar-u" x="385" y="70" width="330" height="44" rx="14"/>
   <text class="h2" x="550" y="100" text-anchor="middle" fill="white">Aprendizaje No Supervisado</text>
-  <text class="body" x="410" y="140">Training data has no correct answers.</text>
-  <text class="body" x="410" y="162">The model discovers structure on its own.</text>
+  <text class="body" x="410" y="140">Los datos de entrenamiento no tienen respuestas correctas.</text>
+  <text class="body" x="410" y="162">El modelo descubre estructura por sí mismo.</text>
   <rect class="example-box" x="405" y="180" width="290" height="120" rx="8"/>
-  <text class="small" x="425" y="206">Example: Customer grouping.</text>
-  <text class="small" x="425" y="228">Given purchase histories with no labels,</text>
-  <text class="small" x="425" y="250">the model finds natural groups like:</text>
-  <text class="small" x="425" y="272">  "frequent buyers" or "casual shoppers".</text>
-  <text class="small" x="425" y="290">No-one told it what the groups should be.</text>
-  <text class="body" x="410" y="330">Common tasks:</text>
-  <text class="small" x="425" y="352">• Clustering (find groups)</text>
+  <text class="small" x="425" y="206">Ejemplo: agrupación de clientes.</text>
+  <text class="small" x="425" y="228">Con historiales de compra sin etiquetas,</text>
+  <text class="small" x="425" y="250">el modelo encuentra grupos naturales como:</text>
+  <text class="small" x="425" y="272"> "compradores frecuentes" o "compradores ocasionales".</text>
+  <text class="small" x="425" y="290">Nadie le indicó cuáles debían ser los grupos.</text>
+  <text class="body" x="410" y="330">Tareas comunes:</text>
+  <text class="small" x="425" y="352">• Clustering (encontrar grupos)</text>
   <text class="small" x="425" y="374">• Dimensionality reduction</text>
 
   <!-- Reinforcement -->
   <rect class="card-r" x="740" y="70" width="330" height="350" rx="14"/>
   <rect class="bar-r" x="740" y="70" width="330" height="44" rx="14"/>
   <text class="h2" x="905" y="100" text-anchor="middle" fill="white">Aprendizaje por Refuerzo</text>
-  <text class="body" x="765" y="140">An agent learns by taking actions</text>
-  <text class="body" x="765" y="162">and receiving rewards or penalties.</text>
+  <text class="body" x="765" y="140">Un agente aprende tomando acciones</text>
+  <text class="body" x="765" y="162">y receiving rewards or penalties.</text>
   <rect class="example-box" x="760" y="180" width="290" height="120" rx="8"/>
-  <text class="small" x="780" y="206">Example: Game-playing AI.</text>
-  <text class="small" x="780" y="228">The agent tries moves in a game.</text>
-  <text class="small" x="780" y="250">Each good move earns a reward.</text>
-  <text class="small" x="780" y="272">Each bad move earns a penalty.</text>
-  <text class="small" x="780" y="290">Over time, it learns the best strategy.</text>
-  <text class="body" x="765" y="330">Common tasks:</text>
-  <text class="small" x="780" y="352">• Game strategy</text>
-  <text class="small" x="780" y="374">• Robotics and control systems</text>
+  <text class="small" x="780" y="206">Ejemplo: IA para jugar juegos.</text>
+  <text class="small" x="780" y="228">El agente prueba movimientos en un juego.</text>
+  <text class="small" x="780" y="250">Each bueno move earns a reward.</text>
+  <text class="small" x="780" y="272">Each malo move earns a penalty.</text>
+  <text class="small" x="780" y="290">Con el tiempo, aprende la mejor estrategia.</text>
+  <text class="body" x="765" y="330">Tareas comunes:</text>
+  <text class="small" x="780" y="352">• Estrategia de juego</text>
+  <text class="small" x="780" y="374">• Robotics y control systems</text>
 </svg>

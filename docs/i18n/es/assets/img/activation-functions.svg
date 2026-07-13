@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
-  <title id="title">Common activation functions</title>
-  <desc id="desc">Line chart of Sigmoid, Tanh, ReLU, and Leaky ReLU plotted against the pre-activation z from minus four to four.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
+  <title id="title">Common activación functions</title>
+  <desc id="desc">Line chart de Sigmoid, Tanh, ReLU, y Leaky ReLU plotted against el pre-activación z desde minus four a four.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -19,8 +19,8 @@
     </style>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="560"/>
-  <text class="title" x="60" y="52">Common activation functions</text>
-  <text class="subtitle" x="60" y="80">Each curve squashes the pre-activation z differently; the chosen non-linearity shapes how the network learns.</text>
+  <text class="title" x="60" y="52">Common activación functions</text>
+  <text class="subtitle" x="60" y="80">Each curve squashes el pre-activación z differently; el chosen non-linearity shapes how el network learns.</text>
 
   <!-- plot card -->
   <rect class="card" x="60" y="110" width="700" height="410" rx="10"/>
@@ -37,7 +37,7 @@
   <line class="axis" x1="120" y1="370" x2="740" y2="370"/>
   <line class="axis" x1="520" y1="140" x2="520" y2="500"/>
   <text class="axis-label" x="730" y="392" text-anchor="end">z</text>
-  <text class="axis-label" x="500" y="150" text-anchor="end">output</text>
+  <text class="axis-label" x="500" y="150" text-anchor="end">salida</text>
 
   <!-- z ticks -->
   <text class="tick" x="140" y="388" text-anchor="middle">-4</text>

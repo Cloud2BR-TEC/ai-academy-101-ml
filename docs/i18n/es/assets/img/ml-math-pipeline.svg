@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="520" viewBox="0 0 1040 520" role="img" aria-labelledby="title desc">
-  <title id="title">The five mathematical components of a model</title>
-  <desc id="desc">A model is a function whose parameters are chosen by an optimizer to minimize a loss, kept honest by regularization, and turned into decisions via probabilities and thresholds.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="520" viewBox="0 0 1040 520" role="img" aria-labelledby="title desc">
+  <title id="title">el five mathematical components de a modelo</title>
+  <desc id="desc">A modelo is a function whose parameters are chosen by an optimizer a minimize a loss, kept honest by regularization, y turned into decisions via probabilities y thresholds.</desc>
 
   <defs>
     <style>
@@ -25,16 +25,16 @@
   </defs>
 
   <rect class="bg" x="0" y="0" width="1040" height="520"/>
-  <text class="title" x="60" y="52">How the five pieces fit together</text>
-  <text class="subtitle" x="60" y="80">Every model on this page is a specific choice of these five building blocks.</text>
+  <text class="title" x="60" y="52">How el five pieces fit together</text>
+  <text class="subtitle" x="60" y="80">Every modelo en this page is a specific choice de these five building blocks.</text>
 
   <!-- Box 1: function -->
   <rect class="box" x="40" y="150" width="170" height="150" rx="12"/>
   <text class="htxt" x="125" y="180" text-anchor="middle">1. Function</text>
-  <text class="btxt" x="125" y="206" text-anchor="middle">f(x) with weights</text>
-  <text class="btxt" x="125" y="224" text-anchor="middle">maps input to output</text>
+  <text class="btxt" x="125" y="206" text-anchor="middle">f(x) con weights</text>
+  <text class="btxt" x="125" y="224" text-anchor="middle">maps entrada a salida</text>
   <text class="vtxt" x="125" y="276" text-anchor="middle">Value: stores</text>
-  <text class="vtxt" x="125" y="292" text-anchor="middle">what was learned</text>
+  <text class="vtxt" x="125" y="292" text-anchor="middle">lo que se aprendió</text>
 
   <!-- Box 2: loss -->
   <rect class="box" x="240" y="150" width="170" height="150" rx="12"/>
@@ -48,7 +48,7 @@
   <rect class="box" x="440" y="150" width="170" height="150" rx="12"/>
   <text class="htxt" x="525" y="180" text-anchor="middle">3. Optimizer</text>
   <text class="btxt" x="525" y="206" text-anchor="middle">steps downhill</text>
-  <text class="btxt" x="525" y="224" text-anchor="middle">tunes the weights</text>
+  <text class="btxt" x="525" y="224" text-anchor="middle">tunes el weights</text>
   <text class="vtxt" x="525" y="276" text-anchor="middle">Value: makes</text>
   <text class="vtxt" x="525" y="292" text-anchor="middle">learning possible</text>
 
@@ -57,14 +57,14 @@
   <text class="htxt" x="725" y="180" text-anchor="middle">4. Regularize</text>
   <text class="btxt" x="725" y="206" text-anchor="middle">keep it simple</text>
   <text class="btxt" x="725" y="224" text-anchor="middle">stop it memorizing</text>
-  <text class="vtxt" x="725" y="276" text-anchor="middle">Value: works on</text>
-  <text class="vtxt" x="725" y="292" text-anchor="middle">new data too</text>
+  <text class="vtxt" x="725" y="276" text-anchor="middle">Value: works en</text>
+  <text class="vtxt" x="725" y="292" text-anchor="middle">new datos too</text>
 
   <!-- Box 5: decision -->
   <rect class="boxalt" x="840" y="150" width="170" height="150" rx="12"/>
   <text class="htxt" x="925" y="180" text-anchor="middle">5. Decide</text>
   <text class="btxt" x="925" y="206" text-anchor="middle">probability + cut-off</text>
-  <text class="btxt" x="925" y="224" text-anchor="middle">score to action</text>
+  <text class="btxt" x="925" y="224" text-anchor="middle">score a action</text>
   <text class="vtxt" x="925" y="276" text-anchor="middle">Value: smarter</text>
   <text class="vtxt" x="925" y="292" text-anchor="middle">yes/no calls</text>
 
@@ -76,7 +76,7 @@
 
   <!-- feedback loop optimizer -> function -->
   <path class="feedback" d="M525,300 L525,360 L125,360 L125,302" marker-end="url(#fb)"/>
-  <text class="fbtxt" x="325" y="382" text-anchor="middle">repeat: update weights to lower the loss (training loop)</text>
+  <text class="fbtxt" x="325" y="382" text-anchor="middle">repetir: actualizar weights a lower el loss (entrenamiento loop)</text>
 
-  <text class="btxt" x="60" y="450" fill="#475569">Boxes 1 to 4 happen at training time. Box 5 happens at prediction time, where the math becomes a real decision.</text>
+  <text class="btxt" x="60" y="450" fill="#475569">Boxes 1 a 4 happen at entrenamiento time. Box 5 happens at predicción time, where el math becomes a real decisión.</text>
 </svg>

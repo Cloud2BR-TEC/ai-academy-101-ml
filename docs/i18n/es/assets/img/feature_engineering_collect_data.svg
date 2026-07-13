@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="480" viewBox="0 0 1040 480" role="img" aria-labelledby="title desc">
-  <title id="title">Feature engineering while collecting data</title>
-  <desc id="desc">Collected data is split into train and test; feature transforms such as scaling, encoding and aggregates are fit on the train split only, then applied to the test split to prevent leakage.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="480" viewBox="0 0 1040 480" role="img" aria-labelledby="title desc">
+  <title id="title">Ingeniería de características al recopilar datos</title>
+  <desc id="desc">Los datos recopilados se dividen en entrenamiento y prueba; las transformaciones de características como escalado, codificación y agregados se ajustan solo en la partición de entrenamiento y luego se aplican a la partición de prueba para evitar fugas de datos.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -22,30 +22,30 @@
     <marker id="ao" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#b45309"/></marker>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="480"/>
-  <text class="title" x="60" y="52">Feature engineering while collecting data</text>
-  <text class="subtitle" x="60" y="80">Fit transforms on the TRAIN split only, then apply the same fitted transforms to Test.</text>
+  <text class="title" x="60" y="52">Ingeniería de características al recopilar datos</text>
+  <text class="subtitle" x="60" y="80">Ajusta transformaciones solo en entrenamiento, luego aplica esas mismas transformaciones a prueba.</text>
 
-  <!-- Collected data -->
+  <!-- Datos recopilados -->
   <rect class="card" x="50" y="205" width="150" height="100" rx="10" stroke="#64748b"/>
   <rect x="50" y="205" width="150" height="34" rx="10" fill="#64748b"/>
   <rect x="50" y="222" width="150" height="17" fill="#64748b"/>
-  <text class="node" x="125" y="228" text-anchor="middle">Collected data</text>
-  <text class="desc2" x="125" y="265" text-anchor="middle">Raw rows &amp;</text>
-  <text class="desc2" x="125" y="282" text-anchor="middle">columns</text>
+  <text class="node" x="125" y="228" text-anchor="middle">Datos recopilados</text>
+  <text class="desc2" x="125" y="265" text-anchor="middle">Filas crudas y</text>
+  <text class="desc2" x="125" y="282" text-anchor="middle">columnas</text>
 
-  <!-- Train -->
+  <!-- Entrenar -->
   <rect class="card" x="320" y="150" width="150" height="64" rx="10" stroke="#15803d"/>
   <rect x="320" y="150" width="150" height="30" rx="10" fill="#15803d"/>
   <rect x="320" y="165" width="150" height="15" fill="#15803d"/>
-  <text class="node" x="395" y="171" text-anchor="middle">Train split</text>
-  <text class="desc2" x="395" y="201" text-anchor="middle">fit + transform</text>
+  <text class="node" x="395" y="171" text-anchor="middle">Partición de entrenamiento</text>
+  <text class="desc2" x="395" y="201" text-anchor="middle">ajustar + transformar</text>
 
   <!-- Test -->
   <rect class="card" x="320" y="296" width="150" height="64" rx="10" stroke="#b45309"/>
   <rect x="320" y="296" width="150" height="30" rx="10" fill="#b45309"/>
   <rect x="320" y="311" width="150" height="15" fill="#b45309"/>
-  <text class="node" x="395" y="317" text-anchor="middle">Test split</text>
-  <text class="desc2" x="395" y="347" text-anchor="middle">transform only</text>
+  <text class="node" x="395" y="317" text-anchor="middle">Partición de prueba</text>
+  <text class="desc2" x="395" y="347" text-anchor="middle">solo transformar</text>
 
   <!-- Data to splits -->
   <path class="arrow" d="M200,240 C260,220 270,190 318,182" marker-end="url(#ah)"/>
@@ -55,34 +55,34 @@
   <rect class="card" x="540" y="170" width="250" height="220" rx="10" stroke="#004a99"/>
   <rect x="540" y="170" width="250" height="36" rx="10" fill="#004a99"/>
   <rect x="540" y="188" width="250" height="18" fill="#004a99"/>
-  <text class="node" x="665" y="195" text-anchor="middle">Feature transforms</text>
+  <text class="node" x="665" y="195" text-anchor="middle">Transformaciones de características</text>
   <rect class="card" x="560" y="222" width="210" height="46" rx="8" fill="#eaf2fb"/>
-  <text class="head" x="572" y="243" fill="#004a99" font-size="14px">Scaling</text>
+  <text class="head" x="572" y="243" fill="#004a99" font-size="14px">Escalado</text>
   <text class="desc2" x="572" y="260">StandardScaler / MinMax</text>
   <rect class="card" x="560" y="278" width="210" height="46" rx="8" fill="#eaf2fb"/>
-  <text class="head" x="572" y="299" fill="#004a99" font-size="14px">Encoding</text>
+  <text class="head" x="572" y="299" fill="#004a99" font-size="14px">Codificación</text>
   <text class="desc2" x="572" y="316">One-hot / target encoding</text>
   <rect class="card" x="560" y="334" width="210" height="46" rx="8" fill="#eaf2fb"/>
-  <text class="head" x="572" y="355" fill="#004a99" font-size="14px">Aggregates</text>
-  <text class="desc2" x="572" y="372">group-by, rolling stats</text>
+  <text class="head" x="572" y="355" fill="#004a99" font-size="14px">Agregados</text>
+  <text class="desc2" x="572" y="372">agrupación y estadísticas móviles</text>
 
-  <!-- Train -> transforms (fit) -->
+  <!-- Entrenar -> transforms (fit) -->
   <path class="green" d="M470,182 C505,182 510,232 538,238" marker-end="url(#ag)"/>
-  <text class="gtxt" x="478" y="200">fit on TRAIN only</text>
+  <text class="gtxt" x="478" y="200">ajustar solo en entrenar</text>
   <!-- Test -> transforms (apply) -->
-  <path class="orange" d="M470,328 C505,328 510,330 538,330" marker-end="url(#ao)"/>
-  <text class="otxt" x="478" y="352">apply train params</text>
+  <path class="orange" d="M470,328 C505,328 510,346 538,346" marker-end="url(#ao)"/>
+  <text class="otxt" x="478" y="402">aplicar parámetros de entrenamiento</text>
 
-  <!-- Output -->
+  <!-- Salida -->
   <rect class="card" x="830" y="234" width="160" height="92" rx="10" stroke="#0e7490"/>
   <rect x="830" y="234" width="160" height="32" rx="10" fill="#0e7490"/>
   <rect x="830" y="250" width="160" height="16" fill="#0e7490"/>
-  <text class="node" x="910" y="256" text-anchor="middle">Model-ready</text>
-  <text class="desc2" x="910" y="288" text-anchor="middle">consistent features</text>
-  <text class="desc2" x="910" y="306" text-anchor="middle">for train &amp; test</text>
+  <text class="node" x="910" y="256" text-anchor="middle">Listo para modelo</text>
+  <text class="desc2" x="910" y="288" text-anchor="middle">características consistentes</text>
+  <text class="desc2" x="910" y="306" text-anchor="middle">para entrenar &amp; prueba</text>
   <path class="arrow" d="M790,280 L826,280" marker-end="url(#ah)"/>
 
   <!-- Banner -->
   <rect x="50" y="420" width="940" height="44" rx="10" fill="#ecfdf5" stroke="#15803d" stroke-width="1.6"/>
-  <text class="label" x="520" y="447" text-anchor="middle">Fitting transforms on Train only — then reusing those parameters on Test — prevents data leakage and gives honest evaluation.</text>
+  <text class="label" x="520" y="447" text-anchor="middle">Ajustar transformaciones solo en entrenamiento y reutilizar esos parámetros en prueba evita fugas de datos y da una evaluación honesta.</text>
 </svg>

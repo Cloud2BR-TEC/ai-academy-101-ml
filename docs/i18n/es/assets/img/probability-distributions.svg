@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
-  <title id="title">Discrete PMF vs continuous PDF and the CDF</title>
-  <desc id="desc">A discrete probability mass function drawn as separate bars that sum to one, a continuous probability density function whose shaded area equals one, and a cumulative distribution function rising monotonically from zero to one.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
+  <title id="title">Discrete PMF vs continuous PDF y el CDF</title>
+  <desc id="desc">A discrete probability mass function drawn as separate bars that sum a one, a continuous probability density function whose shaded area equals one, y a cumulative distribution function rising monotonically desde zero a one.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -15,8 +15,8 @@
     </style>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="560"/>
-  <text class="title" x="60" y="52">Distributions: PMF, PDF, and CDF</text>
-  <text class="subtitle" x="60" y="80">Discrete mass sums to 1, continuous density integrates to 1, and the CDF accumulates from 0 to 1.</text>
+  <text class="title" x="60" y="52">Distributions: PMF, PDF, y CDF</text>
+  <text class="subtitle" x="60" y="80">Discrete mass sums a 1, continuous density integrates a 1, y el CDF accumulates desde 0 a 1.</text>
 
   <!-- Panel 1: Discrete PMF -->
   <rect class="card" x="60" y="110" width="290" height="370" rx="10"/>
@@ -34,7 +34,7 @@
   <text class="label" x="212" y="458" text-anchor="middle">3</text>
   <text class="label" x="252" y="458" text-anchor="middle">4</text>
   <text class="label" x="292" y="458" text-anchor="middle">5</text>
-  <text class="desc2" x="215" y="475" text-anchor="middle">Σ p&#8342; = 1</text>
+  <text class="desc2" x="215" y="475" text-anchor="middle">Î£ p&#8342; = 1</text>
 
   <!-- Panel 2: Continuous PDF -->
   <rect class="card" x="375" y="110" width="290" height="370" rx="10"/>
@@ -45,7 +45,7 @@
   <path d="M412,440 C470,438 495,210 530,210 C565,210 590,438 648,440 Z" fill="#0e7490" fill-opacity="0.22"/>
   <path d="M412,440 C470,438 495,210 530,210 C565,210 590,438 648,440" fill="none" stroke="#0e7490" stroke-width="4"/>
   <text class="desc2" x="530" y="372" text-anchor="middle" fill="#0e7490" font-weight="700">area = 1</text>
-  <text class="label" x="530" y="475" text-anchor="middle">∫ f(x) dx = 1</text>
+  <text class="label" x="530" y="475" text-anchor="middle">âˆ« f(x) dx = 1</text>
 
   <!-- Panel 3: CDF -->
   <rect class="card" x="690" y="110" width="290" height="370" rx="10"/>
@@ -57,5 +57,5 @@
   <text class="label" x="722" y="445" text-anchor="end">0</text>
   <text class="label" x="722" y="205" text-anchor="end">1</text>
   <path d="M732,438 C800,438 808,320 845,320 C882,320 892,202 958,202" fill="none" stroke="#b45309" stroke-width="4"/>
-  <text class="desc2" x="845" y="430" text-anchor="middle" fill="#b45309" font-weight="700">monotonic 0 → 1</text>
+  <text class="desc2" x="845" y="430" text-anchor="middle" fill="#b45309" font-weight="700">monotonic 0 â†’ 1</text>
 </svg>

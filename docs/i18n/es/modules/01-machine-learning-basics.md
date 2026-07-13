@@ -1,20 +1,20 @@
-# 01. Fundamentos de Machine Learning
+﻿# 01. Fundamentos de Machine Learning
 
 Machine learning es una forma de ensenar computadoras con ejemplos, en lugar de escribir todas las reglas manualmente.
 
-## Enlaces Rapidos
+## Enlaces Rápidos
 
-- Construir el primer modelo: [Modulo 05](05-build-your-first-model.md)
-- Desplegar modelo: [Modulo 06](06-deploy-and-score.md)
-- Cierre del curso: [Modulo 09](09-wrap-up-and-next-steps.md)
+- Construir el primer modelo: [Módulo 05](05-build-your-first-model.md)
+- Desplegar modelo: [Módulo 06](06-deploy-and-score.md)
+- Cierre del curso: [Módulo 09](09-wrap-up-and-next-steps.md)
 
-## Que Es y Que No Es ML
+## Qué Es y Que No Es ML
 
 Machine learning **si es**:
 
 - Metodo para encontrar patrones en datos.
 - Forma de predecir casos nuevos.
-- Proceso con entrenamiento, prueba y evaluacion.
+- Proceso con entrenamiento, prueba y evaluación.
 
 Machine learning **no es**:
 
@@ -29,22 +29,22 @@ En ML, se entregan ejemplos y el sistema aprende patrones.
 
 ![Comparacion Programacion vs ML](../assets/img/programming-vs-ml.svg)
 
-## Como Aprende un Modelo
+## Cómo Aprende un Modelo
 
-Un modelo toma entradas y genera una prediccion.
-Durante entrenamiento, compara su prediccion con la respuesta correcta y ajusta sus parametros para reducir error.
+Un modelo toma entradas y genera una predicción.
+Durante entrenamiento, compara su predicción con la respuesta correcta y ajusta sus parámetros para reducir error.
 
-![Como predice un modelo](../assets/img/how-model-predicts.svg)
+![Cómo predice un modelo](../assets/img/how-model-predicts.svg)
 
 ## Vocabulario Clave
 
-| Termino | Significado |
+| Término | Significado |
 |------|----------|
 | **Data** | Conjunto de ejemplos para entrenar o predecir. |
 | **Feature** | Variable de entrada (edad, precio, temperatura). |
 | **Target / Label** | Valor que el modelo debe predecir. |
 | **Training** | Etapa donde el modelo aprende con ejemplos. |
-| **Testing** | Evaluacion con datos no vistos. |
+| **Testing** | Evaluación con datos no vistos. |
 | **Model** | Funcion aprendida que transforma entradas en salida. |
 | **Prediction** | Salida del modelo para un caso nuevo. |
 | **Algorithm** | Metodo de aprendizaje (arboles, regresion, redes). |
@@ -74,7 +74,7 @@ Problemas comunes:
 - Sesgo de muestreo.
 - Variables irrelevantes.
 
-![Ingenieria de features](../assets/img/feature_engineering_collect_data.svg)
+![Ingeniería de features](../assets/img/feature_engineering_collect_data.svg)
 
 ## Proceso de Punta a Punta
 
@@ -98,9 +98,9 @@ Problemas comunes:
 
 ## Relacion con Software Engineering
 
-Los proyectos de ML tambien son proyectos de software:
+Los proyectos de ML también son proyectos de software:
 
-- Se usa codigo, repositorio, control de versiones y logs.
+- Se usa código, repositorio, control de versiones y logs.
 - Se exponen modelos por APIs.
 - Se mantiene calidad en produccion.
 

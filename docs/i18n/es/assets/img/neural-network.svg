@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
-  <title id="title">Neural network layers</title>
-  <desc id="desc">A multilayer perceptron with an input layer, two hidden layers, and an output layer, fully connected, with weighted sums passed through nonlinear activations.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
+  <title id="title">Red neuronalwork layers</title>
+  <desc id="desc">A multilayer perceptron con an entrada layer, two hidden layers, y an salida layer, fully connected, con weighted sums passed through nonlinear activations.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -15,8 +15,8 @@
     </style>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="540"/>
-  <text class="title" x="60" y="52">Neural network: layers of weighted sums + activations</text>
-  <text class="subtitle" x="60" y="80">Each connection has a weight; each node sums its inputs and applies a nonlinearity, stacking simple steps into complex functions.</text>
+  <text class="title" x="60" y="52">Red neuronalwork: layers de weighted sums + activations</text>
+  <text class="subtitle" x="60" y="80">Each connection has a weight; each node sums its entradas y applies a nonlinearity, stacking simple steps into complex functions.</text>
   <!-- edges input(4) x=200 -> hidden1(5) x=440 -->
   <g class="edge">
     <line x1="200" y1="180" x2="440" y2="150"/><line x1="200" y1="180" x2="440" y2="230"/><line x1="200" y1="180" x2="440" y2="310"/><line x1="200" y1="180" x2="440" y2="390"/><line x1="200" y1="180" x2="440" y2="470"/>
@@ -49,8 +49,8 @@
   <!-- output -->
   <circle class="nOut" cx="900" cy="270" r="18"/><circle class="nOut" cx="900" cy="360" r="18"/>
   <!-- labels -->
-  <text class="lbl" x="200" y="510" text-anchor="middle">inputs</text>
-  <text class="lbl" x="560" y="510" text-anchor="middle">hidden layers (width × depth)</text>
-  <text class="lbl" x="900" y="510" text-anchor="middle">output</text>
-  <text class="note" x="60" y="120" font-weight="700" fill="#004a99">More layers/width = more capacity = more data needed and harder to interpret.</text>
+  <text class="lbl" x="200" y="510" text-anchor="middle">entradas</text>
+  <text class="lbl" x="560" y="510" text-anchor="middle">hidden layers (width Ã— depth)</text>
+  <text class="lbl" x="900" y="510" text-anchor="middle">salida</text>
+  <text class="note" x="60" y="120" font-weight="700" fill="#004a99">More layers/width = more capacity = more datos needed y harder a interpret.</text>
 </svg>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="430" viewBox="0 0 1040 430" role="img" aria-labelledby="title desc">
-  <title id="title">Summary of Number Systems</title>
-  <desc id="desc">Summary table of number systems: binary base 2, decimal base 10 and hexadecimal base 16, each showing the same value (decimal 255) as 11111111 in binary and FF in hexadecimal.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="430" viewBox="0 0 1040 430" role="img" aria-labelledby="title desc">
+  <title id="title">Resumen de sistemas numéricos</title>
+  <desc id="desc">Summary table de number systems: binary base 2, decimal base 10 y hexadecimal base 16, each showing el same value (decimal 255) as 11111111 en binary y FF en hexadecimal.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -15,15 +15,15 @@
     </style>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="430"/>
-  <text class="title" x="60" y="52">Summary of Number Systems</text>
-  <text class="subtitle" x="60" y="80">Three common bases — the same quantity written three different ways</text>
+  <text class="title" x="60" y="52">Resumen de sistemas numéricos</text>
+  <text class="subtitle" x="60" y="80">Three common bases — el same quantity written three different ways</text>
 
   <!-- header -->
   <rect x="60" y="120" width="920" height="46" rx="8" fill="#004a99"/>
   <text class="chead" x="180" y="149" text-anchor="middle">System</text>
   <text class="chead" x="380" y="149" text-anchor="middle">Base</text>
   <text class="chead" x="550" y="149" text-anchor="middle">Digits used</text>
-  <text class="chead" x="810" y="149" text-anchor="middle">Example (decimal 255)</text>
+  <text class="chead" x="810" y="149" text-anchor="middle">Ejemplo (decimal 255)</text>
 
   <!-- rows -->
   <rect x="60" y="170" width="920" height="56" fill="#ffffff"/>
@@ -54,6 +54,6 @@
   <line class="grid" x1="640" y1="170" x2="640" y2="338"/>
 
   <!-- note -->
-  <text class="note" x="60" y="372">All three rows encode the exact same quantity: decimal 255 = binary 11111111 = hexadecimal FF.</text>
-  <text class="note" x="60" y="394">Hex is compact: two hex digits map to exactly one byte (8 bits), which is why it is used for memory and colors.</text>
+  <text class="note" x="60" y="372">All three rows encode el exact same quantity: decimal 255 = binary 11111111 = hexadecimal FF.</text>
+  <text class="note" x="60" y="394">Hex is compact: two hex digits map a exactly one byte (8 bits), which is why it is used para memory y colors.</text>
 </svg>

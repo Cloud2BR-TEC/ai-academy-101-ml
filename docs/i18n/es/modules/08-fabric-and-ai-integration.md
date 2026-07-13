@@ -1,22 +1,22 @@
-# 08. Fabric e Integracion con AI
+﻿# 08. Fabric e Integración con AI
 
-Microsoft Fabric unifica analitica de datos y complementa Azure ML.
+Microsoft Fabric unifica analítica de datos y complementa Azure ML.
 
-Vision para principiantes: Fabric prepara datos y reportes; Azure ML entrena y despliega modelos.
+Visión para principiantes: Fabric prepara datos y reportes; Azure ML entrena y despliega modelos.
 
-## Enlaces Rapidos
+## Enlaces Rápidos
 
-- Fundamentos de modelos: [Modulo 01](01-machine-learning-basics.md)
-- Construccion de modelos: [Modulo 05](05-build-your-first-model.md)
-- Despliegue de endpoints: [Modulo 06](06-deploy-and-score.md)
+- Fundamentos de modelos: [Módulo 01](01-machine-learning-basics.md)
+- Construcción de modelos: [Módulo 05](05-build-your-first-model.md)
+- Despliegue de endpoints: [Módulo 06](06-deploy-and-score.md)
 
 ![Datos y targets](../assets/img/collect_data_init_primary_second_targets.svg)
 
-## Que es Microsoft Fabric
+## Qué es Microsoft Fabric
 
 - **OneLake**: lugar unificado de datos.
-- **Data Factory**: movimiento y transformacion de datos.
-- **Data Engineering**: preparacion de datos a gran escala.
+- **Data Factory**: movimiento y transformación de datos.
+- **Data Engineering**: preparación de datos a gran escala.
 - **Data Science**: notebooks para experimentos.
 - **Power BI**: dashboards y reportes.
 
@@ -25,23 +25,23 @@ Vision para principiantes: Fabric prepara datos y reportes; Azure ML entrena y d
 | Etapa | Fabric | Azure ML |
 |-------|--------|----------|
 | Ingesta de datos | ✓ | |
-| Transformacion de datos | ✓ | |
+| Transformación de datos | ✓ | |
 | Feature engineering a escala | ✓ (Spark) | |
 | Entrenamiento y tracking | | ✓ |
 | Deploy y endpoints | | ✓ |
 | Batch scoring a gran escala | ✓ | ✓ |
 | Reporting de predicciones | ✓ | |
 
-![Guia de tamano de dataset](../assets/img/msft-dataset-size-guidance.svg)
+![Guía de tamaño de dataset](../assets/img/msft-dataset-size-guidance.svg)
 
 ## LangChain y SynapseML
 
-- **SynapseML**: libreria para ML a gran escala en Spark.
+- **SynapseML**: librería para ML a gran escala en Spark.
 - **LangChain**: orquesta flujos con prompts, herramientas y LLM.
 
-Son opcionales para principiantes. Primero dominar: datos, entrenamiento, evaluacion y deploy.
+Son opcionales para principiantes. Primero dominar: datos, entrenamiento, evaluación y deploy.
 
-## Conexion Azure OpenAI en Fabric
+## Conexión Azure OpenAI en Fabric
 
 ```python
 import os
@@ -55,15 +55,15 @@ llm = AzureChatOpenAI(deployment_name="gpt-4o", temperature=0.2)
 response = llm.invoke("Resume riesgos clave del reporte: ...")
 ```
 
-No es necesario memorizar este codigo ahora; el objetivo es entender la integracion.
+No es necesario memorizar este código ahora; el objetivo es entender la integración.
 
 ![Python dtype](../assets/img/python_dtype.svg)
 
-## Guia de Decision
+## Guía de Decisión
 
 **Usa Fabric cuando:**
 
-- Tu cuello de botella es preparacion/analitica de datos.
+- Tu cuello de botella es preparación/analítica de datos.
 - Necesitas procesamiento distribuido y reportes.
 
 **Usa Azure ML cuando:**

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
-  <title id="title">Decision tree splitting data into regions</title>
-  <desc id="desc">A decision tree as a flowchart of yes/no questions on features, ending in leaf nodes that give the predicted class.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
+  <title id="title">decisión tree splitting datos into regions</title>
+  <desc id="desc">A decisión tree as a flowchart de yes/no questions en características, ending en leaf nodes that give el predicted class.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -17,8 +17,8 @@
     </style>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="540"/>
-  <text class="title" x="60" y="52">Decision tree: a flowchart of yes/no questions</text>
-  <text class="subtitle" x="60" y="80">Each split chooses the question that most reduces impurity (Gini or entropy).</text>
+  <text class="title" x="60" y="52">decisión tree: a flowchart de yes/no questions</text>
+  <text class="subtitle" x="60" y="80">Each split chooses el question that most reduces impurity (Gini or entropy).</text>
   <!-- root -->
   <rect class="node" x="420" y="110" width="200" height="60" rx="10"/>
   <text class="q" x="520" y="146" text-anchor="middle">age &gt; 30 ?</text>
@@ -51,5 +51,5 @@
   <text class="leaflbl" x="650" y="414" text-anchor="middle">class: churn</text>
   <rect class="leafA" x="780" y="380" width="160" height="56" rx="10"/>
   <text class="leaflbl" x="860" y="414" text-anchor="middle">class: stay</text>
-  <text class="note" x="60" y="490" font-weight="700" fill="#004a99">Deeper trees fit more detail but overfit; max-depth and min-samples are the brakes.</text>
+  <text class="note" x="60" y="490" font-weight="700" fill="#004a99">Los árboles más profundos ajustan más detalle pero sobreajustan; max-depth y min-samples son los frenos.</text>
 </svg>

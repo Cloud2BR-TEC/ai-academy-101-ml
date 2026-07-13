@@ -1,8 +1,8 @@
-# Comandos CLI (Espanol)
+﻿# Comandos CLI (Español)
 
-Guia practica de comandos usados en Machine Learning 101.
+Guía práctica de comandos usados en Machine Learning 101.
 
-## Como leer ejemplos
+## Cómo leer ejemplos
 
 - Valores como `<sub-id>` o `<run-id>` son placeholders.
 - Ejecuta un comando a la vez.
@@ -20,11 +20,11 @@ pip install -r requirements.txt
 - `conda activate`: activa ese entorno.
 - `pip install -r`: instala dependencias.
 
-Validacion:
+Validación:
 
 ```console
 conda env list
-python --version
+python --versión
 pip show scikit-learn
 python -m pip install ...
 python -m ipykernel install --user --name aml-env --display-name "AML Env"
@@ -37,14 +37,14 @@ az login
 az account set --subscription "<sub-id>"
 az configure --defaults group=<rg> workspace=<ws>
 
-az ml data create --name fraud-train --version 1 --path ./data --type uri_folder
-az ml environment create --name fraud-infer --version 2 --file env.yml
+az ml data create --name fraud-train --versión 1 --path ./data --type uri_folder
+az ml environment create --name fraud-infer --versión 2 --file env.yml
 
 az ml job create --file job.yml
 az ml job list --query "[].{name:name,status:status}" -o table
 az ml job stream --name <run-id>
 
-az ml model create --name fraud-model --version 3 --path ./model --type mlflow_model
+az ml model create --name fraud-model --versión 3 --path ./model --type mlflow_model
 az ml model list --name fraud-model -o table
 ```
 
@@ -60,10 +60,10 @@ az ml online-endpoint invoke --name fraud-endpoint --request-file sample.json
 az ml online-deployment get-logs --name green --endpoint-name fraud-endpoint
 ```
 
-## Kubernetes (debug basico)
+## Kubernetes (debug básico)
 
 ```bash
-kubectl version --client
+kubectl versión --client
 kubectl get pods -n <namespace>
 kubectl describe pod <pod-name> -n <namespace>
 kubectl logs <pod-name> -n <namespace>

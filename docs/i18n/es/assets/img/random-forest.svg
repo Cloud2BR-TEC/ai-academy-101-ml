@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
-  <title id="title">Random forest bagging and voting</title>
-  <desc id="desc">Many decision trees are trained on different bootstrap samples and feature subsets, then their predictions are combined by majority vote or averaging.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
+  <title id="title">aleatorio forest bagging y voting</title>
+  <desc id="desc">Many decisión trees are entrenared en different bootstrap samples y característica subsets, then their predicciones are combined by majority vote or averaging.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -30,12 +30,12 @@
     </g>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="540"/>
-  <text class="title" x="60" y="52">Random forest: many trees vote</text>
-  <text class="subtitle" x="60" y="80">Each tree sees a random sample of rows and features; combining them cancels their individual errors.</text>
-  <!-- training data -->
+  <text class="title" x="60" y="52">aleatorio forest: many trees vote</text>
+  <text class="subtitle" x="60" y="80">Each tree sees a aleatorio sample de rows y características; combining them cancels their individual errors.</text>
+  <!-- entrenamiento data -->
   <rect class="data" x="60" y="230" width="130" height="80" rx="10"/>
-  <text class="lbl" x="125" y="266" text-anchor="middle">training</text>
-  <text class="lbl" x="125" y="286" text-anchor="middle">data</text>
+  <text class="lbl" x="125" y="266" text-anchor="middle">entrenamiento</text>
+  <text class="lbl" x="125" y="286" text-anchor="middle">datos</text>
   <!-- bootstrap arrows to trees -->
   <line class="edge" x1="190" y1="255" x2="330" y2="160" marker-end="url(#ar2)"/>
   <line class="edge" x1="190" y1="270" x2="330" y2="270" marker-end="url(#ar2)"/>
@@ -43,13 +43,13 @@
   <!-- three trees -->
   <rect class="sample" x="340" y="120" width="120" height="90" rx="10"/>
   <use href="#minitree" x="380" y="120"/>
-  <text class="lbl" x="400" y="200" text-anchor="middle">tree 1 → A</text>
+  <text class="lbl" x="400" y="200" text-anchor="middle">tree 1 â†’ A</text>
   <rect class="sample" x="340" y="230" width="120" height="90" rx="10"/>
   <use href="#minitree" x="380" y="230"/>
-  <text class="lbl" x="400" y="310" text-anchor="middle">tree 2 → A</text>
+  <text class="lbl" x="400" y="310" text-anchor="middle">tree 2 â†’ A</text>
   <rect class="sample" x="340" y="340" width="120" height="90" rx="10"/>
   <use href="#minitree" x="380" y="340"/>
-  <text class="lbl" x="400" y="420" text-anchor="middle">tree 3 → B</text>
+  <text class="lbl" x="400" y="420" text-anchor="middle">tree 3 â†’ B</text>
   <!-- vote box -->
   <line class="edge" x1="460" y1="165" x2="620" y2="255" marker-end="url(#ar2)"/>
   <line class="edge" x1="460" y1="275" x2="620" y2="275" marker-end="url(#ar2)"/>
@@ -61,5 +61,5 @@
   <line class="edge" x1="790" y1="275" x2="860" y2="275" marker-end="url(#ar2)"/>
   <rect class="final" x="870" y="235" width="120" height="80" rx="10"/>
   <text class="lbl" x="930" y="280" text-anchor="middle">class A</text>
-  <text class="note" x="60" y="490" font-weight="700" fill="#004a99">Bagging lowers variance: no single noisy tree can dominate the ensemble's answer.</text>
+  <text class="note" x="60" y="490" font-weight="700" fill="#004a99">Bagging lowers varianza: no single noisy tree can dominate el ensemble's answer.</text>
 </svg>

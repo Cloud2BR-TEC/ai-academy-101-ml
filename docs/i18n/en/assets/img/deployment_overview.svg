@@ -24,7 +24,7 @@
   <text class="subtitle" x="60" y="80">Two ways to serve a model. Pick the one that matches who is waiting for the result.</text>
 
   <!-- Decision pill -->
-  <rect x="420" y="104" width="200" height="48" rx="24" fill="#0f172a"/>
+  <rect x="420" y="104" width="200" height="48" rx="24" fill="#1e3a8a"/>
   <text class="pill" x="520" y="134" text-anchor="middle">Who is waiting?</text>
   <path class="arrow" d="M440,148 C360,176 320,182 290,202" marker-end="url(#ah)"/>
   <path class="arrow" d="M600,148 C680,176 720,182 750,202" marker-end="url(#ah)"/>
@@ -68,6 +68,6 @@
   <text class="chip" x="594" y="485" fill="#0e7490">e.g. nightly scoring of every customer record</text>
 
   <!-- Footer decision -->
-  <rect x="300" y="526" width="440" height="26" rx="13" fill="#0f172a"/>
+  <rect x="300" y="526" width="440" height="26" rx="13" fill="#1e3a8a"/>
   <text class="foot" x="520" y="544" text-anchor="middle">Choose by who is waiting.</text>
 </svg>

@@ -70,8 +70,8 @@
   <path class="green" d="M470,182 C505,182 510,232 538,238" marker-end="url(#ag)"/>
   <text class="gtxt" x="478" y="200">fit on TRAIN only</text>
   <!-- Test -> transforms (apply) -->
-  <path class="orange" d="M470,328 C505,328 510,330 538,330" marker-end="url(#ao)"/>
-  <text class="otxt" x="478" y="352">apply train params</text>
+  <path class="orange" d="M470,328 C505,328 510,346 538,346" marker-end="url(#ao)"/>
+  <text class="otxt" x="478" y="402">apply train parameters</text>
 
   <!-- Output -->
   <rect class="card" x="830" y="234" width="160" height="92" rx="10" stroke="#0e7490"/>

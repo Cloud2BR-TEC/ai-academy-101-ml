@@ -1,10 +1,10 @@
-# Biblioteca Visual (Espanol)
+﻿# Biblioteca Visual (Español)
 
-Esta pagina reune todas las imagenes usadas en Machine Learning 101.
+Esta página reune todas las imágenes usadas en Machine Learning 101.
 
-Como usarla:
+Cómo usarla:
 
-1. Lee el concepto en el modulo.
+1. Lee el concepto en el módulo.
 2. Abre el diagrama correspondiente aqui.
 3. Explica el diagrama con tus palabras.
 4. Relacionalo con un caso real.
@@ -152,10 +152,6 @@ Como usarla:
 ## neuron-anatomy.svg
 
 ![](../assets/img/neuron-anatomy.svg)
-
-## org-logo.png
-
-![](../assets/img/org-logo.png)
 
 ## Overview_ML_flow.svg
 

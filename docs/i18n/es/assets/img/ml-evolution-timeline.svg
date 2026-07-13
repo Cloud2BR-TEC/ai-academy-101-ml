@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="800" viewBox="0 0 1500 800" role="img" aria-labelledby="title desc">
-  <title id="title">Machine Learning Evolution: Eras and Milestones</title>
-  <desc id="desc">Timeline of machine learning history with milestone events and what each era contributed to modern ML systems.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="800" viewBox="0 0 1500 800" role="img" aria-labelledby="title desc">
+  <title id="title">Machine Learning Evolution: Eras y Milestones</title>
+  <desc id="desc">Timeline de machine learning history con milestone events y what each era contributed a modern ML systems.</desc>
 
   <defs>
     <style>
@@ -28,29 +28,29 @@
 
   <rect class="bg" x="0" y="0" width="1500" height="800"/>
 
-  <text class="title" x="60" y="60">Evolution of Machine Learning</text>
-  <text class="subtitle" x="62" y="92">From foundational theory (1950s) to foundation models and GenAI (2020s)</text>
+  <text class="title" x="60" y="60">Evolution de Machine Learning</text>
+  <text class="subtitle" x="62" y="92">desde foundational theory (1950s) a foundation modelos y GenAI (2020s)</text>
 
   <!-- Era bands -->
   <rect class="era-a" x="60" y="120" width="325" height="92" rx="12"/>
   <text class="era-title" x="78" y="148">1) Foundations (1950s-1970s)</text>
   <text class="era-copy" x="78" y="172">Core question: can machines learn patterns?</text>
-  <text class="era-copy" x="78" y="192">Symbolic AI and nearest-neighbor ideas.</text>
+  <text class="era-copy" x="78" y="192">Symbolic AI y nearest-neighbor ideas.</text>
 
   <rect class="era-b" x="400" y="120" width="325" height="92" rx="12"/>
   <text class="era-title" x="418" y="148">2) Expert Systems (1980s)</text>
   <text class="era-copy" x="418" y="172">Knowledge encoded as hand-written rules.</text>
-  <text class="era-copy" x="418" y="192">Strong in narrow domains; hard to scale.</text>
+  <text class="era-copy" x="418" y="192">Strong en narrow domains; hard a scale.</text>
 
   <rect class="era-c" x="740" y="120" width="325" height="92" rx="12"/>
   <text class="era-title" x="758" y="148">3) Statistical ML (1990s-2000s)</text>
-  <text class="era-copy" x="758" y="172">Regularization, kernels, and ensembles.</text>
-  <text class="era-copy" x="758" y="192">Tabular prediction became production-ready.</text>
+  <text class="era-copy" x="758" y="172">Regularization, kernels, y ensembles.</text>
+  <text class="era-copy" x="758" y="192">Tabular predicción became production-ready.</text>
 
   <rect class="era-d" x="1080" y="120" width="360" height="92" rx="12"/>
   <text class="era-title" x="1098" y="148">4) Deep Learning Era (2010s-2020s)</text>
-  <text class="era-copy" x="1098" y="172">GPU scale, big data, transformer models.</text>
-  <text class="era-copy" x="1098" y="192">Vision, language, and foundation models.</text>
+  <text class="era-copy" x="1098" y="172">GPU scale, big datos, transformer modelos.</text>
+  <text class="era-copy" x="1098" y="192">Vision, language, y foundation modelos.</text>
 
   <!-- Axis -->
   <line class="axis" x1="90" y1="370" x2="1410" y2="370"/>
@@ -60,8 +60,8 @@
   <text class="year" x="120" y="398">1950</text>
   <line class="line" x1="120" y1="362" x2="120" y2="308"/>
   <rect class="callout" x="42" y="230" width="172" height="78" rx="8"/>
-  <text class="callout-title" x="56" y="256">Turing Test</text>
-  <text class="callout-copy" x="56" y="277">Defined a benchmark for</text>
+  <text class="callout-title" x="56" y="256">Turing prueba</text>
+  <text class="callout-copy" x="56" y="277">Defined a benchmark para</text>
   <text class="callout-copy" x="56" y="294">machine intelligence.</text>
 
   <!-- Perceptron (bottom) -->
@@ -70,8 +70,8 @@
   <line class="line" x1="232" y1="378" x2="232" y2="432"/>
   <rect class="callout" x="150" y="432" width="172" height="78" rx="8"/>
   <text class="callout-title" x="164" y="458">Perceptron</text>
-  <text class="callout-copy" x="164" y="479">Early trainable neural</text>
-  <text class="callout-copy" x="164" y="496">classifier model.</text>
+  <text class="callout-copy" x="164" y="479">Early entrenarable neural</text>
+  <text class="callout-copy" x="164" y="496">classifier modelo.</text>
 
   <!-- k-NN (top) -->
   <circle class="dot" cx="352" cy="370" r="8"/>
@@ -79,8 +79,8 @@
   <line class="line" x1="352" y1="362" x2="352" y2="308"/>
   <rect class="callout" x="266" y="230" width="172" height="78" rx="8"/>
   <text class="callout-title" x="280" y="256">k-NN</text>
-  <text class="callout-copy" x="280" y="277">Instance-based learning</text>
-  <text class="callout-copy" x="280" y="294">without explicit training.</text>
+  <text class="callout-copy" x="280" y="277">Instancia-based learning</text>
+  <text class="callout-copy" x="280" y="294">without explicit entrenamiento.</text>
 
   <!-- Backpropagation (bottom) -->
   <circle class="dot" cx="498" cy="370" r="8"/>
@@ -89,7 +89,7 @@
   <rect class="callout" x="412" y="432" width="178" height="78" rx="8"/>
   <text class="callout-title" x="426" y="458">Backpropagation</text>
   <text class="callout-copy" x="426" y="479">Made multi-layer neural</text>
-  <text class="callout-copy" x="426" y="496">training practical.</text>
+  <text class="callout-copy" x="426" y="496">entrenamiento practical.</text>
 
   <!-- SVM (top) -->
   <circle class="dot" cx="650" cy="370" r="8"/>
@@ -97,17 +97,17 @@
   <line class="line" x1="650" y1="362" x2="650" y2="308"/>
   <rect class="callout" x="558" y="230" width="190" height="78" rx="8"/>
   <text class="callout-title" x="572" y="256">Support Vector Machines</text>
-  <text class="callout-copy" x="572" y="277">Strong margins and kernels</text>
-  <text class="callout-copy" x="572" y="294">for complex boundaries.</text>
+  <text class="callout-copy" x="572" y="277">Strong margins y kernels</text>
+  <text class="callout-copy" x="572" y="294">para complex boundaries.</text>
 
   <!-- Random Forests (bottom) -->
   <circle class="dot" cx="800" cy="370" r="8"/>
   <text class="year" x="800" y="398">2001</text>
   <line class="line" x1="800" y1="378" x2="800" y2="432"/>
   <rect class="callout" x="714" y="432" width="178" height="78" rx="8"/>
-  <text class="callout-title" x="728" y="458">Random Forests</text>
-  <text class="callout-copy" x="728" y="479">Robust ensembles for</text>
-  <text class="callout-copy" x="728" y="496">structured data.</text>
+  <text class="callout-title" x="728" y="458">aleatorio Forests</text>
+  <text class="callout-copy" x="728" y="479">Robust ensembles para</text>
+  <text class="callout-copy" x="728" y="496">structured datos.</text>
 
   <!-- AlexNet (top) -->
   <circle class="dot" cx="952" cy="370" r="8"/>
@@ -127,21 +127,21 @@
   <text class="callout-copy" x="1028" y="479">Attention architecture</text>
   <text class="callout-copy" x="1028" y="496">scaled language learning.</text>
 
-  <!-- Foundation Models (top) -->
+  <!-- Foundation Modelos (top) -->
   <circle class="dot" cx="1260" cy="370" r="8"/>
   <text class="year" x="1260" y="398">2020-2022+</text>
   <line class="line" x1="1260" y1="362" x2="1260" y2="308"/>
   <rect class="callout" x="1168" y="230" width="192" height="78" rx="8"/>
-  <text class="callout-title" x="1182" y="256">Foundation Models</text>
-  <text class="callout-copy" x="1182" y="277">Large-scale pretraining and</text>
-  <text class="callout-copy" x="1182" y="294">GenAI in mainstream use.</text>
+  <text class="callout-title" x="1182" y="256">Foundation Modelos</text>
+  <text class="callout-copy" x="1182" y="277">Large-scale preentrenamiento y</text>
+  <text class="callout-copy" x="1182" y="294">GenAI en mainstream use.</text>
 
   <!-- Legend panel -->
   <rect class="panel" x="60" y="560" width="1380" height="200" rx="14"/>
-  <text class="legend" x="82" y="592">How to read this timeline</text>
-  <text class="small" x="82" y="620">- Era bands at the top show the dominant paradigm in each period.</text>
-  <text class="small" x="82" y="644">- Dots on the axis are milestones; each callout explains why that event changed ML practice.</text>
-  <text class="small" x="82" y="668">- Statistical ML remains strong for tabular business problems; deep learning dominates unstructured data.</text>
-  <text class="small" x="82" y="692">- Foundation models unify tasks (text, image, code) and need stronger MLOps governance, cost control, and safety.</text>
-  <text class="small" x="82" y="724">Teaching summary: ML evolved from handcrafted rules to data-driven generalization, then to large pretrained systems.</text>
+  <text class="legend" x="82" y="592">How a leer this timeline</text>
+  <text class="small" x="82" y="620">- Era bands at el top show el dominant paradigm en each period.</text>
+  <text class="small" x="82" y="644">- Dots en el axis are milestones; each callout explains why that event changed ML practice.</text>
+  <text class="small" x="82" y="668">- Statistical ML remains strong para tabular business problems; deep learning dominates unstructured datos.</text>
+  <text class="small" x="82" y="692">- Foundation modelos unify tasks (text, image, code) y need stronger MLOps gobernanza, cost control, y safety.</text>
+  <text class="small" x="82" y="724">Teaching summary: ML evolved desde handcrafted rules a datos-driven generalization, then a large preentrenared systems.</text>
 </svg>

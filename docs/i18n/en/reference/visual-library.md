@@ -153,10 +153,6 @@ Use this page to connect ideas with visuals:
 
 ![](../assets/img/neuron-anatomy.svg)
 
-## org-logo.png
-
-![](../assets/img/org-logo.png)
-
 ## Overview_ML_flow.svg
 
 ![](../assets/img/Overview_ML_flow.svg)

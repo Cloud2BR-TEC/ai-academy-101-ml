@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="480" viewBox="0 0 1040 480" role="img" aria-labelledby="title desc">
-  <title id="title">Azure ML Endpoint Concept</title>
-  <desc id="desc">Anatomy of an Azure ML endpoint: a scoring request passes through authentication and a traffic router to one or more model version deployments such as blue and green.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="480" viewBox="0 0 1040 480" role="img" aria-labelledby="title desc">
+  <title id="title">Azure ML endpoint Concept</title>
+  <desc id="desc">Anatomy de an Azure ML endpoint: a scoring request passes through authentication y a traffic router a one or more modelo version deployments such as blue y green.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -19,12 +19,12 @@
     </marker>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="480"/>
-  <text class="title" x="60" y="52">Azure ML Endpoint Concept</text>
-  <text class="subtitle" x="60" y="80">The single stable address consumers call — it authenticates, then routes traffic to deployments</text>
+  <text class="title" x="60" y="52">Azure ML endpoint Concept</text>
+  <text class="subtitle" x="60" y="80">el single stable address consumers call — it authenticates, then routes traffic a deployments</text>
 
   <!-- Endpoint boundary -->
   <rect class="boundary" x="260" y="130" width="720" height="300" rx="14"/>
-  <text class="boundlbl" x="280" y="158">Azure ML Endpoint</text>
+  <text class="boundlbl" x="280" y="158">Azure ML endpoint</text>
 
   <!-- Consumer request -->
   <rect class="card" x="50" y="220" width="180" height="80" rx="10"/>
@@ -47,14 +47,14 @@
   <!-- Blue deployment -->
   <rect class="card" x="690" y="170" width="270" height="70" rx="10"/>
   <rect x="690" y="170" width="270" height="36" rx="10" fill="#004a99"/>
-  <text class="node" x="825" y="194" text-anchor="middle">Deployment: blue — model v1</text>
-  <text class="desc2" x="706" y="228">Compute + scoring script + env</text>
+  <text class="node" x="825" y="194" text-anchor="middle">despliegue: blue — modelo v1</text>
+  <text class="desc2" x="706" y="228">Cómputo + scoring script + env</text>
 
   <!-- Green deployment -->
   <rect class="card" x="690" y="300" width="270" height="70" rx="10"/>
   <rect x="690" y="300" width="270" height="36" rx="10" fill="#15803d"/>
-  <text class="node" x="825" y="324" text-anchor="middle">Deployment: green — model v2</text>
-  <text class="desc2" x="706" y="358">New version under test</text>
+  <text class="node" x="825" y="324" text-anchor="middle">despliegue: green — modelo v2</text>
+  <text class="desc2" x="706" y="358">New version under prueba</text>
 
   <!-- arrows -->
   <path class="arrow" d="M230,260 L285,260" marker-end="url(#ah)"/>

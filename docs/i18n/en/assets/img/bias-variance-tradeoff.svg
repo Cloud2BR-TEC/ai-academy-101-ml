@@ -41,13 +41,13 @@
   <!-- Optimal complexity marker -->
   <line class="opt" x1="520" y1="130" x2="520" y2="470"/>
   <circle cx="520" cy="372" r="7" fill="#004a99"/>
-  <text class="note" x="470" y="120" text-anchor="middle">Optimal complexity</text>
+  <text class="note" x="520" y="120" text-anchor="middle">Optimal complexity</text>
 
   <!-- Zones -->
-  <text class="zone" x="200" y="450" fill="#0e7490">Underfitting</text>
-  <text class="note" x="200" y="468" font-size="12">high bias</text>
-  <text class="zone" x="800" y="450" fill="#b45309" text-anchor="end">Overfitting</text>
-  <text class="note" x="800" y="468" font-size="12" text-anchor="end">high variance</text>
+  <text class="zone" x="200" y="446" fill="#0e7490">Underfitting</text>
+  <text class="note" x="200" y="490" font-size="12">high bias</text>
+  <text class="zone" x="800" y="446" fill="#b45309" text-anchor="end">Overfitting</text>
+  <text class="note" x="800" y="490" font-size="12" text-anchor="end">high variance</text>
 
   <!-- Legend -->
   <rect class="panel" x="660" y="120" width="270" height="120" rx="10"/>
@@ -61,6 +61,6 @@
   <!-- Bottom explanation panel -->
   <rect class="panel" x="60" y="530" width="900" height="100" rx="12"/>
   <text class="note" x="80" y="560" font-size="14">- Simple models underfit: high bias, low variance, poor on both train and test.</text>
-  <text class="note" x="80" y="582" font-size="14">- Complex models overfit: low bias, high variance, great on train but poor on test.</text>
+  <text class="note" x="80" y="582" font-size="14">- Complex models overfit: low bias, high variance, strong on train but weaker on test.</text>
   <text class="note" x="80" y="604" font-size="14">- Tune complexity, add data, or regularize to reach the minimum total error (plus irreducible noise).</text>
 </svg>

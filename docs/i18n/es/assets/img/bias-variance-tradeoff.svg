@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="660" viewBox="0 0 1040 660" role="img" aria-labelledby="title desc">
-  <title id="title">Bias-Variance Trade-off</title>
-  <desc id="desc">As model complexity increases, bias falls and variance rises; total error is minimized at an intermediate complexity.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="660" viewBox="0 0 1040 660" role="img" aria-labelledby="title desc">
+  <title id="title">Compensación sesgo-varianza</title>
+  <desc id="desc">A medida que aumenta la complejidad del modelo, el sesgo disminuye y la varianza aumenta; el error total se minimiza en una complejidad intermedia.</desc>
 
   <defs>
     <style>
@@ -22,45 +22,45 @@
 
   <rect class="bg" x="0" y="0" width="1040" height="660"/>
 
-  <text class="title" x="60" y="56">Bias-Variance Trade-off</text>
-  <text class="subtitle" x="60" y="84">Total error is minimized at an intermediate model complexity</text>
+  <text class="title" x="60" y="56">Compensación sesgo-varianza</text>
+  <text class="subtitle" x="60" y="84">el error total se minimiza en una complejidad intermedia del modelo</text>
 
   <!-- Axes -->
   <line class="axis" x1="120" y1="120" x2="120" y2="470"/>
   <line class="axis" x1="120" y1="470" x2="940" y2="470"/>
   <text class="axis-label" x="60" y="300" transform="rotate(-90 60 300)">Error</text>
-  <text class="axis-label" x="430" y="505">Model complexity</text>
+  <text class="axis-label" x="430" y="505">Complejidad del modelo</text>
 
-  <!-- Bias squared: high at left, decreasing -->
+  <!-- Sesgo al cuadrado: high at left, decreasing -->
   <path class="bias" d="M140,170 C320,330 460,420 920,448"/>
-  <!-- Variance: low at left, increasing -->
+  <!-- Varianza: low at left, increasing -->
   <path class="variance" d="M140,452 C520,438 700,320 920,160"/>
-  <!-- Total error: U-shape, min near center -->
+  <!-- Error total: U-shape, min near center -->
   <path class="total" d="M140,150 C360,360 470,372 520,372 C650,372 800,250 920,150"/>
 
-  <!-- Optimal complexity marker -->
+  <!-- Complejidad óptima marker -->
   <line class="opt" x1="520" y1="130" x2="520" y2="470"/>
   <circle cx="520" cy="372" r="7" fill="#004a99"/>
-  <text class="note" x="470" y="120" text-anchor="middle">Optimal complexity</text>
+  <text class="note" x="520" y="120" text-anchor="middle">Complejidad óptima</text>
 
   <!-- Zones -->
-  <text class="zone" x="200" y="450" fill="#0e7490">Underfitting</text>
-  <text class="note" x="200" y="468" font-size="12">high bias</text>
-  <text class="zone" x="800" y="450" fill="#b45309" text-anchor="end">Overfitting</text>
-  <text class="note" x="800" y="468" font-size="12" text-anchor="end">high variance</text>
+  <text class="zone" x="200" y="446" fill="#0e7490">Subajuste</text>
+  <text class="note" x="200" y="490" font-size="12">alto sesgo</text>
+  <text class="zone" x="800" y="446" fill="#b45309" text-anchor="end">Sobreajuste</text>
+  <text class="note" x="800" y="490" font-size="12" text-anchor="end">alta varianza</text>
 
   <!-- Legend -->
   <rect class="panel" x="660" y="120" width="270" height="120" rx="10"/>
   <line class="total" x1="678" y1="148" x2="712" y2="148"/>
-  <text class="legend-text" x="722" y="153">Total error</text>
+  <text class="legend-text" x="722" y="153">Error total</text>
   <line class="bias" x1="678" y1="180" x2="712" y2="180"/>
-  <text class="legend-text" x="722" y="185">Bias squared</text>
+  <text class="legend-text" x="722" y="185">Sesgo al cuadrado</text>
   <line class="variance" x1="678" y1="212" x2="712" y2="212"/>
-  <text class="legend-text" x="722" y="217">Variance</text>
+  <text class="legend-text" x="722" y="217">Varianza</text>
 
   <!-- Bottom explanation panel -->
   <rect class="panel" x="60" y="530" width="900" height="100" rx="12"/>
-  <text class="note" x="80" y="560" font-size="14">- Simple models underfit: high bias, low variance, poor on both train and test.</text>
-  <text class="note" x="80" y="582" font-size="14">- Complex models overfit: low bias, high variance, great on train but poor on test.</text>
-  <text class="note" x="80" y="604" font-size="14">- Tune complexity, add data, or regularize to reach the minimum total error (plus irreducible noise).</text>
+  <text class="note" x="80" y="560" font-size="14">- Los modelos simples subajustan: alto sesgo, baja varianza, bajo desempeño en entrenamiento y prueba.</text>
+  <text class="note" x="80" y="582" font-size="14">- Los modelos complejos sobreajustan: bajo sesgo, alta varianza, fuerte en entrenamiento pero más débil en prueba.</text>
+  <text class="note" x="80" y="604" font-size="14">- Ajusta la complejidad, agrega datos o regulariza para alcanzar el mínimo error total (más el ruido irreducible).</text>
 </svg>

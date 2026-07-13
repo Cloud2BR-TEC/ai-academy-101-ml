@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
-  <title id="title">Logistic regression decision boundary</title>
-  <desc id="desc">Two classes of points separated by a straight boundary line. A shaded band shows where the predicted probability is near 0.5, the most uncertain region.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
+  <title id="title">Logistic regresión decisión boundary</title>
+  <desc id="desc">Two classes de points separated by a straight boundary line. A shaded band shows where el predicted probability is near 0.5, el most uncertain region.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -16,12 +16,12 @@
     </style>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="540"/>
-  <text class="title" x="60" y="52">Logistic regression: a probability-based boundary</text>
-  <text class="subtitle" x="60" y="80">A linear score becomes a probability; the line where p = 0.5 separates the two classes.</text>
+  <text class="title" x="60" y="52">Logistic regresión: a probability-based boundary</text>
+  <text class="subtitle" x="60" y="80">A linear score becomes a probability; el line where p = 0.5 separates el two classes.</text>
   <line class="axis" x1="120" y1="470" x2="960" y2="470"/>
   <line class="axis" x1="120" y1="470" x2="120" y2="120"/>
-  <text class="axis-label" x="540" y="510" text-anchor="middle">Feature 1</text>
-  <text class="axis-label" x="60" y="300" transform="rotate(-90 60 300)" text-anchor="middle">Feature 2</text>
+  <text class="axis-label" x="540" y="510" text-anchor="middle">característica 1</text>
+  <text class="axis-label" x="60" y="300" transform="rotate(-90 60 300)" text-anchor="middle">característica 2</text>
   <!-- uncertainty band around boundary -->
   <polygon class="band" points="250,470 470,130 540,130 320,470"/>
   <!-- boundary line p=0.5 -->

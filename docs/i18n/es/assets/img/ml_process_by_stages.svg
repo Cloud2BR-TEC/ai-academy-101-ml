@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="450" viewBox="0 0 1040 450" role="img" aria-labelledby="title desc">
-  <title id="title">The ML process by stages</title>
-  <desc id="desc">A horizontal flow of the machine learning lifecycle from business framing to model-ready data, noting that most effort lives in the early stages.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="450" viewBox="0 0 1040 450" role="img" aria-labelledby="title desc">
+  <title id="title">Proceso de ML por etapas</title>
+  <desc id="desc">A horizontal flow de el machine learning lifecycle desde business framing a modelo-ready datos, noting that most effort lives en el early stages.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -22,8 +22,8 @@
     </linearGradient>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="450"/>
-  <text class="title" x="60" y="52">The ML process by stages</text>
-  <text class="subtitle" x="60" y="80">Most data-science effort lives in the early stages — framing, collecting, and cleaning data.</text>
+  <text class="title" x="60" y="52">Proceso de ML por etapas</text>
+  <text class="subtitle" x="60" y="80">Most datos-science effort lives en el early stages — framing, collecting, y cleaning datos.</text>
 
   <!-- arrows -->
   <line class="arrow" x1="190" y1="235" x2="208" y2="235" marker-end="url(#ah)"/>
@@ -36,25 +36,25 @@
   <rect class="card" x="50" y="160" width="140" height="150" rx="10" stroke="#004a99"/>
   <circle cx="120" cy="190" r="15" fill="#004a99"/>
   <text class="num" x="120" y="195" text-anchor="middle">1</text>
-  <text class="cardhead" x="120" y="226" text-anchor="middle" fill="#004a99">Business</text>
-  <text class="cardhead" x="120" y="244" text-anchor="middle" fill="#004a99">Framing</text>
-  <text class="desc2" x="120" y="270" text-anchor="middle">Define the problem</text>
+  <text class="cardhead" x="120" y="226" text-anchor="middle" fill="#004a99">Negocio</text>
+  <text class="cardhead" x="120" y="244" text-anchor="middle" fill="#004a99">Definición</text>
+  <text class="desc2" x="120" y="270" text-anchor="middle">Define el problem</text>
   <text class="desc2" x="120" y="286" text-anchor="middle">&amp; success metric</text>
 
   <!-- Stage 2 -->
   <rect class="card" x="210" y="160" width="140" height="150" rx="10" stroke="#0e7490"/>
   <circle cx="280" cy="190" r="15" fill="#0e7490"/>
   <text class="num" x="280" y="195" text-anchor="middle">2</text>
-  <text class="cardhead" x="280" y="226" text-anchor="middle" fill="#0e7490">Data</text>
+  <text class="cardhead" x="280" y="226" text-anchor="middle" fill="#0e7490">datos</text>
   <text class="cardhead" x="280" y="244" text-anchor="middle" fill="#0e7490">Collection</text>
-  <text class="desc2" x="280" y="270" text-anchor="middle">Gather raw data</text>
-  <text class="desc2" x="280" y="286" text-anchor="middle">from sources</text>
+  <text class="desc2" x="280" y="270" text-anchor="middle">Recopilar datos crudos</text>
+  <text class="desc2" x="280" y="286" text-anchor="middle">desde fuentes</text>
 
   <!-- Stage 3 -->
   <rect class="card" x="370" y="160" width="140" height="150" rx="10" stroke="#b45309"/>
   <circle cx="440" cy="190" r="15" fill="#b45309"/>
   <text class="num" x="440" y="195" text-anchor="middle">3</text>
-  <text class="cardhead" x="440" y="226" text-anchor="middle" fill="#b45309">Data</text>
+  <text class="cardhead" x="440" y="226" text-anchor="middle" fill="#b45309">datos</text>
   <text class="cardhead" x="440" y="244" text-anchor="middle" fill="#b45309">Cleaning</text>
   <text class="desc2" x="440" y="270" text-anchor="middle">Fix errors, missing</text>
   <text class="desc2" x="440" y="286" text-anchor="middle">values &amp; duplicates</text>
@@ -63,10 +63,10 @@
   <rect class="card" x="530" y="160" width="140" height="150" rx="10" stroke="#15803d"/>
   <circle cx="600" cy="190" r="15" fill="#15803d"/>
   <text class="num" x="600" y="195" text-anchor="middle">4</text>
-  <text class="cardhead" x="600" y="226" text-anchor="middle" fill="#15803d">Feature</text>
-  <text class="cardhead" x="600" y="244" text-anchor="middle" fill="#15803d">Engineering</text>
+  <text class="cardhead" x="600" y="226" text-anchor="middle" fill="#15803d">característica</text>
+  <text class="cardhead" x="600" y="244" text-anchor="middle" fill="#15803d">ingeniería</text>
   <text class="desc2" x="600" y="270" text-anchor="middle">Create &amp; transform</text>
-  <text class="desc2" x="600" y="286" text-anchor="middle">input features</text>
+  <text class="desc2" x="600" y="286" text-anchor="middle">entrada características</text>
 
   <!-- Stage 5 -->
   <rect class="card" x="690" y="160" width="140" height="150" rx="10" stroke="#64748b"/>
@@ -75,20 +75,20 @@
   <text class="cardhead" x="760" y="226" text-anchor="middle" fill="#64748b">Dataset</text>
   <text class="cardhead" x="760" y="244" text-anchor="middle" fill="#64748b">Sizing</text>
   <text class="desc2" x="760" y="270" text-anchor="middle">Ensure enough</text>
-  <text class="desc2" x="760" y="286" text-anchor="middle">representative data</text>
+  <text class="desc2" x="760" y="286" text-anchor="middle">representative datos</text>
 
   <!-- Stage 6 -->
   <rect class="card" x="850" y="160" width="140" height="150" rx="10" stroke="#004a99"/>
   <circle cx="920" cy="190" r="15" fill="#004a99"/>
   <text class="num" x="920" y="195" text-anchor="middle">6</text>
-  <text class="cardhead" x="920" y="226" text-anchor="middle" fill="#004a99">Model-Ready</text>
-  <text class="cardhead" x="920" y="244" text-anchor="middle" fill="#004a99">Data</text>
-  <text class="desc2" x="920" y="270" text-anchor="middle">Clean, labeled</text>
-  <text class="desc2" x="920" y="286" text-anchor="middle">training set ready</text>
+  <text class="cardhead" x="920" y="226" text-anchor="middle" fill="#004a99">Listo para modelo</text>
+  <text class="cardhead" x="920" y="244" text-anchor="middle" fill="#004a99">datos</text>
+  <text class="desc2" x="920" y="270" text-anchor="middle">limpiar, labeled</text>
+  <text class="desc2" x="920" y="286" text-anchor="middle">entrenamiento set ready</text>
 
   <!-- Effort wedge -->
   <polygon points="50,360 990,386 990,402 50,402" fill="url(#eff)" stroke="#f59e0b" stroke-width="1"/>
   <text class="efftxt" x="50" y="350">More time &amp; effort</text>
   <text class="efftxt" x="990" y="350" text-anchor="end">Less effort</text>
-  <text class="desc2" x="520" y="430" text-anchor="middle">Time and effort invested per stage</text>
+  <text class="desc2" x="520" y="430" text-anchor="middle">Time y effort invested per stage</text>
 </svg>

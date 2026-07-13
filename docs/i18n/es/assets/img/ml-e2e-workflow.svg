@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="1120" viewBox="0 0 1040 1120" role="img" aria-labelledby="title desc">
-  <title id="title">Flujo End-to-End de Machine Learning</title>
-  <desc id="desc">A vertical pipeline with three grouped stages. Source data and preparation feed into model development and training, whose output is served at a deployment endpoint on Kubernetes.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="1120" viewBox="0 0 1040 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Flujo fin-a-fin de Machine Learning</title>
+  <desc id="desc">Pipeline vertical con tres etapas agrupadas. Los datos de origen y su preparación alimentan el desarrollo y entrenamiento del modelo; la salida se sirve en un endpoint de despliegue en Kubernetes.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -22,31 +22,31 @@
   </defs>
 
   <rect class="bg" x="0" y="0" width="1040" height="1120"/>
-  <text class="title" x="44" y="48">Flujo End-to-End de Machine Learning</text>
+  <text class="title" x="44" y="48">Flujo fin-a-fin de Machine Learning</text>
   <text class="subtitle" x="44" y="76">Desde datos crudos a modelo desplegado: preparar datos, entrenar y servir en endpoint</text>
 
   <!-- ============ STAGE 1: SOURCE DATA AND PREPARATION ============ -->
   <rect x="120" y="100" width="800" height="186" rx="14" fill="#ecfeff" fill-opacity="0.55" stroke="#0e7490" stroke-width="2.5" stroke-dasharray="9 7"/>
   <rect x="688" y="84" width="232" height="34" rx="9" fill="#0e7490"/>
-  <text class="tab" x="804" y="106" text-anchor="middle" fill="#ffffff">Datos Fuente y Preparacion</text>
-  <text class="tab" x="138" y="124" fill="#0e7490" font-size="12px">Modules 03-04</text>
+  <text class="tab" x="804" y="106" text-anchor="middle" fill="#ffffff">Datos de origen y preparación</text>
+  <text class="tab" x="138" y="124" fill="#0e7490" font-size="12px">Módulos 03-04</text>
 
   <!-- cylinder 1 -->
   <path class="cyl" d="M212,158 v60 a66,15 0 0 0 132,0 v-60 Z"/>
   <ellipse class="cyltop" cx="278" cy="158" rx="66" ry="15"/>
-  <text class="cap" x="278" y="246" text-anchor="middle">Source data</text>
+  <text class="cap" x="278" y="246" text-anchor="middle">Datos de origen</text>
   <!-- cylinder 2 -->
   <path class="cyl" d="M408,158 v60 a66,15 0 0 0 132,0 v-60 Z"/>
   <ellipse class="cyltop" cx="474" cy="158" rx="66" ry="15"/>
-  <text class="cap" x="474" y="246" text-anchor="middle">Prepared data</text>
+  <text class="cap" x="474" y="246" text-anchor="middle">Datos preparados</text>
 
   <!-- prep steps -->
   <rect class="node" x="622" y="138" width="216" height="34" rx="6"/>
-  <text class="nt" x="730" y="159" text-anchor="middle">Collect sources</text>
+  <text class="nt" x="730" y="159" text-anchor="middle">Recolectar fuentes</text>
   <rect class="node" x="622" y="182" width="216" height="34" rx="6"/>
-  <text class="nt" x="730" y="203" text-anchor="middle">Clean and encode</text>
+  <text class="nt" x="730" y="203" text-anchor="middle">Limpiar y codificar</text>
   <rect class="node" x="622" y="226" width="216" height="34" rx="6"/>
-  <text class="nt" x="730" y="247" text-anchor="middle">Train / test split</text>
+  <text class="nt" x="730" y="247" text-anchor="middle">Partición entrenar/prueba</text>
   <path class="con" d="M730,172 L730,182" marker-end="url(#ah)"/>
   <path class="con" d="M730,216 L730,226" marker-end="url(#ah)"/>
   <path class="con" d="M540,188 L618,188" marker-end="url(#ah)"/>
@@ -59,11 +59,11 @@
   <rect x="44" y="360" width="952" height="416" rx="14" fill="#fffbeb" fill-opacity="0.6" stroke="#b45309" stroke-width="2.5" stroke-dasharray="9 7"/>
   <rect x="690" y="344" width="306" height="34" rx="9" fill="#b45309"/>
   <text class="tab" x="843" y="366" text-anchor="middle" fill="#ffffff">Desarrollo y Entrenamiento</text>
-  <text class="tab" x="62" y="384" fill="#b45309" font-size="12px">Module 05</text>
+  <text class="tab" x="62" y="384" fill="#b45309" font-size="12px">Módulo 05</text>
 
-  <!-- BEGIN -->
+  <!-- INICIO -->
   <rect class="node" x="455" y="398" width="130" height="34" rx="6" fill="#fef3c7" stroke="#b45309"/>
-  <text class="seblbl" x="520" y="420" text-anchor="middle">BEGIN</text>
+  <text class="seblbl" x="520" y="420" text-anchor="middle">INICIO</text>
   <path class="con" d="M520,432 L520,452"/>
   <!-- top bus -->
   <path class="con" d="M150,452 L830,452"/>
@@ -74,45 +74,45 @@
 
   <!-- Column A: data handling -->
   <rect class="node" x="62" y="470" width="176" height="38" rx="6"/>
-  <text class="nt" x="150" y="494" text-anchor="middle">Read source data</text>
+  <text class="nt" x="150" y="494" text-anchor="middle">Leer datos de origen</text>
   <rect class="node" x="62" y="534" width="176" height="38" rx="6"/>
-  <text class="nt" x="150" y="558" text-anchor="middle">Clean columns</text>
+  <text class="nt" x="150" y="558" text-anchor="middle">Limpiar columnas</text>
   <rect class="node" x="62" y="598" width="176" height="38" rx="6"/>
-  <text class="nt" x="150" y="622" text-anchor="middle">Identify datasets</text>
+  <text class="nt" x="150" y="622" text-anchor="middle">Identificar datasets</text>
   <path class="con" d="M150,508 L150,534" marker-end="url(#ah)"/>
   <path class="con" d="M150,572 L150,598" marker-end="url(#ah)"/>
 
   <!-- Column B: AutoML -->
   <rect class="node" x="292" y="470" width="176" height="38" rx="6"/>
-  <text class="nt" x="380" y="494" text-anchor="middle">AutoML setup</text>
+  <text class="nt" x="380" y="494" text-anchor="middle">Configurar AutoML</text>
   <rect class="node" x="292" y="534" width="176" height="38" rx="6"/>
-  <text class="nt" x="380" y="558" text-anchor="middle">Workspace setup</text>
+  <text class="nt" x="380" y="558" text-anchor="middle">Configurar workspace</text>
   <rect class="node" x="292" y="598" width="176" height="38" rx="6"/>
-  <text class="nt" x="380" y="622" text-anchor="middle">AutoML execution</text>
+  <text class="nt" x="380" y="622" text-anchor="middle">Ejecución de AutoML</text>
   <path class="con" d="M380,508 L380,534" marker-end="url(#ah)"/>
   <path class="con" d="M380,572 L380,598" marker-end="url(#ah)"/>
 
   <!-- Column C: metrics -->
   <rect class="node" x="522" y="470" width="176" height="38" rx="6"/>
-  <text class="nt" x="610" y="494" text-anchor="middle">Calculate metrics</text>
+  <text class="nt" x="610" y="494" text-anchor="middle">Calcular métricas</text>
 
   <!-- Column D: results -->
   <rect class="node" x="742" y="470" width="176" height="38" rx="6"/>
-  <text class="nt" x="830" y="494" text-anchor="middle">Display results</text>
+  <text class="nt" x="830" y="494" text-anchor="middle">Mostrar resultados</text>
   <rect class="node" x="742" y="534" width="176" height="38" rx="6"/>
-  <text class="nt" x="830" y="558" text-anchor="middle">Explainability</text>
+  <text class="nt" x="830" y="558" text-anchor="middle">Explicabilidad</text>
   <path class="con" d="M830,508 L830,534" marker-end="url(#ah)"/>
 
-  <!-- convergence to END -->
+  <!-- convergence to FIN -->
   <path class="con" d="M150,636 L150,690"/>
   <path class="con" d="M380,636 L380,690"/>
   <path class="con" d="M610,508 L610,690"/>
   <path class="con" d="M830,572 L830,690"/>
   <path class="con" d="M150,690 L830,690"/>
   <path class="con" d="M520,690 L520,712" marker-end="url(#ah)"/>
-  <!-- END -->
+  <!-- FIN -->
   <rect class="node" x="455" y="712" width="130" height="34" rx="6" fill="#fef3c7" stroke="#b45309"/>
-  <text class="seblbl" x="520" y="734" text-anchor="middle">END</text>
+  <text class="seblbl" x="520" y="734" text-anchor="middle">FIN</text>
 
   <!-- orange arrow Stage2 -> Stage3 -->
   <rect x="509" y="784" width="22" height="30" fill="#f59e0b"/>
@@ -121,8 +121,8 @@
   <!-- ============ STAGE 3: DEPLOYMENT ENDPOINT ============ -->
   <rect x="300" y="850" width="440" height="196" rx="14" fill="#eff6ff" fill-opacity="0.7" stroke="#004a99" stroke-width="2.5" stroke-dasharray="9 7"/>
   <rect x="520" y="834" width="220" height="34" rx="9" fill="#004a99"/>
-  <text class="tab" x="630" y="856" text-anchor="middle" fill="#ffffff">Endpoint de Despliegue</text>
-  <text class="tab" x="318" y="876" fill="#004a99" font-size="12px">Module 06</text>
+  <text class="tab" x="630" y="856" text-anchor="middle" fill="#ffffff">endpoint de despliegue</text>
+  <text class="tab" x="318" y="876" fill="#004a99" font-size="12px">Módulo 06</text>
 
   <!-- kubernetes hexagon -->
   <polygon points="372,892 405,911 405,949 372,968 339,949 339,911" fill="#326ce5" stroke="#1d4ed8" stroke-width="1.5"/>
@@ -139,15 +139,15 @@
 
   <!-- endpoint steps -->
   <rect class="node" x="446" y="888" width="262" height="34" rx="6"/>
-  <text class="nt" x="577" y="909" text-anchor="middle">Register the model</text>
+  <text class="nt" x="577" y="909" text-anchor="middle">Registrar el modelo</text>
   <rect class="node" x="446" y="930" width="262" height="34" rx="6"/>
-  <text class="nt" x="577" y="951" text-anchor="middle">Online or batch endpoint</text>
+  <text class="nt" x="577" y="951" text-anchor="middle">endpoint en línea o lote</text>
   <rect class="node" x="446" y="972" width="262" height="34" rx="6"/>
-  <text class="nt" x="577" y="993" text-anchor="middle">Kubernetes serving</text>
+  <text class="nt" x="577" y="993" text-anchor="middle">Servicio en Kubernetes</text>
   <path class="con" d="M577,922 L577,930" marker-end="url(#ah)"/>
   <path class="con" d="M577,964 L577,972" marker-end="url(#ah)"/>
 
   <!-- ============ Foundations band ============ -->
   <rect x="44" y="1062" width="952" height="44" rx="10" fill="#eef2ff" stroke="#c7d2fe" stroke-width="1.5"/>
-  <text class="fnd" x="520" y="1090" text-anchor="middle">Foundations under every stage: ML Basics (Module 01) and Azure ML Overview (Module 02)</text>
+  <text class="fnd" x="520" y="1090" text-anchor="middle">Fundamentos en todas las etapas: Fundamentos de ML (Módulo 01) y Visión general de Azure ML (Módulo 02)</text>
 </svg>

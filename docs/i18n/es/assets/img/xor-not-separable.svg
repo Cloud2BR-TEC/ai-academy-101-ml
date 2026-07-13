@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
   <title id="title">XOR is not linearly separable</title>
-  <desc id="desc">The four XOR points cannot be split into their two classes by any single straight line, which is why a single perceptron fails.</desc>
+  <desc id="desc">el four XOR points cannot be split into their two classes by any single straight line, which is why a single perceptron fails.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -21,7 +21,7 @@
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="560"/>
   <text class="title" x="60" y="52">XOR is not linearly separable</text>
-  <text class="subtitle" x="60" y="80">No straight line splits the two XOR classes — a single perceptron can only draw one line, so it fails.</text>
+  <text class="subtitle" x="60" y="80">No straight line splits el two XOR classes — a single perceptron can only draw one line, so it fails.</text>
 
   <!-- main plot card -->
   <rect class="card" x="60" y="110" width="540" height="400" rx="10"/>
@@ -57,11 +57,11 @@
   <rect class="c1" x="320" y="517" width="22" height="22" rx="3"/>
   <text class="legtext" x="350" y="533">Class 1</text>
   <line class="cand" x1="450" y1="528" x2="500" y2="528"/>
-  <text class="legtext" x="508" y="533">Candidate line</text>
+  <text class="legtext" x="508" y="533">candidato line</text>
 
   <!-- linearly separable inset -->
   <rect class="card" x="640" y="150" width="340" height="300" rx="10"/>
-  <text class="label" x="810" y="180" text-anchor="middle" font-weight="700">Linearly separable (for contrast)</text>
+  <text class="label" x="810" y="180" text-anchor="middle" font-weight="700">Lineally separable (para contrast)</text>
   <line class="axis" x1="700" y1="410" x2="940" y2="410"/>
   <line class="axis" x1="700" y1="410" x2="700" y2="210"/>
   <text class="axis-label" x="938" y="402" text-anchor="end">x1</text>
@@ -71,8 +71,8 @@
   <circle class="c0" cx="900" cy="380" r="11"/>
   <rect class="c1" x="889" y="239" width="22" height="22" rx="3"/>
   <line class="sep" x1="820" y1="210" x2="940" y2="330"/>
-  <text class="desc2" x="810" y="430" text-anchor="middle">One straight line separates the classes.</text>
+  <text class="desc2" x="810" y="430" text-anchor="middle">One straight line separates el classes.</text>
 
   <!-- caption -->
-  <text class="desc2" x="60" y="548" font-size="14" fill="#b91c1c" font-weight="700">No single straight line can separate the two classes — that is exactly why a single perceptron cannot learn XOR.</text>
+  <text class="desc2" x="60" y="548" font-size="14" fill="#b91c1c" font-weight="700">No single straight line can separate el two classes — that is exactly why a single perceptron cannot learn XOR.</text>
 </svg>

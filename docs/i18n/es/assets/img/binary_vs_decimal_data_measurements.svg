@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="470" viewBox="0 0 1040 470" role="img" aria-labelledby="title desc">
-  <title id="title">Binary vs Decimal Data Measurements</title>
-  <desc id="desc">Comparison table of decimal SI units versus binary IEC units: KB versus KiB, MB versus MiB, and GB versus GiB, noting that 1 GB is approximately 0.93 GiB.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="470" viewBox="0 0 1040 470" role="img" aria-labelledby="title desc">
+  <title id="title">Binary vs Decimal datos Measurements</title>
+  <desc id="desc">Comparison table de decimal SI units versus binary IEC units: KB versus KiB, MB versus MiB, y GB versus GiB, noting that 1 GB is approximately 0.93 GiB.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -15,14 +15,14 @@
     </style>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="470"/>
-  <text class="title" x="60" y="52">Binary vs Decimal Data Measurements</text>
-  <text class="subtitle" x="60" y="80">Drive makers use decimal (SI) units; operating systems count in binary (IEC) units</text>
+  <text class="title" x="60" y="52">Binary vs Decimal datos Measurements</text>
+  <text class="subtitle" x="60" y="80">Drive makers use decimal (SI) units; operating systems count en binary (IEC) units</text>
 
   <!-- group header -->
   <rect x="60" y="120" width="460" height="44" rx="8" fill="#0e7490"/>
-  <text class="ghead" x="290" y="148" text-anchor="middle">Decimal (SI · base 10)</text>
+  <text class="ghead" x="290" y="148" text-anchor="middle">Decimal (SI Â· base 10)</text>
   <rect x="520" y="120" width="460" height="44" rx="8" fill="#004a99"/>
-  <text class="ghead" x="750" y="148" text-anchor="middle">Binary (IEC · base 2)</text>
+  <text class="ghead" x="750" y="148" text-anchor="middle">Binary (IEC Â· base 2)</text>
 
   <!-- column header row -->
   <rect x="60" y="166" width="920" height="36" fill="#e2e8f0"/>
@@ -63,6 +63,6 @@
   <!-- note -->
   <rect x="60" y="380" width="920" height="52" rx="8" fill="#fff7ed" stroke="#f4b36b" stroke-width="1.5"/>
   <text class="note" x="80" y="404" fill="#b45309" font-weight="700">Note:</text>
-  <text class="note" x="128" y="404">1 GB &#8776; 0.93 GiB. A drive sold as "1 GB" (1,000,000,000 bytes) shows about 0.93 GiB in the OS —</text>
-  <text class="note" x="80" y="424">the same bytes, just a different counting base. This is why capacities look smaller after formatting.</text>
+  <text class="note" x="128" y="404">1 GB &#8776; 0.93 GiB. A drive sold as "1 GB" (1,000,000,000 bytes) shows about 0.93 GiB en el OS —</text>
+  <text class="note" x="80" y="424">Los mismos bytes, solo una base de conteo diferente. Por eso las capacidades se ven más pequeñas después del formateo.</text>
 </svg>

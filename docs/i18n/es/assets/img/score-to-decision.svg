@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
-  <title id="title">From score to probability to decision</title>
-  <desc id="desc">The sigmoid function turns a raw model score into a probability between 0 and 1. A threshold then converts that probability into a yes or no decision.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
+  <title id="title">De score a probabilidad y decisión</title>
+  <desc id="desc">La función sigmoide convierte un puntaje crudo del modelo en una probabilidad entre 0 y 1. Luego, un umbral convierte esa probabilidad en una decisión de sí o no.</desc>
 
   <defs>
     <style>
@@ -21,8 +21,8 @@
   </defs>
 
   <rect class="bg" x="0" y="0" width="1040" height="560"/>
-  <text class="title" x="60" y="52">Turning a score into a decision</text>
-  <text class="subtitle" x="60" y="80">The S-curve turns any score into a 0-to-100% chance; a cut-off line turns that into a Yes or No.</text>
+  <text class="title" x="60" y="52">Convertir un score en una decisión</text>
+  <text class="subtitle" x="60" y="80">el S-curve turns any score into a 0-a-100% chance; a cut-off line turns that into a Yes or No.</text>
 
   <!-- decision zones -->
   <rect class="zone0" x="120" y="120" width="420" height="380"/>
@@ -31,8 +31,8 @@
   <!-- axes -->
   <line class="axis" x1="120" y1="500" x2="960" y2="500"/>
   <line class="axis" x1="540" y1="500" x2="540" y2="120"/>
-  <text class="axis-label" x="540" y="540" text-anchor="middle">Model score (raw output)  -  low on left, high on right</text>
-  <text class="axis-label" x="60" y="310" transform="rotate(-90 60 310)" text-anchor="middle">Chance it is a Yes</text>
+  <text class="axis-label" x="540" y="540" text-anchor="middle">score del modelo (salida cruda) - bajo a la izquierda, alto a la derecha</text>
+  <text class="axis-label" x="60" y="310" transform="rotate(-90 60 310)" text-anchor="middle">Probabilidad de Sí</text>
 
   <!-- p=0, p=0.5, p=1 gridlines -->
   <line class="grid" x1="120" y1="500" x2="960" y2="500"/>
@@ -47,17 +47,17 @@
 
   <!-- threshold line at p=0.5 -->
   <line class="thr" x1="120" y1="310" x2="960" y2="310"/>
-  <text class="note" x="930" y="300" text-anchor="end" fill="#b45309" font-weight="700">cut-off line (default 50%)</text>
+  <text class="note" x="930" y="300" text-anchor="end" fill="#b45309" font-weight="700">línea de corte (50% por defecto)</text>
 
   <!-- zone labels -->
-  <text class="ztxt" x="330" y="160" text-anchor="middle" fill="#9a4a12">Below threshold</text>
-  <text class="ztxt" x="330" y="184" text-anchor="middle" fill="#9a4a12">predict class 0 (No)</text>
-  <text class="ztxt" x="750" y="460" text-anchor="middle" fill="#256029">Above threshold</text>
-  <text class="ztxt" x="750" y="484" text-anchor="middle" fill="#256029">predict class 1 (Yes)</text>
+  <text class="ztxt" x="330" y="160" text-anchor="middle" fill="#9a4a12">Debajo del umbral</text>
+  <text class="ztxt" x="330" y="184" text-anchor="middle" fill="#9a4a12">predice clase 0 (No)</text>
+  <text class="ztxt" x="750" y="460" text-anchor="middle" fill="#256029">Encima del umbral</text>
+  <text class="ztxt" x="750" y="484" text-anchor="middle" fill="#256029">predice clase 1 (Sí)</text>
 
   <!-- callouts -->
-  <text class="note" x="150" y="430">Raw scores can be any number;</text>
-  <text class="note" x="150" y="448">the S-curve squeezes them into 0 to 100%.</text>
-  <text class="note" x="600" y="500">Slide the cut-off left or right to catch</text>
+  <text class="note" x="150" y="430">Los puntajes crudos pueden ser cualquier número;</text>
+  <text class="note" x="150" y="448">el S-curve squeezes them into 0 a 100%.</text>
+  <text class="note" x="600" y="500">Slide el cut-off left or right a catch</text>
   <text class="note" x="600" y="518" fill="#475569">more cases or raise fewer false alarms.</text>
 </svg>

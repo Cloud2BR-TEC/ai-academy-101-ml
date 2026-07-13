@@ -5,10 +5,83 @@ published_in_docs: false
 owner: Cloud2BR TEC
 updated: 2026-07-13
 
+meeting:
+  title: Machine Learning 101 - Team Session Agenda
+  audience: People joining the meeting (mixed technical levels)
+  total_duration_minutes: 60
+  objective: Align everyone on core ML concepts, flow, and practical next actions.
+
+timing_model:
+  explain_minutes: 36
+  participant_share_minutes: 18
+  transition_minutes: 6
+  explain_percentage: 60
+  participant_share_percentage: 30
+  transition_percentage: 10
+
+shareable_intro:
+  message: |
+    Welcome to Machine Learning 101. This agenda is designed so everyone can follow the basics,
+    ask questions, and share examples from their own work.
+    We will keep explanations simple, practical, and tied to real use cases.
+
 goals:
   - Keep Machine Learning 101 content focused, simple, and accurate.
   - Maintain module-to-module continuity across theory, platform, and deployment.
   - Keep visual assets aligned with module numbering and titles.
+
+meeting_agenda:
+  - duration: 5 min
+    segment: Welcome and session goals
+    explain: Introduce the purpose, outcomes, and meeting flow.
+    participant_share: Quick attendee introductions and expectations.
+    owner: Facilitator
+  - duration: 10 min
+    segment: ML fundamentals in plain language
+    explain: Explain what ML is, key terms, and common ML types.
+    participant_share: Share one business or school scenario where ML could help.
+    owner: Facilitator + attendees
+  - duration: 10 min
+    segment: End-to-end workflow overview
+    explain: Walk through data, training, evaluation, deployment, and monitoring.
+    participant_share: Ask attendees to map the workflow to their current projects.
+    owner: Facilitator + attendees
+  - duration: 10 min
+    segment: Platform focus (Azure ML and Fabric context)
+    explain: Clarify where Azure ML and Fabric fit in the workflow.
+    participant_share: Attendees share tool familiarity and blockers.
+    owner: Facilitator + attendees
+  - duration: 10 min
+    segment: Interactive Q&A and examples
+    explain: Answer common beginner questions with simple examples.
+    participant_share: Open floor for participant questions and examples.
+    owner: Facilitator + attendees
+  - duration: 10 min
+    segment: Action planning
+    explain: Propose practical next steps and learning path options.
+    participant_share: Attendees confirm their first next action.
+    owner: Facilitator + attendees
+  - duration: 5 min
+    segment: Wrap-up
+    explain: Summarize key points and confirm follow-up items.
+    participant_share: Final comments and confidence check.
+    owner: Facilitator
+
+facilitation_notes:
+  - Keep explanations at beginner level (Grade 10-12 equivalent).
+  - Use software engineering analogies when introducing ML lifecycle concepts.
+  - Pause every 10 minutes for comprehension checks.
+  - Capture attendee questions for post-meeting follow-up.
+
+pre_read_to_share:
+  - README.md
+  - docs/i18n/en/index.md
+  - docs/i18n/es/index.md
+
+outputs_to_share_after_meeting:
+  - Session summary with answered questions.
+  - Links to modules covered in the session.
+  - Suggested next-step learning order for attendees.
 
 delivery_sequence:
   - module: 01

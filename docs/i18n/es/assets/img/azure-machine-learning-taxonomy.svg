@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
-  <title id="title">Azure ML Workspace Taxonomy</title>
-  <desc id="desc">The Azure ML workspace is a governance boundary that contains child assets: compute, data assets, models, endpoints and environments.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
+  <title id="title">Taxonomía del workspace de Azure ML</title>
+  <desc id="desc">el Azure ML workspace is a gobernanza boundary that contains child assets: cómputo, datos assets, modelos, endpoints y entornos.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -16,62 +16,62 @@
     </style>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="540"/>
-  <text class="title" x="60" y="52">Azure ML Workspace Taxonomy</text>
-  <text class="subtitle" x="60" y="80">The workspace is the governance boundary — every asset below is scoped to it</text>
+  <text class="title" x="60" y="52">Taxonomía del workspace de Azure ML</text>
+  <text class="subtitle" x="60" y="80">el workspace is el gobernanza boundary — every asset below is scoped a it</text>
 
   <rect class="card" x="60" y="120" width="920" height="330" rx="12"/>
-  <text class="cardhead" x="84" y="156" fill="#004a99">Azure ML Workspace</text>
-  <text class="desc2" x="84" y="178">Security, access-control and governance boundary. RBAC, quotas and lineage apply to all child assets.</text>
+  <text class="cardhead" x="84" y="156" fill="#004a99">workspace de Azure ML</text>
+  <text class="desc2" x="84" y="178">seguridad, access-control y gobernanza boundary. RBAC, quotas y linaje apply a all child assets.</text>
   <line x1="84" y1="192" x2="956" y2="192" stroke="#cbd5e1" stroke-width="1.5"/>
 
-  <!-- Compute -->
+  <!-- Cómputo -->
   <rect class="card" x="84" y="210" width="160" height="210" rx="10"/>
   <rect x="84" y="210" width="160" height="46" rx="10" fill="#004a99"/>
-  <text class="node" x="164" y="240" text-anchor="middle">Compute</text>
+  <text class="node" x="164" y="240" text-anchor="middle">Cómputo</text>
   <rect class="sub" x="96" y="280" width="136" height="58" rx="6"/>
-  <text class="subt" x="164" y="305" text-anchor="middle">Instance</text>
-  <text class="desc2" x="164" y="324" text-anchor="middle">Dev workstation</text>
+  <text class="subt" x="164" y="305" text-anchor="middle">Instancia</text>
+  <text class="desc2" x="164" y="324" text-anchor="middle">Estación de desarrollo</text>
   <rect class="sub" x="96" y="350" width="136" height="58" rx="6"/>
-  <text class="subt" x="164" y="375" text-anchor="middle">Cluster</text>
-  <text class="desc2" x="164" y="394" text-anchor="middle">Scalable training</text>
+  <text class="subt" x="164" y="375" text-anchor="middle">Clúster</text>
+  <text class="desc2" x="164" y="394" text-anchor="middle">Entrenamiento escalable</text>
 
-  <!-- Data Assets -->
+  <!-- Activos de datos -->
   <rect class="card" x="262" y="210" width="160" height="210" rx="10"/>
   <rect x="262" y="210" width="160" height="46" rx="10" fill="#0e7490"/>
-  <text class="node" x="342" y="240" text-anchor="middle">Data Assets</text>
-  <text class="label" x="278" y="290">• Versioned data</text>
+  <text class="node" x="342" y="240" text-anchor="middle">Activos de datos</text>
+  <text class="label" x="278" y="290">• Datos versionados</text>
   <text class="label" x="278" y="318">• URI file / folder</text>
   <text class="label" x="278" y="346">• MLTable tables</text>
   <text class="desc2" x="278" y="378">Reproducible</text>
-  <text class="desc2" x="278" y="396">inputs</text>
+  <text class="desc2" x="278" y="396">entradas</text>
 
-  <!-- Models -->
+  <!-- Modelos -->
   <rect class="card" x="440" y="210" width="160" height="210" rx="10"/>
   <rect x="440" y="210" width="160" height="46" rx="10" fill="#b45309"/>
-  <text class="node" x="520" y="240" text-anchor="middle">Models</text>
-  <text class="label" x="456" y="290">• Registry</text>
+  <text class="node" x="520" y="240" text-anchor="middle">Modelos</text>
+  <text class="label" x="456" y="290">• registro</text>
   <text class="label" x="456" y="318">• Versioned</text>
-  <text class="label" x="456" y="346">• Lineage</text>
-  <text class="desc2" x="456" y="378">Registered</text>
-  <text class="desc2" x="456" y="396">artifacts</text>
+  <text class="label" x="456" y="346">• linaje</text>
+  <text class="desc2" x="456" y="378">Registrados</text>
+  <text class="desc2" x="456" y="396">artefactos</text>
 
   <!-- Endpoints -->
   <rect class="card" x="618" y="210" width="160" height="210" rx="10"/>
   <rect x="618" y="210" width="160" height="46" rx="10" fill="#15803d"/>
   <text class="node" x="698" y="240" text-anchor="middle">Endpoints</text>
-  <text class="label" x="634" y="290">• Online (real-time)</text>
-  <text class="label" x="634" y="318">• Batch</text>
+  <text class="label" x="634" y="290">• en línea (real-time)</text>
+  <text class="label" x="634" y="318">• lote</text>
   <text class="label" x="634" y="346">• Deployments</text>
-  <text class="desc2" x="634" y="378">Serving</text>
-  <text class="desc2" x="634" y="396">surface</text>
+  <text class="desc2" x="634" y="378">Servicio</text>
+  <text class="desc2" x="634" y="396">superficie</text>
 
-  <!-- Environments -->
+  <!-- Entornos -->
   <rect class="card" x="796" y="210" width="160" height="210" rx="10"/>
   <rect x="796" y="210" width="160" height="46" rx="10" fill="#64748b"/>
-  <text class="node" x="876" y="240" text-anchor="middle">Environments</text>
+  <text class="node" x="876" y="240" text-anchor="middle">Entornos</text>
   <text class="label" x="812" y="290">• Base image</text>
   <text class="label" x="812" y="318">• Dependencies</text>
   <text class="label" x="812" y="346">• Versioned</text>
-  <text class="desc2" x="812" y="378">Reusable</text>
+  <text class="desc2" x="812" y="378">Reutilizable</text>
   <text class="desc2" x="812" y="396">runtime</text>
 </svg>

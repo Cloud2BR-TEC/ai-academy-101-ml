@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400" role="img" aria-labelledby="title">
-  <title id="title">Explicacion de Features y Target</title>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400" role="img" aria-labelledby="title">
+  <title id="title">Explicación de características y variable objetivo</title>
   <defs>
     <style>
       .bg { fill: #f8fafc; }
@@ -25,30 +25,30 @@
   <rect class="bg" x="0" y="0" width="1000" height="400"/>
 
   <!-- Title -->
-  <text class="h1" x="500" y="46" text-anchor="middle">Features y Target</text>
-  <text class="body" x="500" y="70" text-anchor="middle">Features son entradas del modelo. Target es la respuesta a predecir.</text>
+  <text class="h1" x="500" y="46" text-anchor="middle">Características y variable objetivo</text>
+  <text class="body" x="500" y="70" text-anchor="middle">Las características son entradas del modelo. La variable objetivo es la respuesta a predecir.</text>
 
   <!-- Features column -->
   <rect class="feature-box" x="30" y="90" width="360" height="290" rx="12"/>
   <rect class="tag-f" x="30" y="90" width="360" height="38" rx="12"/>
-  <text class="h2" x="210" y="115" text-anchor="middle" fill="white">Features (Entradas)</text>
-  <text class="small" x="50" y="150">Cada fila es informacion sobre una persona:</text>
+  <text class="h2" x="210" y="115" text-anchor="middle" fill="white">características (Entradas)</text>
+  <text class="small" x="50" y="150">Cada fila es información sobre una persona:</text>
   <text class="body" x="60" y="178">Edad: 16</text>
   <text class="body" x="60" y="200">Horas de estudio por semana: 8</text>
   <text class="body" x="60" y="222">Tasa de tareas completadas: 90%</text>
   <text class="body" x="60" y="244">Dias asistidos: 18 de 20</text>
   <text class="body" x="60" y="266">Nota previa: 74</text>
   <text class="small" x="50" y="298">Estos son los datos que el modelo puede usar</text>
-  <text class="small" x="50" y="316">al predecir. Mientras mas relevantes</text>
-  <text class="small" x="50" y="334">sean las features, mejor aprende el modelo.</text>
+  <text class="small" x="50" y="316">al predecir. Mientras más relevantes</text>
+  <text class="small" x="50" y="334">sean las características, mejor aprende el modelo.</text>
 
   <!-- Arrow -->
   <line class="arrow" x1="394" y1="235" x2="472" y2="235"/>
 
   <!-- Model box -->
   <rect class="model-box" x="474" y="190" width="110" height="90" rx="12"/>
-  <text class="body" x="529" y="230" text-anchor="middle" font-weight="700">Model</text>
-  <text class="small" x="529" y="253" text-anchor="middle">(patron</text>
+  <text class="body" x="529" y="230" text-anchor="middle" font-weight="700">modelo</text>
+  <text class="small" x="529" y="253" text-anchor="middle">(patrón</text>
   <text class="small" x="529" y="268" text-anchor="middle">aprendido)</text>
 
   <!-- Arrow to target -->
@@ -57,13 +57,13 @@
   <!-- Target column -->
   <rect class="target-box" x="604" y="90" width="366" height="290" rx="12"/>
   <rect class="tag-t" x="604" y="90" width="366" height="38" rx="12"/>
-  <text class="h2t" x="787" y="115" text-anchor="middle" fill="white">Target (Salida a Predecir)</text>
-  <text class="small" x="624" y="150">This is the value the model is trying to predict:</text>
-  <text class="body" x="634" y="180">Final exam result: Pass or Fail</text>
-  <text class="small" x="624" y="215">The target is not used during prediction.</text>
-  <text class="small" x="624" y="235">During training, it shows the model what</text>
-  <text class="small" x="624" y="255">the correct answer should have been,</text>
-  <text class="small" x="624" y="275">so the model can adjust and improve.</text>
-  <text class="small" x="624" y="310">For new data, the target is unknown.</text>
-  <text class="small" x="624" y="330">The model predicts it from the features.</text>
+  <text class="h2t" x="787" y="115" text-anchor="middle" fill="white">Variable objetivo (salida a predecir)</text>
+  <text class="small" x="624" y="150">Este es el valor que el modelo intenta predecir:</text>
+  <text class="body" x="634" y="180">Resultado final del examen: aprueba o reprueba</text>
+  <text class="small" x="624" y="215">La variable objetivo no se usa durante la predicción.</text>
+  <text class="small" x="624" y="235">Durante el entrenamiento, le muestra al modelo cuál</text>
+  <text class="small" x="624" y="255">debió ser la respuesta correcta,</text>
+  <text class="small" x="624" y="275">para que el modelo pueda ajustar y mejorar.</text>
+  <text class="small" x="624" y="310">Para datos nuevos, la variable objetivo es desconocida.</text>
+  <text class="small" x="624" y="330">El modelo la predice a partir de las características.</text>
 </svg>

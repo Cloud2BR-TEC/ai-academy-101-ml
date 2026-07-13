@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="610" viewBox="0 0 1040 610" role="img" aria-labelledby="title desc">
-  <title id="title">Training model vs deployment model</title>
-  <desc id="desc">The same model artifact runs in two contexts. In training it is offline, batch, and optimized for accuracy. In deployment it is online, stateless, and optimized for latency.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="610" viewBox="0 0 1040 610" role="img" aria-labelledby="title desc">
+  <title id="title">entrenamiento modelo vs despliegue modelo</title>
+  <desc id="desc">el same modelo artifact runs en two contexts. en entrenamiento it is offline, lote, y optimized para accuracy. en despliegue it is en línea, stateless, y optimized para latencia.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -20,12 +20,12 @@
     </marker>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="610"/>
-  <text class="title" x="60" y="52">Training model vs deployment model</text>
-  <text class="subtitle" x="60" y="80">One artifact, two runtime contexts — the goals flip from accuracy to latency.</text>
+  <text class="title" x="60" y="52">entrenamiento modelo vs despliegue modelo</text>
+  <text class="subtitle" x="60" y="80">One artifact, two runtime contexts — el goals flip desde accuracy a latencia.</text>
 
   <!-- Shared artifact pill -->
   <rect x="390" y="106" width="260" height="48" rx="24" fill="#004a99"/>
-  <text class="pill" x="520" y="136" text-anchor="middle">Same model artifact</text>
+  <text class="pill" x="520" y="136" text-anchor="middle">Same modelo artifact</text>
   <path class="arrow" d="M430,150 C360,176 320,182 290,206" marker-end="url(#ah)"/>
   <path class="arrow" d="M610,150 C680,176 720,182 750,206" marker-end="url(#ah)"/>
 
@@ -33,46 +33,46 @@
   <rect class="card" x="60" y="210" width="430" height="346" rx="12"/>
   <rect x="60" y="210" width="430" height="46" rx="12" fill="#0e7490"/>
   <rect x="60" y="234" width="430" height="22" fill="#0e7490"/>
-  <text class="cardhead" x="84" y="240">Training context · offline</text>
+  <text class="cardhead" x="84" y="240">entrenamiento context Â· offline</text>
 
   <text class="rowlbl" x="84" y="298">Mode</text>
-  <text class="rowval" x="240" y="298">Offline · batch</text>
+  <text class="rowval" x="240" y="298">Offline Â· lote</text>
   <line class="rowline" x1="84" y1="314" x2="466" y2="314"/>
   <text class="rowlbl" x="84" y="342">Goal</text>
   <text class="rowval" x="240" y="342">Maximize accuracy</text>
   <line class="rowline" x1="84" y1="358" x2="466" y2="358"/>
-  <text class="rowlbl" x="84" y="386">Data</text>
+  <text class="rowlbl" x="84" y="386">datos</text>
   <text class="rowval" x="240" y="386">Full historical set</text>
   <line class="rowline" x1="84" y1="402" x2="466" y2="402"/>
-  <text class="rowlbl" x="84" y="430">Compute</text>
-  <text class="rowval" x="240" y="430">Large scalable cluster</text>
+  <text class="rowlbl" x="84" y="430">Cómputo</text>
+  <text class="rowval" x="240" y="430">Large scalable clúster</text>
   <line class="rowline" x1="84" y1="446" x2="466" y2="446"/>
   <text class="rowlbl" x="84" y="474">Cadence</text>
-  <text class="rowval" x="240" y="474">Periodic · experimental</text>
+  <text class="rowval" x="240" y="474">Periodic Â· experimental</text>
   <line class="rowline" x1="84" y1="490" x2="466" y2="490"/>
-  <text class="rowlbl" x="84" y="518">Latency</text>
+  <text class="rowlbl" x="84" y="518">Latencia</text>
   <text class="rowval" x="240" y="518">Not time-critical</text>
 
   <!-- DEPLOYMENT card -->
   <rect class="card" x="550" y="210" width="430" height="346" rx="12"/>
   <rect x="550" y="210" width="430" height="46" rx="12" fill="#004a99"/>
   <rect x="550" y="234" width="430" height="22" fill="#004a99"/>
-  <text class="cardhead" x="574" y="240">Deployment context · online</text>
+  <text class="cardhead" x="574" y="240">despliegue context Â· en línea</text>
 
   <text class="rowlbl" x="574" y="298">Mode</text>
-  <text class="rowval" x="730" y="298">Online · real-time</text>
+  <text class="rowval" x="730" y="298">en línea Â· real-time</text>
   <line class="rowline" x1="574" y1="314" x2="956" y2="314"/>
   <text class="rowlbl" x="574" y="342">Goal</text>
-  <text class="rowval" x="730" y="342">Low latency &amp; reliability</text>
+  <text class="rowval" x="730" y="342">Baja latencia y confiabilidad</text>
   <line class="rowline" x1="574" y1="358" x2="956" y2="358"/>
-  <text class="rowlbl" x="574" y="386">Data</text>
+  <text class="rowlbl" x="574" y="386">datos</text>
   <text class="rowval" x="730" y="386">One request at a time</text>
   <line class="rowline" x1="574" y1="402" x2="956" y2="402"/>
-  <text class="rowlbl" x="574" y="430">Compute</text>
-  <text class="rowval" x="730" y="430">Small, always-on</text>
+  <text class="rowlbl" x="574" y="430">Cómputo</text>
+  <text class="rowval" x="730" y="430">Small, always-en</text>
   <line class="rowline" x1="574" y1="446" x2="956" y2="446"/>
   <text class="rowlbl" x="574" y="474">Cadence</text>
-  <text class="rowval" x="730" y="474">Continuously serving</text>
+  <text class="rowval" x="730" y="474">Continuously servicio</text>
   <line class="rowline" x1="574" y1="490" x2="956" y2="490"/>
   <text class="rowlbl" x="574" y="518">State</text>
   <text class="rowval" x="730" y="518">Stateless per call</text>

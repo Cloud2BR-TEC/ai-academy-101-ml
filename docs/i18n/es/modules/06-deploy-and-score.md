@@ -1,12 +1,12 @@
-# 06. Despliegue y Scoring
+﻿# 06. Despliegue y Scoring
 
 Despliegue es cuando el modelo entrenado pasa a ser un servicio activo para recibir solicitudes y devolver predicciones.
 
-## Enlaces Rapidos
+## Enlaces Rápidos
 
-- Fundamentos de modelos: [Modulo 01](01-machine-learning-basics.md)
-- Construir y evaluar: [Modulo 05](05-build-your-first-model.md)
-- Contexto de workspace: [Modulo 03](03-workspace-and-authoring.md)
+- Fundamentos de modelos: [Módulo 01](01-machine-learning-basics.md)
+- Construir y evaluar: [Módulo 05](05-build-your-first-model.md)
+- Contexto de workspace: [Módulo 03](03-workspace-and-authoring.md)
 
 ![Deployment overview](../assets/img/deployment_overview.svg)
 
@@ -15,14 +15,14 @@ Despliegue es cuando el modelo entrenado pasa a ser un servicio activo para reci
 - **Training**: fase offline para aprender con datasets grandes.
 - **Deployment**: fase online para responder solicitudes reales.
 
-## Que es un Endpoint
+## Qué es un Endpoint
 
-Es una URL API HTTP a la que envias datos y recibes predicciones.
+Es una URL API HTTP a la que envías datos y recibes predicciones.
 
-- **API**: forma estandar de comunicacion entre programas.
+- **API**: forma estandar de comunicación entre programas.
 - **HTTP**: protocolo web para request/response.
 
-![Como funciona un endpoint](../assets/img/endpoint-how-it-works.svg)
+![Cómo funciona un endpoint](../assets/img/endpoint-how-it-works.svg)
 
 ### Online Endpoint
 
@@ -39,12 +39,12 @@ Procesa grandes lotes de datos en segundo plano.
 1. Registrar modelo.
 2. Crear `score.py` con:
    - `init()`: carga del modelo al iniciar.
-   - `run(data)`: recibe datos y devuelve prediccion.
+   - `run(data)`: recibe datos y devuelve predicción.
 3. Definir environment.
 4. Desplegar endpoint.
 5. Probar request/response.
 
-En Python, una funcion es un bloque de codigo reutilizable.
+En Python, una funcion es un bloque de código reutilizable.
 
 ![Request response](../assets/img/endpoint-request-response.svg)
 
@@ -77,10 +77,10 @@ JSON es formato de texto estandar para intercambio de datos.
 
 Si existe objetivo de tiempo de respuesta, validar contra ese limite.
 
-![Score a decision](../assets/img/score-to-decision.svg)
+![Score a decisión](../assets/img/score-to-decision.svg)
 
 ## Control de Costos
 
 - Apagar endpoints no usados.
-- Elegir tamano minimo viable de compute.
+- Elegir tamaño minimo viable de compute.
 - Usar instancias pequenas en desarrollo.

@@ -1,12 +1,12 @@
-# 09. Cierre y Proximos Pasos
+﻿# 09. Cierre y Próximos Pasos
 
-Este modulo resume lo aprendido en Machine Learning 101 y define un plan practico para continuar.
+Este módulo resume lo aprendido en Machine Learning 101 y define un plan práctico para continuar.
 
-## Enlaces Rapidos
+## Enlaces Rápidos
 
-- Fundamentos de modelos: [Modulo 01](01-machine-learning-basics.md)
-- Construccion y evaluacion: [Modulo 05](05-build-your-first-model.md)
-- Deploy y scoring: [Modulo 06](06-deploy-and-score.md)
+- Fundamentos de modelos: [Módulo 01](01-machine-learning-basics.md)
+- Construcción y evaluación: [Módulo 05](05-build-your-first-model.md)
+- Deploy y scoring: [Módulo 06](06-deploy-and-score.md)
 
 ![Tipos de objetivos ML](../assets/img/types_of_ml_based_in_objective.svg)
 
@@ -26,12 +26,12 @@ Este modulo resume lo aprendido en Machine Learning 101 y define un plan practic
 - Versionado y historial completo del proyecto.
 - Training y deployment son etapas diferentes.
 
-### Construccion de Modelo
+### Construcción de Modelo
 
 - Limpiar, codificar y dividir datos antes de entrenar.
-- Modelos iniciales: Linear Regression, Decision Trees, Random Forest.
-- Metricas: MAE, RMSE, R2, Accuracy, Precision, Recall.
-- Overfitting y underfitting como señales de ajuste.
+- Modelos iniciales: Linear Regression, Decisión Trees, Random Forest.
+- Métricas: MAE, RMSE, R2, Accuracy, Precision, Recall.
+- Overfitting y underfitting como seÃ±ales de ajuste.
 
 ### Deploy y Operacion
 
@@ -40,22 +40,22 @@ Este modulo resume lo aprendido en Machine Learning 101 y define un plan practic
 - Monitoreo para detectar caidas de calidad y drift.
 - Terraform para infraestructura repetible.
 
-## Autoevaluacion
+## Autoevaluación
 
 1. Diferencia entre feature y target con ejemplo.
 2. Por que usar train/test split.
-3. Como reconocer overfitting.
+3. Cómo reconocer overfitting.
 4. Que ocurre dentro de un endpoint.
 5. Por que environment mejora reproducibilidad.
 6. Cuando usar `terraform destroy`.
 
-## Proximos Pasos
+## Próximos Pasos
 
-### Practica Inmediata
+### Práctica Inmediata
 
 1. Construir un proyecto completo de punta a punta.
 2. Usar dataset nuevo.
-3. Documentar decisiones tecnicas.
+3. Documentar decisiones técnicas.
 
 ### Plan Semanal para Principiantes
 
@@ -77,6 +77,6 @@ Este modulo resume lo aprendido en Machine Learning 101 y define un plan practic
 ## Perspectiva Final
 
 ML busca decisiones utiles y confiables en produccion.
-No gana el modelo mas complejo; gana el que generaliza mejor y se mantiene estable en el tiempo.
+No gana el modelo más complejo; gana el que generaliza mejor y se mantiene estable en el tiempo.
 
 ![Timeline de evolucion ML](../assets/img/ml-evolution-timeline.svg)

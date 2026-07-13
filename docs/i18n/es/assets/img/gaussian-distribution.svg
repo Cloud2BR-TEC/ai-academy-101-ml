@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
-  <title id="title">The Gaussian distribution and the empirical rule</title>
-  <desc id="desc">A normal bell curve centered at the mean mu, with the x-axis marked at mu minus two sigma through mu plus two sigma and shaded regions showing the 68, 95, and 99.7 percent empirical rule.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
+  <title id="title">el Gaussian distribution y el empirical rule</title>
+  <desc id="desc">A normal bell curve centered at el mean mu, con el x-axis marked at mu minus two sigma through mu plus two sigma y shaded regions showing el 68, 95, y 99.7 percent empirical rule.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -18,8 +18,8 @@
     </marker>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="560"/>
-  <text class="title" x="60" y="52">The Gaussian distribution &amp; empirical rule</text>
-  <text class="subtitle" x="60" y="80">About 68% of values fall within ±1σ of the mean, 95% within ±2σ, and 99.7% within ±3σ.</text>
+  <text class="title" x="60" y="52">el Gaussian distribution &amp; empirical rule</text>
+  <text class="subtitle" x="60" y="80">About 68% de values fall within Â±1Ïƒ de el mean, 95% within Â±2Ïƒ, y 99.7% within Â±3Ïƒ.</text>
 
   <!-- shaded regions (drawn widest first) -->
   <path d="M150,440 L150,437 C200,432 240,410 280,402 L280,440 Z" fill="#b45309" fill-opacity="0.18"/>
@@ -44,24 +44,24 @@
   <line class="axis" x1="540" y1="440" x2="540" y2="450"/>
   <line class="axis" x1="670" y1="440" x2="670" y2="450"/>
   <line class="axis" x1="800" y1="440" x2="800" y2="450"/>
-  <text class="axislabel" x="280" y="470" text-anchor="middle">μ−2σ</text>
-  <text class="axislabel" x="410" y="470" text-anchor="middle">μ−σ</text>
-  <text class="axislabel" x="540" y="470" text-anchor="middle">μ</text>
-  <text class="axislabel" x="670" y="470" text-anchor="middle">μ+σ</text>
-  <text class="axislabel" x="800" y="470" text-anchor="middle">μ+2σ</text>
+  <text class="axislabel" x="280" y="470" text-anchor="middle">Î¼âˆ’2Ïƒ</text>
+  <text class="axislabel" x="410" y="470" text-anchor="middle">Î¼âˆ’Ïƒ</text>
+  <text class="axislabel" x="540" y="470" text-anchor="middle">Î¼</text>
+  <text class="axislabel" x="670" y="470" text-anchor="middle">Î¼+Ïƒ</text>
+  <text class="axislabel" x="800" y="470" text-anchor="middle">Î¼+2Ïƒ</text>
 
   <!-- mean label -->
-  <text class="label" x="540" y="148" text-anchor="middle" font-weight="700" fill="#15803d">μ = mean</text>
+  <text class="label" x="540" y="148" text-anchor="middle" font-weight="700" fill="#15803d">Î¼ = mean</text>
 
   <!-- sigma measure -->
   <line class="meas" x1="540" y1="225" x2="670" y2="225" marker-start="url(#ah)" marker-end="url(#ah)"/>
-  <text class="label" x="605" y="217" text-anchor="middle" font-weight="700">σ (std. dev.)</text>
+  <text class="label" x="605" y="217" text-anchor="middle" font-weight="700">Ïƒ (std. dev.)</text>
 
   <!-- legend -->
   <rect x="250" y="505" width="16" height="16" rx="3" fill="#15803d" fill-opacity="0.6"/>
-  <text class="desc2" x="272" y="518">68% (±1σ)</text>
+  <text class="desc2" x="272" y="518">68% (Â±1Ïƒ)</text>
   <rect x="430" y="505" width="16" height="16" rx="3" fill="#0e7490" fill-opacity="0.6"/>
-  <text class="desc2" x="452" y="518">95% (±2σ)</text>
+  <text class="desc2" x="452" y="518">95% (Â±2Ïƒ)</text>
   <rect x="620" y="505" width="16" height="16" rx="3" fill="#b45309" fill-opacity="0.6"/>
-  <text class="desc2" x="642" y="518">99.7% (±3σ)</text>
+  <text class="desc2" x="642" y="518">99.7% (Â±3Ïƒ)</text>
 </svg>

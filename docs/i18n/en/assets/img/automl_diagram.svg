@@ -50,12 +50,12 @@
 
   <!-- Node 1 -->
   <rect class="card" x="60" y="178" width="177" height="118" rx="10"/>
-  <circle cx="95" cy="205" r="14" fill="#004a99"/>
-  <text class="num" x="95" y="210" text-anchor="middle">1</text>
-  <text class="nodehead" x="148" y="210" text-anchor="middle" fill="#004a99">Try Algorithm</text>
-  <text class="nodehead" x="148" y="228" text-anchor="middle" fill="#004a99">+ Hyperparameters</text>
-  <text class="desc2" x="148" y="256" text-anchor="middle">Pick a candidate from</text>
-  <text class="desc2" x="148" y="273" text-anchor="middle">the known algorithm set.</text>
+  <circle cx="88" cy="205" r="14" fill="#004a99"/>
+  <text class="num" x="88" y="210" text-anchor="middle">1</text>
+  <text class="nodehead" x="158" y="210" text-anchor="middle" fill="#004a99">Try Algorithm</text>
+  <text class="nodehead" x="158" y="228" text-anchor="middle" fill="#004a99">+ Hyperparameters</text>
+  <text class="desc2" x="158" y="256" text-anchor="middle">Pick a candidate from</text>
+  <text class="desc2" x="158" y="273" text-anchor="middle">the known algorithm set.</text>
 
   <!-- Node 2 -->
   <rect class="card" x="255" y="178" width="177" height="118" rx="10"/>
@@ -84,7 +84,7 @@
   <text class="desc2" x="733" y="273" text-anchor="middle">of candidates so far.</text>
 
   <!-- Best model -->
-  <rect x="840" y="178" width="140" height="118" rx="10" fill="#0f172a"/>
+  <rect x="840" y="178" width="140" height="118" rx="10" fill="#1e3a8a"/>
   <text class="nodehead" x="910" y="222" text-anchor="middle" fill="#ffffff" font-size="15">Best Model</text>
   <text class="nodehead" x="910" y="242" text-anchor="middle" fill="#ffffff" font-size="15">/ Ensemble</text>
   <text class="desc2" x="910" y="268" text-anchor="middle" fill="#cbd5e1">Top of the leaderboard</text>

@@ -1,12 +1,12 @@
-# 05. Construye Tu Primer Modelo
+﻿# 05. Construye Tu Primer Modelo
 
-Este modulo cubre el flujo completo: desde datos crudos hasta un modelo evaluado y registrado.
+Este módulo cubre el flujo completo: desde datos crudos hasta un modelo evaluado y registrado.
 
-## Enlaces Rapidos
+## Enlaces Rápidos
 
-- Fundamentos de modelos: [Modulo 01](01-machine-learning-basics.md)
-- Flujo de plataforma: [Modulo 02](02-azure-ml-overview.md)
-- Despliegue del modelo: [Modulo 06](06-deploy-and-score.md)
+- Fundamentos de modelos: [Módulo 01](01-machine-learning-basics.md)
+- Flujo de plataforma: [Módulo 02](02-azure-ml-overview.md)
+- Despliegue del modelo: [Módulo 06](06-deploy-and-score.md)
 
 ## Paso 1: Definir el Problema
 
@@ -14,9 +14,9 @@ Preguntas clave:
 
 - Que quieres predecir.
 - Que datos tienes.
-- Que metrica define exito.
+- Que métrica define exito.
 
-Ejemplo: predecir churn de cliente en 30 dias.
+Ejemplo: predecir churn de cliente en 30 días.
 
 ## Paso 2: Entender los Datos
 
@@ -48,20 +48,20 @@ Modelos iniciales recomendados:
 
 - Linear Regression.
 - Logistic Regression.
-- Decision Tree.
+- Decisión Tree.
 - Random Forest.
 
-![Decision tree](../assets/img/decision-tree.svg)
+![Decisión tree](../assets/img/decision-tree.svg)
 ![Random forest](../assets/img/random-forest.svg)
 
 ## Paso 6: Evaluar
 
-Una metrica es un numero que resume calidad del modelo.
+Una métrica es un numero que resume calidad del modelo.
 
 ### Regresion
 
 - **MAE**: error medio absoluto.
-- **RMSE**: error cuadratico medio (penaliza mas errores grandes).
+- **RMSE**: error cuadratico medio (penaliza más errores grandes).
 - **R2**: variacion explicada (0 a 1).
 
 ### Clasificacion
@@ -87,14 +87,14 @@ Una metrica es un numero que resume calidad del modelo.
 
 ```python
 ml_client.models.create_or_update(
-    Model(path="./model.pkl", name="churn-predictor", version="1")
+    Model(path="./model.pkl", name="churn-predictor", versión="1")
 )
 ```
 
 ## Checklist previo a deploy
 
 - [ ] Datos limpios y split correcto.
-- [ ] Metricas cumplen objetivo.
+- [ ] Métricas cumplen objetivo.
 - [ ] Resultado explicable.
 - [ ] Modelo registrado con metadata.
 - [ ] Flujo reproducible por otra persona.

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="510" viewBox="0 0 1040 510" role="img" aria-labelledby="title desc">
-  <title id="title">Detailed steps of an ML-based time-series forecast</title>
-  <desc id="desc">A six-step flow from ingesting history to monitoring, highlighting rolling-origin validation where the train/test split advances through time instead of using random k-fold.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="510" viewBox="0 0 1040 510" role="img" aria-labelledby="title desc">
+  <title id="title">Pasos detallados de un pronóstico de series de tiempo con ML</title>
+  <desc id="desc">A six-step flow desde ingesting history a monitoring, highlighting rolling-origin validación where el entrenar/prueba split advances through time instead de using aleatorio k-fold.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -24,8 +24,8 @@
     </marker>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="510"/>
-  <text class="title" x="60" y="50">Detailed steps of an ML-based time-series forecast</text>
-  <text class="subtitle" x="60" y="78">Respect time order: validate by advancing the origin, never with random k-fold.</text>
+  <text class="title" x="60" y="50">Pasos detallados de un pronóstico de series de tiempo con ML</text>
+  <text class="subtitle" x="60" y="78">Respect time order: validar by advancing el origin, never con aleatorio k-fold.</text>
 
   <!-- arrows -->
   <line class="arrow" x1="197" y1="210" x2="211" y2="210" marker-end="url(#ah)"/>
@@ -38,16 +38,16 @@
   <rect class="card" x="60" y="150" width="135" height="120" rx="10"/>
   <circle cx="127" cy="176" r="13" fill="#004a99"/>
   <text class="num" x="127" y="181" text-anchor="middle">1</text>
-  <text class="nodehead" x="127" y="210" text-anchor="middle" fill="#004a99">Ingest History</text>
-  <text class="desc2" x="127" y="236" text-anchor="middle">Load the historical</text>
+  <text class="nodehead" x="127" y="210" text-anchor="middle" fill="#004a99">Ingestar historial</text>
+  <text class="desc2" x="127" y="236" text-anchor="middle">Load el historical</text>
   <text class="desc2" x="127" y="251" text-anchor="middle">series, ordered by time.</text>
 
   <!-- 2 -->
   <rect class="card" x="213" y="150" width="135" height="120" rx="10"/>
   <circle cx="280" cy="176" r="13" fill="#0e7490"/>
   <text class="num" x="280" y="181" text-anchor="middle">2</text>
-  <text class="nodehead" x="280" y="204" text-anchor="middle" fill="#0e7490">Feature</text>
-  <text class="nodehead" x="280" y="221" text-anchor="middle" fill="#0e7490">Engineering</text>
+  <text class="nodehead" x="280" y="204" text-anchor="middle" fill="#0e7490">característica</text>
+  <text class="nodehead" x="280" y="221" text-anchor="middle" fill="#0e7490">ingeniería</text>
   <text class="desc2" x="280" y="245" text-anchor="middle">lags &#183; rolling</text>
   <text class="desc2" x="280" y="260" text-anchor="middle">&#183; calendar</text>
 
@@ -55,39 +55,39 @@
   <rect x="367" y="150" width="135" height="120" rx="10" fill="#fff7ed" stroke="#b45309" stroke-width="2"/>
   <circle cx="434" cy="176" r="13" fill="#b45309"/>
   <text class="num" x="434" y="181" text-anchor="middle">3</text>
-  <text class="nodehead" x="434" y="204" text-anchor="middle" fill="#b45309">Rolling-Origin</text>
-  <text class="nodehead" x="434" y="221" text-anchor="middle" fill="#b45309">Validation</text>
-  <text class="desc2" x="434" y="245" text-anchor="middle">Advance the split</text>
+  <text class="nodehead" x="434" y="204" text-anchor="middle" fill="#b45309">Origen móvil</text>
+  <text class="nodehead" x="434" y="221" text-anchor="middle" fill="#b45309">Validación</text>
+  <text class="desc2" x="434" y="245" text-anchor="middle">Advance el split</text>
   <text class="desc2" x="434" y="260" text-anchor="middle">through time.</text>
 
   <!-- 4 -->
   <rect class="card" x="520" y="150" width="135" height="120" rx="10"/>
   <circle cx="587" cy="176" r="13" fill="#15803d"/>
   <text class="num" x="587" y="181" text-anchor="middle">4</text>
-  <text class="nodehead" x="587" y="210" text-anchor="middle" fill="#15803d">Train</text>
-  <text class="desc2" x="587" y="236" text-anchor="middle">Fit on the past,</text>
-  <text class="desc2" x="587" y="251" text-anchor="middle">validate ahead.</text>
+  <text class="nodehead" x="587" y="210" text-anchor="middle" fill="#15803d">Entrenar</text>
+  <text class="desc2" x="587" y="236" text-anchor="middle">Fit en el past,</text>
+  <text class="desc2" x="587" y="251" text-anchor="middle">validar ahead.</text>
 
   <!-- 5 -->
   <rect class="card" x="673" y="150" width="135" height="120" rx="10"/>
   <circle cx="740" cy="176" r="13" fill="#004a99"/>
   <text class="num" x="740" y="181" text-anchor="middle">5</text>
-  <text class="nodehead" x="740" y="204" text-anchor="middle" fill="#004a99">Forecast</text>
-  <text class="nodehead" x="740" y="221" text-anchor="middle" fill="#004a99">Horizon</text>
-  <text class="desc2" x="740" y="245" text-anchor="middle">Predict H steps</text>
-  <text class="desc2" x="740" y="260" text-anchor="middle">into the future.</text>
+  <text class="nodehead" x="740" y="204" text-anchor="middle" fill="#004a99">Pronosticar</text>
+  <text class="nodehead" x="740" y="221" text-anchor="middle" fill="#004a99">Horizonte</text>
+  <text class="desc2" x="740" y="245" text-anchor="middle">predecir H steps</text>
+  <text class="desc2" x="740" y="260" text-anchor="middle">into el future.</text>
 
   <!-- 6 -->
   <rect class="card" x="826" y="150" width="135" height="120" rx="10"/>
   <circle cx="893" cy="176" r="13" fill="#64748b"/>
   <text class="num" x="893" y="181" text-anchor="middle">6</text>
-  <text class="nodehead" x="893" y="210" text-anchor="middle" fill="#64748b">Monitor</text>
-  <text class="desc2" x="893" y="236" text-anchor="middle">Track drift and</text>
+  <text class="nodehead" x="893" y="210" text-anchor="middle" fill="#64748b">Monitorear</text>
+  <text class="desc2" x="893" y="236" text-anchor="middle">Track drift y</text>
   <text class="desc2" x="893" y="251" text-anchor="middle">accuracy over time.</text>
 
   <!-- rolling-origin panel -->
   <rect class="panel" x="60" y="300" width="900" height="180" rx="10"/>
-  <text class="ptitle" x="80" y="330">Rolling-origin validation &#8212; the split advances through time (not random k-fold)</text>
+  <text class="ptitle" x="80" y="330">Validación de origen móvil &#8212; el split advances through time (not aleatorio k-fold)</text>
 
   <rect x="80" y="350" width="380" height="20" rx="4" fill="#004a99"/>
   <rect x="460" y="350" width="80" height="20" rx="4" fill="#b45309"/>
@@ -104,7 +104,7 @@
   <line x1="80" y1="455" x2="900" y2="455" stroke="#0f172a" stroke-width="2" marker-end="url(#ah)"/>
   <text class="small" x="80" y="473">time &#8594;</text>
   <rect x="280" y="461" width="14" height="11" fill="#004a99"/>
-  <text class="small" x="300" y="471">train</text>
+  <text class="small" x="300" y="471">entrenar</text>
   <rect x="360" y="461" width="14" height="11" fill="#b45309"/>
-  <text class="small" x="380" y="471">validate (just after the origin)</text>
+  <text class="small" x="380" y="471">validar (just after el origin)</text>
 </svg>

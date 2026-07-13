@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="500" viewBox="0 0 1040 500" role="img" aria-labelledby="title desc">
-  <title id="title">Azure ML Environment Taxonomy</title>
-  <desc id="desc">One versioned environment combining a base image and pinned dependencies is reused by both a training job and an inference deployment to prevent training/serving skew.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="500" viewBox="0 0 1040 500" role="img" aria-labelledby="title desc">
+  <title id="title">Azure ML entorno Taxonomy</title>
+  <desc id="desc">One versioned entorno combining a base image y pinned dependencies is reused by both a entrenamiento job y an inference despliegue a prevent entrenamiento/servicio skew.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -20,13 +20,13 @@
     </marker>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="500"/>
-  <text class="title" x="60" y="52">Azure ML Environment Taxonomy</text>
-  <text class="subtitle" x="60" y="80">Define the runtime once, reuse it everywhere — eliminate training/serving skew</text>
+  <text class="title" x="60" y="52">Azure ML entorno Taxonomy</text>
+  <text class="subtitle" x="60" y="80">Define el runtime once, reuse it everywhere — eliminate entrenamiento/servicio skew</text>
 
   <!-- Environment -->
   <rect class="card" x="60" y="150" width="360" height="240" rx="12"/>
   <rect x="60" y="150" width="360" height="48" rx="12" fill="#004a99"/>
-  <text class="node" x="240" y="181" text-anchor="middle">Environment (versioned: v3)</text>
+  <text class="node" x="240" y="181" text-anchor="middle">entorno (versioned: v3)</text>
   <rect class="sub" x="84" y="222" width="312" height="64" rx="8"/>
   <text class="subt" x="100" y="248">Base Image</text>
   <text class="desc2" x="100" y="270">Curated CUDA / Ubuntu + Python runtime</text>
@@ -34,19 +34,19 @@
   <text class="subt" x="100" y="326">Pinned Dependencies</text>
   <text class="desc2" x="100" y="348">Exact conda / pip versions — fully reproducible</text>
 
-  <!-- Training Job -->
+  <!-- Entrenaring Job -->
   <rect class="card" x="700" y="150" width="280" height="100" rx="12"/>
   <rect x="700" y="150" width="280" height="44" rx="12" fill="#0e7490"/>
-  <text class="node" x="840" y="179" text-anchor="middle">Training Job</text>
-  <text class="desc2" x="724" y="222">Fit the model on the cluster</text>
+  <text class="node" x="840" y="179" text-anchor="middle">entrenamiento Job</text>
+  <text class="desc2" x="724" y="222">Fit el modelo en el clúster</text>
   <text class="desc2" x="724" y="240">using this exact runtime.</text>
 
   <!-- Inference -->
   <rect class="card" x="700" y="290" width="280" height="100" rx="12"/>
   <rect x="700" y="290" width="280" height="44" rx="12" fill="#15803d"/>
-  <text class="node" x="840" y="319" text-anchor="middle">Inference / Serving</text>
-  <text class="desc2" x="724" y="362">Online deployment scores with</text>
-  <text class="desc2" x="724" y="380">the identical runtime.</text>
+  <text class="node" x="840" y="319" text-anchor="middle">Inference / Servicio</text>
+  <text class="desc2" x="724" y="362">en línea despliegue scores con</text>
+  <text class="desc2" x="724" y="380">el identical runtime.</text>
 
   <!-- arrows -->
   <path class="arrow" d="M420,255 C560,255 560,200 695,200" marker-end="url(#ah)"/>
@@ -55,5 +55,5 @@
   <text class="label" x="500" y="360">reuse</text>
 
   <!-- footnote -->
-  <text class="desc2" x="60" y="430">Same image + same dependencies in training and serving = identical preprocessing and behavior in production.</text>
+  <text class="desc2" x="60" y="430">Same image + same dependencies en entrenamiento y servicio = identical preprocessing y behavior en production.</text>
 </svg>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
   <title id="title">SVM maximum-margin boundary</title>
-  <desc id="desc">Two classes separated by a boundary line with a wide margin street on both sides. The points touching the margin edges are the support vectors that define the boundary.</desc>
+  <desc id="desc">Two classes separated by a boundary line con a wide margin street en both sides. el points touching el margin edges are el support vectors that define el boundary.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -18,12 +18,12 @@
     </style>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="540"/>
-  <text class="title" x="60" y="52">SVM: the widest possible street between classes</text>
-  <text class="subtitle" x="60" y="80">Maximize the margin; only the points on the edges (support vectors) define the boundary.</text>
+  <text class="title" x="60" y="52">SVM: el widest possible street between classes</text>
+  <text class="subtitle" x="60" y="80">Maximize el margin; only el points en el edges (support vectors) define el boundary.</text>
   <line class="axis" x1="120" y1="470" x2="960" y2="470"/>
   <line class="axis" x1="120" y1="470" x2="120" y2="120"/>
-  <text class="axis-label" x="540" y="510" text-anchor="middle">Feature 1</text>
-  <text class="axis-label" x="60" y="300" transform="rotate(-90 60 300)" text-anchor="middle">Feature 2</text>
+  <text class="axis-label" x="540" y="510" text-anchor="middle">característica 1</text>
+  <text class="axis-label" x="60" y="300" transform="rotate(-90 60 300)" text-anchor="middle">característica 2</text>
   <!-- margin street -->
   <polygon class="street" points="200,470 470,130 560,130 290,470"/>
   <!-- boundary + margins -->

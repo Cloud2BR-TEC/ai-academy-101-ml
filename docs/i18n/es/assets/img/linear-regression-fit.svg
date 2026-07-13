@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
-  <title id="title">Linear regression best-fit line</title>
-  <desc id="desc">A scatter of points with a straight best-fit line. Vertical dashes show the residuals (the error the squared loss minimizes).</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
+  <title id="title">Lineal regresión best-fit line</title>
+  <desc id="desc">A scatter de points con a straight best-fit line. Vertical dashes show el residuals (el error el squared loss minimizes).</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -15,11 +15,11 @@
     </style>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="540"/>
-  <text class="title" x="60" y="52">Linear regression: a straight line through the data</text>
-  <text class="subtitle" x="60" y="80">Pick the line whose total squared vertical gap to the points is as small as possible.</text>
+  <text class="title" x="60" y="52">Lineal regresión: a straight line through el datos</text>
+  <text class="subtitle" x="60" y="80">Pick el line whose total squared vertical gap a el points is as small as possible.</text>
   <line class="axis" x1="120" y1="470" x2="960" y2="470"/>
   <line class="axis" x1="120" y1="470" x2="120" y2="120"/>
-  <text class="axis-label" x="540" y="510" text-anchor="middle">Feature x</text>
+  <text class="axis-label" x="540" y="510" text-anchor="middle">característica x</text>
   <text class="axis-label" x="60" y="300" transform="rotate(-90 60 300)" text-anchor="middle">Target y</text>
   <!-- best fit line -->
   <line class="line" x1="150" y1="420" x2="930" y2="170"/>
@@ -44,6 +44,6 @@
   <circle class="pt" cx="650" cy="430" r="8"/>
   <text class="note" x="666" y="435">observed point</text>
   <line class="resid" x1="800" y1="424" x2="800" y2="438"/>
-  <text class="note" x="812" y="435">residual = prediction error</text>
-  <text class="note" x="650" y="462" font-weight="700" fill="#004a99">slope = effect of x; intercept = baseline value</text>
+  <text class="note" x="812" y="435">residual = predicción error</text>
+  <text class="note" x="650" y="462" font-weight="700" fill="#004a99">slope = effect de x; intercept = línea base value</text>
 </svg>

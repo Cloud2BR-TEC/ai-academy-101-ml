@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="620" viewBox="0 0 1040 620" role="img" aria-labelledby="title desc">
-  <title id="title">Logical schema for implementing a model</title>
-  <desc id="desc">A top-down decision flow that narrows from problem type to algorithm family, then deployment constraints, and finally a model choice.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="620" viewBox="0 0 1040 620" role="img" aria-labelledby="title desc">
+  <title id="title">Esquema lógico para implementar un modelo</title>
+  <desc id="desc">A top-down decisión flow that narrows desde problem type a algorithm family, then despliegue consentrenarts, y finally a modelo choice.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -19,57 +19,57 @@
     </marker>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="620"/>
-  <text class="title" x="60" y="52">Logical schema for implementing a model</text>
-  <text class="subtitle" x="60" y="80">Each stage narrows the search until one model choice remains.</text>
+  <text class="title" x="60" y="52">Esquema lógico para implementar un modelo</text>
+  <text class="subtitle" x="60" y="80">Each stage narrows el búsqueda hasta one modelo choice remains.</text>
 
   <!-- arrows -->
   <line class="arrow" x1="520" y1="210" x2="520" y2="253" marker-end="url(#ah)"/>
   <line class="arrow" x1="520" y1="345" x2="520" y2="388" marker-end="url(#ah)"/>
   <line class="arrow" x1="520" y1="480" x2="520" y2="523" marker-end="url(#ah)"/>
 
-  <!-- Stage 1: Problem Type -->
+  <!-- Stage 1: Tipo de problema -->
   <rect class="card" x="80" y="120" width="880" height="90" rx="10"/>
   <circle cx="120" cy="165" r="16" fill="#004a99"/>
   <text class="num" x="120" y="170" text-anchor="middle">1</text>
-  <text class="stage" x="150" y="171" fill="#004a99">Problem Type</text>
+  <text class="stage" x="150" y="171" fill="#004a99">Tipo de problema</text>
   <rect x="360" y="146" width="180" height="38" rx="10" fill="#004a99"/>
-  <text class="chip" x="450" y="170" text-anchor="middle">Classification</text>
+  <text class="chip" x="450" y="170" text-anchor="middle">Clasificación</text>
   <rect x="560" y="146" width="180" height="38" rx="10" fill="#004a99"/>
-  <text class="chip" x="650" y="170" text-anchor="middle">Regression</text>
+  <text class="chip" x="650" y="170" text-anchor="middle">Regresión</text>
   <rect x="760" y="146" width="180" height="38" rx="10" fill="#004a99"/>
-  <text class="chip" x="850" y="170" text-anchor="middle">Forecasting</text>
+  <text class="chip" x="850" y="170" text-anchor="middle">Pronóstico</text>
 
-  <!-- Stage 2: Algorithm Family -->
+  <!-- Stage 2: Familia de algoritmos -->
   <rect class="card" x="80" y="255" width="880" height="90" rx="10"/>
   <circle cx="120" cy="300" r="16" fill="#0e7490"/>
   <text class="num" x="120" y="305" text-anchor="middle">2</text>
-  <text class="stage" x="150" y="306" fill="#0e7490">Algorithm Family</text>
+  <text class="stage" x="150" y="306" fill="#0e7490">Familia de algoritmos</text>
   <rect x="360" y="281" width="130" height="38" rx="10" fill="#0e7490"/>
-  <text class="chip" x="425" y="305" text-anchor="middle">Linear</text>
+  <text class="chip" x="425" y="305" text-anchor="middle">Lineal</text>
   <rect x="510" y="281" width="130" height="38" rx="10" fill="#0e7490"/>
-  <text class="chip" x="575" y="305" text-anchor="middle">Tree ensemble</text>
+  <text class="chip" x="575" y="305" text-anchor="middle">Ensamble de árboles</text>
   <rect x="660" y="281" width="130" height="38" rx="10" fill="#0e7490"/>
   <text class="chip" x="725" y="305" text-anchor="middle">Kernel</text>
   <rect x="810" y="281" width="130" height="38" rx="10" fill="#0e7490"/>
-  <text class="chip" x="875" y="305" text-anchor="middle">Neural net</text>
+  <text class="chip" x="875" y="305" text-anchor="middle">Red neuronal</text>
 
-  <!-- Stage 3: Deployment Constraints -->
+  <!-- Stage 3: Restricciones de despliegue -->
   <rect class="card" x="80" y="390" width="880" height="90" rx="10"/>
   <circle cx="120" cy="435" r="16" fill="#b45309"/>
   <text class="num" x="120" y="440" text-anchor="middle">3</text>
-  <text class="stage" x="150" y="430" fill="#b45309">Deployment</text>
-  <text class="stage" x="150" y="452" fill="#b45309">Constraints</text>
+  <text class="stage" x="150" y="430" fill="#b45309">despliegue</text>
+  <text class="stage" x="150" y="452" fill="#b45309">Consentrenarts</text>
   <rect x="360" y="416" width="180" height="38" rx="10" fill="#b45309"/>
-  <text class="chip" x="450" y="440" text-anchor="middle">Latency</text>
+  <text class="chip" x="450" y="440" text-anchor="middle">Latencia</text>
   <rect x="560" y="416" width="180" height="38" rx="10" fill="#b45309"/>
-  <text class="chip" x="650" y="440" text-anchor="middle">Interpretability</text>
+  <text class="chip" x="650" y="440" text-anchor="middle">Interpretabilidad</text>
   <rect x="760" y="416" width="180" height="38" rx="10" fill="#b45309"/>
-  <text class="chip" x="850" y="440" text-anchor="middle">Data size</text>
+  <text class="chip" x="850" y="440" text-anchor="middle">Tamaño de datos</text>
 
   <!-- Stage 4: Model Choice -->
   <rect x="80" y="525" width="880" height="75" rx="10" fill="#15803d"/>
   <circle cx="120" cy="562" r="16" fill="#ffffff"/>
   <text class="num" x="120" y="567" text-anchor="middle" fill="#15803d">4</text>
-  <text class="final" x="520" y="558" text-anchor="middle">Final Model Choice</text>
-  <text class="finalsub" x="520" y="582" text-anchor="middle">The single algorithm and configuration that best fits the problem and its constraints.</text>
+  <text class="final" x="520" y="558" text-anchor="middle">Elección final del modelo</text>
+  <text class="finalsub" x="520" y="582" text-anchor="middle">el single algorithm y configuration that best fits el problem y its consentrenarts.</text>
 </svg>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="460" viewBox="0 0 1040 460" role="img" aria-labelledby="title desc">
-  <title id="title">The AutoML search loop</title>
-  <desc id="desc">A repeating loop that tries an algorithm and hyperparameters, trains, scores with cross-validation, and ranks by the primary metric until the fixed search budget is spent, producing a best model or ensemble.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="460" viewBox="0 0 1040 460" role="img" aria-labelledby="title desc">
+  <title id="title">Bucle de búsqueda de AutoML</title>
+  <desc id="desc">Bucle repetitivo que prueba un algoritmo e hiperparámetros, entrena, evalúa con validación cruzada y ordena por la métrica principal hasta agotar el presupuesto de búsqueda; produce un mejor modelo o ensamble.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -23,11 +23,11 @@
     </marker>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="460"/>
-  <text class="title" x="60" y="52">The AutoML search loop</text>
-  <text class="subtitle" x="60" y="80">Spend a fixed search budget across known algorithms, then keep the best model or ensemble.</text>
+  <text class="title" x="60" y="52">Bucle de búsqueda de AutoML</text>
+  <text class="subtitle" x="60" y="80">Usa un presupuesto fijo de búsqueda en algoritmos conocidos y conserva el mejor modelo o ensamble.</text>
 
   <!-- budget bar -->
-  <text class="budtxt" x="60" y="129">Search budget</text>
+  <text class="budtxt" x="60" y="129">Presupuesto de búsqueda</text>
   <rect x="195" y="112" width="480" height="22" rx="6" fill="#ffffff" stroke="#cbd5e1"/>
   <rect x="197" y="114" width="40" height="18" rx="3" fill="#b45309"/>
   <rect x="239" y="114" width="40" height="18" rx="3" fill="#b45309"/>
@@ -40,7 +40,7 @@
   <rect x="533" y="114" width="40" height="18" rx="3" fill="#fcd9b0"/>
   <rect x="575" y="114" width="40" height="18" rx="3" fill="#fcd9b0"/>
   <rect x="617" y="114" width="56" height="18" rx="3" fill="#fcd9b0"/>
-  <text class="budtxt" x="690" y="129">each cell = one trial</text>
+  <text class="budtxt" x="690" y="129">cada celda = un intento</text>
 
   <!-- arrows between nodes -->
   <line class="arrow" x1="237" y1="235" x2="253" y2="235" marker-end="url(#ah)"/>
@@ -50,46 +50,46 @@
 
   <!-- Node 1 -->
   <rect class="card" x="60" y="178" width="177" height="118" rx="10"/>
-  <circle cx="95" cy="205" r="14" fill="#004a99"/>
-  <text class="num" x="95" y="210" text-anchor="middle">1</text>
-  <text class="nodehead" x="148" y="210" text-anchor="middle" fill="#004a99">Try Algorithm</text>
-  <text class="nodehead" x="148" y="228" text-anchor="middle" fill="#004a99">+ Hyperparameters</text>
-  <text class="desc2" x="148" y="256" text-anchor="middle">Pick a candidate from</text>
-  <text class="desc2" x="148" y="273" text-anchor="middle">the known algorithm set.</text>
+  <circle cx="88" cy="205" r="14" fill="#004a99"/>
+  <text class="num" x="88" y="210" text-anchor="middle">1</text>
+  <text class="nodehead" x="158" y="210" text-anchor="middle" fill="#004a99">Probar algoritmo</text>
+  <text class="nodehead" x="158" y="228" text-anchor="middle" fill="#004a99">+ hiperparámetros</text>
+  <text class="desc2" x="158" y="256" text-anchor="middle">Elegir un candidato de</text>
+  <text class="desc2" x="158" y="273" text-anchor="middle">un conjunto conocido de algoritmos.</text>
 
   <!-- Node 2 -->
   <rect class="card" x="255" y="178" width="177" height="118" rx="10"/>
   <circle cx="290" cy="205" r="14" fill="#0e7490"/>
   <text class="num" x="290" y="210" text-anchor="middle">2</text>
-  <text class="nodehead" x="343" y="216" text-anchor="middle" fill="#0e7490">Train</text>
-  <text class="desc2" x="343" y="248" text-anchor="middle">Fit the candidate on</text>
-  <text class="desc2" x="343" y="265" text-anchor="middle">the training folds.</text>
+  <text class="nodehead" x="343" y="216" text-anchor="middle" fill="#0e7490">Entrenar</text>
+  <text class="desc2" x="343" y="248" text-anchor="middle">Ajustar el candidato en</text>
+  <text class="desc2" x="343" y="265" text-anchor="middle">los folds de entrenamiento.</text>
 
   <!-- Node 3 -->
   <rect class="card" x="450" y="178" width="177" height="118" rx="10"/>
   <circle cx="485" cy="205" r="14" fill="#b45309"/>
   <text class="num" x="485" y="210" text-anchor="middle">3</text>
-  <text class="nodehead" x="538" y="210" text-anchor="middle" fill="#b45309">Score with</text>
-  <text class="nodehead" x="538" y="228" text-anchor="middle" fill="#b45309">Cross-Validation</text>
-  <text class="desc2" x="538" y="256" text-anchor="middle">Estimate generalization</text>
-  <text class="desc2" x="538" y="273" text-anchor="middle">across held-out folds.</text>
+  <text class="nodehead" x="538" y="210" text-anchor="middle" fill="#b45309">Evaluar con</text>
+  <text class="nodehead" x="538" y="228" text-anchor="middle" fill="#b45309">validación cruzada</text>
+  <text class="desc2" x="538" y="256" text-anchor="middle">Estimar generalización</text>
+  <text class="desc2" x="538" y="273" text-anchor="middle">en folds de validación.</text>
 
   <!-- Node 4 -->
   <rect class="card" x="645" y="178" width="177" height="118" rx="10"/>
   <circle cx="680" cy="205" r="14" fill="#15803d"/>
   <text class="num" x="680" y="210" text-anchor="middle">4</text>
-  <text class="nodehead" x="733" y="210" text-anchor="middle" fill="#15803d">Rank by</text>
-  <text class="nodehead" x="733" y="228" text-anchor="middle" fill="#15803d">Primary Metric</text>
-  <text class="desc2" x="733" y="256" text-anchor="middle">Update the leaderboard</text>
-  <text class="desc2" x="733" y="273" text-anchor="middle">of candidates so far.</text>
+  <text class="nodehead" x="733" y="210" text-anchor="middle" fill="#15803d">Ordenar por</text>
+  <text class="nodehead" x="733" y="228" text-anchor="middle" fill="#15803d">métrica principal</text>
+  <text class="desc2" x="733" y="256" text-anchor="middle">Actualizar el ranking</text>
+  <text class="desc2" x="733" y="273" text-anchor="middle">de candidatos hasta ahora.</text>
 
   <!-- Best model -->
-  <rect x="840" y="178" width="140" height="118" rx="10" fill="#0f172a"/>
-  <text class="nodehead" x="910" y="222" text-anchor="middle" fill="#ffffff" font-size="15">Best Model</text>
-  <text class="nodehead" x="910" y="242" text-anchor="middle" fill="#ffffff" font-size="15">/ Ensemble</text>
-  <text class="desc2" x="910" y="268" text-anchor="middle" fill="#cbd5e1">Top of the leaderboard</text>
+  <rect x="840" y="178" width="140" height="118" rx="10" fill="#1e3a8a"/>
+  <text class="nodehead" x="910" y="222" text-anchor="middle" fill="#ffffff" font-size="15">Mejor modelo</text>
+  <text class="nodehead" x="910" y="242" text-anchor="middle" fill="#ffffff" font-size="15">/ ensamble</text>
+  <text class="desc2" x="910" y="268" text-anchor="middle" fill="#cbd5e1">Primer lugar del ranking</text>
 
   <!-- loop back -->
   <path class="loop" d="M733,296 L733,360 L148,360 L148,300" marker-end="url(#aho)"/>
-  <text class="looptxt" x="440" y="383" text-anchor="middle">Repeat: try the next algorithm / configuration until the budget is spent</text>
+  <text class="looptxt" x="440" y="383" text-anchor="middle">Repetir: probar el siguiente algoritmo/configuración hasta agotar el presupuesto</text>
 </svg>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
-  <title id="title">Confusion matrix — good vs bad</title>
-  <desc id="desc">Two 2x2 confusion matrices side by side. The good model concentrates counts on the diagonal (correct predictions); the weak model scatters heavy mass onto the off-diagonal (errors). Cells are shaded by count intensity.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
+  <title id="title">Confusion matrix — bueno vs malo</title>
+  <desc id="desc">Dos matrices de confusión 2x2 lado a lado. El modelo bueno concentra conteos en la diagonal (predicciones correctas); el modelo débil dispersa muchos conteos fuera de la diagonal (errores). Las celdas se sombrean por intensidad de conteo.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -17,14 +17,14 @@
     </style>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="560"/>
-  <text class="title" x="60" y="52">Confusion matrix — good vs bad</text>
-  <text class="subtitle" x="60" y="80">A good model concentrates counts on the diagonal; a weak one scatters them off-diagonal.</text>
+  <text class="title" x="60" y="52">Confusion matrix — bueno vs malo</text>
+  <text class="subtitle" x="60" y="80">Un modelo bueno concentra conteos en la diagonal; uno débil los dispersa fuera de la diagonal.</text>
 
   <!-- ===== GOOD ===== -->
   <rect class="card" x="60" y="110" width="440" height="420" rx="12"/>
   <rect x="60" y="110" width="440" height="42" rx="12" fill="#0e7490"/>
   <rect x="60" y="130" width="440" height="22" fill="#0e7490"/>
-  <text class="cardhead" x="84" y="139">Good model</text>
+  <text class="cardhead" x="84" y="139">Modelo bueno</text>
 
   <text class="axislbl" x="307" y="180" text-anchor="middle">Predicted</text>
   <text class="ticklbl" x="250" y="206" text-anchor="middle">Positive</text>
@@ -51,13 +51,13 @@
   <text class="cell" x="385" y="390" text-anchor="middle" fill="#ffffff">True Negative</text>
   <text class="count" x="385" y="422" text-anchor="middle" fill="#ffffff">80</text>
 
-  <text class="desc2" x="84" y="492">Most mass on the diagonal → accurate.</text>
+  <text class="desc2" x="84" y="492">Most mass en el diagonal â†’ accurate.</text>
 
   <!-- ===== BAD ===== -->
   <rect class="card" x="540" y="110" width="440" height="420" rx="12"/>
   <rect x="540" y="110" width="440" height="42" rx="12" fill="#b91c1c"/>
   <rect x="540" y="130" width="440" height="22" fill="#b91c1c"/>
-  <text class="cardhead" x="564" y="139">Weak model</text>
+  <text class="cardhead" x="564" y="139">Modelo débil</text>
 
   <text class="axislbl" x="787" y="180" text-anchor="middle">Predicted</text>
   <text class="ticklbl" x="730" y="206" text-anchor="middle">Positive</text>
@@ -83,5 +83,5 @@
   <text class="cell" x="865" y="390" text-anchor="middle" fill="#b91c1c">True Negative</text>
   <text class="count" x="865" y="422" text-anchor="middle" fill="#b91c1c">32</text>
 
-  <text class="desc2" x="564" y="492">Mass off the diagonal → many errors.</text>
+  <text class="desc2" x="564" y="492">Mass off el diagonal â†’ many errors.</text>
 </svg>

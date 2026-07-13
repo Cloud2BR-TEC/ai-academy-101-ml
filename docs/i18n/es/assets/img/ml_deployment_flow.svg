@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="420" viewBox="0 0 1040 420" role="img" aria-labelledby="title desc">
-  <title id="title">ML deployment flow</title>
-  <desc id="desc">A six-stage deployment flow, each stage a checkpoint: registered model, package the scoring script and environment, validate locally, deploy, route traffic, and reach a live endpoint.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="420" viewBox="0 0 1040 420" role="img" aria-labelledby="title desc">
+  <title id="title">ML despliegue flow</title>
+  <desc id="desc">A six-stage despliegue flow, each stage a checkpoint: registrado modelo, package el scoring script y entorno, validar locally, desplegar, route traffic, y reach a live endpoint.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -17,8 +17,8 @@
     </marker>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="420"/>
-  <text class="title" x="60" y="52">ML deployment flow</text>
-  <text class="subtitle" x="60" y="80">Each stage is a checkpoint — from a registered model to a live endpoint.</text>
+  <text class="title" x="60" y="52">ML despliegue flow</text>
+  <text class="subtitle" x="60" y="80">Each stage is a checkpoint — desde a registrado modelo a a live endpoint.</text>
 
   <!-- Arrows -->
   <line class="arrow" x1="190" y1="205" x2="216" y2="205" marker-end="url(#ah)"/>
@@ -32,10 +32,10 @@
   <rect x="60" y="160" width="130" height="8" rx="4" fill="#004a99"/>
   <circle cx="125" cy="160" r="16" fill="#004a99"/>
   <text class="badge" x="125" y="165" text-anchor="middle">1</text>
-  <text class="node" x="125" y="206" text-anchor="middle">Registered</text>
-  <text class="node" x="125" y="226" text-anchor="middle">Model</text>
+  <text class="node" x="125" y="206" text-anchor="middle">Registrados</text>
+  <text class="node" x="125" y="226" text-anchor="middle">modelo</text>
   <text class="cap" x="125" y="284" text-anchor="middle">Versioned artifact</text>
-  <text class="cap" x="125" y="302" text-anchor="middle">in the registry</text>
+  <text class="cap" x="125" y="302" text-anchor="middle">en el registro</text>
 
   <!-- Node 2 -->
   <rect class="card" x="218" y="160" width="130" height="92" rx="12"/>
@@ -44,7 +44,7 @@
   <text class="badge" x="283" y="165" text-anchor="middle">2</text>
   <text class="node" x="283" y="216" text-anchor="middle">Package</text>
   <text class="cap" x="283" y="284" text-anchor="middle">Scoring script +</text>
-  <text class="cap" x="283" y="302" text-anchor="middle">environment</text>
+  <text class="cap" x="283" y="302" text-anchor="middle">entorno</text>
 
   <!-- Node 3 -->
   <rect class="card" x="376" y="160" width="130" height="92" rx="12"/>
@@ -53,16 +53,16 @@
   <text class="badge" x="441" y="165" text-anchor="middle">3</text>
   <text class="node" x="441" y="206" text-anchor="middle">Validate</text>
   <text class="node" x="441" y="226" text-anchor="middle">Locally</text>
-  <text class="cap" x="441" y="284" text-anchor="middle">Smoke-test</text>
-  <text class="cap" x="441" y="302" text-anchor="middle">before the cloud</text>
+  <text class="cap" x="441" y="284" text-anchor="middle">Smoke-prueba</text>
+  <text class="cap" x="441" y="302" text-anchor="middle">before el cloud</text>
 
   <!-- Node 4 -->
   <rect class="card" x="534" y="160" width="130" height="92" rx="12"/>
   <rect x="534" y="160" width="130" height="8" rx="4" fill="#004a99"/>
   <circle cx="599" cy="160" r="16" fill="#004a99"/>
   <text class="badge" x="599" y="165" text-anchor="middle">4</text>
-  <text class="node" x="599" y="216" text-anchor="middle">Deploy</text>
-  <text class="cap" x="599" y="284" text-anchor="middle">Provision the</text>
+  <text class="node" x="599" y="216" text-anchor="middle">desplegar</text>
+  <text class="cap" x="599" y="284" text-anchor="middle">Provision el</text>
   <text class="cap" x="599" y="302" text-anchor="middle">endpoint</text>
 
   <!-- Node 5 -->
@@ -72,7 +72,7 @@
   <text class="badge" x="757" y="165" text-anchor="middle">5</text>
   <text class="node" x="757" y="206" text-anchor="middle">Route</text>
   <text class="node" x="757" y="226" text-anchor="middle">Traffic</text>
-  <text class="cap" x="757" y="284" text-anchor="middle">Shift % to the</text>
+  <text class="cap" x="757" y="284" text-anchor="middle">Shift % a el</text>
   <text class="cap" x="757" y="302" text-anchor="middle">new version</text>
 
   <!-- Node 6 -->
@@ -81,8 +81,8 @@
   <circle cx="915" cy="160" r="16" fill="#15803d"/>
   <path d="M908,160 l5,5 l9,-10" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
   <text class="node" x="915" y="206" text-anchor="middle" fill="#15803d">Live</text>
-  <text class="node" x="915" y="226" text-anchor="middle" fill="#15803d">Endpoint</text>
-  <text class="cap" x="915" y="284" text-anchor="middle">Serving real</text>
+  <text class="node" x="915" y="226" text-anchor="middle" fill="#15803d">endpoint</text>
+  <text class="cap" x="915" y="284" text-anchor="middle">Servicio real</text>
   <text class="cap" x="915" y="302" text-anchor="middle">requests</text>
 
   <!-- Footer note -->

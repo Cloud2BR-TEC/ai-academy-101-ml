@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="520" viewBox="0 0 1040 520" role="img" aria-labelledby="title desc">
-  <title id="title">AutoML: what to expect across trials</title>
-  <desc id="desc">A bar chart of model quality across trials. Early trials score low, quality rises as the search explores, and the best-so-far line climbs. The final winner is often a voting or stacking ensemble at the top.</desc>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="520" viewBox="0 0 1040 520" role="img" aria-labelledby="title desc">
+  <title id="title">AutoML: what a expect across trials</title>
+  <desc id="desc">Un gráfico de barras de calidad de modelo a través de intentos. Los primeros intentos puntúan bajo, la calidad sube mientras la búsqueda explora y la línea del mejor hasta ahora asciende. El ganador final suele ser un ensamble de voting o stacking en la parte superior.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -22,8 +22,8 @@
     </marker>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="520"/>
-  <text class="title" x="60" y="52">AutoML: what to expect across trials</text>
-  <text class="subtitle" x="60" y="80">Early trials are weak; quality climbs as the search explores — and an ensemble usually wins.</text>
+  <text class="title" x="60" y="52">AutoML: what a expect across trials</text>
+  <text class="subtitle" x="60" y="80">Los intentos tempranos son débiles; la calidad sube mientras la búsqueda explora y normalmente gana un ensamble.</text>
 
   <!-- gridlines -->
   <line class="grid" x1="120" y1="350" x2="980" y2="350"/>
@@ -57,7 +57,7 @@
 
   <!-- early-trials note -->
   <text class="note" x="150" y="395" text-anchor="middle" fill="#475569">early trials</text>
-  <text class="note" x="150" y="411" text-anchor="middle" fill="#475569">are weak</text>
+  <text class="note" x="150" y="411" text-anchor="middle" fill="#475569">son débiles</text>
 
   <!-- winner annotation -->
   <text class="winnote" x="690" y="120" text-anchor="middle">Final winner — often a Voting / Stack Ensemble</text>

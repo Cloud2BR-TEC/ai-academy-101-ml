@@ -1,14 +1,14 @@
-# 07. Fundamentos de Terraform
+﻿# 07. Fundamentos de Terraform
 
-Terraform permite crear infraestructura cloud mediante archivos de codigo en lugar de clicks manuales.
+Terraform permite crear infraestructura cloud mediante archivos de código en lugar de clicks manuales.
 
-## Enlaces Rapidos
+## Enlaces Rápidos
 
-- Fundamentos de modelos: [Modulo 01](01-machine-learning-basics.md)
-- Ciclo de Azure ML: [Modulo 02](02-azure-ml-overview.md)
-- Endpoints y deploy: [Modulo 06](06-deploy-and-score.md)
+- Fundamentos de modelos: [Módulo 01](01-machine-learning-basics.md)
+- Ciclo de Azure ML: [Módulo 02](02-azure-ml-overview.md)
+- Endpoints y deploy: [Módulo 06](06-deploy-and-score.md)
 
-Este modulo presenta primero lo esencial para principiantes.
+Este módulo presenta primero lo esencial para principiantes.
 
 ![Herramientas de infraestructura](../assets/img/ml-infrastructure-tools-for-production.svg)
 
@@ -59,9 +59,9 @@ Aplica cambios en Azure.
 
 Elimina recursos administrados por Terraform.
 
-## Vocabulario Basico
+## Vocabulario Básico
 
-| Termino | Significado |
+| Término | Significado |
 |------|----------|
 | **Provider** | Plugin para conectarse al cloud (ej. Azure). |
 | **Resource** | Pieza de infraestructura (storage, workspace). |
@@ -75,12 +75,12 @@ Elimina recursos administrados por Terraform.
 
 ```text
 src/
-├── main.tf
-├── variables.tf
-├── terraform.tfvars
-├── provider.tf
-├── outputs.tf
-└── remote-storage.tf
+â”œâ”€â”€ main.tf
+â”œâ”€â”€ variables.tf
+â”œâ”€â”€ terraform.tfvars
+â”œâ”€â”€ provider.tf
+â”œâ”€â”€ outputs.tf
+â””â”€â”€ remote-storage.tf
 ```
 
 ## Conceptos Avanzados (Opcional)
@@ -88,11 +88,11 @@ src/
 - Remote state compartido.
 - Locking de estado.
 - Multi-ambiente (dev/test/prod).
-- Modulos reutilizables.
+- Módulos reutilizables.
 
 ## Seguridad de Costos
 
-Al terminar practica:
+Al terminar práctica:
 
 1. Confirmar subscripcion/workspace correctos.
 2. Ejecutar `terraform destroy -var-file terraform.tfvars`.
