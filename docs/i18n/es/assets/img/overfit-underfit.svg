@@ -1,4 +1,4 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="340" viewBox="0 0 1100 340" role="img" aria-labelledby="title">
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="370" viewBox="0 0 1100 370" role="img" aria-labelledby="title">
   <title id="title">Explicación de sobreajuste y subajuste</title>
   <defs>
     <style>
@@ -20,12 +20,12 @@
     </style>
   </defs>
 
-  <rect class="bg" x="0" y="0" width="1100" height="340"/>
+  <rect class="bg" x="0" y="0" width="1100" height="370"/>
   <text class="h1" x="550" y="44" text-anchor="middle">Sobreajuste y Subajuste</text>
   <text class="body" x="550" y="68" text-anchor="middle" font-size="14" fill="#475569">Los puntajes de entrenamiento y prueba muestran si el modelo aprendió bien.</text>
 
   <!-- Subajuste -->
-  <rect class="card-under" x="30" y="85" width="320" height="230" rx="12"/>
+  <rect class="card-under" x="30" y="85" width="320" height="255" rx="12"/>
   <rect class="bar-under" x="30" y="85" width="320" height="40" rx="12"/>
   <text class="h2" x="190" y="112" text-anchor="middle" fill="white">Subajuste</text>
   <text class="body" x="55" y="155">puntaje de entrenamiento: Bajo</text>
@@ -35,27 +35,28 @@
   <rect fill="#fcd34d" x="55" y="220" width="50" height="12" rx="3"/>
   <text class="small" x="125" y="211">entrenamiento</text>
   <text class="small" x="125" y="231">prueba</text>
-  <text class="body" x="55" y="265">el modelo no aprendió</text>
-  <text class="body" x="55" y="284">suficiente. Las características pueden ser</text>
-  <text class="body" x="55" y="302">muy poco o un modelo demasiado simple.</text>
+  <text class="body" x="55" y="265">el modelo no aprendió suficiente.</text>
+  <text class="body" x="55" y="284">Las características pueden ser</text>
+  <text class="body" x="55" y="302">muy pocas o el modelo demasiado simple.</text>
 
   <!-- Good Fit -->
-  <rect class="card-good" x="390" y="85" width="320" height="230" rx="12"/>
+  <rect class="card-good" x="390" y="85" width="320" height="255" rx="12"/>
   <rect class="bar-good" x="390" y="85" width="320" height="40" rx="12"/>
   <text class="h2" x="550" y="112" text-anchor="middle" fill="white">Buen Ajuste</text>
   <text class="body" x="415" y="155">puntaje de entrenamiento: Alto</text>
-  <text class="body" x="415" y="177">puntaje de prueba: Alto (similar a entrenamiento)</text>
+  <text class="body" x="415" y="175">puntaje de prueba: Alto</text>
+  <text class="body" x="415" y="194">(similar a entrenamiento)</text>
   <!-- mini bar chart -->
-  <rect fill="#22c55e" x="415" y="200" width="120" height="12" rx="3"/>
-  <rect fill="#22c55e" x="415" y="220" width="110" height="12" rx="3"/>
-  <text class="small" x="545" y="211">entrenamiento</text>
-  <text class="small" x="545" y="231">prueba</text>
-  <text class="body" x="415" y="265">el modelo aprendió patrones reales</text>
-  <text class="body" x="415" y="284">y generaliza bien a</text>
-  <text class="body" x="415" y="302">datos que nunca había visto antes.</text>
+  <rect fill="#22c55e" x="415" y="218" width="120" height="12" rx="3"/>
+  <rect fill="#22c55e" x="415" y="238" width="110" height="12" rx="3"/>
+  <text class="small" x="545" y="229">entrenamiento</text>
+  <text class="small" x="545" y="249">prueba</text>
+  <text class="body" x="415" y="283">el modelo aprendió patrones reales</text>
+  <text class="body" x="415" y="302">y generaliza bien a</text>
+  <text class="body" x="415" y="320">datos que nunca había visto antes.</text>
 
   <!-- Sobreajuste -->
-  <rect class="card-over" x="750" y="85" width="320" height="230" rx="12"/>
+  <rect class="card-over" x="750" y="85" width="320" height="255" rx="12"/>
   <rect class="bar-over" x="750" y="85" width="320" height="40" rx="12"/>
   <text class="h2" x="910" y="112" text-anchor="middle" fill="white">Sobreajuste</text>
   <text class="body" x="775" y="155">puntaje de entrenamiento: Muy alto</text>
@@ -65,7 +66,7 @@
   <rect fill="#f87171" x="775" y="220" width="70" height="12" rx="3"/>
   <text class="small" x="935" y="211">entrenamiento</text>
   <text class="small" x="935" y="231">prueba</text>
-  <text class="body" x="775" y="265">el modelo memorizó el entrenamiento</text>
-  <text class="body" x="775" y="284">datos, including its noise.</text>
+  <text class="body" x="775" y="265">el modelo memorió los datos de</text>
+  <text class="body" x="775" y="284">entrenamiento, incluyendo su ruido.</text>
   <text class="body" x="775" y="302">Falla en datos nuevos no vistos.</text>
 </svg>

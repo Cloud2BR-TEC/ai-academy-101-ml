@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="340" viewBox="0 0 1100 340" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="370" viewBox="0 0 1100 370" role="img" aria-labelledby="title">
   <title id="title">Overfitting and Underfitting Explained</title>
   <defs>
     <style>
@@ -20,12 +20,12 @@
     </style>
   </defs>
 
-  <rect class="bg" x="0" y="0" width="1100" height="340"/>
+  <rect class="bg" x="0" y="0" width="1100" height="370"/>
   <text class="h1" x="550" y="44" text-anchor="middle">Overfitting and Underfitting</text>
   <text class="body" x="550" y="68" text-anchor="middle" font-size="14" fill="#475569">Your training and test scores reveal whether your model learned properly.</text>
 
   <!-- Underfitting -->
-  <rect class="card-under" x="30" y="85" width="320" height="230" rx="12"/>
+  <rect class="card-under" x="30" y="85" width="320" height="255" rx="12"/>
   <rect class="bar-under" x="30" y="85" width="320" height="40" rx="12"/>
   <text class="h2" x="190" y="112" text-anchor="middle" fill="white">Underfitting</text>
   <text class="body" x="55" y="155">Training score: Low</text>
@@ -40,7 +40,7 @@
   <text class="body" x="55" y="302">too few or model too simple.</text>
 
   <!-- Good Fit -->
-  <rect class="card-good" x="390" y="85" width="320" height="230" rx="12"/>
+  <rect class="card-good" x="390" y="85" width="320" height="255" rx="12"/>
   <rect class="bar-good" x="390" y="85" width="320" height="40" rx="12"/>
   <text class="h2" x="550" y="112" text-anchor="middle" fill="white">Good Fit</text>
   <text class="body" x="415" y="155">Training score: High</text>
@@ -55,7 +55,7 @@
   <text class="body" x="415" y="302">data it has never seen before.</text>
 
   <!-- Overfitting -->
-  <rect class="card-over" x="750" y="85" width="320" height="230" rx="12"/>
+  <rect class="card-over" x="750" y="85" width="320" height="255" rx="12"/>
   <rect class="bar-over" x="750" y="85" width="320" height="40" rx="12"/>
   <text class="h2" x="910" y="112" text-anchor="middle" fill="white">Overfitting</text>
   <text class="body" x="775" y="155">Training score: Very high</text>
