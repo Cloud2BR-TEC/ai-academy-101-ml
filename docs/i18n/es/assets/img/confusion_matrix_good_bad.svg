@@ -1,5 +1,5 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
-  <title id="title">Confusion matrix — bueno vs malo</title>
+  <title id="title">Matriz de confusión — bueno vs malo</title>
   <desc id="desc">Dos matrices de confusión 2x2 lado a lado. El modelo bueno concentra conteos en la diagonal (predicciones correctas); el modelo débil dispersa muchos conteos fuera de la diagonal (errores). Las celdas se sombrean por intensidad de conteo.</desc>
   <defs>
     <style>

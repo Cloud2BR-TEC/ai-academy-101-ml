@@ -1,5 +1,5 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="720" viewBox="0 0 1040 720" role="img" aria-labelledby="title desc">
-  <title id="title">Llamada a un endpoint de modelo desplegado</title>
+  <title id="title">Solicitud y respuesta en un punto de conexión de modelo desplegado</title>
   <desc id="desc">Un cliente envía un JSON por HTTP POST con características a un endpoint en línea de Azure ML; el script de puntuación carga el modelo una vez y devuelve una predicción JSON con probabilidad.</desc>
 
   <defs>

@@ -1,5 +1,5 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
-  <title id="title">Curvas precisión-recall — bueno vs malo</title>
+  <title id="title">Curvas de precisión y exhaustividad — bueno vs malo</title>
   <desc id="desc">Dos curvas de precisión-recall en un mismo eje: un modelo bueno que mantiene alta la precisión mientras sube el recall y un modelo débil cuya precisión cae rápidamente.</desc>
   <defs>
     <style>

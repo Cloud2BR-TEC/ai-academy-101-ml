@@ -1,4 +1,4 @@
-﻿# 01. Fundamentos de Machine Learning
+﻿# 01. Fundamentos de aprendizaje automático
 
 Machine learning es una forma de ensenar computadoras con ejemplos, en lugar de escribir todas las reglas manualmente.
 

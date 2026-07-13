@@ -1,5 +1,5 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
-  <title id="title">Naive Bayes: prior times likelihoods</title>
+  <title id="title">Bayes ingenuo: a priori por verosimilitudes</title>
   <desc id="desc">Bayes rule shown as multiplication: a class prior is multiplied by per-característica likelihoods a produce a score para each class, y el highest score wins.</desc>
   <defs>
     <style>

@@ -1,5 +1,5 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="480" viewBox="0 0 1040 480" role="img" aria-labelledby="title desc">
-  <title id="title">Azure ML endpoint Concept</title>
+  <title id="title">Concepto de punto de conexión de Azure ML</title>
   <desc id="desc">Anatomy de an Azure ML endpoint: a scoring request passes through authentication y a traffic router a one or more modelo version deployments such as blue y green.</desc>
   <defs>
     <style>
