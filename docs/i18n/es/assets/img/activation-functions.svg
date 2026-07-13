@@ -1,5 +1,5 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
-  <title id="title">Common activación functions</title>
+  <title id="title">Funciones de activación comunes</title>
   <desc id="desc">Gráfico lineal de Sigmoid, Tanh, ReLU y ReLU con fuga trazadas frente a la pre-activación z de menos cuatro a cuatro.</desc>
   <defs>
     <style>
@@ -19,7 +19,7 @@
     </style>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="560"/>
-  <text class="title" x="60" y="52">Common activación functions</text>
+  <text class="title" x="60" y="52">Funciones de activación comunes</text>
   <text class="subtitle" x="60" y="80">Cada curva comprime la pre-activación z de forma diferente; la no linealidad elegida moldea cómo aprende la red.</text>
 
   <!-- plot card -->
@@ -62,7 +62,7 @@
 
   <!-- legend card -->
   <rect class="card" x="790" y="160" width="190" height="210" rx="10"/>
-  <text class="legtext" x="810" y="190">Legend</text>
+  <text class="legtext" x="810" y="190">Leyenda</text>
   <line class="sigmoid" x1="810" y1="220" x2="850" y2="220"/>
   <text class="legtext" x="860" y="225">Sigmoid</text>
   <line class="tanh" x1="810" y1="255" x2="850" y2="255"/>
