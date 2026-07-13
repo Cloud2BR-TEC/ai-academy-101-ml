@@ -1,5 +1,5 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="380" viewBox="0 0 1100 380" role="img" aria-labelledby="title">
-  <title id="title">Programación tradicional vs machine learning</title>
+  <title id="title">Programación tradicional vs aprendizaje automático</title>
   <defs>
     <style>
       .bg { fill: #f8fafc; }
@@ -32,7 +32,7 @@
   <!-- Left panel: Traditional Programming -->
   <rect class="box-l" x="30" y="30" width="460" height="320" rx="14"/>
   <text class="heading head-l" x="260" y="66" text-anchor="middle">Programación tradicional</text>
-  <text class="small" x="260" y="88" text-anchor="middle">Tu escribes las reglas</text>
+  <text class="small" x="260" y="88" text-anchor="middle">Tú escribes las reglas</text>
 
   <!-- Input chip -->
   <rect class="chip chip-in" x="60" y="105" width="110" height="38"/>
@@ -57,7 +57,7 @@
   <text class="small" x="80" y="215">SI correo contiene "dinero gratis"</text>
   <text class="small" x="80" y="237"> Y remitente desconocido</text>
   <text class="small" x="80" y="259"> ENTONCES marcar como spam</text>
-  <text class="small" x="80" y="278">Debes escribir cada condicion manualmente.</text>
+  <text class="small" x="80" y="278">Debes escribir cada condición manualmente.</text>
 
   <!-- Right panel: Machine Learning -->
   <rect class="box-r" x="610" y="30" width="460" height="320" rx="14"/>
@@ -87,7 +87,7 @@
   <rect class="box" x="640" y="190" width="370" height="100" rx="8"/>
   <text class="small" x="660" y="215">Muestra 10,000 correos: "spam" o "no spam".</text>
   <text class="small" x="660" y="237">El algoritmo estudia patrones en todos ellos.</text>
-  <text class="small" x="660" y="259">Construye reglas automaticamente desde ejemplos.</text>
+  <text class="small" x="660" y="259">Construye reglas automáticamente desde ejemplos.</text>
   <text class="small" x="660" y="278">Evalúa correos nuevos sin reglas manuales.</text>
 
   <!-- VS divider -->

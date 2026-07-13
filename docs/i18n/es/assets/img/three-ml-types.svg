@@ -1,5 +1,5 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="440" viewBox="0 0 1100 440" role="img" aria-labelledby="title">
-  <title id="title">Tres Tipos de Machine Learning</title>
+  <title id="title">Tres tipos de aprendizaje automático</title>
   <defs>
     <style>
       .bg { fill: #f8fafc; }
@@ -18,7 +18,7 @@
   </defs>
 
   <rect class="bg" x="0" y="0" width="1100" height="440"/>
-  <text class="h1" x="550" y="44" text-anchor="middle">Tres Tipos de Machine Learning</text>
+  <text class="h1" x="550" y="44" text-anchor="middle">Tres tipos de aprendizaje automático</text>
 
   <!-- Supervised -->
   <rect class="card-s" x="30" y="70" width="330" height="350" rx="14"/>
@@ -49,22 +49,22 @@
   <text class="small" x="425" y="272"> "compradores frecuentes" o "compradores ocasionales".</text>
   <text class="small" x="425" y="290">Nadie le indicó cuáles debían ser los grupos.</text>
   <text class="body" x="410" y="330">Tareas comunes:</text>
-  <text class="small" x="425" y="352">• Clustering (encontrar grupos)</text>
-  <text class="small" x="425" y="374">• Dimensionality reduction</text>
+  <text class="small" x="425" y="352">• Agrupamiento (encontrar grupos)</text>
+  <text class="small" x="425" y="374">• Reducción de dimensionalidad</text>
 
   <!-- Reinforcement -->
   <rect class="card-r" x="740" y="70" width="330" height="350" rx="14"/>
   <rect class="bar-r" x="740" y="70" width="330" height="44" rx="14"/>
   <text class="h2" x="905" y="100" text-anchor="middle" fill="white">Aprendizaje por Refuerzo</text>
   <text class="body" x="765" y="140">Un agente aprende tomando acciones</text>
-  <text class="body" x="765" y="162">y receiving rewards or penalties.</text>
+  <text class="body" x="765" y="162">y recibe recompensas o penalizaciones.</text>
   <rect class="example-box" x="760" y="180" width="290" height="120" rx="8"/>
   <text class="small" x="780" y="206">Ejemplo: IA para jugar juegos.</text>
   <text class="small" x="780" y="228">El agente prueba movimientos en un juego.</text>
-  <text class="small" x="780" y="250">Each bueno move earns a reward.</text>
-  <text class="small" x="780" y="272">Each malo move earns a penalty.</text>
+  <text class="small" x="780" y="250">Cada buen movimiento gana una recompensa.</text>
+  <text class="small" x="780" y="272">Cada mal movimiento recibe una penalización.</text>
   <text class="small" x="780" y="290">Con el tiempo, aprende la mejor estrategia.</text>
   <text class="body" x="765" y="330">Tareas comunes:</text>
   <text class="small" x="780" y="352">• Estrategia de juego</text>
-  <text class="small" x="780" y="374">• Robotics y control systems</text>
+  <text class="small" x="780" y="374">• Robótica y sistemas de control</text>
 </svg>

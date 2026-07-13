@@ -17,7 +17,7 @@
     </style>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="560"/>
-  <text class="title" x="60" y="52">Confusion matrix — bueno vs malo</text>
+  <text class="title" x="60" y="52">Matriz de confusión — bueno vs malo</text>
   <text class="subtitle" x="60" y="80">Un modelo bueno concentra conteos en la diagonal; uno débil los dispersa fuera de la diagonal.</text>
 
   <!-- ===== GOOD ===== -->
@@ -26,12 +26,12 @@
   <rect x="60" y="130" width="440" height="22" fill="#0e7490"/>
   <text class="cardhead" x="84" y="139">Modelo bueno</text>
 
-  <text class="axislbl" x="307" y="180" text-anchor="middle">Predicted</text>
-  <text class="ticklbl" x="250" y="206" text-anchor="middle">Positive</text>
-  <text class="ticklbl" x="385" y="206" text-anchor="middle">Negative</text>
-  <text class="axislbl" x="92" y="335" text-anchor="middle" transform="rotate(-90 92 335)">Actual</text>
-  <text class="ticklbl" x="170" y="280" text-anchor="end">Positive</text>
-  <text class="ticklbl" x="170" y="400" text-anchor="end">Negative</text>
+  <text class="axislbl" x="307" y="180" text-anchor="middle">Predicción</text>
+  <text class="ticklbl" x="250" y="206" text-anchor="middle">Positivo</text>
+  <text class="ticklbl" x="385" y="206" text-anchor="middle">Negativo</text>
+  <text class="axislbl" x="92" y="335" text-anchor="middle" transform="rotate(-90 92 335)">Real</text>
+  <text class="ticklbl" x="170" y="280" text-anchor="end">Positivo</text>
+  <text class="ticklbl" x="170" y="400" text-anchor="end">Negativo</text>
 
   <!-- cells: col0 185-315, col1 320-450 ; row0 220-330, row1 340-450 -->
   <rect x="185" y="220" width="130" height="110" fill="#0e7490"/>
@@ -42,16 +42,16 @@
   <line class="cellstroke" x1="185" y1="330" x2="450" y2="330"/>
   <line class="cellstroke" x1="315" y1="220" x2="315" y2="450"/>
 
-  <text class="cell" x="250" y="270" text-anchor="middle" fill="#ffffff">True Positive</text>
+  <text class="cell" x="250" y="270" text-anchor="middle" fill="#ffffff">Verdadero positivo</text>
   <text class="count" x="250" y="302" text-anchor="middle" fill="#ffffff">86</text>
-  <text class="cell" x="385" y="270" text-anchor="middle" fill="#0e7490">False Negative</text>
+  <text class="cell" x="385" y="270" text-anchor="middle" fill="#0e7490">Falso negativo</text>
   <text class="count" x="385" y="302" text-anchor="middle" fill="#0e7490">6</text>
-  <text class="cell" x="250" y="390" text-anchor="middle" fill="#0e7490">False Positive</text>
+  <text class="cell" x="250" y="390" text-anchor="middle" fill="#0e7490">Falso positivo</text>
   <text class="count" x="250" y="422" text-anchor="middle" fill="#0e7490">8</text>
-  <text class="cell" x="385" y="390" text-anchor="middle" fill="#ffffff">True Negative</text>
+  <text class="cell" x="385" y="390" text-anchor="middle" fill="#ffffff">Verdadero negativo</text>
   <text class="count" x="385" y="422" text-anchor="middle" fill="#ffffff">80</text>
 
-  <text class="desc2" x="84" y="492">Most mass en el diagonal â†’ accurate.</text>
+  <text class="desc2" x="84" y="492">La mayor masa está en la diagonal -> mayor exactitud.</text>
 
   <!-- ===== BAD ===== -->
   <rect class="card" x="540" y="110" width="440" height="420" rx="12"/>
@@ -59,12 +59,12 @@
   <rect x="540" y="130" width="440" height="22" fill="#b91c1c"/>
   <text class="cardhead" x="564" y="139">Modelo débil</text>
 
-  <text class="axislbl" x="787" y="180" text-anchor="middle">Predicted</text>
-  <text class="ticklbl" x="730" y="206" text-anchor="middle">Positive</text>
-  <text class="ticklbl" x="865" y="206" text-anchor="middle">Negative</text>
-  <text class="axislbl" x="572" y="335" text-anchor="middle" transform="rotate(-90 572 335)">Actual</text>
-  <text class="ticklbl" x="650" y="280" text-anchor="end">Positive</text>
-  <text class="ticklbl" x="650" y="400" text-anchor="end">Negative</text>
+  <text class="axislbl" x="787" y="180" text-anchor="middle">Predicción</text>
+  <text class="ticklbl" x="730" y="206" text-anchor="middle">Positivo</text>
+  <text class="ticklbl" x="865" y="206" text-anchor="middle">Negativo</text>
+  <text class="axislbl" x="572" y="335" text-anchor="middle" transform="rotate(-90 572 335)">Real</text>
+  <text class="ticklbl" x="650" y="280" text-anchor="end">Positivo</text>
+  <text class="ticklbl" x="650" y="400" text-anchor="end">Negativo</text>
 
   <rect x="665" y="220" width="130" height="110" fill="#fecaca"/>
   <rect x="800" y="220" width="130" height="110" fill="#b91c1c"/>
@@ -74,14 +74,14 @@
   <line class="cellstroke" x1="665" y1="330" x2="930" y2="330"/>
   <line class="cellstroke" x1="795" y1="220" x2="795" y2="450"/>
 
-  <text class="cell" x="730" y="270" text-anchor="middle" fill="#b91c1c">True Positive</text>
+  <text class="cell" x="730" y="270" text-anchor="middle" fill="#b91c1c">Verdadero positivo</text>
   <text class="count" x="730" y="302" text-anchor="middle" fill="#b91c1c">30</text>
-  <text class="cell" x="865" y="270" text-anchor="middle" fill="#ffffff">False Negative</text>
+  <text class="cell" x="865" y="270" text-anchor="middle" fill="#ffffff">Falso negativo</text>
   <text class="count" x="865" y="302" text-anchor="middle" fill="#ffffff">44</text>
-  <text class="cell" x="730" y="390" text-anchor="middle" fill="#ffffff">False Positive</text>
+  <text class="cell" x="730" y="390" text-anchor="middle" fill="#ffffff">Falso positivo</text>
   <text class="count" x="730" y="422" text-anchor="middle" fill="#ffffff">40</text>
-  <text class="cell" x="865" y="390" text-anchor="middle" fill="#b91c1c">True Negative</text>
+  <text class="cell" x="865" y="390" text-anchor="middle" fill="#b91c1c">Verdadero negativo</text>
   <text class="count" x="865" y="422" text-anchor="middle" fill="#b91c1c">32</text>
 
-  <text class="desc2" x="564" y="492">Mass off el diagonal â†’ many errors.</text>
+  <text class="desc2" x="564" y="492">Masa fuera de la diagonal -> muchos errores.</text>
 </svg>

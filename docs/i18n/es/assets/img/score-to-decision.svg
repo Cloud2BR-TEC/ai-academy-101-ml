@@ -1,5 +1,5 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
-  <title id="title">De score a probabilidad y decisión</title>
+  <title id="title">De puntaje a probabilidad y decisión</title>
   <desc id="desc">La función sigmoide convierte un puntaje crudo del modelo en una probabilidad entre 0 y 1. Luego, un umbral convierte esa probabilidad en una decisión de sí o no.</desc>
 
   <defs>
@@ -21,8 +21,8 @@
   </defs>
 
   <rect class="bg" x="0" y="0" width="1040" height="560"/>
-  <text class="title" x="60" y="52">Convertir un score en una decisión</text>
-  <text class="subtitle" x="60" y="80">el S-curve turns any score into a 0-a-100% chance; a cut-off line turns that into a Yes or No.</text>
+  <text class="title" x="60" y="52">Convertir un puntaje en una decisión</text>
+  <text class="subtitle" x="60" y="80">La curva S convierte cualquier puntaje en una probabilidad de 0 a 100%; una línea de corte la convierte en Sí o No.</text>
 
   <!-- decision zones -->
   <rect class="zone0" x="120" y="120" width="420" height="380"/>
@@ -31,7 +31,7 @@
   <!-- axes -->
   <line class="axis" x1="120" y1="500" x2="960" y2="500"/>
   <line class="axis" x1="540" y1="500" x2="540" y2="120"/>
-  <text class="axis-label" x="540" y="540" text-anchor="middle">score del modelo (salida cruda) - bajo a la izquierda, alto a la derecha</text>
+  <text class="axis-label" x="540" y="540" text-anchor="middle">puntaje del modelo (salida cruda) - bajo a la izquierda, alto a la derecha</text>
   <text class="axis-label" x="60" y="310" transform="rotate(-90 60 310)" text-anchor="middle">Probabilidad de Sí</text>
 
   <!-- p=0, p=0.5, p=1 gridlines -->
@@ -57,7 +57,7 @@
 
   <!-- callouts -->
   <text class="note" x="150" y="430">Los puntajes crudos pueden ser cualquier número;</text>
-  <text class="note" x="150" y="448">el S-curve squeezes them into 0 a 100%.</text>
-  <text class="note" x="600" y="500">Slide el cut-off left or right a catch</text>
-  <text class="note" x="600" y="518" fill="#475569">more cases or raise fewer false alarms.</text>
+  <text class="note" x="150" y="448">la curva S los comprime entre 0 y 100%.</text>
+  <text class="note" x="600" y="500">Mueve la línea de corte a izquierda o derecha para</text>
+  <text class="note" x="600" y="518" fill="#475569">detectar más casos o generar menos falsas alarmas.</text>
 </svg>
