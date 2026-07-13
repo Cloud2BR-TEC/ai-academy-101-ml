@@ -39,9 +39,9 @@
   <line class="grid" x1="130" y1="260" x2="1240" y2="260"/>
 
   <text class="small" x="70" y="564" transform="rotate(-90 70 564)">Escala del tamaño del dataset (filas/muestras)</text>
-  <text class="small" x="136" y="582">Pequeno</text>
+  <text class="small" x="136" y="582">Pequeño</text>
   <text class="gb" x="136" y="600">~0.01-0.1 GB</text>
-  <text class="small" x="430" y="582">Medium</text>
+  <text class="small" x="430" y="582">Mediano</text>
   <text class="gb" x="430" y="600">~0.1-5 GB</text>
   <text class="small" x="760" y="582">Grande</text>
   <text class="gb" x="760" y="600">~5-100 GB</text>
@@ -55,32 +55,33 @@
   <text class="small" x="46" y="263">~10M+</text>
 
   <rect class="low" x="170" y="455" width="170" height="85" rx="10"/>
-  <text class="h" x="182" y="480">Tabular Baselines</text>
+  <text class="h" x="182" y="480">Líneas base tabulares</text>
   <text class="t" x="182" y="502">RegLog / Árboles</text>
-  <text class="t" x="182" y="522">Typical: 1K-50K</text>
+  <text class="t" x="182" y="522">Típico: 1K-50K</text>
 
   <rect class="mid" x="380" y="410" width="248" height="130" rx="10"/>
   <text class="h" x="394" y="437">ML clasico a escala</text>
   <text class="t" x="394" y="459">Boosting / RandomForest</text>
-  <text class="t" x="394" y="479">Typical: 10K-500K</text>
-  <text class="t" x="394" y="499">Strong para business tabular datos</text>
+  <text class="t" x="394" y="479">Típico: 10K-500K</text>
+  <text class="t" x="394" y="499">Sólido para datos tabulares de negocio</text>
 
   <rect class="high" x="650" y="335" width="250" height="205" rx="10"/>
   <text class="h" x="666" y="364">Deep Learning (CV/NLP)</text>
   <text class="t" x="666" y="388">CNNs / RNNs / Transformers</text>
-  <text class="t" x="666" y="410">Typical: 100K-5M</text>
-  <text class="t" x="666" y="432">datos quality y labeling matter</text>
+  <text class="t" x="666" y="410">Típico: 100K-5M</text>
+  <text class="t" x="666" y="432">La calidad y el etiquetado importan</text>
   <text class="t" x="666" y="454">tanto como el volumen bruto.</text>
 
   <rect class="vhigh" x="940" y="235" width="270" height="305" rx="10"/>
-  <text class="h" x="956" y="266">Foundation modelo Workloads</text>
-  <text class="t" x="956" y="290">LLM/Multimodal preentrenamiento</text>
-  <text class="t" x="956" y="312">Typical: 10M+ a billions</text>
-  <text class="t" x="956" y="334">Requires distributed cómputo,</text>
-  <text class="t" x="956" y="356">strict datos gobernanza,</text>
-  <text class="t" x="956" y="378">curation y dedup pipelines.</text>
+  <text class="h" x="956" y="266">Cargas de modelos fundacionales</text>
+  <text class="t" x="956" y="290">Preentrenamiento LLM/Multimodal</text>
+  <text class="t" x="956" y="312">Típico: 10M+ a miles de millones</text>
+  <text class="t" x="956" y="334">Requiere cómputo distribuido,</text>
+  <text class="t" x="956" y="356">gobernanza estricta de datos,</text>
+  <text class="t" x="956" y="378">curado y pipelines de deduplicación.</text>
 
-  <rect class="panel" x="60" y="610" width="1280" height="66" rx="10"/>
-  <text class="h" x="78" y="636">Como leer este grafico</text>
-  <text class="small" x="78" y="656">Comienza con el riesgo del proyecto y restricciones de latencia, luego elige el modelo más pequeño que cumpla el KPI. Más datos ayudan, pero limpiar etiquetas, balancear clases y controlar fugas suele tener más impacto que solo aumentar volumen.</text>
+  <rect class="panel" x="60" y="610" width="1280" height="86" rx="10"/>
+  <text class="h" x="78" y="634">Cómo leer este gráfico</text>
+  <text class="small" x="78" y="654">Comienza con el riesgo del proyecto y restricciones de latencia, luego elige el modelo más pequeño que cumpla el KPI.</text>
+  <text class="small" x="78" y="672">Más datos ayudan, pero limpiar etiquetas, balancear clases y controlar fugas suele tener más impacto que solo aumentar volumen.</text>
 </svg>

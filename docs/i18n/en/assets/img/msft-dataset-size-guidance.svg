@@ -80,7 +80,8 @@
   <text class="t" x="956" y="356">strict data governance,</text>
   <text class="t" x="956" y="378">curation and dedup pipelines.</text>
 
-  <rect class="panel" x="60" y="610" width="1280" height="66" rx="10"/>
-  <text class="h" x="78" y="636">How to explain this chart</text>
-  <text class="small" x="78" y="656">Start with project risk and latency constraints, then choose the smallest model that meets KPI. More data helps, but clean labels, balanced classes, and leakage control are often higher impact than raw volume.</text>
+  <rect class="panel" x="60" y="610" width="1280" height="86" rx="10"/>
+  <text class="h" x="78" y="634">How to read this chart</text>
+  <text class="small" x="78" y="654">Start with project risk and latency constraints, then choose the smallest model that meets your KPI.</text>
+  <text class="small" x="78" y="672">More data helps, but clean labels, balanced classes, and leakage control are often higher impact than raw volume.</text>
 </svg>
