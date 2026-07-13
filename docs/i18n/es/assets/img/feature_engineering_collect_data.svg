@@ -37,7 +37,7 @@
   <rect class="card" x="320" y="150" width="150" height="64" rx="10" stroke="#15803d"/>
   <rect x="320" y="150" width="150" height="30" rx="10" fill="#15803d"/>
   <rect x="320" y="165" width="150" height="15" fill="#15803d"/>
-  <text class="node" x="395" y="171" text-anchor="middle">Partición de entrenamiento</text>
+  <text class="node" x="395" y="171" text-anchor="middle" font-size="12">Partición de entrenamiento</text>
   <text class="desc2" x="395" y="201" text-anchor="middle">ajustar + transformar</text>
 
   <!-- Test -->
@@ -68,10 +68,10 @@
 
   <!-- Entrenar -> transforms (fit) -->
   <path class="green" d="M470,182 C505,182 510,232 538,238" marker-end="url(#ag)"/>
-  <text class="gtxt" x="478" y="200">ajustar solo en entrenar</text>
+  <text class="gtxt" x="395" y="140" text-anchor="middle">ajustar solo en entrenamiento</text>
   <!-- Test -> transforms (apply) -->
   <path class="orange" d="M470,328 C505,328 510,346 538,346" marker-end="url(#ao)"/>
-  <text class="otxt" x="478" y="402">aplicar parámetros de entrenamiento</text>
+  <text class="otxt" x="395" y="373" text-anchor="middle">aplicar parámetros de entrenamiento</text>
 
   <!-- Salida -->
   <rect class="card" x="830" y="234" width="160" height="92" rx="10" stroke="#0e7490"/>
