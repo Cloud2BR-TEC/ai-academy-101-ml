@@ -4,22 +4,14 @@ Welcome to the **Machine Learning 101** course.
 
 This site is now fully **MkDocs-based** and organized to be highly visual for workshop delivery.
 
-## Course Map
-
-![ML evolution timeline](assets/img/ml-evolution-timeline.svg)
-
-```mermaid
-graph LR
-	A[ML basics] --> B[Azure ML workflow]
-	B --> C[Model build and evaluation]
-	C --> D[Deployment and operations basics]
-```
+This course can also be taught in school classrooms with age-appropriate examples and shorter activities.
 
 ## Why This Course
 
 - Build shared vocabulary and platform confidence.
 - Learn the minimum end-to-end workflow before optimization.
 - Apply a complete workflow from data to deployment.
+- Use visual-first explanations suitable for youth learners.
 
 ![Machine learning process by stages](assets/img/ml_process_by_stages.svg)
 
@@ -76,3 +68,7 @@ graph LR
 ## Visual Library
 
 See all images in one place in [Reference > Visual Library](reference/visual-library.md).
+
+## Classroom Guide
+
+Use the school-friendly teaching structure in [Reference > School Classroom Guide](reference/school-classroom-guide.md).

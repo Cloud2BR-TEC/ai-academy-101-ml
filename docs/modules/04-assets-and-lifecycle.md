@@ -1,50 +1,77 @@
 # 04. Assets and Lifecycle
 
-In Azure ML, "assets" are the important pieces you save and reuse.
+In Azure ML, an **asset** is any important piece of your project that is saved, versioned, and reusable. Managing assets carefully is the difference between a project that anyone can reproduce and one that only works on the original developer's machine.
+
+## Why Asset Management Matters
+
+Without careful asset tracking you cannot answer these critical questions:
+
+- Which dataset was used to train the model currently in production?
+- Which version of my data-cleaning code was used in the last run?
+- Why did the model perform better last week than today?
+
+Assets give every experiment a complete audit trail.
+
+## The Five Core Assets
+
+### 1. Data Assets
+
+A data asset is a named, versioned reference to a dataset. The data can be stored in Azure Blob Storage, Azure Data Lake, or a local upload. By registering data as an asset, every job that uses it records which version it consumed.
+
+![Feature engineering and data collection](../assets/img/feature_engineering_collect_data.svg)
+
+### 2. Environments
+
+An environment defines the exact Python packages, versions, and base Docker image that your code needs. Every job specifies an environment. If you train today and retrain in six months, the same environment guarantees the same runtime, eliminating "it worked on my machine" problems.
+
+### 3. Jobs
+
+A job is one execution of code. A training job takes data and an environment as inputs and produces a model as output. Every job records:
+
+- The code that ran.
+- The parameters used.
+- The metrics logged during execution.
+- The output artifacts produced.
 
 ![ML math pipeline](../assets/img/ml-math-pipeline.svg)
 
-## Core Assets Explained Simply
+### 4. Models
 
-- Data asset: where your input data lives.
-- Environment: package list and runtime setup.
-- Job: a run that executes code.
-- Model: trained result.
-- Endpoint: deployed API for predictions.
+A model is a trained artifact stored in the model registry. Each registration captures the metrics the model achieved, the job that produced it, and the data and environment used in training. You can compare model versions side by side and promote a specific version to deployment.
 
-![Logic implementation schema](../assets/img/logic_schema_model_implementation.svg)
+### 5. Endpoints
 
-## Why Asset Tracking Matters
+An endpoint is a deployed model exposed as a live API. It accepts HTTP requests with input data and returns predictions. An endpoint is always linked back to a specific model version in the registry.
 
-Without tracking, you cannot answer:
+## The Asset Lifecycle
 
-- Which dataset trained this model?
-- Which code version produced this result?
-- Which dependency version was used?
+```mermaid
+graph LR
+    DA[Data Asset] --> J[Job]
+    ENV[Environment] --> J
+    J --> M[Registered Model]
+    M --> EP[Endpoint]
+    EP --> MON[Monitoring]
+    MON -->|performance drop| J
+```
 
 ![Training testing flow](../assets/img/training_testing_data_flow.svg)
 
-## Lifecycle View
+## Lineage
 
-```mermaid
-graph TD
-    D[Data] --> J[Job]
-    E[Environment] --> J
-    J --> M[Model]
-    M --> EP[Endpoint]
-    EP --> MON[Monitoring]
-```
+Lineage is the complete record connecting an endpoint back through every asset used to create it. If a model gives wrong predictions, you can trace exactly which data, code version, and environment produced it, and identify where the problem began.
 
-## Practical Analogy
+![Logic implementation schema](../assets/img/logic_schema_model_implementation.svg)
 
-Imagine baking:
+## An Analogy
 
-- Data = ingredients.
-- Environment = kitchen setup.
-- Job = cooking session.
-- Model = final cake.
-- Endpoint = serving counter where people request slices.
+Think of building a product:
 
-## Visual Summary
+- Data = raw materials.
+- Environment = factory configuration.
+- Job = the production run.
+- Model = the finished product.
+- Endpoint = the store shelf where customers pick it up.
+- Lineage = the production record that tells you exactly how each product was made.
 
-![Model implementation](../assets/img/ml_workflow_stages.svg)
+![ML workflow stages](../assets/img/ml_workflow_stages.svg)

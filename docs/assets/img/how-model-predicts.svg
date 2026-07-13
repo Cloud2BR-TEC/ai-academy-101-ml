@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="340" viewBox="0 0 1100 340" role="img" aria-labelledby="title">
+  <title id="title">How a Machine Learning Model Makes a Prediction</title>
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .box-in { fill: #dbeafe; stroke: #93c5fd; stroke-width: 1.8; }
+      .box-model { fill: #fef9c3; stroke: #fcd34d; stroke-width: 2; }
+      .box-out { fill: #dcfce7; stroke: #6ee7b7; stroke-width: 1.8; }
+      .box-train { fill: #f3e8ff; stroke: #d8b4fe; stroke-width: 1.8; }
+      .h1 { font-family: Segoe UI, Arial, sans-serif; font-size: 24px; font-weight: 700; fill: #0f172a; }
+      .h2 { font-family: Segoe UI, Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #1e293b; }
+      .body { font-family: Segoe UI, Arial, sans-serif; font-size: 13.5px; fill: #334155; }
+      .small { font-family: Segoe UI, Arial, sans-serif; font-size: 12.5px; fill: #64748b; }
+      .arrow { stroke: #475569; stroke-width: 2.5; fill: none; marker-end: url(#arrp); }
+      .arrow-train { stroke: #a78bfa; stroke-width: 2; fill: none; marker-end: url(#arrpt); stroke-dasharray: 6 4; }
+      .phase-label { font-family: Segoe UI, Arial, sans-serif; font-size: 13px; font-weight: 700; fill: #64748b; letter-spacing: 0.06em; }
+    </style>
+    <marker id="arrp" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon fill="#475569" points="0 0, 9 3.5, 0 7"/>
+    </marker>
+    <marker id="arrpt" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon fill="#a78bfa" points="0 0, 9 3.5, 0 7"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1100" height="340"/>
+  <text class="h1" x="550" y="42" text-anchor="middle">How a Machine Learning Model Makes a Prediction</text>
+
+  <!-- Training phase -->
+  <text class="phase-label" x="30" y="82" text-transform="uppercase">TRAINING PHASE</text>
+
+  <!-- Training data box -->
+  <rect class="box-train" x="30" y="92" width="210" height="100" rx="10"/>
+  <text class="h2" x="135" y="117" text-anchor="middle" fill="#6d28d9">Training Data</text>
+  <text class="body" x="50" y="142">Labeled examples:</text>
+  <text class="small" x="50" y="162">Input + known correct answer</text>
+  <text class="small" x="50" y="178">→ thousands of rows</text>
+
+  <line class="arrow-train" x1="240" y1="142" x2="298" y2="142"/>
+
+  <!-- Algorithm box -->
+  <rect class="box-model" x="300" y="92" width="180" height="100" rx="10"/>
+  <text class="h2" x="390" y="117" text-anchor="middle" fill="#92400e">Learning Algorithm</text>
+  <text class="small" x="320" y="145">Adjusts internal weights</text>
+  <text class="small" x="320" y="163">to reduce prediction errors</text>
+  <text class="small" x="320" y="180">across all examples</text>
+
+  <line class="arrow-train" x1="480" y1="142" x2="538" y2="142"/>
+
+  <!-- Trained model box -->
+  <rect class="box-model" x="540" y="92" width="160" height="100" rx="10"/>
+  <text class="h2" x="620" y="117" text-anchor="middle" fill="#92400e">Trained Model</text>
+  <text class="small" x="558" y="145">Learned pattern stored</text>
+  <text class="small" x="558" y="163">as a mathematical</text>
+  <text class="small" x="558" y="180">function</text>
+
+  <!-- Prediction phase -->
+  <text class="phase-label" x="30" y="240" text-transform="uppercase">PREDICTION PHASE</text>
+
+  <!-- New input box -->
+  <rect class="box-in" x="30" y="252" width="200" height="72" rx="10"/>
+  <text class="h2" x="130" y="275" text-anchor="middle" fill="#1e40af">New Input</text>
+  <text class="small" x="50" y="296">Unseen data without</text>
+  <text class="small" x="50" y="312">a known answer</text>
+
+  <line class="arrow" x1="230" y1="288" x2="540" y2="235"/>
+
+  <!-- Model receives new input -->
+  <rect class="box-model" x="540" y="204" width="160" height="62" rx="10"/>
+  <text class="h2" x="620" y="227" text-anchor="middle" fill="#92400e">Trained Model</text>
+  <text class="small" x="558" y="252">Applies learned pattern</text>
+
+  <line class="arrow" x1="700" y1="235" x2="800" y2="235"/>
+
+  <!-- Prediction box -->
+  <rect class="box-out" x="802" y="200" width="260" height="96" rx="10"/>
+  <text class="h2" x="932" y="226" text-anchor="middle" fill="#166534">Prediction</text>
+  <text class="body" x="822" y="252">The model's answer for</text>
+  <text class="body" x="822" y="272">the new input</text>
+  <text class="small" x="822" y="290">e.g. "Spam" or price = $320</text>
+</svg>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="380" viewBox="0 0 1100 380" role="img" aria-labelledby="title">
+  <title id="title">Traditional Programming vs Machine Learning</title>
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .box { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.5; }
+      .box-l { fill: #e0edff; stroke: #7db0f5; stroke-width: 2; }
+      .box-r { fill: #e6f9f0; stroke: #6dd8a8; stroke-width: 2; }
+      .heading { font-family: Segoe UI, Arial, sans-serif; font-size: 22px; font-weight: 700; }
+      .head-l { fill: #1a3e78; }
+      .head-r { fill: #1a6640; }
+      .label { font-family: Segoe UI, Arial, sans-serif; font-size: 15px; fill: #334155; }
+      .small { font-family: Segoe UI, Arial, sans-serif; font-size: 13px; fill: #475569; }
+      .arrow { stroke: #64748b; stroke-width: 2.5; fill: none; marker-end: url(#arr); }
+      .arrowhead { fill: #64748b; }
+      .divider { stroke: #cbd5e1; stroke-width: 2; stroke-dasharray: 6 4; }
+      .vs { font-family: Segoe UI, Arial, sans-serif; font-size: 28px; font-weight: 900; fill: #94a3b8; }
+      .chip { rx: 6; ry: 6; }
+      .chip-in { fill: #dbeafe; stroke: #93c5fd; stroke-width: 1.2; }
+      .chip-mid { fill: #fef3c7; stroke: #fcd34d; stroke-width: 1.2; }
+      .chip-out { fill: #dcfce7; stroke: #6ee7b7; stroke-width: 1.2; }
+      .chip-text { font-family: Segoe UI, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #1e293b; }
+      .note { font-family: Segoe UI, Arial, sans-serif; font-size: 13px; fill: #64748b; font-style: italic; }
+    </style>
+    <marker id="arr" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon class="arrowhead" points="0 0, 9 3.5, 0 7"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1100" height="380"/>
+
+  <!-- Left panel: Traditional Programming -->
+  <rect class="box-l" x="30" y="30" width="460" height="320" rx="14"/>
+  <text class="heading head-l" x="260" y="66" text-anchor="middle">Traditional Programming</text>
+  <text class="small" x="260" y="88" text-anchor="middle">You write the rules yourself</text>
+
+  <!-- Input chip -->
+  <rect class="chip chip-in" x="60" y="105" width="110" height="38"/>
+  <text class="chip-text" x="115" y="129" text-anchor="middle">Data (Input)</text>
+
+  <!-- Rules chip -->
+  <rect class="chip chip-mid" x="195" y="105" width="110" height="38"/>
+  <text class="chip-text" x="250" y="125" text-anchor="middle">Rules you</text>
+  <text class="chip-text" x="250" y="141" text-anchor="middle">wrote</text>
+
+  <!-- Output chip -->
+  <rect class="chip chip-out" x="330" y="105" width="110" height="38"/>
+  <text class="chip-text" x="385" y="129" text-anchor="middle">Output</text>
+
+  <!-- arrows -->
+  <line class="arrow" x1="170" y1="124" x2="192" y2="124"/>
+  <line class="arrow" x1="305" y1="124" x2="327" y2="124"/>
+
+  <!-- Example -->
+  <text class="label" x="60" y="180">Example:</text>
+  <rect class="box" x="60" y="190" width="370" height="100" rx="8"/>
+  <text class="small" x="80" y="215">IF email contains "free money"</text>
+  <text class="small" x="80" y="237">   AND sender is unknown</text>
+  <text class="small" x="80" y="259">   THEN mark as spam</text>
+  <text class="small" x="80" y="278">You have to write every condition by hand.</text>
+
+  <!-- Right panel: Machine Learning -->
+  <rect class="box-r" x="610" y="30" width="460" height="320" rx="14"/>
+  <text class="heading head-r" x="840" y="66" text-anchor="middle">Machine Learning</text>
+  <text class="small" x="840" y="88" text-anchor="middle">You show examples, the computer finds the rules</text>
+
+  <!-- Input chip -->
+  <rect class="chip chip-in" x="640" y="105" width="110" height="38"/>
+  <text class="chip-text" x="695" y="125" text-anchor="middle">Data with</text>
+  <text class="chip-text" x="695" y="141" text-anchor="middle">answers</text>
+
+  <!-- Algorithm chip -->
+  <rect class="chip chip-mid" x="775" y="105" width="110" height="38"/>
+  <text class="chip-text" x="830" y="125" text-anchor="middle">Learning</text>
+  <text class="chip-text" x="830" y="141" text-anchor="middle">algorithm</text>
+
+  <!-- Model chip -->
+  <rect class="chip chip-out" x="910" y="105" width="110" height="38"/>
+  <text class="chip-text" x="965" y="129" text-anchor="middle">Model</text>
+
+  <!-- arrows -->
+  <line class="arrow" x1="750" y1="124" x2="772" y2="124"/>
+  <line class="arrow" x1="885" y1="124" x2="907" y2="124"/>
+
+  <!-- Example -->
+  <text class="label" x="640" y="180">Example:</text>
+  <rect class="box" x="640" y="190" width="370" height="100" rx="8"/>
+  <text class="small" x="660" y="215">Show 10,000 emails labeled "spam" or "not spam".</text>
+  <text class="small" x="660" y="237">The algorithm studies patterns across all of them.</text>
+  <text class="small" x="660" y="259">It builds rules automatically from the examples.</text>
+  <text class="small" x="660" y="278">New emails are scored without hand-written rules.</text>
+
+  <!-- VS divider -->
+  <line class="divider" x1="550" y1="30" x2="550" y2="350"/>
+  <text class="vs" x="550" y="205" text-anchor="middle">VS</text>
+</svg>

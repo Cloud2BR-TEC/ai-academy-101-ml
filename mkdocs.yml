@@ -64,6 +64,7 @@ nav:
   - 09. Course Wrap-Up and Next Steps: modules/09-course-next-steps.md
   - Reference:
       - Overview: reference/index.md
+      - School Classroom Guide: reference/school-classroom-guide.md
       - Visual Library: reference/visual-library.md
       - CLI Commands: reference/cli-commands.md
       - Glossary: reference/glossary.md
