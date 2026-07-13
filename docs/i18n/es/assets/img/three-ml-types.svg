@@ -1,4 +1,4 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="440" viewBox="0 0 1100 440" role="img" aria-labelledby="title">
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="440" viewBox="0 0 1300 440" role="img" aria-labelledby="title">
   <title id="title">Tres tipos de aprendizaje automático</title>
   <defs>
     <style>
@@ -11,13 +11,63 @@
       .bar-r { fill: #a855f7; }
       .h1 { font-family: Segoe UI, Arial, sans-serif; font-size: 26px; font-weight: 700; fill: #0f172a; }
       .h2 { font-family: Segoe UI, Arial, sans-serif; font-size: 18px; font-weight: 700; }
-      .body { font-family: Segoe UI, Arial, sans-serif; font-size: 14px; fill: #334155; }
-      .small { font-family: Segoe UI, Arial, sans-serif; font-size: 13px; fill: #475569; }
+      .body { font-family: Segoe UI, Arial, sans-serif; font-size: 13px; fill: #334155; }
+      .small { font-family: Segoe UI, Arial, sans-serif; font-size: 12px; fill: #475569; }
       .example-box { fill: #ffffff; stroke: #e2e8f0; stroke-width: 1.2; }
     </style>
   </defs>
 
-  <rect class="bg" x="0" y="0" width="1100" height="440"/>
+  <rect class="bg" x="0" y="0" width="1300" height="440"/>
+  <text class="h1" x="650" y="44" text-anchor="middle">Tres tipos de aprendizaje automático</text>
+
+  <!-- Supervisado -->
+  <rect class="card-s" x="20" y="70" width="400" height="350" rx="14"/>
+  <rect class="bar-s" x="20" y="70" width="400" height="44" rx="14"/>
+  <text class="h2" x="220" y="100" text-anchor="middle" fill="white">Aprendizaje Supervisado</text>
+  <text class="body" x="44" y="140">Los datos de entrenamiento tienen respuestas correctas.</text>
+  <text class="body" x="44" y="160">El modelo aprende a partir de ejemplos etiquetados.</text>
+  <rect class="example-box" x="40" y="176" width="360" height="120" rx="8"/>
+  <text class="small" x="58" y="201">Ejemplo: detección de correo spam.</text>
+  <text class="small" x="58" y="221">Cada correo de entrenamiento está etiquetado:</text>
+  <text class="small" x="58" y="241"> "spam" o "no spam"</text>
+  <text class="small" x="58" y="261">El modelo aprende qué patrones</text>
+  <text class="small" x="58" y="281">están asociados con spam.</text>
+  <text class="body" x="44" y="322">Tareas comunes:</text>
+  <text class="small" x="60" y="344">• Clasificación (spam / no spam)</text>
+  <text class="small" x="60" y="366">• Regresión (predecir un número)</text>
+
+  <!-- No Supervisado -->
+  <rect class="card-u" x="450" y="70" width="400" height="350" rx="14"/>
+  <rect class="bar-u" x="450" y="70" width="400" height="44" rx="14"/>
+  <text class="h2" x="650" y="100" text-anchor="middle" fill="white">Aprendizaje No Supervisado</text>
+  <text class="body" x="474" y="140">Los datos de entrenamiento no tienen respuestas correctas.</text>
+  <text class="body" x="474" y="160">El modelo descubre estructura por sí mismo.</text>
+  <rect class="example-box" x="470" y="176" width="360" height="120" rx="8"/>
+  <text class="small" x="488" y="201">Ejemplo: agrupación de clientes.</text>
+  <text class="small" x="488" y="221">Con historiales de compra sin etiquetas,</text>
+  <text class="small" x="488" y="241">el modelo encuentra grupos naturales como:</text>
+  <text class="small" x="488" y="261">"compradores frecuentes" o "compradores ocasionales".</text>
+  <text class="small" x="488" y="281">Nadie le indicó cuáles debían ser los grupos.</text>
+  <text class="body" x="474" y="322">Tareas comunes:</text>
+  <text class="small" x="490" y="344">• Agrupamiento (encontrar grupos)</text>
+  <text class="small" x="490" y="366">• Reducción de dimensionalidad</text>
+
+  <!-- Por Refuerzo -->
+  <rect class="card-r" x="880" y="70" width="400" height="350" rx="14"/>
+  <rect class="bar-r" x="880" y="70" width="400" height="44" rx="14"/>
+  <text class="h2" x="1080" y="100" text-anchor="middle" fill="white">Aprendizaje por Refuerzo</text>
+  <text class="body" x="904" y="140">Un agente aprende tomando acciones</text>
+  <text class="body" x="904" y="160">y recibe recompensas o penalizaciones.</text>
+  <rect class="example-box" x="900" y="176" width="360" height="120" rx="8"/>
+  <text class="small" x="918" y="201">Ejemplo: IA para jugar juegos.</text>
+  <text class="small" x="918" y="221">El agente prueba movimientos en un juego.</text>
+  <text class="small" x="918" y="241">Cada buen movimiento gana una recompensa.</text>
+  <text class="small" x="918" y="261">Cada mal movimiento recibe una penalización.</text>
+  <text class="small" x="918" y="281">Con el tiempo, aprende la mejor estrategia.</text>
+  <text class="body" x="904" y="322">Tareas comunes:</text>
+  <text class="small" x="920" y="344">• Estrategia de juego</text>
+  <text class="small" x="920" y="366">• Robótica y sistemas de control</text>
+</svg>
   <text class="h1" x="550" y="44" text-anchor="middle">Tres tipos de aprendizaje automático</text>
 
   <!-- Supervised -->

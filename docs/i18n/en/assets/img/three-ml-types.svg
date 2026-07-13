@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="440" viewBox="0 0 1100 440" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="440" viewBox="0 0 1300 440" role="img" aria-labelledby="title">
   <title id="title">Three Types of Machine Learning</title>
   <defs>
     <style>
@@ -11,13 +11,63 @@
       .bar-r { fill: #a855f7; }
       .h1 { font-family: Segoe UI, Arial, sans-serif; font-size: 26px; font-weight: 700; fill: #0f172a; }
       .h2 { font-family: Segoe UI, Arial, sans-serif; font-size: 18px; font-weight: 700; }
-      .body { font-family: Segoe UI, Arial, sans-serif; font-size: 14px; fill: #334155; }
-      .small { font-family: Segoe UI, Arial, sans-serif; font-size: 13px; fill: #475569; }
+      .body { font-family: Segoe UI, Arial, sans-serif; font-size: 13px; fill: #334155; }
+      .small { font-family: Segoe UI, Arial, sans-serif; font-size: 12px; fill: #475569; }
       .example-box { fill: #ffffff; stroke: #e2e8f0; stroke-width: 1.2; }
     </style>
   </defs>
 
-  <rect class="bg" x="0" y="0" width="1100" height="440"/>
+  <rect class="bg" x="0" y="0" width="1300" height="440"/>
+  <text class="h1" x="650" y="44" text-anchor="middle">Three Types of Machine Learning</text>
+
+  <!-- Supervised -->
+  <rect class="card-s" x="20" y="70" width="400" height="350" rx="14"/>
+  <rect class="bar-s" x="20" y="70" width="400" height="44" rx="14"/>
+  <text class="h2" x="220" y="100" text-anchor="middle" fill="white">Supervised Learning</text>
+  <text class="body" x="44" y="140">Training data has correct answers.</text>
+  <text class="body" x="44" y="160">The model learns from labeled examples.</text>
+  <rect class="example-box" x="40" y="176" width="360" height="120" rx="8"/>
+  <text class="small" x="58" y="201">Example: Email spam detection.</text>
+  <text class="small" x="58" y="221">Each training email is labeled:</text>
+  <text class="small" x="58" y="241">  "spam" or "not spam"</text>
+  <text class="small" x="58" y="261">The model learns what patterns</text>
+  <text class="small" x="58" y="281">are associated with spam.</text>
+  <text class="body" x="44" y="322">Common tasks:</text>
+  <text class="small" x="60" y="344">• Classification (spam / not spam)</text>
+  <text class="small" x="60" y="366">• Regression (predict a number)</text>
+
+  <!-- Unsupervised -->
+  <rect class="card-u" x="450" y="70" width="400" height="350" rx="14"/>
+  <rect class="bar-u" x="450" y="70" width="400" height="44" rx="14"/>
+  <text class="h2" x="650" y="100" text-anchor="middle" fill="white">Unsupervised Learning</text>
+  <text class="body" x="474" y="140">Training data has no correct answers.</text>
+  <text class="body" x="474" y="160">The model discovers structure on its own.</text>
+  <rect class="example-box" x="470" y="176" width="360" height="120" rx="8"/>
+  <text class="small" x="488" y="201">Example: Customer grouping.</text>
+  <text class="small" x="488" y="221">Given purchase histories with no labels,</text>
+  <text class="small" x="488" y="241">the model finds natural groups like:</text>
+  <text class="small" x="488" y="261">  "frequent buyers" or "casual shoppers".</text>
+  <text class="small" x="488" y="281">No-one told it what the groups should be.</text>
+  <text class="body" x="474" y="322">Common tasks:</text>
+  <text class="small" x="490" y="344">• Clustering (find groups)</text>
+  <text class="small" x="490" y="366">• Dimensionality reduction</text>
+
+  <!-- Reinforcement -->
+  <rect class="card-r" x="880" y="70" width="400" height="350" rx="14"/>
+  <rect class="bar-r" x="880" y="70" width="400" height="44" rx="14"/>
+  <text class="h2" x="1080" y="100" text-anchor="middle" fill="white">Reinforcement Learning</text>
+  <text class="body" x="904" y="140">An agent learns by taking actions</text>
+  <text class="body" x="904" y="160">and receiving rewards or penalties.</text>
+  <rect class="example-box" x="900" y="176" width="360" height="120" rx="8"/>
+  <text class="small" x="918" y="201">Example: Game-playing AI.</text>
+  <text class="small" x="918" y="221">The agent tries moves in a game.</text>
+  <text class="small" x="918" y="241">Each good move earns a reward.</text>
+  <text class="small" x="918" y="261">Each bad move earns a penalty.</text>
+  <text class="small" x="918" y="281">Over time, it learns the best strategy.</text>
+  <text class="body" x="904" y="322">Common tasks:</text>
+  <text class="small" x="920" y="344">• Game strategy</text>
+  <text class="small" x="920" y="366">• Robotics and control systems</text>
+</svg>
   <text class="h1" x="550" y="44" text-anchor="middle">Three Types of Machine Learning</text>
 
   <!-- Supervised -->
