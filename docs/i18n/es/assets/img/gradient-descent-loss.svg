@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
   <title id="title">Descenso de gradiente en una pérdida convexa</title>
-  <desc id="desc">Curva de perdida en forma de cuenco. Cada paso de entrenamiento calcula el gradiente y mueve los pesos cuesta abajo hacia el minimo, con pasos cada vez menores.</desc>
+  <desc id="desc">Curva de pérdida en forma de cuenco. Cada paso de entrenamiento calcula el gradiente y mueve los pesos cuesta abajo hacia el mínimo, con pasos cada vez menores.</desc>
 
   <defs>
     <style>
@@ -24,8 +24,8 @@
   </defs>
 
   <rect class="bg" x="0" y="0" width="1040" height="560"/>
-  <text class="title" x="60" y="52">Descenso de gradiente: como aprende un modelo</text>
-  <text class="subtitle" x="60" y="80">El modelo evalua que tan equivocado esta y da pequenos pasos cuesta abajo para equivocarse menos.</text>
+  <text class="title" x="60" y="52">Descenso de gradiente: cómo aprende un modelo</text>
+  <text class="subtitle" x="60" y="80">El modelo evalúa qué tan equivocado está y da pequeños pasos cuesta abajo para equivocarse menos.</text>
 
   <!-- axes -->
   <line class="axis" x1="120" y1="500" x2="960" y2="500"/>
@@ -39,7 +39,7 @@
   <!-- minimum marker -->
   <line class="opt" x1="540" y1="480" x2="540" y2="120"/>
   <circle class="mindot" cx="540" cy="480" r="8"/>
-  <text class="label" x="556" y="470" font-weight="700" fill="#15803d">Punto mas bajo = mejores ajustes</text>
+  <text class="label" x="556" y="470" font-weight="700" fill="#15803d">Punto más bajo = mejores ajustes</text>
 
   <!-- descent steps (points along parabola) -->
   <circle class="startdot" cx="210" cy="287" r="9"/>
@@ -59,9 +59,9 @@
   <text class="note" x="470" y="520">...pasos pequeños cerca del fondo</text>
 
   <!-- learning rate callout -->
-  <text class="note" x="640" y="300">Tamano del paso = la tasa de aprendizaje.</text>
+  <text class="note" x="640" y="300">Tamaño del paso = la tasa de aprendizaje.</text>
   <text class="note" x="640" y="320">Muy grande: se pasa y nunca converge.</text>
-  <text class="note" x="640" y="340">Muy pequeno: tarda mucho en llegar.</text>
+  <text class="note" x="640" y="340">Muy pequeño: tarda mucho en llegar.</text>
   <text class="note" x="640" y="372" font-weight="700" fill="#004a99">Un solo valle = un solo fondo,</text>
   <text class="note" x="640" y="390" font-weight="700" fill="#004a99">para que siempre alcance la mejor respuesta.</text>
 </svg>
