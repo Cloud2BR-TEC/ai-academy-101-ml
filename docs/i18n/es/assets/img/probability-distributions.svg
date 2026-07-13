@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
   <title id="title">Discrete PMF vs continuous PDF y el CDF</title>
-  <desc id="desc">A discrete probability mass function drawn as separate bars that sum a one, a continuous probability density function whose shaded area equals one, y a cumulative distribution function rising monotonically desde zero a one.</desc>
+  <desc id="desc">Una función de masa de probabilidad discreta con barras separadas que suman uno, una función de densidad de probabilidad continua cuya área sombreada es uno, y una función de distribución acumulada que sube de cero a uno.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -49,7 +49,7 @@
 
   <!-- Panel 3: CDF -->
   <rect class="card" x="690" y="110" width="290" height="370" rx="10"/>
-  <text class="panel" x="710" y="142">Both — CDF</text>
+  <text class="panel" x="710" y="142">Ambas — FDA</text>
   <text class="desc2" x="710" y="162">F(x) = P(X &#8804; x)</text>
   <line class="axis" x1="730" y1="440" x2="960" y2="440"/>
   <line class="axis" x1="730" y1="440" x2="730" y2="190"/>

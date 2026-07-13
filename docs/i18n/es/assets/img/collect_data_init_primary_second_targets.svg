@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="470" viewBox="0 0 1040 470" role="img" aria-labelledby="title desc">
   <title id="title">recopilar características y targets together</title>
-  <desc id="desc">A dataset collected con característica columnas, a primary target, y secondary targets, emphasizing defining el target precisely y knowing when its value becomes available a avoid leakage.</desc>
+  <desc id="desc">Dataset con columnas de características, un target primario y targets secundarios; destaca la importancia de definir el target con precisión y saber cuándo su valor estará disponible para evitar fuga de datos.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -86,5 +86,5 @@
   <rect x="60" y="370" width="920" height="78" rx="10" fill="#fff7ed" stroke="#b45309" stroke-width="1.8"/>
   <text class="calloutb" x="80" y="397">Verificacion de fuga: cuando se conoce el valor del target?</text>
   <text class="calloutt" x="80" y="420">A característica must be available at predicción time. If a target's value is only conocido later, never let it</text>
-  <text class="calloutt" x="80" y="438">(or anything derived desde it) leak into el característica columnas used a entrenar el modelo.</text>
+  <text class="calloutt" x="80" y="438">(o cualquier derivado de él) se filtre en las columnas de características usadas para entrenar el modelo.</text>
 </svg>

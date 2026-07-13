@@ -1,5 +1,5 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
-  <title id="title">decisión tree splitting datos into regions</title>
+  <title id="title">Árbol de decisión que divide datos en regiones</title>
   <desc id="desc">Un árbol de decisión como diagrama de flujo de preguntas sí/no sobre características, que termina en hojas que dan la clase predicha.</desc>
   <defs>
     <style>

@@ -38,7 +38,7 @@
   <rect class="card" x="700" y="150" width="280" height="100" rx="12"/>
   <rect x="700" y="150" width="280" height="44" rx="12" fill="#0e7490"/>
   <text class="node" x="840" y="179" text-anchor="middle">Job de entrenamiento</text>
-  <text class="desc2" x="724" y="222">Fit el modelo en el clúster</text>
+  <text class="desc2" x="724" y="222">Ajustar el modelo en el clúster</text>
   <text class="desc2" x="724" y="240">usando exactamente este entorno.</text>
 
   <!-- Inference -->

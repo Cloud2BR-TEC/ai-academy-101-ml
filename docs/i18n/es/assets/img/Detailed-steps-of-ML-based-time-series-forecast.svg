@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="510" viewBox="0 0 1040 510" role="img" aria-labelledby="title desc">
   <title id="title">Pasos detallados de un pronóstico de series de tiempo con ML</title>
-  <desc id="desc">A six-step flow desde ingesting history a monitoring, highlighting rolling-origin validación where el entrenar/prueba split advances through time instead de using aleatorio k-fold.</desc>
+  <desc id="desc">Flujo de seis pasos desde la ingesta de históricos hasta el monitoreo, destacando la validación de origen móvil donde la división avanza en el tiempo en lugar de usar k-fold aleatorio.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -87,7 +87,7 @@
 
   <!-- rolling-origin panel -->
   <rect class="panel" x="60" y="300" width="900" height="180" rx="10"/>
-  <text class="ptitle" x="80" y="330">Validación de origen móvil &#8212; el split advances through time (not aleatorio k-fold)</text>
+  <text class="ptitle" x="80" y="330">Validación de origen móvil — la división avanza en el tiempo (no k-fold aleatorio)</text>
 
   <rect x="80" y="350" width="380" height="20" rx="4" fill="#004a99"/>
   <rect x="460" y="350" width="80" height="20" rx="4" fill="#b45309"/>

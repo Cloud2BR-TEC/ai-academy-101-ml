@@ -57,7 +57,7 @@
   <rect class="c1" x="320" y="517" width="22" height="22" rx="3"/>
   <text class="legtext" x="350" y="533">Clase 1</text>
   <line class="cand" x1="450" y1="528" x2="500" y2="528"/>
-  <text class="legtext" x="508" y="533">candidato line</text>
+  <text class="legtext" x="508" y="533">línea candidata</text>
 
   <!-- linearly separable inset -->
   <rect class="card" x="640" y="150" width="340" height="300" rx="10"/>

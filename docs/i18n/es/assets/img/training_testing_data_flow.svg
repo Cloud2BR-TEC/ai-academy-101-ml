@@ -65,7 +65,7 @@
   <rect class="card" x="320" y="314" width="170" height="62" rx="10" stroke="#b45309" stroke-dasharray="6 4"/>
   <rect x="320" y="314" width="170" height="30" rx="10" fill="#b45309"/>
   <rect x="320" y="329" width="170" height="15" fill="#b45309"/>
-  <text class="node" x="405" y="335" text-anchor="middle">Partición de prueba (held out)</text>
+  <text class="node" x="405" y="335" text-anchor="middle">Partición de prueba (reservada)</text>
   <text class="desc2" x="405" y="364" text-anchor="middle">bloqueado, sin tocar</text>
 
   <!-- Final evaluation -->

@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
   <title id="title">Anatomía de una neurona artificial</title>
-  <desc id="desc">Entradas are scaled by weights y summed, a sesgo is added a form el pre-activación z, then a non-linear activación produces el salida.</desc>
+  <desc id="desc">Las entradas se escalan por pesos y se suman; se añade un sesgo para formar la pre-activación z, luego una activación no lineal produce la salida.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -81,7 +81,7 @@
   <!-- stage cards -->
   <rect class="card" x="70" y="468" width="300" height="64" rx="10"/>
   <text class="stageNo" x="86" y="496">1 Â· Suma ponderada</text>
-  <text class="desc2" x="86" y="518">Each entrada xâ±¼ scaled by its weight wâ±¼, then summed.</text>
+  <text class="desc2" x="86" y="518">Cada entrada x&#8336; escalada por su peso w&#8336;, luego sumadas.</text>
 
   <rect class="card" x="390" y="468" width="250" height="64" rx="10"/>
   <text class="stageNo" x="406" y="496">2 Â· Desplazamiento de sesgo</text>
@@ -89,5 +89,5 @@
 
   <rect class="card" x="660" y="468" width="300" height="64" rx="10"/>
   <text class="stageNo" x="676" y="496">3 Â· Activación no lineal</text>
-  <text class="desc2" x="676" y="518">Ï†(z) bends el line y produces salida Å·.</text>
+  <text class="desc2" x="676" y="518">φ(z) curva la recta y produce la salida ŷ.</text>
 </svg>

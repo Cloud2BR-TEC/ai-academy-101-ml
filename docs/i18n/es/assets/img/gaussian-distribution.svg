@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
   <title id="title">Distribucion gaussiana y regla empirica</title>
-  <desc id="desc">A normal bell curve centered at el mean mu, con el x-axis marked at mu minus two sigma through mu plus two sigma y shaded regions showing el 68, 95, y 99.7 percent empirical rule.</desc>
+  <desc id="desc">Curva en forma de campana centrada en la media mu, con el eje x marcado desde mu menos dos sigma hasta mu más dos sigma y regiones sombreadas que muestran la regla empírica del 68, 95 y 99.7%.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }

@@ -14,7 +14,7 @@
     </style>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="520"/>
-  <text class="title" x="60" y="52">Types de Machine Learning</text>
+  <text class="title" x="60" y="52">Tipos de aprendizaje automático</text>
   <text class="subtitle" x="60" y="80">Cada tipo se distingue por la senal de retroalimentacion con la que aprende</text>
 
   <!-- Supervised -->
@@ -25,7 +25,7 @@
   <text class="item" x="70" y="224">ya etiquetados con el</text>
   <text class="item" x="70" y="248">correct answers.</text>
   <text class="item" x="70" y="290">Examples:</text>
-  <text class="item" x="70" y="314">• Spam vs not spam</text>
+  <text class="item" x="70" y="314">• Spam vs no spam</text>
   <text class="item" x="70" y="338">• Price predicción</text>
   <rect x="70" y="370" width="250" height="64" rx="8" fill="#eff6ff" stroke="#004a99" stroke-width="1.5"/>
   <text class="siglbl" x="84" y="396">Feedback signal:</text>
@@ -37,7 +37,7 @@
   <text class="head" x="520" y="149">No supervisado</text>
   <text class="item" x="395" y="200">Finds structure en datos</text>
   <text class="item" x="395" y="224">con no labels — groups</text>
-  <text class="item" x="395" y="248">y patterns only.</text>
+  <text class="item" x="395" y="248">y solo patrones.</text>
   <text class="item" x="395" y="290">Examples:</text>
   <text class="item" x="395" y="314">• Customer segments</text>
   <text class="item" x="395" y="338">• Anomaly detection</text>

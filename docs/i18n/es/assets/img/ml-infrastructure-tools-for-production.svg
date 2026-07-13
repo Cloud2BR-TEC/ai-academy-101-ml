@@ -37,7 +37,7 @@
   <text class="head" x="274" y="258" fill="#0e7490">característica</text>
   <text class="head" x="274" y="276" fill="#0e7490">Store</text>
   <text class="sub" x="274" y="306">Reutilizable</text>
-  <text class="sub" x="274" y="322">característica sets</text>
+  <text class="sub" x="274" y="322">conjuntos de características</text>
 
   <!-- Box 3 Entrenaring Orchestration -->
   <rect class="card" x="368" y="200" width="140" height="150" rx="10" stroke="#b45309" stroke-width="2"/>

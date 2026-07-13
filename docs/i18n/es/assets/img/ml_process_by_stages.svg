@@ -57,7 +57,7 @@
   <text class="cardhead" x="440" y="226" text-anchor="middle" fill="#b45309">datos</text>
   <text class="cardhead" x="440" y="244" text-anchor="middle" fill="#b45309">Cleaning</text>
   <text class="desc2" x="440" y="270" text-anchor="middle">Fix errors, missing</text>
-  <text class="desc2" x="440" y="286" text-anchor="middle">values &amp; duplicates</text>
+  <text class="desc2" x="440" y="286" text-anchor="middle">valores y duplicados</text>
 
   <!-- Stage 4 -->
   <rect class="card" x="530" y="160" width="140" height="150" rx="10" stroke="#15803d"/>

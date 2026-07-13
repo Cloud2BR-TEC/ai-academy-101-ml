@@ -16,7 +16,7 @@
     </style>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="540"/>
-  <text class="title" x="60" y="52">Logistic regresión: a probability-based boundary</text>
+  <text class="title" x="60" y="52">Regresión logística: frontera basada en probabilidad</text>
   <text class="subtitle" x="60" y="80">Un puntaje lineal se convierte en probabilidad; la linea donde p = 0.5 separa las dos clases.</text>
   <line class="axis" x1="120" y1="470" x2="960" y2="470"/>
   <line class="axis" x1="120" y1="470" x2="120" y2="120"/>

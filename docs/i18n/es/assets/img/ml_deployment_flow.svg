@@ -63,7 +63,7 @@
   <text class="badge" x="599" y="165" text-anchor="middle">4</text>
   <text class="node" x="599" y="216" text-anchor="middle">desplegar</text>
   <text class="cap" x="599" y="284" text-anchor="middle">Provision el</text>
-  <text class="cap" x="599" y="302" text-anchor="middle">endpoint</text>
+  <text class="cap" x="599" y="302" text-anchor="middle">punto de conexión</text>
 
   <!-- Node 5 -->
   <rect class="card" x="692" y="160" width="130" height="92" rx="12"/>
@@ -81,7 +81,7 @@
   <circle cx="915" cy="160" r="16" fill="#15803d"/>
   <path d="M908,160 l5,5 l9,-10" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
   <text class="node" x="915" y="206" text-anchor="middle" fill="#15803d">Live</text>
-  <text class="node" x="915" y="226" text-anchor="middle" fill="#15803d">endpoint</text>
+  <text class="node" x="915" y="226" text-anchor="middle" fill="#15803d">punto de conexión</text>
   <text class="cap" x="915" y="284" text-anchor="middle">Servicio real</text>
   <text class="cap" x="915" y="302" text-anchor="middle">requests</text>
 

@@ -27,9 +27,9 @@
   <!-- column header row -->
   <rect x="60" y="166" width="920" height="36" fill="#e2e8f0"/>
   <text class="chead" x="175" y="190" text-anchor="middle">Unit</text>
-  <text class="chead" x="405" y="190" text-anchor="middle">Value (bytes)</text>
+  <text class="chead" x="405" y="190" text-anchor="middle">Valor (bytes)</text>
   <text class="chead" x="635" y="190" text-anchor="middle">Unit</text>
-  <text class="chead" x="865" y="190" text-anchor="middle">Value (bytes)</text>
+  <text class="chead" x="865" y="190" text-anchor="middle">Valor (bytes)</text>
 
   <!-- rows -->
   <rect x="60" y="202" width="920" height="50" fill="#ffffff"/>
@@ -63,6 +63,6 @@
   <!-- note -->
   <rect x="60" y="380" width="920" height="52" rx="8" fill="#fff7ed" stroke="#f4b36b" stroke-width="1.5"/>
   <text class="note" x="80" y="404" fill="#b45309" font-weight="700">Note:</text>
-  <text class="note" x="128" y="404">1 GB &#8776; 0.93 GiB. A drive sold as "1 GB" (1,000,000,000 bytes) shows about 0.93 GiB en el OS —</text>
+  <text class="note" x="128" y="404">1 GB ≈ 0.93 GiB. Un disco vendido como "1 GB" (1 000 000 000 bytes) muestra ~0.93 GiB en el sistema operativo —</text>
   <text class="note" x="80" y="424">Los mismos bytes, solo una base de conteo diferente. Por eso las capacidades se ven más pequeñas después del formateo.</text>
 </svg>

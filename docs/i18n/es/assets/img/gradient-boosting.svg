@@ -52,7 +52,7 @@
   <line class="edge" x1="870" y1="120" x2="870" y2="240" marker-end="url(#ar3)"/>
   <rect class="final" x="790" y="250" width="170" height="90" rx="10"/>
   <text class="lbl" x="875" y="290" text-anchor="middle">suma de todos los arboles</text>
-  <text class="sub" x="875" y="312" text-anchor="middle">= prediccion final</text>
+  <text class="sub" x="875" y="312" text-anchor="middle">= predicción final</text>
   <text class="note" x="60" y="430" font-weight="700" fill="#b45309">Una tasa de aprendizaje pequeña + muchos árboles = más precisión pero más lento; el clásico equilibrio precisión/sobreajuste.</text>
   <text class="note" x="60" y="460" fill="#004a99">El impulso reduce el sesgo (ajusta patrones complejos); la regularizacion y la parada temprana evitan memorizar el ruido.</text>
 </svg>

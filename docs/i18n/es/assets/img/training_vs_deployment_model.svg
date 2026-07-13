@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="610" viewBox="0 0 1040 610" role="img" aria-labelledby="title desc">
   <title id="title">entrenamiento modelo vs despliegue modelo</title>
-  <desc id="desc">el same modelo artifact runs en two contexts. en entrenamiento it is offline, lote, y optimized para accuracy. en despliegue it is en línea, stateless, y optimized para latencia.</desc>
+  <desc id="desc">El mismo artefacto de modelo corre en dos contextos. En entrenamiento: sin conexión, por lote y optimizado para exactitud. En despliegue: en línea, sin estado y optimizado para latencia.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -45,7 +45,7 @@
   <text class="rowval" x="240" y="386">Conjunto historico completo</text>
   <line class="rowline" x1="84" y1="402" x2="466" y2="402"/>
   <text class="rowlbl" x="84" y="430">Cómputo</text>
-  <text class="rowval" x="240" y="430">Large scalable clúster</text>
+  <text class="rowval" x="240" y="430">Clúster grande y escalable</text>
   <line class="rowline" x1="84" y1="446" x2="466" y2="446"/>
   <text class="rowlbl" x="84" y="474">Cadence</text>
   <text class="rowval" x="240" y="474">Periodic Â· experimental</text>

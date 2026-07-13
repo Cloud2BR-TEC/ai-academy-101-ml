@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
   <title id="title">Bayes ingenuo: a priori por verosimilitudes</title>
-  <desc id="desc">Bayes rule shown as multiplication: a class prior is multiplied by per-característica likelihoods a produce a score para each class, y el highest score wins.</desc>
+  <desc id="desc">Regla de Bayes como multiplicación: un prior de clase se multiplica por las verosimilitudes por característica para producir un puntaje por clase; gana el mayor.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -19,7 +19,7 @@
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="540"/>
   <text class="title" x="60" y="52">Naive Bayes: multiply independent clues</text>
-  <text class="subtitle" x="60" y="80">Assume características are independent, multiply their likelihoods by el class prior, pick el biggest.</text>
+  <text class="subtitle" x="60" y="80">Asume independencia entre características, multiplica sus verosimilitudes por el prior de clase y elige el mayor.</text>
   <!-- row -->
   <rect class="box" x="80" y="160" width="150" height="80" rx="10"/>
   <text class="lbl" x="155" y="195" text-anchor="middle">P(clase)</text>
@@ -41,7 +41,7 @@
   <!-- arg max -->
   <line class="arrow" x1="865" y1="240" x2="865" y2="320" marker-end="url(#ar)"/>
   <rect class="box" x="720" y="320" width="290" height="70" rx="10"/>
-  <text class="win" x="865" y="362" text-anchor="middle">arg max over classes â†’ predicción</text>
+  <text class="win" x="865" y="362" text-anchor="middle">arg máx. sobre clases → predicción</text>
   <!-- notes -->
   <text class="note" x="80" y="320" font-weight="700" fill="#b45309">Work en log-space:</text>
   <text class="note" x="80" y="345">multiplying thousands de tiny probabilities underflows,</text>

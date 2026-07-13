@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
   <title id="title">Tareas de ML organizadas por objetivo</title>
-  <desc id="desc">A grid de machine learning tasks by objective: predecir a class, predecir a number, group records, y reduce dimensions.</desc>
+  <desc id="desc">Cuadrícula de tareas de aprendizaje automático por objetivo: predecir una clase, predecir un número, agrupar registros y reducir dimensiones.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -32,7 +32,7 @@
   <text class="head" x="560" y="149">Predecir un número</text>
   <text class="task" x="560" y="196">Regresión</text>
   <text class="item" x="560" y="224">Estimate a continuous numeric</text>
-  <text class="item" x="560" y="248">value desde el entradas.</text>
+  <text class="item" x="560" y="248">valor a partir de las entradas.</text>
   <text class="ex" x="560" y="282">Ejemplo: predecir el precio de una casa para mañana.</text>
 
   <!-- Group Records -->

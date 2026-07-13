@@ -45,5 +45,5 @@
   <text class="note" x="666" y="435">punto observado</text>
   <line class="resid" x1="800" y1="424" x2="800" y2="438"/>
   <text class="note" x="812" y="435">residual = predicción error</text>
-  <text class="note" x="650" y="462" font-weight="700" fill="#004a99">slope = effect de x; intercept = línea base value</text>
+  <text class="note" x="650" y="462" font-weight="700" fill="#004a99">pendiente = efecto de x; intercepto = valor de referencia</text>
 </svg>

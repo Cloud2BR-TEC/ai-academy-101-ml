@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="720" viewBox="0 0 1400 720" role="img" aria-labelledby="title desc">
-  <title id="title">Dataset Size Guidance</title>
-  <desc id="desc">Guidance chart mapping project complejidad y modelo type a recommended dataset size ranges.</desc>
+  <title id="title">Guía de tamaño de dataset</title>
+  <desc id="desc">Gráfico de referencia que mapea la complejidad del proyecto y el tipo de modelo a rangos recomendados de tamaño de dataset.</desc>
 
   <defs>
     <style>
@@ -56,7 +56,7 @@
 
   <rect class="low" x="170" y="455" width="170" height="85" rx="10"/>
   <text class="h" x="182" y="480">Tabular Baselines</text>
-  <text class="t" x="182" y="502">LogReg / Trees</text>
+  <text class="t" x="182" y="502">RegLog / Árboles</text>
   <text class="t" x="182" y="522">Typical: 1K-50K</text>
 
   <rect class="mid" x="380" y="410" width="248" height="130" rx="10"/>

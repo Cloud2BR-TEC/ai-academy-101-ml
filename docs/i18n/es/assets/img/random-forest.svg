@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
   <title id="title">Bosque aleatorio: bagging y votación</title>
-  <desc id="desc">Many decisión trees are entrenared en different bootstrap samples y característica subsets, then their predicciones are combined by majority vote or averaging.</desc>
+  <desc id="desc">Muchos árboles de decisión se entrenan con distintas muestras bootstrap y subconjuntos de características; sus predicciones se combinan por votación mayoritaria o promedio.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -61,5 +61,5 @@
   <line class="edge" x1="790" y1="275" x2="860" y2="275" marker-end="url(#ar2)"/>
   <rect class="final" x="870" y="235" width="120" height="80" rx="10"/>
   <text class="lbl" x="930" y="280" text-anchor="middle">clase A</text>
-  <text class="note" x="60" y="490" font-weight="700" fill="#004a99">Bagging lowers varianza: no single noisy tree can dominate el ensemble's answer.</text>
+  <text class="note" x="60" y="490" font-weight="700" fill="#004a99">El bagging reduce la varianza: ningún árbol ruidoso puede dominar la respuesta del ensamble.</text>
 </svg>

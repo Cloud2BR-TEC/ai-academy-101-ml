@@ -33,7 +33,7 @@
   <text class="htxt" x="125" y="180" text-anchor="middle">1. Function</text>
   <text class="btxt" x="125" y="206" text-anchor="middle">f(x) con weights</text>
   <text class="btxt" x="125" y="224" text-anchor="middle">maps entrada a salida</text>
-  <text class="vtxt" x="125" y="276" text-anchor="middle">Value: stores</text>
+  <text class="vtxt" x="125" y="276" text-anchor="middle">Valor: almacena</text>
   <text class="vtxt" x="125" y="292" text-anchor="middle">lo que se aprendió</text>
 
   <!-- Box 2: loss -->
@@ -41,7 +41,7 @@
   <text class="htxt" x="325" y="180" text-anchor="middle">2. Loss</text>
   <text class="btxt" x="325" y="206" text-anchor="middle">defines "wrong"</text>
   <text class="btxt" x="325" y="224" text-anchor="middle">un solo numero de error</text>
-  <text class="vtxt" x="325" y="276" text-anchor="middle">Value: sets</text>
+  <text class="vtxt" x="325" y="276" text-anchor="middle">Valor: define</text>
   <text class="vtxt" x="325" y="292" text-anchor="middle">lo que mas importa</text>
 
   <!-- Box 3: optimizer -->
@@ -49,7 +49,7 @@
   <text class="htxt" x="525" y="180" text-anchor="middle">3. Optimizer</text>
   <text class="btxt" x="525" y="206" text-anchor="middle">steps downhill</text>
   <text class="btxt" x="525" y="224" text-anchor="middle">tunes el weights</text>
-  <text class="vtxt" x="525" y="276" text-anchor="middle">Value: makes</text>
+  <text class="vtxt" x="525" y="276" text-anchor="middle">Valor: genera</text>
   <text class="vtxt" x="525" y="292" text-anchor="middle">learning possible</text>
 
   <!-- Box 4: regularization -->
@@ -57,7 +57,7 @@
   <text class="htxt" x="725" y="180" text-anchor="middle">4. Regularize</text>
   <text class="btxt" x="725" y="206" text-anchor="middle">keep it simple</text>
   <text class="btxt" x="725" y="224" text-anchor="middle">stop it memorizing</text>
-  <text class="vtxt" x="725" y="276" text-anchor="middle">Value: works en</text>
+  <text class="vtxt" x="725" y="276" text-anchor="middle">Valor: aplica en</text>
   <text class="vtxt" x="725" y="292" text-anchor="middle">datos nuevos tambien</text>
 
   <!-- Box 5: decision -->
@@ -65,7 +65,7 @@
   <text class="htxt" x="925" y="180" text-anchor="middle">5. Decide</text>
   <text class="btxt" x="925" y="206" text-anchor="middle">probabilidad + umbral de corte</text>
   <text class="btxt" x="925" y="224" text-anchor="middle">puntaje a accion</text>
-  <text class="vtxt" x="925" y="276" text-anchor="middle">Value: smarter</text>
+  <text class="vtxt" x="925" y="276" text-anchor="middle">Valor: más inteligente</text>
   <text class="vtxt" x="925" y="292" text-anchor="middle">yes/no calls</text>
 
   <!-- flow arrows -->

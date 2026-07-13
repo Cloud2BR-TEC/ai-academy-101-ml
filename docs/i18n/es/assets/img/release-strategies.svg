@@ -52,7 +52,7 @@
   <!-- ===== Canary ===== -->
   <rect class="card" x="60" y="310" width="920" height="170" rx="12"/>
   <text class="cardhead" x="84" y="342" fill="#004a99">Canary</text>
-  <text class="desc" x="84" y="364">Route a small slice (e.g. 5%) a v2, watch métricas, then gradually ramp a 100%.</text>
+  <text class="desc" x="84" y="364">Enruta un porcentaje pequeño (p. ej. 5%) a v2, observa métricas y aumenta gradualmente al 100%.</text>
 
   <rect class="users" x="84" y="390" width="120" height="48" rx="8"/>
   <text class="node" x="144" y="419" text-anchor="middle">Todos los usuarios</text>

@@ -60,16 +60,16 @@
 
   <!-- outcome 1 -->
   <rect class="card" x="70" y="468" width="260" height="120" rx="10" stroke="#0e7490"/>
-  <text class="head" x="200" y="496" text-anchor="middle" fill="#0e7490">High false-negative cost</text>
+  <text class="head" x="200" y="496" text-anchor="middle" fill="#0e7490">Alto costo de falsos negativos</text>
   <text class="metric" x="200" y="528" text-anchor="middle" fill="#0e7490">Priorizar Recall</text>
   <text class="desc2" x="200" y="554" text-anchor="middle">Catch el positives &#8212; missing</text>
   <text class="desc2" x="200" y="570" text-anchor="middle">un caso positivo real es costoso.</text>
 
   <!-- outcome 2 -->
   <rect class="card" x="390" y="468" width="260" height="120" rx="10" stroke="#b45309"/>
-  <text class="head" x="520" y="496" text-anchor="middle" fill="#b45309">High false-positive cost</text>
+  <text class="head" x="520" y="496" text-anchor="middle" fill="#b45309">Alto costo de falsos positivos</text>
   <text class="metric" x="520" y="528" text-anchor="middle" fill="#b45309">Weight Precision</text>
-  <text class="desc2" x="520" y="554" text-anchor="middle">Evita falsas alarmas &#8212; acting</text>
+  <text class="desc2" x="520" y="554" text-anchor="middle">Evita falsas alarmas — actuar</text>
   <text class="desc2" x="520" y="570" text-anchor="middle">en a wrong flag is costly.</text>
 
   <!-- outcome 3 -->

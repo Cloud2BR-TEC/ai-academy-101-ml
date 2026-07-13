@@ -21,7 +21,7 @@
   <line class="axis" x1="120" y1="460" x2="980" y2="460"/>
   <line class="axis" x1="120" y1="460" x2="120" y2="120"/>
   <text class="axis-label" x="540" y="505" text-anchor="middle">Time</text>
-  <text class="axis-label" x="60" y="290" transform="rotate(-90 60 290)" text-anchor="middle">Value</text>
+  <text class="axis-label" x="60" y="290" transform="rotate(-90 60 290)" text-anchor="middle">Valor</text>
   <!-- now divider -->
   <line class="divider" x1="660" y1="120" x2="660" y2="460"/>
   <text class="note" x="610" y="140" font-weight="700" fill="#475569">now</text>

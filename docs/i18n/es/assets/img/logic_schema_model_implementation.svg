@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="620" viewBox="0 0 1040 620" role="img" aria-labelledby="title desc">
   <title id="title">Esquema lógico para implementar un modelo</title>
-  <desc id="desc">A top-down decisión flow that narrows desde problem type a algorithm family, then despliegue consentrenarts, y finally a modelo choice.</desc>
+  <desc id="desc">Flujo de decisión de arriba hacia abajo que va desde el tipo de problema hasta la familia de algoritmos, luego restricciones de despliegue y finalmente la elección del modelo.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -20,7 +20,7 @@
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="620"/>
   <text class="title" x="60" y="52">Esquema lógico para implementar un modelo</text>
-  <text class="subtitle" x="60" y="80">Each stage narrows el búsqueda hasta one modelo choice remains.</text>
+  <text class="subtitle" x="60" y="80">Cada etapa acota la búsqueda hasta que queda una sola elección de modelo.</text>
 
   <!-- arrows -->
   <line class="arrow" x1="520" y1="210" x2="520" y2="253" marker-end="url(#ah)"/>
