@@ -42,9 +42,9 @@
   <!-- Endpoint -->
   <rect class="endpoint" x="395" y="110" width="250" height="240" rx="12"/>
   <rect class="pill" x="395" y="110" width="250" height="34" rx="12"/>
-  <text class="headw" x="415" y="134">Punto de conexión en línea</text>
+  <text class="headw" x="415" y="134" font-size="15">Punto de conexión en línea</text>
   <text class="label" x="415" y="170">fraud-endpoint (HTTPS)</text>
-  <text class="monosm" x="415" y="196">Autenticación + validación de esquema</text>
+  <text class="monosm" x="415" y="196">Autenticación + validación</text>
   <text class="monosm" x="415" y="218">Balancea carga a una réplica</text>
 
   <!-- scoring script inside -->
@@ -59,7 +59,7 @@
   <text class="headw" x="750" y="144">Modelos registrados</text>
   <text class="label" x="750" y="178">azureml:fraud-modelo:3</text>
   <text class="monosm" x="750" y="202">joblib artifact + env</text>
-  <text class="monosm" x="750" y="222">versioned, reproducible</text>
+  <text class="monosm" x="750" y="222">versionados, reproducibles</text>
 
   <!-- Arrows -->
   <path class="arrow" d="M312,170 L390,180" marker-end="url(#ablue)"/>
