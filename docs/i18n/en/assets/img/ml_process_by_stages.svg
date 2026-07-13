@@ -83,7 +83,7 @@
   <text class="num" x="920" y="195" text-anchor="middle">6</text>
   <text class="cardhead" x="920" y="226" text-anchor="middle" fill="#004a99">Model-Ready</text>
   <text class="cardhead" x="920" y="244" text-anchor="middle" fill="#004a99">Data</text>
-  <text class="desc2" x="920" y="270" text-anchor="middle">Clean, labeled</text>
+  <text class="desc2" x="920" y="270" text-anchor="middle">Clean, labeled,</text>
   <text class="desc2" x="920" y="286" text-anchor="middle">training set ready</text>
 
   <!-- Effort wedge -->
