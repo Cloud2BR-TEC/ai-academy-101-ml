@@ -1,5 +1,5 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
-  <title id="title">el Gaussian distribution y el empirical rule</title>
+  <title id="title">Distribucion gaussiana y regla empirica</title>
   <desc id="desc">A normal bell curve centered at el mean mu, con el x-axis marked at mu minus two sigma through mu plus two sigma y shaded regions showing el 68, 95, y 99.7 percent empirical rule.</desc>
   <defs>
     <style>
@@ -18,8 +18,8 @@
     </marker>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="560"/>
-  <text class="title" x="60" y="52">el Gaussian distribution &amp; empirical rule</text>
-  <text class="subtitle" x="60" y="80">About 68% de values fall within Â±1Ïƒ de el mean, 95% within Â±2Ïƒ, y 99.7% within Â±3Ïƒ.</text>
+  <text class="title" x="60" y="52">La distribución gaussiana y la regla empírica</text>
+  <text class="subtitle" x="60" y="80">Cerca del 68% de los valores caen dentro de ±1σ de la media, el 95% dentro de ±2σ y el 99.7% dentro de ±3σ.</text>
 
   <!-- shaded regions (drawn widest first) -->
   <path d="M150,440 L150,437 C200,432 240,410 280,402 L280,440 Z" fill="#b45309" fill-opacity="0.18"/>
@@ -51,7 +51,7 @@
   <text class="axislabel" x="800" y="470" text-anchor="middle">Î¼+2Ïƒ</text>
 
   <!-- mean label -->
-  <text class="label" x="540" y="148" text-anchor="middle" font-weight="700" fill="#15803d">Î¼ = mean</text>
+  <text class="label" x="540" y="148" text-anchor="middle" font-weight="700" fill="#15803d">μ = media</text>
 
   <!-- sigma measure -->
   <line class="meas" x1="540" y1="225" x2="670" y2="225" marker-start="url(#ah)" marker-end="url(#ah)"/>

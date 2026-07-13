@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="520" viewBox="0 0 1040 520" role="img" aria-labelledby="title desc">
   <title id="title">el five mathematical components de a modelo</title>
-  <desc id="desc">A modelo is a function whose parameters are chosen by an optimizer a minimize a loss, kept honest by regularization, y turned into decisions via probabilities y thresholds.</desc>
+  <desc id="desc">Un modelo es una funcion cuyos parametros elige un optimizador para minimizar una perdida, controlada con regularizacion, y convertida en decisiones mediante probabilidades y umbrales.</desc>
 
   <defs>
     <style>
@@ -25,8 +25,8 @@
   </defs>
 
   <rect class="bg" x="0" y="0" width="1040" height="520"/>
-  <text class="title" x="60" y="52">How el five pieces fit together</text>
-  <text class="subtitle" x="60" y="80">Every modelo en this page is a specific choice de these five building blocks.</text>
+  <text class="title" x="60" y="52">Como encajan las cinco piezas</text>
+  <text class="subtitle" x="60" y="80">Todo modelo en esta pagina es una eleccion concreta de estos cinco bloques.</text>
 
   <!-- Box 1: function -->
   <rect class="box" x="40" y="150" width="170" height="150" rx="12"/>
@@ -40,9 +40,9 @@
   <rect class="box" x="240" y="150" width="170" height="150" rx="12"/>
   <text class="htxt" x="325" y="180" text-anchor="middle">2. Loss</text>
   <text class="btxt" x="325" y="206" text-anchor="middle">defines "wrong"</text>
-  <text class="btxt" x="325" y="224" text-anchor="middle">one error number</text>
+  <text class="btxt" x="325" y="224" text-anchor="middle">un solo numero de error</text>
   <text class="vtxt" x="325" y="276" text-anchor="middle">Value: sets</text>
-  <text class="vtxt" x="325" y="292" text-anchor="middle">what matters most</text>
+  <text class="vtxt" x="325" y="292" text-anchor="middle">lo que mas importa</text>
 
   <!-- Box 3: optimizer -->
   <rect class="box" x="440" y="150" width="170" height="150" rx="12"/>
@@ -58,13 +58,13 @@
   <text class="btxt" x="725" y="206" text-anchor="middle">keep it simple</text>
   <text class="btxt" x="725" y="224" text-anchor="middle">stop it memorizing</text>
   <text class="vtxt" x="725" y="276" text-anchor="middle">Value: works en</text>
-  <text class="vtxt" x="725" y="292" text-anchor="middle">new datos too</text>
+  <text class="vtxt" x="725" y="292" text-anchor="middle">datos nuevos tambien</text>
 
   <!-- Box 5: decision -->
   <rect class="boxalt" x="840" y="150" width="170" height="150" rx="12"/>
   <text class="htxt" x="925" y="180" text-anchor="middle">5. Decide</text>
-  <text class="btxt" x="925" y="206" text-anchor="middle">probability + cut-off</text>
-  <text class="btxt" x="925" y="224" text-anchor="middle">score a action</text>
+  <text class="btxt" x="925" y="206" text-anchor="middle">probabilidad + umbral de corte</text>
+  <text class="btxt" x="925" y="224" text-anchor="middle">puntaje a accion</text>
   <text class="vtxt" x="925" y="276" text-anchor="middle">Value: smarter</text>
   <text class="vtxt" x="925" y="292" text-anchor="middle">yes/no calls</text>
 

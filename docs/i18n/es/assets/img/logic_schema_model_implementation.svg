@@ -71,5 +71,5 @@
   <circle cx="120" cy="562" r="16" fill="#ffffff"/>
   <text class="num" x="120" y="567" text-anchor="middle" fill="#15803d">4</text>
   <text class="final" x="520" y="558" text-anchor="middle">Elección final del modelo</text>
-  <text class="finalsub" x="520" y="582" text-anchor="middle">el single algorithm y configuration that best fits el problem y its consentrenarts.</text>
+  <text class="finalsub" x="520" y="582" text-anchor="middle">El algoritmo y configuracion unicos que mejor se adaptan al problema y sus restricciones.</text>
 </svg>

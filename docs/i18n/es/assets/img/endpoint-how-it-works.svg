@@ -41,7 +41,7 @@
 
   <!-- Endpoint -->
   <rect class="box-ep" x="340" y="70" width="220" height="170" rx="12"/>
-  <text class="h2" x="450" y="98" text-anchor="middle" fill="#92400e">endpoint (URL)</text>
+  <text class="h2" x="450" y="98" text-anchor="middle" fill="#92400e">Punto de conexión (URL)</text>
   <text class="body" x="360" y="125">Recibe la solicitud.</text>
   <text class="body" x="360" y="148">Pasa la entrada al</text>
   <text class="body" x="360" y="168">modelo desplegado.</text>

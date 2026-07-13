@@ -1,5 +1,5 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="520" viewBox="0 0 1040 520" role="img" aria-labelledby="title desc">
-  <title id="title">ML flujo de trabajo stages con feedback loop</title>
+  <title id="title">Etapas del flujo de trabajo de ML con bucle de retroalimentacion</title>
   <desc id="desc">el machine learning flujo de trabajo flows desde problem framing a monitoring, con monitoring feeding back into datos y entrenamiento.</desc>
   <defs>
     <style>
@@ -43,7 +43,7 @@
   <rect class="card" x="368" y="180" width="140" height="100" rx="10"/>
   <rect x="368" y="180" width="140" height="34" rx="10" fill="#b45309"/>
   <text class="head" x="438" y="202">entrenamiento</text>
-  <text class="sub" x="438" y="244">Fit &amp;</text>
+  <text class="sub" x="438" y="244">Ajustar y</text>
   <text class="sub" x="438" y="262">evaluate</text>
 
   <!-- 4 Registration -->
@@ -57,8 +57,8 @@
   <rect class="card" x="696" y="180" width="140" height="100" rx="10"/>
   <rect x="696" y="180" width="140" height="34" rx="10" fill="#64748b"/>
   <text class="head" x="766" y="202">despliegue</text>
-  <text class="sub" x="766" y="244">Serve as</text>
-  <text class="sub" x="766" y="262">endpoint</text>
+  <text class="sub" x="766" y="244">Servir como</text>
+  <text class="sub" x="766" y="262">punto de conexión</text>
 
   <!-- 6 Monitorearing -->
   <rect class="card" x="860" y="180" width="140" height="100" rx="10"/>
@@ -77,5 +77,5 @@
   <!-- feedback loop from Monitorearing back to Data/Entrenaring -->
   <path class="loop" d="M930 280 L930 400 L274 400 L274 284" marker-end="url(#ao)"/>
   <path class="loop" d="M620 400 L438 400 L438 284" marker-end="url(#ao)"/>
-  <text class="looplbl" x="600" y="430">Feedback loop: insights desde monitoring drive new datos &amp; reentrenamiento</text>
+  <text class="looplbl" x="600" y="430">Bucle de retroalimentacion: los hallazgos del monitoreo impulsan nuevos datos y reentrenamiento</text>
 </svg>

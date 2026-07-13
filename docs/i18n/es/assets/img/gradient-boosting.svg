@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
-  <title id="title">Gradient boosting sequential residual correction</title>
-  <desc id="desc">Trees are added one at a time; each new tree is entrenared en el residual errors left by el sum de el previous trees, y el predicciones are added together.</desc>
+  <title id="title">Impulso de gradiente: corrección residual secuencial</title>
+  <desc id="desc">Los arboles se anaden uno a la vez; cada nuevo arbol se entrena sobre los errores residuales y las predicciones se suman.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -18,21 +18,21 @@
     <marker id="ar3" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#475569"/></marker>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="540"/>
-  <text class="title" x="60" y="52">Gradient boosting: each tree fixes el last one's errors</text>
-  <text class="subtitle" x="60" y="80">Trees are added en sequence; every new tree predicts el leftover residual, scaled by el learning rate.</text>
+  <text class="title" x="60" y="52">Impulso de gradiente: cada árbol corrige los errores del anterior</text>
+  <text class="subtitle" x="60" y="80">Los arboles se anaden en secuencia; cada arbol predice el residuo restante, escalado por la tasa de aprendizaje.</text>
   <!-- tree 1 -->
   <rect class="stage" x="70" y="160" width="160" height="80" rx="10"/>
-  <text class="lbl" x="150" y="196" text-anchor="middle">tree 1</text>
-  <text class="sub" x="150" y="218" text-anchor="middle">rough first guess</text>
+  <text class="lbl" x="150" y="196" text-anchor="middle">árbol 1</text>
+  <text class="sub" x="150" y="218" text-anchor="middle">primera estimacion aproximada</text>
   <line class="edge" x1="150" y1="240" x2="150" y2="300" marker-end="url(#ar3)"/>
   <rect class="resid" x="70" y="300" width="160" height="70" rx="10"/>
   <text class="lbl" x="150" y="332" text-anchor="middle">residuals 1</text>
-  <text class="sub" x="150" y="354" text-anchor="middle">what it got wrong</text>
+  <text class="sub" x="150" y="354" text-anchor="middle">lo que se equivoco</text>
   <!-- arrow to tree2 -->
   <line class="edge" x1="230" y1="335" x2="300" y2="200" marker-end="url(#ar3)"/>
   <!-- tree 2 -->
   <rect class="stage" x="310" y="160" width="160" height="80" rx="10"/>
-  <text class="lbl" x="390" y="196" text-anchor="middle">tree 2</text>
+  <text class="lbl" x="390" y="196" text-anchor="middle">árbol 2</text>
   <text class="sub" x="390" y="218" text-anchor="middle">fits residuals 1</text>
   <line class="edge" x1="390" y1="240" x2="390" y2="300" marker-end="url(#ar3)"/>
   <rect class="resid" x="310" y="300" width="160" height="70" rx="10"/>
@@ -41,7 +41,7 @@
   <line class="edge" x1="470" y1="335" x2="540" y2="200" marker-end="url(#ar3)"/>
   <!-- tree 3 -->
   <rect class="stage" x="550" y="160" width="160" height="80" rx="10"/>
-  <text class="lbl" x="630" y="196" text-anchor="middle">tree 3</text>
+  <text class="lbl" x="630" y="196" text-anchor="middle">árbol 3</text>
   <text class="sub" x="630" y="218" text-anchor="middle">fits residuals 2</text>
   <text class="op" x="760" y="208" text-anchor="middle">"¦</text>
   <!-- sum -->
@@ -51,8 +51,8 @@
   <line class="edge" x1="630" y1="160" x2="630" y2="120"/>
   <line class="edge" x1="870" y1="120" x2="870" y2="240" marker-end="url(#ar3)"/>
   <rect class="final" x="790" y="250" width="170" height="90" rx="10"/>
-  <text class="lbl" x="875" y="290" text-anchor="middle">sum de all trees</text>
-  <text class="sub" x="875" y="312" text-anchor="middle">= final predicción</text>
+  <text class="lbl" x="875" y="290" text-anchor="middle">suma de todos los arboles</text>
+  <text class="sub" x="875" y="312" text-anchor="middle">= prediccion final</text>
   <text class="note" x="60" y="430" font-weight="700" fill="#b45309">Una tasa de aprendizaje pequeña + muchos árboles = más precisión pero más lento; el clásico equilibrio precisión/sobreajuste.</text>
-  <text class="note" x="60" y="460" fill="#004a99">Boosting lowers sesgo (fits hard patterns); regularization y early stopping keep it desde memorizing noise.</text>
+  <text class="note" x="60" y="460" fill="#004a99">El impulso reduce el sesgo (ajusta patrones complejos); la regularizacion y la parada temprana evitan memorizar el ruido.</text>
 </svg>

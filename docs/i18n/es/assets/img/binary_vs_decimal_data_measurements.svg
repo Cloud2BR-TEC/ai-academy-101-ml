@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="470" viewBox="0 0 1040 470" role="img" aria-labelledby="title desc">
   <title id="title">Binary vs Decimal datos Measurements</title>
-  <desc id="desc">Comparison table de decimal SI units versus binary IEC units: KB versus KiB, MB versus MiB, y GB versus GiB, noting that 1 GB is approximately 0.93 GiB.</desc>
+  <desc id="desc">Tabla comparativa de unidades SI decimales versus unidades IEC binarias: KB frente a KiB, MB frente a MiB y GB frente a GiB; 1 GB equivale aproximadamente a 0.93 GiB.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -16,7 +16,7 @@
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="470"/>
   <text class="title" x="60" y="52">Binary vs Decimal datos Measurements</text>
-  <text class="subtitle" x="60" y="80">Drive makers use decimal (SI) units; operating systems count en binary (IEC) units</text>
+  <text class="subtitle" x="60" y="80">Los fabricantes de discos usan unidades decimales (SI); los sistemas operativos cuentan en unidades binarias (IEC)</text>
 
   <!-- group header -->
   <rect x="60" y="120" width="460" height="44" rx="8" fill="#0e7490"/>

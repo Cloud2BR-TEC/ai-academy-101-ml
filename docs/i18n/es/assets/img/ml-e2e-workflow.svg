@@ -1,5 +1,5 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="1120" viewBox="0 0 1040 1120" role="img" aria-labelledby="title desc">
-  <title id="title">Flujo fin-a-fin de Machine Learning</title>
+  <title id="title">Flujo de extremo a extremo de aprendizaje automatico</title>
   <desc id="desc">Pipeline vertical con tres etapas agrupadas. Los datos de origen y su preparación alimentan el desarrollo y entrenamiento del modelo; la salida se sirve en un endpoint de despliegue en Kubernetes.</desc>
   <defs>
     <style>
@@ -23,7 +23,7 @@
 
   <rect class="bg" x="0" y="0" width="1040" height="1120"/>
   <text class="title" x="44" y="48">Flujo fin-a-fin de Machine Learning</text>
-  <text class="subtitle" x="44" y="76">Desde datos crudos a modelo desplegado: preparar datos, entrenar y servir en endpoint</text>
+  <text class="subtitle" x="44" y="76">Desde datos crudos a modelo desplegado: preparar datos, entrenar y servir en punto de conexión</text>
 
   <!-- ============ STAGE 1: SOURCE DATA AND PREPARATION ============ -->
   <rect x="120" y="100" width="800" height="186" rx="14" fill="#ecfeff" fill-opacity="0.55" stroke="#0e7490" stroke-width="2.5" stroke-dasharray="9 7"/>
@@ -121,7 +121,7 @@
   <!-- ============ STAGE 3: DEPLOYMENT ENDPOINT ============ -->
   <rect x="300" y="850" width="440" height="196" rx="14" fill="#eff6ff" fill-opacity="0.7" stroke="#004a99" stroke-width="2.5" stroke-dasharray="9 7"/>
   <rect x="520" y="834" width="220" height="34" rx="9" fill="#004a99"/>
-  <text class="tab" x="630" y="856" text-anchor="middle" fill="#ffffff">endpoint de despliegue</text>
+  <text class="tab" x="630" y="856" text-anchor="middle" fill="#ffffff">Punto de conexión de despliegue</text>
   <text class="tab" x="318" y="876" fill="#004a99" font-size="12px">Módulo 06</text>
 
   <!-- kubernetes hexagon -->
@@ -141,7 +141,7 @@
   <rect class="node" x="446" y="888" width="262" height="34" rx="6"/>
   <text class="nt" x="577" y="909" text-anchor="middle">Registrar el modelo</text>
   <rect class="node" x="446" y="930" width="262" height="34" rx="6"/>
-  <text class="nt" x="577" y="951" text-anchor="middle">endpoint en línea o lote</text>
+  <text class="nt" x="577" y="951" text-anchor="middle">punto de conexión en línea o lote</text>
   <rect class="node" x="446" y="972" width="262" height="34" rx="6"/>
   <text class="nt" x="577" y="993" text-anchor="middle">Servicio en Kubernetes</text>
   <path class="con" d="M577,922 L577,930" marker-end="url(#ah)"/>

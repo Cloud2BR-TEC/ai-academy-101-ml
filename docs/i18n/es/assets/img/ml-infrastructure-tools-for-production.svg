@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="480" viewBox="0 0 1040 480" role="img" aria-labelledby="title desc">
   <title id="title">Production ML infrastructure stack</title>
-  <desc id="desc">el production machine learning stack as distinct connected components, where el modelo registro is one box among many.</desc>
+  <desc id="desc">La pila de ML de produccion como componentes conectados, donde el registro de modelos es solo una caja entre muchas.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -81,5 +81,5 @@
   <line class="arrow" x1="672" y1="275" x2="692" y2="275" marker-end="url(#ah)"/>
   <line class="arrow" x1="836" y1="275" x2="856" y2="275" marker-end="url(#ah)"/>
 
-  <text class="note" x="60" y="420">el modelo is one box among many — production ML is mostly el surrounding infrastructure.</text>
+  <text class="note" x="60" y="420">El modelo es solo una caja entre muchas — el ML de produccion es principalmente la infraestructura circundante.</text>
 </svg>

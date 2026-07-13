@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="520" viewBox="0 0 1040 520" role="img" aria-labelledby="title desc">
-  <title id="title">Types de machine learning</title>
-  <desc id="desc">Supervised, unsupervised y reinforcement learning side by side, each distinguished by its feedback signal.</desc>
+  <title id="title">Tipos de aprendizaje automatico</title>
+  <desc id="desc">Aprendizaje supervisado, no supervisado y por refuerzo lado a lado, diferenciados por su senal de retroalimentacion.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -15,14 +15,14 @@
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="520"/>
   <text class="title" x="60" y="52">Types de Machine Learning</text>
-  <text class="subtitle" x="60" y="80">Each type is distinguished by el feedback signal it learns desde</text>
+  <text class="subtitle" x="60" y="80">Cada tipo se distingue por la senal de retroalimentacion con la que aprende</text>
 
   <!-- Supervised -->
   <rect class="card" x="50" y="120" width="290" height="340" rx="10" stroke="#004a99" stroke-width="2"/>
   <rect x="50" y="120" width="290" height="44" rx="10" fill="#004a99"/>
-  <text class="head" x="195" y="149">Supervised</text>
-  <text class="item" x="70" y="200">Learns desde datos that is</text>
-  <text class="item" x="70" y="224">already labelled con el</text>
+  <text class="head" x="195" y="149">Supervisado</text>
+  <text class="item" x="70" y="200">Aprende a partir de datos que estan</text>
+  <text class="item" x="70" y="224">ya etiquetados con el</text>
   <text class="item" x="70" y="248">correct answers.</text>
   <text class="item" x="70" y="290">Examples:</text>
   <text class="item" x="70" y="314">• Spam vs not spam</text>
@@ -34,7 +34,7 @@
   <!-- Unsupervised -->
   <rect class="card" x="375" y="120" width="290" height="340" rx="10" stroke="#0e7490" stroke-width="2"/>
   <rect x="375" y="120" width="290" height="44" rx="10" fill="#0e7490"/>
-  <text class="head" x="520" y="149">Unsupervised</text>
+  <text class="head" x="520" y="149">No supervisado</text>
   <text class="item" x="395" y="200">Finds structure en datos</text>
   <text class="item" x="395" y="224">con no labels — groups</text>
   <text class="item" x="395" y="248">y patterns only.</text>
@@ -43,13 +43,13 @@
   <text class="item" x="395" y="338">• Anomaly detection</text>
   <rect x="395" y="370" width="250" height="64" rx="8" fill="#ecfeff" stroke="#0e7490" stroke-width="1.5"/>
   <text class="siglbl" x="409" y="396">Feedback signal:</text>
-  <text class="sigval" x="409" y="420">Structure only</text>
+  <text class="sigval" x="409" y="420">Solo estructura</text>
 
   <!-- Reinforcement -->
   <rect class="card" x="700" y="120" width="290" height="340" rx="10" stroke="#15803d" stroke-width="2"/>
   <rect x="700" y="120" width="290" height="44" rx="10" fill="#15803d"/>
-  <text class="head" x="845" y="149">Reinforcement</text>
-  <text class="item" x="720" y="200">Learns by interacting con</text>
+  <text class="head" x="845" y="149">Por refuerzo</text>
+  <text class="item" x="720" y="200">Aprende interactuando con</text>
   <text class="item" x="720" y="224">an entorno y getting</text>
   <text class="item" x="720" y="248">rewards or penalties.</text>
   <text class="item" x="720" y="290">Examples:</text>

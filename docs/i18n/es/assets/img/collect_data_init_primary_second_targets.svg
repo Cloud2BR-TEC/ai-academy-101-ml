@@ -16,7 +16,7 @@
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="470"/>
   <text class="title" x="60" y="52">recopilar características y targets together</text>
-  <text class="subtitle" x="60" y="80">Define el target precisely — y know exactly when its value becomes available.</text>
+  <text class="subtitle" x="60" y="80">Define el target con precision — y sabe exactamente cuando su valor estara disponible.</text>
 
   <!-- Group brackets -->
   <path class="bracket" stroke="#004a99" d="M180,176 L180,168 L558,168 L558,176"/>
@@ -84,7 +84,7 @@
 
   <!-- Leakage callout -->
   <rect x="60" y="370" width="920" height="78" rx="10" fill="#fff7ed" stroke="#b45309" stroke-width="1.8"/>
-  <text class="calloutb" x="80" y="397">Leakage check: when does el target become conocido?</text>
+  <text class="calloutb" x="80" y="397">Verificacion de fuga: cuando se conoce el valor del target?</text>
   <text class="calloutt" x="80" y="420">A característica must be available at predicción time. If a target's value is only conocido later, never let it</text>
   <text class="calloutt" x="80" y="438">(or anything derived desde it) leak into el característica columnas used a entrenar el modelo.</text>
 </svg>

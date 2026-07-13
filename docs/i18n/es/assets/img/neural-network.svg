@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
   <title id="title">Red neuronalwork layers</title>
-  <desc id="desc">A multilayer perceptron con an entrada layer, two hidden layers, y an salida layer, fully connected, con weighted sums passed through nonlinear activations.</desc>
+  <desc id="desc">Un perceptron multicapa con una capa de entrada, dos capas ocultas y una capa de salida, totalmente conectadas, con sumas ponderadas a traves de activaciones no lineales.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -16,7 +16,7 @@
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="540"/>
   <text class="title" x="60" y="52">Red neuronalwork: layers de weighted sums + activations</text>
-  <text class="subtitle" x="60" y="80">Each connection has a weight; each node sums its entradas y applies a nonlinearity, stacking simple steps into complex functions.</text>
+  <text class="subtitle" x="60" y="80">Cada conexion tiene un peso; cada nodo suma sus entradas y aplica una no linealidad, apilando pasos simples en funciones complejas.</text>
   <!-- edges input(4) x=200 -> hidden1(5) x=440 -->
   <g class="edge">
     <line x1="200" y1="180" x2="440" y2="150"/><line x1="200" y1="180" x2="440" y2="230"/><line x1="200" y1="180" x2="440" y2="310"/><line x1="200" y1="180" x2="440" y2="390"/><line x1="200" y1="180" x2="440" y2="470"/>

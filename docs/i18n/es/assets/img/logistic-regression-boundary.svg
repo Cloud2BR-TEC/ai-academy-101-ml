@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
-  <title id="title">Logistic regresión decisión boundary</title>
-  <desc id="desc">Two classes de points separated by a straight boundary line. A shaded band shows where el predicted probability is near 0.5, el most uncertain region.</desc>
+  <title id="title">Frontera de decisión de regresión logística</title>
+  <desc id="desc">Dos clases de puntos separados por una linea de frontera recta. Una banda sombreada muestra la region de mayor incertidumbre, donde la probabilidad predicha ronda 0.5.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -17,7 +17,7 @@
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="540"/>
   <text class="title" x="60" y="52">Logistic regresión: a probability-based boundary</text>
-  <text class="subtitle" x="60" y="80">A linear score becomes a probability; el line where p = 0.5 separates el two classes.</text>
+  <text class="subtitle" x="60" y="80">Un puntaje lineal se convierte en probabilidad; la linea donde p = 0.5 separa las dos clases.</text>
   <line class="axis" x1="120" y1="470" x2="960" y2="470"/>
   <line class="axis" x1="120" y1="470" x2="120" y2="120"/>
   <text class="axis-label" x="540" y="510" text-anchor="middle">característica 1</text>
@@ -45,8 +45,8 @@
   <circle class="c1" cx="820" cy="290" r="8"/>
   <!-- legend -->
   <circle class="c0" cx="640" cy="425" r="8"/>
-  <text class="note" x="656" y="430">class 0 (p &lt; 0.5)</text>
+  <text class="note" x="656" y="430">clase 0 (p &lt; 0.5)</text>
   <circle class="c1" cx="640" cy="455" r="8"/>
-  <text class="note" x="656" y="460">class 1 (p &gt; 0.5)</text>
+  <text class="note" x="656" y="460">clase 1 (p &gt; 0.5)</text>
   <text class="note" x="955" y="490" text-anchor="end" font-weight="700" fill="#004a99">shaded band = least confident region</text>
 </svg>

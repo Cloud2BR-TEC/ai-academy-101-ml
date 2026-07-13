@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="430" viewBox="0 0 1040 430" role="img" aria-labelledby="title desc">
   <title id="title">Resumen de sistemas numéricos</title>
-  <desc id="desc">Summary table de number systems: binary base 2, decimal base 10 y hexadecimal base 16, each showing el same value (decimal 255) as 11111111 en binary y FF en hexadecimal.</desc>
+  <desc id="desc">Tabla de sistemas numericos: base 2 binario, base 10 decimal y base 16 hexadecimal, mostrando el mismo valor (decimal 255) como 11111111 en binario y FF en hexadecimal.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -16,13 +16,13 @@
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="430"/>
   <text class="title" x="60" y="52">Resumen de sistemas numéricos</text>
-  <text class="subtitle" x="60" y="80">Three common bases — el same quantity written three different ways</text>
+  <text class="subtitle" x="60" y="80">Tres bases comunes — la misma cantidad escrita de tres maneras diferentes</text>
 
   <!-- header -->
   <rect x="60" y="120" width="920" height="46" rx="8" fill="#004a99"/>
   <text class="chead" x="180" y="149" text-anchor="middle">System</text>
   <text class="chead" x="380" y="149" text-anchor="middle">Base</text>
-  <text class="chead" x="550" y="149" text-anchor="middle">Digits used</text>
+  <text class="chead" x="550" y="149" text-anchor="middle">Digitos utilizados</text>
   <text class="chead" x="810" y="149" text-anchor="middle">Ejemplo (decimal 255)</text>
 
   <!-- rows -->
@@ -54,6 +54,6 @@
   <line class="grid" x1="640" y1="170" x2="640" y2="338"/>
 
   <!-- note -->
-  <text class="note" x="60" y="372">All three rows encode el exact same quantity: decimal 255 = binary 11111111 = hexadecimal FF.</text>
-  <text class="note" x="60" y="394">Hex is compact: two hex digits map a exactly one byte (8 bits), which is why it is used para memory y colors.</text>
+  <text class="note" x="60" y="372">Las tres filas codifican la misma cantidad: decimal 255 = binario 11111111 = hexadecimal FF.</text>
+  <text class="note" x="60" y="394">El hexadecimal es compacto: dos digitos hex equivalen exactamente a un byte (8 bits), de ahi su uso en memoria y colores.</text>
 </svg>

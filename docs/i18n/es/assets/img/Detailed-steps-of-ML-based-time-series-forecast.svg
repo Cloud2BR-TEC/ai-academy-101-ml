@@ -25,7 +25,7 @@
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="510"/>
   <text class="title" x="60" y="50">Pasos detallados de un pronóstico de series de tiempo con ML</text>
-  <text class="subtitle" x="60" y="78">Respect time order: validar by advancing el origin, never con aleatorio k-fold.</text>
+  <text class="subtitle" x="60" y="78">Respeta el orden temporal: valida avanzando el origen, nunca con k-fold aleatorio.</text>
 
   <!-- arrows -->
   <line class="arrow" x1="197" y1="210" x2="211" y2="210" marker-end="url(#ah)"/>
@@ -40,7 +40,7 @@
   <text class="num" x="127" y="181" text-anchor="middle">1</text>
   <text class="nodehead" x="127" y="210" text-anchor="middle" fill="#004a99">Ingestar historial</text>
   <text class="desc2" x="127" y="236" text-anchor="middle">Load el historical</text>
-  <text class="desc2" x="127" y="251" text-anchor="middle">series, ordered by time.</text>
+  <text class="desc2" x="127" y="251" text-anchor="middle">serie, ordenada por tiempo.</text>
 
   <!-- 2 -->
   <rect class="card" x="213" y="150" width="135" height="120" rx="10"/>
@@ -57,15 +57,15 @@
   <text class="num" x="434" y="181" text-anchor="middle">3</text>
   <text class="nodehead" x="434" y="204" text-anchor="middle" fill="#b45309">Origen móvil</text>
   <text class="nodehead" x="434" y="221" text-anchor="middle" fill="#b45309">Validación</text>
-  <text class="desc2" x="434" y="245" text-anchor="middle">Advance el split</text>
-  <text class="desc2" x="434" y="260" text-anchor="middle">through time.</text>
+  <text class="desc2" x="434" y="245" text-anchor="middle">Avanzar la division</text>
+  <text class="desc2" x="434" y="260" text-anchor="middle">a traves del tiempo.</text>
 
   <!-- 4 -->
   <rect class="card" x="520" y="150" width="135" height="120" rx="10"/>
   <circle cx="587" cy="176" r="13" fill="#15803d"/>
   <text class="num" x="587" y="181" text-anchor="middle">4</text>
   <text class="nodehead" x="587" y="210" text-anchor="middle" fill="#15803d">Entrenar</text>
-  <text class="desc2" x="587" y="236" text-anchor="middle">Fit en el past,</text>
+  <text class="desc2" x="587" y="236" text-anchor="middle">Ajustar en el pasado,</text>
   <text class="desc2" x="587" y="251" text-anchor="middle">validar ahead.</text>
 
   <!-- 5 -->
@@ -83,7 +83,7 @@
   <text class="num" x="893" y="181" text-anchor="middle">6</text>
   <text class="nodehead" x="893" y="210" text-anchor="middle" fill="#64748b">Monitorear</text>
   <text class="desc2" x="893" y="236" text-anchor="middle">Track drift y</text>
-  <text class="desc2" x="893" y="251" text-anchor="middle">accuracy over time.</text>
+  <text class="desc2" x="893" y="251" text-anchor="middle">exactitud a lo largo del tiempo.</text>
 
   <!-- rolling-origin panel -->
   <rect class="panel" x="60" y="300" width="900" height="180" rx="10"/>
@@ -106,5 +106,5 @@
   <rect x="280" y="461" width="14" height="11" fill="#004a99"/>
   <text class="small" x="300" y="471">entrenar</text>
   <rect x="360" y="461" width="14" height="11" fill="#b45309"/>
-  <text class="small" x="380" y="471">validar (just after el origin)</text>
+  <text class="small" x="380" y="471">validar (justo despues del origen)</text>
 </svg>

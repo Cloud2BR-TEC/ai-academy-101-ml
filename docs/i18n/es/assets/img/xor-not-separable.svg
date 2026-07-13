@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
-  <title id="title">XOR is not linearly separable</title>
-  <desc id="desc">el four XOR points cannot be split into their two classes by any single straight line, which is why a single perceptron fails.</desc>
+  <title id="title">XOR no es linealmente separable</title>
+  <desc id="desc">Los cuatro puntos XOR no pueden separarse en sus dos clases con ninguna linea recta, razon por la cual un perceptron simple falla.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -20,8 +20,8 @@
     </style>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="560"/>
-  <text class="title" x="60" y="52">XOR is not linearly separable</text>
-  <text class="subtitle" x="60" y="80">No straight line splits el two XOR classes — a single perceptron can only draw one line, so it fails.</text>
+  <text class="title" x="60" y="52">XOR no es linealmente separable</text>
+  <text class="subtitle" x="60" y="80">Ninguna linea recta separa las dos clases XOR — un perceptron simple solo puede trazar una linea, por eso falla.</text>
 
   <!-- main plot card -->
   <rect class="card" x="60" y="110" width="540" height="400" rx="10"/>
@@ -53,9 +53,9 @@
 
   <!-- legend inside main plot -->
   <circle class="c0" cx="180" cy="528" r="11"/>
-  <text class="legtext" x="198" y="533">Class 0</text>
+  <text class="legtext" x="198" y="533">Clase 0</text>
   <rect class="c1" x="320" y="517" width="22" height="22" rx="3"/>
-  <text class="legtext" x="350" y="533">Class 1</text>
+  <text class="legtext" x="350" y="533">Clase 1</text>
   <line class="cand" x1="450" y1="528" x2="500" y2="528"/>
   <text class="legtext" x="508" y="533">candidato line</text>
 
@@ -74,5 +74,5 @@
   <text class="desc2" x="810" y="430" text-anchor="middle">One straight line separates el classes.</text>
 
   <!-- caption -->
-  <text class="desc2" x="60" y="548" font-size="14" fill="#b91c1c" font-weight="700">No single straight line can separate el two classes — that is exactly why a single perceptron cannot learn XOR.</text>
+  <text class="desc2" x="60" y="548" font-size="14" fill="#b91c1c" font-weight="700">Ninguna linea recta puede separar las dos clases — precisamente por eso un perceptron simple no puede aprender XOR.</text>
 </svg>

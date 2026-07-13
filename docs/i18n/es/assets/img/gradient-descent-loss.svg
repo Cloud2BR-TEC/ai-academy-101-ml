@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
-  <title id="title">Gradient descent en a convex loss</title>
-  <desc id="desc">A bowl-shaped loss curve. Each entrenamiento step computes el gradient (el slope) y moves el weights downhill toward el single minimum, taking smaller steps as el slope flattens.</desc>
+  <title id="title">Descenso de gradiente en una pérdida convexa</title>
+  <desc id="desc">Curva de perdida en forma de cuenco. Cada paso de entrenamiento calcula el gradiente y mueve los pesos cuesta abajo hacia el minimo, con pasos cada vez menores.</desc>
 
   <defs>
     <style>
@@ -24,14 +24,14 @@
   </defs>
 
   <rect class="bg" x="0" y="0" width="1040" height="560"/>
-  <text class="title" x="60" y="52">Gradient descent: how a modelo learns</text>
-  <text class="subtitle" x="60" y="80">el modelo keeps checking how wrong it is y takes small steps downhill a get less wrong.</text>
+  <text class="title" x="60" y="52">Descenso de gradiente: como aprende un modelo</text>
+  <text class="subtitle" x="60" y="80">El modelo evalua que tan equivocado esta y da pequenos pasos cuesta abajo para equivocarse menos.</text>
 
   <!-- axes -->
   <line class="axis" x1="120" y1="500" x2="960" y2="500"/>
   <line class="axis" x1="120" y1="500" x2="120" y2="120"/>
-  <text class="axis-label" x="540" y="540" text-anchor="middle">Parameter value (weight)</text>
-  <text class="axis-label" x="60" y="310" transform="rotate(-90 60 310)" text-anchor="middle">Loss (error)</text>
+  <text class="axis-label" x="540" y="540" text-anchor="middle">Valor del parámetro (peso)</text>
+  <text class="axis-label" x="60" y="310" transform="rotate(-90 60 310)" text-anchor="middle">Pérdida (error)</text>
 
   <!-- convex loss curve (parabola) -->
   <path class="curve" d="M150,200 Q540,800 930,200"/>
@@ -39,7 +39,7 @@
   <!-- minimum marker -->
   <line class="opt" x1="540" y1="480" x2="540" y2="120"/>
   <circle class="mindot" cx="540" cy="480" r="8"/>
-  <text class="label" x="556" y="470" font-weight="700" fill="#15803d">Lowest point = best settings</text>
+  <text class="label" x="556" y="470" font-weight="700" fill="#15803d">Punto mas bajo = mejores ajustes</text>
 
   <!-- descent steps (points along parabola) -->
   <circle class="startdot" cx="210" cy="287" r="9"/>
@@ -54,14 +54,14 @@
   <circle class="dot" cx="525" cy="479" r="7"/>
 
   <!-- step size note -->
-  <text class="note" x="250" y="330">Big steps where el hill</text>
+  <text class="note" x="250" y="330">Pasos grandes donde la pendiente es grande,</text>
   <text class="note" x="250" y="348">is steep...</text>
   <text class="note" x="470" y="520">...baby steps near el bottom</text>
 
   <!-- learning rate callout -->
-  <text class="note" x="640" y="300">Step size = el learning rate.</text>
-  <text class="note" x="640" y="320">Too big: it overshoots y never settles.</text>
-  <text class="note" x="640" y="340">Too small: it takes forever a get there.</text>
+  <text class="note" x="640" y="300">Tamano del paso = la tasa de aprendizaje.</text>
+  <text class="note" x="640" y="320">Muy grande: se pasa y nunca converge.</text>
+  <text class="note" x="640" y="340">Muy pequeno: tarda mucho en llegar.</text>
   <text class="note" x="640" y="372" font-weight="700" fill="#004a99">One valley = one bottom,</text>
-  <text class="note" x="640" y="390" font-weight="700" fill="#004a99">so it always reaches el best answer.</text>
+  <text class="note" x="640" y="390" font-weight="700" fill="#004a99">para que siempre alcance la mejor respuesta.</text>
 </svg>

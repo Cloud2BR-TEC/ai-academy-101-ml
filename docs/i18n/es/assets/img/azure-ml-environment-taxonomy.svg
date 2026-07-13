@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="500" viewBox="0 0 1040 500" role="img" aria-labelledby="title desc">
   <title id="title">Azure ML entorno Taxonomy</title>
-  <desc id="desc">One versioned entorno combining a base image y pinned dependencies is reused by both a entrenamiento job y an inference despliegue a prevent entrenamiento/servicio skew.</desc>
+  <desc id="desc">Un entorno versionado que combina una imagen base y dependencias fijas es reutilizado tanto por un job de entrenamiento como por un despliegue de inferencia para evitar diferencias entre entrenamiento y servicio.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -21,7 +21,7 @@
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="500"/>
   <text class="title" x="60" y="52">Azure ML entorno Taxonomy</text>
-  <text class="subtitle" x="60" y="80">Define el runtime once, reuse it everywhere — eliminate entrenamiento/servicio skew</text>
+  <text class="subtitle" x="60" y="80">Define el entorno de ejecucion una vez, reutilizalo en todas partes — elimina diferencias entre entrenamiento y servicio</text>
 
   <!-- Environment -->
   <rect class="card" x="60" y="150" width="360" height="240" rx="12"/>
@@ -37,9 +37,9 @@
   <!-- Entrenaring Job -->
   <rect class="card" x="700" y="150" width="280" height="100" rx="12"/>
   <rect x="700" y="150" width="280" height="44" rx="12" fill="#0e7490"/>
-  <text class="node" x="840" y="179" text-anchor="middle">entrenamiento Job</text>
+  <text class="node" x="840" y="179" text-anchor="middle">Job de entrenamiento</text>
   <text class="desc2" x="724" y="222">Fit el modelo en el clúster</text>
-  <text class="desc2" x="724" y="240">using this exact runtime.</text>
+  <text class="desc2" x="724" y="240">usando exactamente este entorno.</text>
 
   <!-- Inference -->
   <rect class="card" x="700" y="290" width="280" height="100" rx="12"/>
@@ -55,5 +55,5 @@
   <text class="label" x="500" y="360">reuse</text>
 
   <!-- footnote -->
-  <text class="desc2" x="60" y="430">Same image + same dependencies en entrenamiento y servicio = identical preprocessing y behavior en production.</text>
+  <text class="desc2" x="60" y="430">Misma imagen + mismas dependencias en entrenamiento y servicio = preprocesamiento y comportamiento identicos en produccion.</text>
 </svg>

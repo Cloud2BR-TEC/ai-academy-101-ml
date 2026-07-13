@@ -1,5 +1,5 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
-  <title id="title">aleatorio forest bagging y voting</title>
+  <title id="title">Bosque aleatorio: bagging y votación</title>
   <desc id="desc">Many decisión trees are entrenared en different bootstrap samples y característica subsets, then their predicciones are combined by majority vote or averaging.</desc>
   <defs>
     <style>
@@ -30,7 +30,7 @@
     </g>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="540"/>
-  <text class="title" x="60" y="52">aleatorio forest: many trees vote</text>
+  <text class="title" x="60" y="52">Bosque aleatorio: muchos arboles votan</text>
   <text class="subtitle" x="60" y="80">Each tree sees a aleatorio sample de rows y características; combining them cancels their individual errors.</text>
   <!-- entrenamiento data -->
   <rect class="data" x="60" y="230" width="130" height="80" rx="10"/>
@@ -43,23 +43,23 @@
   <!-- three trees -->
   <rect class="sample" x="340" y="120" width="120" height="90" rx="10"/>
   <use href="#minitree" x="380" y="120"/>
-  <text class="lbl" x="400" y="200" text-anchor="middle">tree 1 â†’ A</text>
+  <text class="lbl" x="400" y="200" text-anchor="middle">árbol 1 → A</text>
   <rect class="sample" x="340" y="230" width="120" height="90" rx="10"/>
   <use href="#minitree" x="380" y="230"/>
-  <text class="lbl" x="400" y="310" text-anchor="middle">tree 2 â†’ A</text>
+  <text class="lbl" x="400" y="310" text-anchor="middle">árbol 2 → A</text>
   <rect class="sample" x="340" y="340" width="120" height="90" rx="10"/>
   <use href="#minitree" x="380" y="340"/>
-  <text class="lbl" x="400" y="420" text-anchor="middle">tree 3 â†’ B</text>
+  <text class="lbl" x="400" y="420" text-anchor="middle">árbol 3 → B</text>
   <!-- vote box -->
   <line class="edge" x1="460" y1="165" x2="620" y2="255" marker-end="url(#ar2)"/>
   <line class="edge" x1="460" y1="275" x2="620" y2="275" marker-end="url(#ar2)"/>
   <line class="edge" x1="460" y1="385" x2="620" y2="295" marker-end="url(#ar2)"/>
   <rect class="vote" x="630" y="230" width="160" height="90" rx="10"/>
   <text class="lbl" x="710" y="270" text-anchor="middle">majority vote</text>
-  <text class="lbl" x="710" y="292" text-anchor="middle">(or average)</text>
+  <text class="lbl" x="710" y="292" text-anchor="middle">(o promedio)</text>
   <!-- final -->
   <line class="edge" x1="790" y1="275" x2="860" y2="275" marker-end="url(#ar2)"/>
   <rect class="final" x="870" y="235" width="120" height="80" rx="10"/>
-  <text class="lbl" x="930" y="280" text-anchor="middle">class A</text>
+  <text class="lbl" x="930" y="280" text-anchor="middle">clase A</text>
   <text class="note" x="60" y="490" font-weight="700" fill="#004a99">Bagging lowers varianza: no single noisy tree can dominate el ensemble's answer.</text>
 </svg>

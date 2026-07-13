@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="720" viewBox="0 0 1040 720" role="img" aria-labelledby="title desc">
   <title id="title">despliegue liberación estrategias</title>
-  <desc id="desc">Comparison de blue-green, canary, y shadow despliegue estrategias para releasing a new modelo version safely.</desc>
+  <desc id="desc">Comparacion de estrategias de despliegue azul-verde, canary y sombra para publicar una nueva version de modelo de forma segura.</desc>
 
   <defs>
     <style>
@@ -28,15 +28,15 @@
 
   <rect class="bg" x="0" y="0" width="1040" height="720"/>
   <text class="title" x="60" y="56">despliegue liberación estrategias</text>
-  <text class="subtitle" x="60" y="84">Three ways a ship a new modelo version (v2) without risking el live one (v1)</text>
+  <text class="subtitle" x="60" y="84">Tres maneras de publicar una nueva version de modelo (v2) sin arriesgar la version activa (v1)</text>
 
   <!-- ===== Azul-Verde ===== -->
   <rect class="card" x="60" y="120" width="920" height="170" rx="12"/>
   <text class="cardhead" x="84" y="152" fill="#004a99">Azul-Verde</text>
-  <text class="desc" x="84" y="174">Two full entornos. Flip 100% de traffic desde v1 a v2 instantly; flip back a roll back.</text>
+  <text class="desc" x="84" y="174">Dos entornos completos. Cambia el 100% del trafico de v1 a v2 al instante; revierte para hacer rollback.</text>
 
   <rect class="users" x="84" y="200" width="120" height="48" rx="8"/>
-  <text class="node" x="144" y="229" text-anchor="middle">All users</text>
+  <text class="node" x="144" y="229" text-anchor="middle">Todos los usuarios</text>
 
   <rect class="v1" x="560" y="190" width="160" height="40" rx="8"/>
   <text class="node" x="640" y="215" text-anchor="middle">v1 (Blue)</text>
@@ -47,7 +47,7 @@
   <path class="arrowfaint" d="M204,228 L555,262" marker-end="url(#ahf)"/>
   <text class="label" x="380" y="200">100% now</text>
   <text class="desc" x="760" y="230">Cutover is instant.</text>
-  <text class="desc" x="760" y="252">Rollback = flip back.</text>
+  <text class="desc" x="760" y="252">Rollback = revertir el cambio.</text>
 
   <!-- ===== Canary ===== -->
   <rect class="card" x="60" y="310" width="920" height="170" rx="12"/>
@@ -55,7 +55,7 @@
   <text class="desc" x="84" y="364">Route a small slice (e.g. 5%) a v2, watch métricas, then gradually ramp a 100%.</text>
 
   <rect class="users" x="84" y="390" width="120" height="48" rx="8"/>
-  <text class="node" x="144" y="419" text-anchor="middle">All users</text>
+  <text class="node" x="144" y="419" text-anchor="middle">Todos los usuarios</text>
 
   <rect class="v1" x="560" y="380" width="160" height="40" rx="8"/>
   <text class="node" x="640" y="405" text-anchor="middle">v1 (95%)</text>
@@ -72,10 +72,10 @@
   <!-- ===== Shadow ===== -->
   <rect class="card" x="60" y="500" width="920" height="180" rx="12"/>
   <text class="cardhead" x="84" y="532" fill="#004a99">Sombra (espejo)</text>
-  <text class="desc" x="84" y="554">Send a copy de live traffic a v2 but discard its responses. Tests v2 en real load con zero user impact.</text>
+  <text class="desc" x="84" y="554">Envia una copia del trafico real a v2 pero descarta sus respuestas. Prueba v2 con carga real sin impacto para el usuario.</text>
 
   <rect class="users" x="84" y="582" width="120" height="48" rx="8"/>
-  <text class="node" x="144" y="611" text-anchor="middle">All users</text>
+  <text class="node" x="144" y="611" text-anchor="middle">Todos los usuarios</text>
 
   <rect class="v1" x="560" y="572" width="160" height="40" rx="8"/>
   <text class="node" x="640" y="597" text-anchor="middle">v1 (serves)</text>
@@ -87,5 +87,5 @@
   <text class="label" x="360" y="584">100% served</text>
   <text class="label" x="360" y="660">mirrored copy</text>
   <text class="desc" x="760" y="612">v2 responses are</text>
-  <text class="desc" x="760" y="634">logged, not returned.</text>
+  <text class="desc" x="760" y="634">registrado, no devuelto.</text>
 </svg>

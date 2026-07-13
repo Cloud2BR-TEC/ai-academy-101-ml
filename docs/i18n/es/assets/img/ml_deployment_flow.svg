@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="420" viewBox="0 0 1040 420" role="img" aria-labelledby="title desc">
   <title id="title">ML despliegue flow</title>
-  <desc id="desc">A six-stage despliegue flow, each stage a checkpoint: registrado modelo, package el scoring script y entorno, validar locally, desplegar, route traffic, y reach a live endpoint.</desc>
+  <desc id="desc">Flujo de seis etapas de despliegue, cada una como punto de control: modelo registrado, empaquetar el script y entorno, validar localmente, desplegar, enrutar trafico y llegar al punto de conexion activo.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -18,7 +18,7 @@
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="420"/>
   <text class="title" x="60" y="52">ML despliegue flow</text>
-  <text class="subtitle" x="60" y="80">Each stage is a checkpoint — desde a registrado modelo a a live endpoint.</text>
+  <text class="subtitle" x="60" y="80">Cada etapa es un punto de control — desde un modelo registrado hasta un punto de conexion activo.</text>
 
   <!-- Arrows -->
   <line class="arrow" x1="190" y1="205" x2="216" y2="205" marker-end="url(#ah)"/>
@@ -54,7 +54,7 @@
   <text class="node" x="441" y="206" text-anchor="middle">Validate</text>
   <text class="node" x="441" y="226" text-anchor="middle">Locally</text>
   <text class="cap" x="441" y="284" text-anchor="middle">Smoke-prueba</text>
-  <text class="cap" x="441" y="302" text-anchor="middle">before el cloud</text>
+  <text class="cap" x="441" y="302" text-anchor="middle">antes de la nube</text>
 
   <!-- Node 4 -->
   <rect class="card" x="534" y="160" width="130" height="92" rx="12"/>
@@ -73,7 +73,7 @@
   <text class="node" x="757" y="206" text-anchor="middle">Route</text>
   <text class="node" x="757" y="226" text-anchor="middle">Traffic</text>
   <text class="cap" x="757" y="284" text-anchor="middle">Shift % a el</text>
-  <text class="cap" x="757" y="302" text-anchor="middle">new version</text>
+  <text class="cap" x="757" y="302" text-anchor="middle">nueva version</text>
 
   <!-- Node 6 -->
   <rect class="card" x="850" y="160" width="130" height="92" rx="12" stroke="#15803d"/>
@@ -87,5 +87,5 @@
 
   <!-- Footer note -->
   <rect x="320" y="350" width="400" height="32" rx="16" fill="#eef2f7"/>
-  <text class="cap" x="520" y="371" text-anchor="middle">Pass every checkpoint before sending live traffic.</text>
+  <text class="cap" x="520" y="371" text-anchor="middle">Supera cada punto de control antes de enviar trafico real.</text>
 </svg>

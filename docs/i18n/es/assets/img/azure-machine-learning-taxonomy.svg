@@ -21,7 +21,7 @@
 
   <rect class="card" x="60" y="120" width="920" height="330" rx="12"/>
   <text class="cardhead" x="84" y="156" fill="#004a99">workspace de Azure ML</text>
-  <text class="desc2" x="84" y="178">seguridad, access-control y gobernanza boundary. RBAC, quotas y linaje apply a all child assets.</text>
+  <text class="desc2" x="84" y="178">Frontera de seguridad, control de acceso y gobernanza. RBAC, cuotas y linaje se aplican a todos los activos secundarios.</text>
   <line x1="84" y1="192" x2="956" y2="192" stroke="#cbd5e1" stroke-width="1.5"/>
 
   <!-- Cómputo -->

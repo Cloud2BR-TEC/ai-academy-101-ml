@@ -47,7 +47,7 @@
 
   <text class="code"  x="80"  y="288">bool</text>
   <text class="label" x="320" y="288">Bandera booleana verdadero/falso</text>
-  <text class="ex"    x="740" y="288">True, False</text>
+  <text class="ex"    x="740" y="288">Verdadero, Falso</text>
 
   <text class="code"  x="80"  y="336">object / string</text>
   <text class="label" x="320" y="336">Texto u objetos mixtos de Python</text>

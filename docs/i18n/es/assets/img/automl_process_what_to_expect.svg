@@ -1,5 +1,5 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="520" viewBox="0 0 1040 520" role="img" aria-labelledby="title desc">
-  <title id="title">AutoML: what a expect across trials</title>
+  <title id="title">AutoML: que esperar a lo largo de los intentos</title>
   <desc id="desc">Un gráfico de barras de calidad de modelo a través de intentos. Los primeros intentos puntúan bajo, la calidad sube mientras la búsqueda explora y la línea del mejor hasta ahora asciende. El ganador final suele ser un ensamble de voting o stacking en la parte superior.</desc>
   <defs>
     <style>
@@ -22,7 +22,7 @@
     </marker>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="520"/>
-  <text class="title" x="60" y="52">AutoML: what a expect across trials</text>
+  <text class="title" x="60" y="52">AutoML: que esperar a lo largo de los intentos</text>
   <text class="subtitle" x="60" y="80">Los intentos tempranos son débiles; la calidad sube mientras la búsqueda explora y normalmente gana un ensamble.</text>
 
   <!-- gridlines -->
@@ -56,18 +56,18 @@
   <polyline class="best" points="160,350 220,314 280,314 340,275 400,275 460,254 520,242 580,242 640,227 700,218 760,218 820,206 880,200 940,164"/>
 
   <!-- early-trials note -->
-  <text class="note" x="150" y="395" text-anchor="middle" fill="#475569">early trials</text>
+  <text class="note" x="150" y="395" text-anchor="middle" fill="#475569">intentos iniciales</text>
   <text class="note" x="150" y="411" text-anchor="middle" fill="#475569">son débiles</text>
 
   <!-- winner annotation -->
-  <text class="winnote" x="690" y="120" text-anchor="middle">Final winner — often a Voting / Stack Ensemble</text>
+  <text class="winnote" x="690" y="120" text-anchor="middle">Ganador final — frecuentemente un ensamble de votacion o apilamiento</text>
   <path class="arrow" d="M820,128 Q900,140 938,160" marker-end="url(#ah)"/>
 
   <!-- legend -->
   <rect x="120" y="498" width="16" height="12" fill="#004a99"/>
-  <text class="leg" x="142" y="508">trial score</text>
+  <text class="leg" x="142" y="508">puntaje del intento</text>
   <line x1="232" y1="504" x2="262" y2="504" stroke="#b45309" stroke-width="3.5"/>
-  <text class="leg" x="270" y="508">best so far</text>
+  <text class="leg" x="270" y="508">mejor hasta ahora</text>
   <rect x="365" y="498" width="16" height="12" fill="#15803d"/>
-  <text class="leg" x="387" y="508">final ensemble winner</text>
+  <text class="leg" x="387" y="508">ganador final del ensamble</text>
 </svg>

@@ -1,6 +1,6 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
-  <title id="title">SVM maximum-margin boundary</title>
-  <desc id="desc">Two classes separated by a boundary line con a wide margin street en both sides. el points touching el margin edges are el support vectors that define el boundary.</desc>
+  <title id="title">SVM: frontera de margen máximo</title>
+  <desc id="desc">Dos clases separadas por una linea de frontera con una calle amplia a ambos lados. Los puntos que tocan los bordes del margen son los vectores soporte que definen la frontera.</desc>
   <defs>
     <style>
       .bg { fill: #f7fafc; }
@@ -18,8 +18,8 @@
     </style>
   </defs>
   <rect class="bg" x="0" y="0" width="1040" height="540"/>
-  <text class="title" x="60" y="52">SVM: el widest possible street between classes</text>
-  <text class="subtitle" x="60" y="80">Maximize el margin; only el points en el edges (support vectors) define el boundary.</text>
+  <text class="title" x="60" y="52">SVM: la calle más ancha posible entre clases</text>
+  <text class="subtitle" x="60" y="80">Maximiza el margen; solo los puntos en los bordes (vectores soporte) definen la frontera.</text>
   <line class="axis" x1="120" y1="470" x2="960" y2="470"/>
   <line class="axis" x1="120" y1="470" x2="120" y2="120"/>
   <text class="axis-label" x="540" y="510" text-anchor="middle">característica 1</text>
@@ -49,10 +49,10 @@
   <circle class="sv" cx="455" cy="300" r="14"/>
   <!-- legend -->
   <circle class="c0" cx="640" cy="420" r="8"/>
-  <text class="note" x="656" y="425">class A</text>
+  <text class="note" x="656" y="425">clase A</text>
   <circle class="c1" cx="640" cy="450" r="8"/>
-  <text class="note" x="656" y="455">class B</text>
+  <text class="note" x="656" y="455">clase B</text>
   <circle class="sv" cx="760" cy="420" r="11"/>
   <text class="note" x="780" y="425">support vector</text>
-  <text class="note" x="955" y="478" text-anchor="end" font-weight="700" fill="#15803d">C controls how many margin violations are tolerated</text>
+  <text class="note" x="955" y="478" text-anchor="end" font-weight="700" fill="#15803d">C controla cuantas violaciones del margen se toleran</text>
 </svg>
