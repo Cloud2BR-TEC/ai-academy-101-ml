@@ -2,7 +2,7 @@
 
 Terraform is a tool for creating and managing cloud infrastructure using code files instead of clicking through a web portal. This practice is called **Infrastructure as Code (IaC)**.
 
-This module focuses on beginner essentials first. Advanced team topics are listed at the end.
+This module focuses on essentials first. Advanced team topics are listed at the end.
 
 ## Quick Review Links
 
@@ -59,9 +59,9 @@ Executes the changes shown in the plan. Terraform creates or modifies resources 
 
 Removes all resources managed by the configuration. Always run `destroy` after completing a workshop or practice session to avoid ongoing costs.
 
-For beginners, these four commands are enough to understand the workflow.
+These four commands are enough to understand the workflow.
 
-## Core Vocabulary (Beginner)
+## Core Vocabulary
 
 | Term | Meaning |
 |------|----------|

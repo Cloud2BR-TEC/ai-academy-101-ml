@@ -8,7 +8,7 @@ Terraform permite crear infraestructura cloud mediante archivos de código en lu
 - Ciclo de Azure ML: [Módulo 02](02-azure-ml-overview.md)
 - Endpoints y deploy: [Módulo 06](06-deploy-and-score.md)
 
-Este módulo presenta primero lo esencial para principiantes.
+Este módulo presenta primero lo esencial.
 
 ![Herramientas de infraestructura](../assets/img/ml-infrastructure-tools-for-production.svg)
 

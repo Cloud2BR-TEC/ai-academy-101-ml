@@ -18,7 +18,7 @@ Think of the workspace as your project home folder in the cloud. Instead of file
 
 Data assets are versioned references to datasets stored in Azure Blob Storage or other data sources. Instead of copying files around, you register the dataset once and reference it by name and version in any job. This means every experiment knows exactly which data it used.
 
-Why this matters for beginners: when results change, you can check whether the data version changed.
+When results change, you can check whether the data version changed.
 
 ### Compute
 

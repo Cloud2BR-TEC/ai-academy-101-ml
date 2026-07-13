@@ -2,7 +2,7 @@
 
 Microsoft Fabric unifica analítica de datos y complementa Azure ML.
 
-Visión para principiantes: Fabric prepara datos y reportes; Azure ML entrena y despliega modelos.
+Fabric prepara datos y reportes; Azure ML entrena y despliega modelos.
 
 ## Enlaces Rápidos
 
@@ -39,7 +39,7 @@ Visión para principiantes: Fabric prepara datos y reportes; Azure ML entrena y 
 - **SynapseML**: librería para ML a gran escala en Spark.
 - **LangChain**: orquesta flujos con prompts, herramientas y LLM.
 
-Son opcionales para principiantes. Primero dominar: datos, entrenamiento, evaluación y deploy.
+Son opcionales. Primero dominar: datos, entrenamiento, evaluación y deploy.
 
 ## Conexión Azure OpenAI en Fabric
 

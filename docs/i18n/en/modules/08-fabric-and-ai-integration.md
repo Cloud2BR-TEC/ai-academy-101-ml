@@ -2,7 +2,7 @@
 
 Microsoft Fabric is a unified analytics platform that brings together data engineering, data warehousing, data science, real-time analytics, and business intelligence in a single environment. It complements Azure ML by handling the data side of the workflow.
 
-Beginner view: Fabric is very strong for data preparation and reporting, while Azure ML is strong for model training and deployment.
+Fabric is very strong for data preparation and reporting, while Azure ML is strong for model training and deployment.
 
 ## Quick Review Links
 
@@ -42,7 +42,7 @@ Fabric organizes data work into experiences:
 
 **LangChain** helps connect prompts, tools, and LLM calls into multi-step workflows.
 
-These tools are optional for beginners. First master data preparation, model training, and deployment.
+These tools are optional. First master data preparation, model training, and deployment.
 
 When you are ready, they can support use cases like:
 
