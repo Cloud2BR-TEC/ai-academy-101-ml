@@ -2,7 +2,7 @@
 
 In Azure ML, an **asset** is any important piece of your project that is saved, versioned, and reusable. Managing assets carefully is the difference between a project that anyone can reproduce and one that only works on the original developer's machine.
 
-In beginner terms: assets are the building blocks of your ML project, and versioning means you can go back and check exactly what changed.
+Assets are the building blocks of your ML project, and versioning means you can go back and check exactly what changed.
 
 ## Quick Review Links
 

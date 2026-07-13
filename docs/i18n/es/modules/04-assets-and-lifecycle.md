@@ -2,6 +2,8 @@
 
 En Azure ML, un **asset** es una pieza versionada y reutilizable del proyecto.
 
+Los assets son los bloques de construcción de tu proyecto de ML, y el versionado te permite volver atrás y revisar exactamente qué cambió.
+
 ## Enlaces Rápidos
 
 - Fundamentos de modelos: [Módulo 01](01-machine-learning-basics.md)
