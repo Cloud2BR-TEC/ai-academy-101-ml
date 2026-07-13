@@ -33,10 +33,10 @@
   <rect class="card" x="60" y="210" width="430" height="346" rx="12"/>
   <rect x="60" y="210" width="430" height="46" rx="12" fill="#0e7490"/>
   <rect x="60" y="234" width="430" height="22" fill="#0e7490"/>
-  <text class="cardhead" x="84" y="240">entrenamiento context Â· offline</text>
+  <text class="cardhead" x="84" y="240">contexto de entrenamiento · sin conexión</text>
 
   <text class="rowlbl" x="84" y="298">Mode</text>
-  <text class="rowval" x="240" y="298">Offline Â· lote</text>
+  <text class="rowval" x="240" y="298">Sin conexión · por lote</text>
   <line class="rowline" x1="84" y1="314" x2="466" y2="314"/>
   <text class="rowlbl" x="84" y="342">Goal</text>
   <text class="rowval" x="240" y="342">Maximize accuracy</text>
@@ -48,7 +48,7 @@
   <text class="rowval" x="240" y="430">Clúster grande y escalable</text>
   <line class="rowline" x1="84" y1="446" x2="466" y2="446"/>
   <text class="rowlbl" x="84" y="474">Cadence</text>
-  <text class="rowval" x="240" y="474">Periodic Â· experimental</text>
+  <text class="rowval" x="240" y="474">Periódico · experimental</text>
   <line class="rowline" x1="84" y1="490" x2="466" y2="490"/>
   <text class="rowlbl" x="84" y="518">Latencia</text>
   <text class="rowval" x="240" y="518">Sin restriccion temporal</text>
@@ -57,10 +57,10 @@
   <rect class="card" x="550" y="210" width="430" height="346" rx="12"/>
   <rect x="550" y="210" width="430" height="46" rx="12" fill="#004a99"/>
   <rect x="550" y="234" width="430" height="22" fill="#004a99"/>
-  <text class="cardhead" x="574" y="240">despliegue context Â· en línea</text>
+  <text class="cardhead" x="574" y="240">contexto de despliegue · en línea</text>
 
   <text class="rowlbl" x="574" y="298">Mode</text>
-  <text class="rowval" x="730" y="298">en línea Â· real-time</text>
+  <text class="rowval" x="730" y="298">en línea · tiempo real</text>
   <line class="rowline" x1="574" y1="314" x2="956" y2="314"/>
   <text class="rowlbl" x="574" y="342">Goal</text>
   <text class="rowval" x="730" y="342">Baja latencia y confiabilidad</text>

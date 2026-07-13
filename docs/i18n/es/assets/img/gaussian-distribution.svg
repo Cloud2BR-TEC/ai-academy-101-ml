@@ -44,11 +44,11 @@
   <line class="axis" x1="540" y1="440" x2="540" y2="450"/>
   <line class="axis" x1="670" y1="440" x2="670" y2="450"/>
   <line class="axis" x1="800" y1="440" x2="800" y2="450"/>
-  <text class="axislabel" x="280" y="470" text-anchor="middle">Î¼âˆ’2Ïƒ</text>
-  <text class="axislabel" x="410" y="470" text-anchor="middle">Î¼âˆ’Ïƒ</text>
-  <text class="axislabel" x="540" y="470" text-anchor="middle">Î¼</text>
-  <text class="axislabel" x="670" y="470" text-anchor="middle">Î¼+Ïƒ</text>
-  <text class="axislabel" x="800" y="470" text-anchor="middle">Î¼+2Ïƒ</text>
+  <text class="axislabel" x="280" y="470" text-anchor="middle">μ−2σ</text>
+  <text class="axislabel" x="410" y="470" text-anchor="middle">μ−σ</text>
+  <text class="axislabel" x="540" y="470" text-anchor="middle">μ</text>
+  <text class="axislabel" x="670" y="470" text-anchor="middle">μ+σ</text>
+  <text class="axislabel" x="800" y="470" text-anchor="middle">μ+2σ</text>
 
   <!-- mean label -->
   <text class="label" x="540" y="148" text-anchor="middle" font-weight="700" fill="#15803d">μ = media</text>

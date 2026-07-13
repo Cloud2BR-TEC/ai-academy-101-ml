@@ -33,9 +33,9 @@
   <line class="arrow" x1="158" y1="375" x2="402" y2="308" marker-end="url(#ah)"/>
 
   <!-- weight labels -->
-  <text class="weight" x="262" y="196">Ã— w1</text>
-  <text class="weight" x="262" y="252">Ã— w2</text>
-  <text class="weight" x="262" y="356">Ã— wd</text>
+  <text class="weight" x="262" y="196">× w1</text>
+  <text class="weight" x="262" y="252">× w2</text>
+  <text class="weight" x="262" y="356">× wd</text>
 
   <!-- bias arrow -->
   <line class="arrow" x1="460" y1="394" x2="460" y2="342" marker-end="url(#ah)"/>
@@ -47,7 +47,7 @@
 
   <!-- activation -> output arrow -->
   <line class="arrow" x1="752" y1="280" x2="872" y2="280" marker-end="url(#ah)"/>
-  <text class="desc2" x="812" y="266" text-anchor="middle">Å· = Ï†(z)</text>
+  <text class="desc2" x="812" y="266" text-anchor="middle">ŷ = φ(z)</text>
 
   <!-- input nodes -->
   <circle class="nIn" cx="132" cy="175" r="24"/>
@@ -61,7 +61,7 @@
 
   <!-- summation node -->
   <circle class="nSum" cx="460" cy="280" r="58"/>
-  <text x="460" y="294" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Î£</text>
+  <text x="460" y="294" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Σ</text>
 
   <!-- bias node -->
   <circle class="nBias" cx="460" cy="418" r="24"/>
@@ -70,24 +70,24 @@
 
   <!-- activation node -->
   <circle class="nAct" cx="700" cy="280" r="50"/>
-  <text x="700" y="294" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Ï†</text>
+  <text x="700" y="294" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">φ</text>
   <text class="label" x="700" y="200" text-anchor="middle" font-weight="700">Activación</text>
 
   <!-- output node -->
   <circle class="nOut" cx="906" cy="280" r="28"/>
-  <text x="906" y="287" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">Å·</text>
+  <text x="906" y="287" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">ŷ</text>
   <text class="label" x="906" y="338" text-anchor="middle" font-weight="700">Salida</text>
 
   <!-- stage cards -->
   <rect class="card" x="70" y="468" width="300" height="64" rx="10"/>
-  <text class="stageNo" x="86" y="496">1 Â· Suma ponderada</text>
+  <text class="stageNo" x="86" y="496">1 · Suma ponderada</text>
   <text class="desc2" x="86" y="518">Cada entrada x&#8336; escalada por su peso w&#8336;, luego sumadas.</text>
 
   <rect class="card" x="390" y="468" width="250" height="64" rx="10"/>
-  <text class="stageNo" x="406" y="496">2 Â· Desplazamiento de sesgo</text>
+  <text class="stageNo" x="406" y="496">2 · Desplazamiento de sesgo</text>
   <text class="desc2" x="406" y="518">Añade el sesgo b para desplazar el umbral de activación.</text>
 
   <rect class="card" x="660" y="468" width="300" height="64" rx="10"/>
-  <text class="stageNo" x="676" y="496">3 Â· Activación no lineal</text>
+  <text class="stageNo" x="676" y="496">3 · Activación no lineal</text>
   <text class="desc2" x="676" y="518">φ(z) curva la recta y produce la salida ŷ.</text>
 </svg>

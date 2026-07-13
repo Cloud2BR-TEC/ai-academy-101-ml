@@ -24,9 +24,9 @@
   <rect x="60" y="150" width="920" height="92" rx="12" fill="#004a99"/>
   <path d="M796,150 H968 a12,12 0 0 1 12,12 V230 a12,12 0 0 1 -12,12 H796 Z" fill="#b45309"/>
   <line x1="796" y1="150" x2="796" y2="242" stroke="#ffffff" stroke-width="2"/>
-  <text class="barlbl" x="428" y="198" text-anchor="middle">Entrenar Â· 80%</text>
+  <text class="barlbl" x="428" y="198" text-anchor="middle">Entrenar · 80%</text>
   <text class="barsub" x="428" y="222" text-anchor="middle">usado para ajustar el modelo</text>
-  <text class="barlbl" x="888" y="198" text-anchor="middle">prueba Â· 20%</text>
+  <text class="barlbl" x="888" y="198" text-anchor="middle">prueba · 20%</text>
   <text class="barsub" x="888" y="222" text-anchor="middle">evaluación final</text>
 
   <!-- Scale -->
