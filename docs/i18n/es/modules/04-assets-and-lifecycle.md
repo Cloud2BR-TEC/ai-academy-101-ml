@@ -5,7 +5,7 @@ En Azure ML, un **asset** es una pieza versionada y reutilizable del proyecto.
 ## Enlaces Rápidos
 
 - Fundamentos de modelos: [Módulo 01](01-machine-learning-basics.md)
-- Workspace y authoring: [Módulo 03](03-workspace-and-authoring.md)
+- Workspace y authoría: [Módulo 03](03-workspace-and-authoring.md)
 - Construir modelo: [Módulo 05](05-build-your-first-model.md)
 - Desplegar endpoint: [Módulo 06](06-deploy-and-score.md)
 
@@ -19,17 +19,17 @@ Sin gestion de assets no puedes responder:
 
 ## Cinco Assets Clave
 
-### 1) Data assets
+### 1) Activos de datos
 
 Referencia versionada al dataset usado en jobs.
 
-![Coleccion y features](../assets/img/feature_engineering_collect_data.svg)
+![Colección y características](../assets/img/feature_engineering_collect_data.svg)
 
-### 2) Environments
+### 2) Entornos
 
 Definen paquetes/versiones para ejecución consistente.
 
-### 3) Jobs
+### 3) Trabajos
 
 Una ejecución de código que registra:
 
@@ -44,7 +44,7 @@ Una ejecución de código que registra:
 
 Modelo entrenado y versionado en el registry.
 
-### 5) Endpoints
+### 5) Puntos de conexión
 
 API activa asociada a una versión concreta del modelo.
 
@@ -52,7 +52,7 @@ API activa asociada a una versión concreta del modelo.
 
 ```mermaid
 graph LR
-    DA[Data Asset] --> J[Job]
+    DA[Activo de datos] --> J[Trabajo]
     ENV[Environment] --> J
     J --> M[Registered Model]
     M --> EP[Endpoint]
@@ -60,9 +60,9 @@ graph LR
     MON -->|caida de performance| J
 ```
 
-![Flujo train/test](../assets/img/training_testing_data_flow.svg)
+![Flujo entrenamiento/prueba](../assets/img/training_testing_data_flow.svg)
 
-## Historial del Proyecto (Lineage)
+## Historial del Proyecto (Linaje)
 
 Es el rastro completo desde endpoint hasta datos y código de origen.
 Sirve para debug y auditoria.

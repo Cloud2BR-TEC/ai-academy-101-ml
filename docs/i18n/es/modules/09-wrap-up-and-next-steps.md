@@ -6,7 +6,7 @@ Este módulo resume lo aprendido en Machine Learning 101 y define un plan práct
 
 - Fundamentos de modelos: [Módulo 01](01-machine-learning-basics.md)
 - Construcción y evaluación: [Módulo 05](05-build-your-first-model.md)
-- Deploy y scoring: [Módulo 06](06-deploy-and-score.md)
+- Despliegue y puntuación: [Módulo 06](06-deploy-and-score.md)
 
 ![Tipos de objetivos ML](../assets/img/types_of_ml_based_in_objective.svg)
 
@@ -16,7 +16,7 @@ Este módulo resume lo aprendido en Machine Learning 101 y define un plan práct
 
 - ML aprende patrones en datos.
 - Hay aprendizaje supervisado, no supervisado y por refuerzo.
-- Todo proyecto usa features y target.
+- Todo proyecto usa características y variable objetivo.
 - La calidad del dato define la calidad del modelo.
 
 ### Plataforma Azure ML
@@ -24,7 +24,7 @@ Este módulo resume lo aprendido en Machine Learning 101 y define un plan práct
 - Workspace como contenedor central.
 - Assets: datos, environment, jobs, modelos, endpoints.
 - Versionado y historial completo del proyecto.
-- Training y deployment son etapas diferentes.
+- Entrenamiento y despliegue son etapas diferentes.
 
 ### Construcción de Modelo
 
@@ -33,7 +33,7 @@ Este módulo resume lo aprendido en Machine Learning 101 y define un plan práct
 - Métricas: MAE, RMSE, R2, Accuracy, Precision, Recall.
 - Overfitting y underfitting como seÃ±ales de ajuste.
 
-### Deploy y Operacion
+### Despliegue y Operación
 
 - Endpoint recibe requests HTTP y devuelve predicciones.
 - Online para tiempo real, batch para grandes volumenes.
@@ -42,8 +42,8 @@ Este módulo resume lo aprendido en Machine Learning 101 y define un plan práct
 
 ## Autoevaluación
 
-1. Diferencia entre feature y target con ejemplo.
-2. Por que usar train/test split.
+1. Diferencia entre característica y variable objetivo con ejemplo.
+2. Por qué usar división entrenamiento/prueba.
 3. Cómo reconocer overfitting.
 4. Que ocurre dentro de un endpoint.
 5. Por que environment mejora reproducibilidad.
@@ -59,10 +59,10 @@ Este módulo resume lo aprendido en Machine Learning 101 y define un plan práct
 
 ### Plan Semanal para Principiantes
 
-1. Dia 1: definir problema y target.
-2. Dia 2: preparar datos y split.
+1. Día 1: definir problema y variable objetivo.
+2. Día 2: preparar datos y dividir.
 3. Dia 3: entrenar baseline y medir.
-4. Dia 4: mejorar features o modelo.
+4. Día 4: mejorar características o modelo.
 5. Dia 5: desplegar endpoint y probar.
 6. Dia 6-7: revisar resultados y mejoras.
 

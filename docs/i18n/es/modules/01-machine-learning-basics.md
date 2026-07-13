@@ -41,19 +41,19 @@ Durante entrenamiento, compara su predicción con la respuesta correcta y ajusta
 | Término | Significado |
 |------|----------|
 | **Data** | Conjunto de ejemplos para entrenar o predecir. |
-| **Feature** | Variable de entrada (edad, precio, temperatura). |
-| **Target / Label** | Valor que el modelo debe predecir. |
-| **Training** | Etapa donde el modelo aprende con ejemplos. |
-| **Testing** | Evaluación con datos no vistos. |
-| **Model** | Funcion aprendida que transforma entradas en salida. |
-| **Prediction** | Salida del modelo para un caso nuevo. |
-| **Algorithm** | Metodo de aprendizaje (arboles, regresion, redes). |
+| **Característica** | Variable de entrada (edad, precio, temperatura). |
+| **Variable objetivo / Etiqueta** | Valor que el modelo debe predecir. |
+| **Entrenamiento** | Etapa donde el modelo aprende con ejemplos. |
+| **Prueba** | Evaluación con datos no vistos. |
+| **Modelo** | Función aprendida que transforma entradas en salida. |
+| **Predicción** | Salida del modelo para un caso nuevo. |
+| **Algoritmo** | Método de aprendizaje (árboles, regresión, redes). |
 
-## Features y Target
+## Características y Variable Objetivo
 
-Todo problema de ML tiene entradas (features) y salida (target).
+Todo problema de ML tiene entradas (características) y salida (variable objetivo).
 
-![Feature vs target](../assets/img/feature-target-explained.svg)
+![Características vs variable objetivo](../assets/img/feature-target-explained.svg)
 
 ## Tipos de Machine Learning
 
@@ -74,7 +74,7 @@ Problemas comunes:
 - Sesgo de muestreo.
 - Variables irrelevantes.
 
-![Ingeniería de features](../assets/img/feature_engineering_collect_data.svg)
+![Ingeniería de características](../assets/img/feature_engineering_collect_data.svg)
 
 ## Proceso de Punta a Punta
 
@@ -90,9 +90,9 @@ Problemas comunes:
 
 ## Ejemplo: Precio de Casas
 
-- **Features**: m2, dormitorios, barrio, antiguedad.
-- **Target**: precio.
-- **Algoritmo**: regresion lineal.
+- **Características**: m2, dormitorios, barrio, antigüedad.
+- **Variable objetivo**: precio.
+- **Algoritmo**: regresión lineal.
 
 ![Regresion lineal](../assets/img/linear-regression-fit.svg)
 

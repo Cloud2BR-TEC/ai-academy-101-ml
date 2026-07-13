@@ -48,7 +48,7 @@ az ml model create --name fraud-model --versión 3 --path ./model --type mlflow_
 az ml model list --name fraud-model -o table
 ```
 
-## Deployment (managed online endpoint)
+## Despliegue (punto de conexión en línea administrado)
 
 ```bash
 az ml online-endpoint create --name fraud-endpoint
@@ -60,7 +60,7 @@ az ml online-endpoint invoke --name fraud-endpoint --request-file sample.json
 az ml online-deployment get-logs --name green --endpoint-name fraud-endpoint
 ```
 
-## Kubernetes (debug básico)
+## Kubernetes (depuración básica)
 
 ```bash
 kubectl versión --client

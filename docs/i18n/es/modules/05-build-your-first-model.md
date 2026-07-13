@@ -22,25 +22,25 @@ Ejemplo: predecir churn de cliente en 30 días.
 
 - Cantidad de filas/columnas.
 - Valores faltantes.
-- Distribucion del target.
+- Distribución de la variable objetivo.
 - Columnas sospechosas.
 
 ![Recolectar datos](../assets/img/collect_data_init_primary_second_targets.svg)
-![Feature engineering](../assets/img/feature_engineering_collect_data.svg)
+![Ingeniería de características](../assets/img/feature_engineering_collect_data.svg)
 
-## Paso 3: Preparar Features
+## Paso 3: Preparar Características
 
 - Tratar valores faltantes (mean/median/mode o remover filas).
 - Codificar categorias a numeros.
 - Escalar variables numericas.
 - Remover columnas irrelevantes.
 
-## Paso 4: Split Train/Test
+## Paso 4: Dividir en Entrenamiento y Prueba
 
 No evaluar con el mismo set de entrenamiento.
-Split tipico: 80/20.
+División típica: 80/20.
 
-![Train test split](../assets/img/training_test_split.svg)
+![División entrenamiento/prueba](../assets/img/training_test_split.svg)
 
 ## Paso 5: Elegir y Entrenar Modelo
 
@@ -58,13 +58,13 @@ Modelos iniciales recomendados:
 
 Una métrica es un numero que resume calidad del modelo.
 
-### Regresion
+### Regresión
 
 - **MAE**: error medio absoluto.
 - **RMSE**: error cuadratico medio (penaliza más errores grandes).
 - **R2**: variacion explicada (0 a 1).
 
-### Clasificacion
+### Clasificación
 
 - **Accuracy**: porcentaje total correcto.
 - **Precision**: calidad de positivos predichos.
@@ -91,9 +91,9 @@ ml_client.models.create_or_update(
 )
 ```
 
-## Checklist previo a deploy
+## Lista de verificación previa al despliegue
 
-- [ ] Datos limpios y split correcto.
+- [ ] Datos limpios y división correcta.
 - [ ] Métricas cumplen objetivo.
 - [ ] Resultado explicable.
 - [ ] Modelo registrado con metadata.

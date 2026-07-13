@@ -10,7 +10,7 @@ Azure Machine Learning es una plataforma administrada para todo el ciclo de vida
 
 ## Puente desde Módulo 01
 
-En [Módulo 01](01-machine-learning-basics.md), viste features, target, entrenamiento y testing.
+En [Módulo 01](01-machine-learning-basics.md), viste características, variable objetivo, entrenamiento y prueba.
 Ahora: cómo hacerlo en equipo y con trazabilidad real.
 
 ![Flujo end-to-end](../assets/img/ml-e2e-workflow.svg)
@@ -73,9 +73,9 @@ flowchart LR
 | **Compute** | Máquinas que ejecutan jobs. |
 | **Job** | Ejecución registrada de código. |
 | **Environment** | Dependencias/versiones de runtime. |
-| **Model registry** | Almacén versionado de modelos. |
+| **Registro de modelos** | Almacén versionado de modelos. |
 | **Endpoint** | URL para solicitar predicciones. |
-| **Data asset** | Referencia versionada de dataset. |
+| **Activo de datos** | Referencia versionada de dataset. |
 
 ![Taxonomía de environment](../assets/img/azure-ml-environment-taxonomy.svg)
 

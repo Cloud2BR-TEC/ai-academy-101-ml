@@ -1,4 +1,4 @@
-﻿# 03. Workspace y Authoring
+﻿# 03. Workspace y Authoría
 
 El workspace de Azure ML es el hogar del proyecto: datos, jobs, modelos y endpoints.
 
@@ -12,51 +12,51 @@ El workspace de Azure ML es el hogar del proyecto: datos, jobs, modelos y endpoi
 
 ![Componentes del workspace](../assets/img/workspace-components.svg)
 
-### Data Assets
+### Activos de datos
 
 Referencias versionadas de datasets para repetir experimentos de forma consistente.
 
-### Compute
+### Cómputo
 
-- **Compute instance**: VM para trabajo interactivo.
-- **Compute cluster**: escalado automático para jobs.
+- **Instancia de cómputo**: VM para trabajo interactivo.
+- **Clúster de cómputo**: escalado automático para trabajos.
 - **Serverless**: recursos bajo demanda.
 - **Kubernetes**: opcion de despliegue robusto.
 
-### Jobs
+### Trabajos
 
 Cada ejecución de entrenamiento queda registrada con parámetros, métricas y salidas.
 
-### Environments
+### Entornos
 
 Versiones fijas de paquetes para reproducibilidad.
 
 ![Taxonomía de environment](../assets/img/azure-ml-environment-taxonomy.svg)
 
-### Model Registry
+### Registro de modelos
 
 Almacén de modelos versionados con metadata de origen.
 
-### Endpoints
+### Puntos de conexión
 
 API HTTP para predicciones online o batch.
 
 ![Taxonomía Azure ML](../assets/img/azure-machine-learning-taxonomy.svg)
 
-## Opciones de Authoring
+## Opciones de Authoría
 
-### Notebooks
+### Cuadernos (Notebooks)
 
 Ejecución por celdas para iterar rápido y aprender paso a paso.
 
-### AutoML
+### AutoML (Aprendizaje automático automatizado)
 
 Prueba algoritmos y configuraciones de forma automatica para obtener una buena base.
 
 ![AutoML](../assets/img/automl_diagram.svg)
 ![Proceso AutoML](../assets/img/automl_process_what_to_expect.svg)
 
-### Designer
+### Diseñador visual (Designer)
 
 Interfaz visual de pipelines por bloques.
 

@@ -1,4 +1,4 @@
-﻿# 06. Despliegue y Scoring
+﻿# 06. Despliegue y Puntuación
 
 Despliegue es cuando el modelo entrenado pasa a ser un servicio activo para recibir solicitudes y devolver predicciones.
 
@@ -8,12 +8,12 @@ Despliegue es cuando el modelo entrenado pasa a ser un servicio activo para reci
 - Construir y evaluar: [Módulo 05](05-build-your-first-model.md)
 - Contexto de workspace: [Módulo 03](03-workspace-and-authoring.md)
 
-![Deployment overview](../assets/img/deployment_overview.svg)
+![Resumen de despliegue](../assets/img/deployment_overview.svg)
 
-## Training vs Deployment
+## Entrenamiento vs Despliegue
 
-- **Training**: fase offline para aprender con datasets grandes.
-- **Deployment**: fase online para responder solicitudes reales.
+- **Entrenamiento**: fase sin conexión para aprender con datasets grandes.
+- **Despliegue**: fase en línea para responder solicitudes reales.
 
 ## Qué es un Endpoint
 
@@ -24,17 +24,17 @@ Es una URL API HTTP a la que envías datos y recibes predicciones.
 
 ![Cómo funciona un endpoint](../assets/img/endpoint-how-it-works.svg)
 
-### Online Endpoint
+### Punto de conexión en línea
 
 Respuesta en tiempo real por solicitud.
 
-### Batch Endpoint
+### Punto de conexión por lote
 
 Procesa grandes lotes de datos en segundo plano.
 
 ![Concepto endpoint](../assets/img/azure-endpoint-concept.svg)
 
-## Cinco Pasos de Deploy
+## Cinco pasos de despliegue
 
 1. Registrar modelo.
 2. Crear `score.py` con:
@@ -67,7 +67,7 @@ JSON es formato de texto estandar para intercambio de datos.
 ![Webservice vs API](../assets/img/webservice_vs_api.svg)
 ![Tabla webservice vs API](../assets/img/table_webservice_vs_api.svg)
 
-## Checklist de Calidad
+## Lista de verificación de calidad
 
 - Latencia dentro de limites.
 - Formato de salida consistente.
