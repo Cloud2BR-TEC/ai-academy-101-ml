@@ -1,8 +1,8 @@
-# Machine Learning 101
+# Machine Learning Fundamentals
 
-Welcome to **Machine Learning 101**.
+Welcome to **Machine Learning Fundamentals**.
 
-## Why Machine Learning 101
+## Why Machine Learning Fundamentals
 
 - Build shared vocabulary and platform confidence.
 - Learn the minimum end-to-end workflow before optimization.
@@ -11,7 +11,7 @@ Welcome to **Machine Learning 101**.
 
 ## Perspective You Should Leave With
 
-By the end of Machine Learning 101, the key perspective is simple:
+By the end of Machine Learning Fundamentals, the key perspective is simple:
 
 - ML is not magic; it is pattern learning from examples.
 - A model is only as good as its data and evaluation.

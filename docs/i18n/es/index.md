@@ -1,10 +1,10 @@
-﻿# Machine Learning 101 (Español)
+﻿# Machine Learning Fundamentals (Español)
 
-Bienvenido a **Machine Learning 101**.
+Bienvenido a **Machine Learning Fundamentals**.
 
 Esta es la versión en español del contenido principal.
 
-## Por Qué Machine Learning 101
+## Por Qué Machine Learning Fundamentals
 
 - Construir vocabulario común y confianza en la plataforma.
 - Aprender un flujo completo de punta a punta.
@@ -13,7 +13,7 @@ Esta es la versión en español del contenido principal.
 
 ## Perspectiva Clave
 
-Al final de Machine Learning 101, la idea principal es esta:
+Al final de Machine Learning Fundamentals, la idea principal es esta:
 
 - ML no es magia; aprende patrones desde ejemplos.
 - Un modelo depende de la calidad de datos y evaluación.
