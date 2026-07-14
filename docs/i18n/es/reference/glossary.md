@@ -1,6 +1,6 @@
 ﻿# Glosario (Español)
 
-Definiciones claras para términos clave usados en Machine Learning 101.
+Definiciones claras para términos clave usados en Machine Learning Fundamentals.
 
 ## Fundamentos de ML
 

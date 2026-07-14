@@ -1,6 +1,6 @@
 ﻿# Comandos CLI (Español)
 
-Guía práctica de comandos usados en Machine Learning 101.
+Guía práctica de comandos usados en Machine Learning Fundamentals.
 
 ## Cómo leer ejemplos
 

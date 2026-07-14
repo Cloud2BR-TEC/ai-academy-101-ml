@@ -1,6 +1,6 @@
 # 09. Wrap-Up and Next Steps
 
-This module consolidates everything covered in Machine Learning 101 and provides a structured plan for continuing the work.
+This module consolidates everything covered in Machine Learning Fundamentals and provides a structured plan for continuing the work.
 
 ## Quick Review Links
 
@@ -70,11 +70,11 @@ Try explaining each of the following without looking at your notes:
 
 ## Final Close
 
-Machine learning is pattern learning from data, and Azure ML organizes that learning into a repeatable and deployable workflow. The concepts in Machine Learning 101 apply to every domain — healthcare, finance, retail, or education — because the underlying process is the same: define the question, prepare the data, train the model, evaluate it honestly, deploy it responsibly, and monitor it continuously.
+Machine learning is pattern learning from data, and Azure ML organizes that learning into a repeatable and deployable workflow. The concepts in Machine Learning Fundamentals apply to every domain — healthcare, finance, retail, or education — because the underlying process is the same: define the question, prepare the data, train the model, evaluate it honestly, deploy it responsibly, and monitor it continuously.
 
 ## One Clear Perspective to Keep
 
-When you finish Machine Learning 101, keep this perspective:
+When you finish Machine Learning Fundamentals, keep this perspective:
 
 1. ML is a decision-support tool built from data patterns.
 2. The strongest model is not the one with the most complexity, but the one that generalizes well to new data.

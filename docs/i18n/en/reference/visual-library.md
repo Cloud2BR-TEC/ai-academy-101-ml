@@ -1,6 +1,6 @@
 # Visual Library
 
-This page includes all image assets available for Machine Learning 101.
+This page includes all image assets available for Machine Learning Fundamentals.
 
 Use this page to connect ideas with visuals:
 

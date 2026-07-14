@@ -1,6 +1,6 @@
 ﻿# 09. Cierre y Próximos Pasos
 
-Este módulo resume lo aprendido en Machine Learning 101 y define un plan práctico para continuar.
+Este módulo resume lo aprendido en Machine Learning Fundamentals y define un plan práctico para continuar.
 
 ## Enlaces Rápidos
 

@@ -1,6 +1,6 @@
 ﻿# Biblioteca Visual (Español)
 
-Esta página reune todas las imágenes usadas en Machine Learning 101.
+Esta página reune todas las imágenes usadas en Machine Learning Fundamentals.
 
 Cómo usarla:
 

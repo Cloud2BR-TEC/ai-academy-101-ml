@@ -1,7 +1,7 @@
 
 # Glossary
 
-Clear definitions for key terms used in Machine Learning 101.
+Clear definitions for key terms used in Machine Learning Fundamentals.
 
 ## Machine learning basics
 

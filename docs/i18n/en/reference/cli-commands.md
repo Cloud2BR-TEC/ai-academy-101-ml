@@ -1,7 +1,7 @@
 
 # CLI Commands
 
-A practical command guide for Machine Learning 101.
+A practical command guide for Machine Learning Fundamentals.
 
 In software engineering, commands are short instructions you run in a terminal.
 They help you set up tools, train models, deploy endpoints, and debug problems.
